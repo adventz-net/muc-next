@@ -1,0 +1,244 @@
+// Navbar Down
+@keyframes navDown {
+  0% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+// Page up
+@keyframes upBounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes downBounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+// Dropdown animation
+@keyframes drop-anim {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// btn Icon right
+@keyframes btnIconMove {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translate(0 0);
+  }
+  40% {
+    transform: translate(8px, -8px);
+  }
+  60% {
+    transform: translate(4px, -4px);
+  }
+}
+
+// Button shine
+@keyframes btn-shineAnim {
+  100% {
+    left: 125%;
+  }
+}
+
+@keyframes animMenuRevealBg {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+@keyframes animMenuCloseBg {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+// Shape animation
+@keyframes studentSliderShape-01 {
+  0% {
+    border-radius: 1rem 1rem 1rem 1rem;
+  }
+  50% {
+    border-radius: 4rem 4rem 4rem 4rem;
+  }
+  100% {
+    border-radius: 1rem 1rem 1rem 1rem;
+  }
+  0% {
+    background-color: #47c1bb;
+  }
+  20% {
+    background-color: #a80768;
+  }
+  40% {
+    background-color: #2b338d;
+  }
+  60% {
+    background-color: #f16122;
+  }
+  80% {
+    background-color: #c1d32f;
+  }
+  80% {
+    background-color: #47c1bb;
+  }
+}
+@keyframes studentSliderShape-02 {
+  0% {
+    background-color: #c1d32f;
+  }
+  20% {
+    background-color: #a80768;
+  }
+  40% {
+    background-color: #47c1bb;
+  }
+  60% {
+    background-color: #f16122;
+  }
+  80% {
+    background-color: #2b338d;
+  }
+  80% {
+    background-color: #c1d32f;
+  }
+}
+@keyframes studentSliderShape-03 {
+  0% {
+    background-color: #a80768;
+  }
+  20% {
+    background-color: #c1d32f;
+  }
+  40% {
+    background-color: #47c1bb;
+  }
+  60% {
+    background-color: #f16122;
+  }
+  80% {
+    background-color: #2b338d;
+  }
+  80% {
+    background-color: #a80768;
+  }
+}
+@keyframes studentSliderShape-04 {
+  0% {
+    background-color: #f16122;
+  }
+  20% {
+    background-color: #c1d32f;
+  }
+  40% {
+    background-color: #47c1bb;
+  }
+  60% {
+    background-color: #a80768;
+  }
+  80% {
+    background-color: #2b338d;
+  }
+  80% {
+    background-color: #f16122;
+  }
+}
+// Shape animation
+@keyframes studentSliderShape-01 {
+  0% {
+    border-radius: 1rem 1rem 1rem 1rem;
+  }
+  50% {
+    border-radius: 4rem 4rem 4rem 4rem;
+  }
+  100% {
+    border-radius: 1rem 1rem 1rem 1rem;
+  }
+  0% {
+    background-color: #47c1bb;
+  }
+  20% {
+    background-color: #a80768;
+  }
+  40% {
+    background-color: #2b338d;
+  }
+  60% {
+    background-color: #f16122;
+  }
+  80% {
+    background-color: #c1d32f;
+  }
+  80% {
+    background-color: #47c1bb;
+  }
+}
+// Shape animation
+@keyframes shapeSliderShape-02 {
+  0% {
+    border-radius: 48% 92% 58% 82% / 77% 54% 86% 63%;
+  }
+  25% {
+    border-radius: 37% 63% 42% 58% / 55% 41% 59% 45%;
+  }
+  50% {
+    border-radius: 28% 72% 38% 62% / 57% 34% 66% 43%;
+  }
+  75% {
+    border-radius: 60% 40% 62% 38% / 47% 47% 53% 53%;
+  }
+  100% {
+    border-radius: 48% 92% 58% 82% / 77% 54% 86% 63%;
+  }
+  // 0% {
+  //   background-color: #2b338d;
+  // }
+  // 33% {
+  //   background-color: #f16122;
+  // }
+  // 66% {
+  //   background-color: #47c1bb;
+  // }
+}

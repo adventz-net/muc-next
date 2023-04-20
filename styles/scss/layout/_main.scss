@@ -1,0 +1,399 @@
+@font-face {
+  font-family: "Museo Sans 100";
+  src: url("../../../public/fonts/MuseoSans-100.eot");
+  src: url("../../../public/fonts/MuseoSans-100.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../public/fonts/MuseoSans-100.woff2") format("woff2"),
+    url("../../../public/fonts/MuseoSans-100.woff") format("woff"),
+    url("../../../public/fonts/MuseoSans-100.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Museo Sans 700";
+  src: url("../../../public/fonts/MuseoSans-700.eot");
+  src: url("../../../public/fonts/MuseoSans-700.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../public/fonts/MuseoSans-700.woff2") format("woff2"),
+    url("../../../public/fonts/MuseoSans-700.woff") format("woff"),
+    url("../../../public/fonts/MuseoSans-700.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Museo Sans 500";
+  src: url("../../../public/fonts/MuseoSans-500.eot");
+  src: url("../../../public/fonts/MuseoSans-500.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../public/fonts/MuseoSans-500.woff2") format("woff2"),
+    url("../../../public/fonts/MuseoSans-500.woff") format("woff"),
+    url("../../../public/fonts/MuseoSans-500.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Museo Sans 900";
+  src: url("../../../public/fonts/MuseoSans-900.eot");
+  src: url("../../../public/fonts/MuseoSans-900.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../public/fonts/MuseoSans-900.woff2") format("woff2"),
+    url("../../../public/fonts/MuseoSans-900.woff") format("woff"),
+    url("../../../public/fonts/MuseoSans-900.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Museo Sans 300";
+  src: url("../../../public/fonts/MuseoSans-300.eot");
+  src: url("../../../public/fonts/MuseoSans-300.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../public/fonts/MuseoSans-300.woff2") format("woff2"),
+    url("../../../public/fonts/MuseoSans-300.woff") format("woff"),
+    url("../../../public/fonts/MuseoSans-300.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Steelfish Rg";
+  src: url("../../../public/fonts/SteelfishRg-Regular.eot");
+  src: url("../../../public/fonts/SteelfishRg-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../public/fonts/SteelfishRg-Regular.woff2") format("woff2"),
+    url("../../../public/fonts/SteelfishRg-Regular.woff") format("woff"),
+    url("../../../public/fonts/SteelfishRg-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Steelfish Rg";
+  src: url("../../../public/fonts/SteelfishRg-Bold.eot");
+  src: url("../../../public/fonts/SteelfishRg-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../public/fonts/SteelfishRg-Bold.woff2") format("woff2"),
+    url("../../../public/fonts/SteelfishRg-Bold.woff") format("woff"),
+    url("../../../public/fonts/SteelfishRg-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Steelfish Eb";
+  src: url("../../../public/fonts/SteelfishEb-Regular.eot");
+  src: url("../../../public/fonts/SteelfishEb-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../public/fonts/SteelfishEb-Regular.woff2") format("woff2"),
+    url("../../../public/fonts/SteelfishEb-Regular.woff") format("woff"),
+    url("../../../public/fonts/SteelfishEb-Regular.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+button {
+  @include transEase();
+}
+
+ul {
+  @include list-none;
+  padding: 0;
+  margin: 0;
+}
+
+a:focus,
+button:focus {
+  outline: none !important;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::selection {
+  color: var(--white);
+  background: var(--color-100);
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-100) var(--white);
+}
+
+/* Works on Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-100);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.slider-cover {
+  height: calc(100vh - 100px);
+  padding-right: 100px;
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    background-color: var(--color-200);
+  }
+  .slider-main {
+    height: 100%;
+    .slick-list {
+      height: 100%;
+      .slick-track {
+        height: 100%;
+        .slick-slide {
+          height: 100%;
+          > div {
+            height: 100%;
+            > div {
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .slick-arrow {
+    position: absolute;
+    left: auto;
+    right: -5rem;
+    top: 50%;
+    width: 56px;
+    height: 56px;
+    background-color: var(--color-200);
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid rgba($white, 0.5);
+    border-radius: 50%;
+    z-index: 10;
+    &::before {
+      display: none;
+    }
+    &.slick-prev {
+      background-image: url(../../../public/images/arrow-wt-left.png);
+      transform: translateY(-51%);
+    }
+    &.slick-next {
+      background-image: url(../../../public/images/arrow-wt-right.png);
+      transform: translateY(51%);
+    }
+    &:hover {
+      background-color: var(--color-300);
+      background-size: 20px;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.main-slider-item {
+  height: 100%;
+  background-color: var(--color-200);
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .carousel {
+    height: 100%;
+    .carousel-inner {
+      height: 100%;
+      .carousel-item {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.slider-caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(100px, -50%);
+  z-index: 10;
+  .slider-logo {
+    max-width: 340px;
+    margin-bottom: 1rem;
+    img {
+      width: 100%;
+    }
+  }
+  .slider-hd {
+    h1 {
+      color: var(--white);
+      font-size: 10rem;
+      font-family: "Steelfish Rg";
+      line-height: 100%;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.student-slider {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  .slider-shape {
+    position: absolute;
+    svg {
+      width: 100%;
+    }
+    &.shape-01 {
+      right: 0;
+      bottom: 5%;
+      width: 90%;
+      height: 85%;
+      background-color: #47c1bb;
+      animation: studentSliderShape-01 10s infinite forwards;
+      z-index: 10;
+    }
+    &.shape-02 {
+      left: 0;
+      bottom: 10%;
+      width: 500px;
+      height: 500px;
+      background-color: #f16122;
+      border-radius: 50%;
+      transform: translate(-50%, 0);
+      animation: studentSliderShape-02 10s infinite forwards;
+      z-index: 20;
+    }
+    &.shape-03 {
+      right: 0;
+      top: 0;
+      width: 300px;
+      height: 300px;
+      background-color: #c1d32f;
+      border-radius: 50%;
+      transform: translate(67%, -45%);
+      animation: studentSliderShape-03 10s infinite forwards;
+      z-index: 30;
+    }
+    &.shape-04 {
+      right: 0;
+      bottom: 0;
+      width: 500px;
+      height: 500px;
+      background-color: #2b338d;
+      border-radius: 50%;
+      transform: translate(0, 50%);
+      animation: studentSliderShape-04 10s 1s infinite forwards;
+      z-index: 40;
+    }
+  }
+  .student-img {
+    position: relative;
+    width: 650px;
+    height: 775px;
+    z-index: 30;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.shape-slider {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 650px;
+  height: 775px;
+  .slider-shape {
+    position: absolute;
+    &.shape-01 {
+      right: 0;
+      bottom: 5%;
+      width: 90%;
+      height: 85%;
+      background-color: #47c1bb;
+      animation: studentSliderShape-01 5s infinite forwards;
+      z-index: 10;
+    }
+    &.shape-02 {
+      left: 0;
+      bottom: 10%;
+      width: 500px;
+      height: 500px;
+      background-color: #f16122;
+      border-radius: 50%;
+      transform: translate(-50%, 0);
+      animation: shapeSliderShape-02 5s infinite forwards;
+      z-index: 20;
+    }
+    &.shape-03 {
+      right: 0;
+      top: 0;
+      width: 500px;
+      height: 500px;
+      background-color: #c1d32f;
+      border-radius: 50%;
+      transform: translate(45%, -70%);
+      animation: shapeSliderShape-02 5s 2s infinite forwards;
+      z-index: 30;
+    }
+    &.shape-04 {
+      right: 0;
+      bottom: 0;
+      width: 500px;
+      height: 500px;
+      background-color: #2b338d;
+      border-radius: 50%;
+      transform: translate(0, 50%);
+      animation: shapeSliderShape-02 5s 4s infinite forwards;
+      z-index: 40;
+    }
+  }
+  .student-img {
+    position: relative;
+    width: 650px;
+    height: 775px;
+    z-index: 30;
+    img {
+      width: 100%;
+    }
+  }
+}
