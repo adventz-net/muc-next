@@ -109,6 +109,8 @@
       }
       img {
         width: 100%;
+        @include transEase;
+        transition-delay: 400ms;
       }
     }
   }
@@ -139,6 +141,7 @@
       margin: 0 auto;
       background-color: var(--color-200);
       border-radius: 0.25rem;
+      text-transform: uppercase;
       &:hover {
         background-color: var(--color-300);
       }
@@ -158,8 +161,12 @@
           position: absolute;
           right: 0;
           bottom: 0;
-          opacity: 0.75;
+          opacity: 0.25;
           transform: translate(100%, 100%) scale(5);
+        }
+        img {
+          opacity: 0.5;
+          transform: scale(1.1);
         }
       }
     }

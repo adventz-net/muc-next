@@ -21,8 +21,6 @@ export default function WelcomeSlider() {
         partnersettings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          infinite: true,
-          dots: true,
         },
       },
       {
@@ -30,7 +28,6 @@ export default function WelcomeSlider() {
         partnersettings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2,
         },
       },
       {

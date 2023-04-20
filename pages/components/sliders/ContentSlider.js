@@ -36,7 +36,7 @@ export default function ContentSlider() {
                       consequat diam. Vestibulum vestibulum nec diam in pretium.
                     </p>
                   </div>
-                  <Link className="btn btn-explore" href="">
+                  <Link className="btn btn-shine btn-explore" href="">
                     Explore More
                   </Link>
                 </div>
@@ -58,7 +58,7 @@ export default function ContentSlider() {
                       consequat diam. Vestibulum vestibulum nec diam in pretium.
                     </p>
                   </div>
-                  <Link className="btn btn-explore" href="">
+                  <Link className="btn btn-shine btn-explore" href="">
                     Explore More
                   </Link>
                 </div>
@@ -80,7 +80,7 @@ export default function ContentSlider() {
                       consequat diam. Vestibulum vestibulum nec diam in pretium.
                     </p>
                   </div>
-                  <Link className="btn btn-explore" href="">
+                  <Link className="btn btn-shine btn-explore" href="">
                     Explore More
                   </Link>
                 </div>
@@ -102,7 +102,7 @@ export default function ContentSlider() {
                       consequat diam. Vestibulum vestibulum nec diam in pretium.
                     </p>
                   </div>
-                  <Link className="btn btn-explore" href="">
+                  <Link className="btn btn-shine btn-explore" href="">
                     Explore More
                   </Link>
                 </div>
@@ -124,7 +124,7 @@ export default function ContentSlider() {
                       consequat diam. Vestibulum vestibulum nec diam in pretium.
                     </p>
                   </div>
-                  <Link className="btn btn-explore" href="">
+                  <Link className="btn btn-shine btn-explore" href="">
                     Explore More
                   </Link>
                 </div>
@@ -146,7 +146,7 @@ export default function ContentSlider() {
                       consequat diam. Vestibulum vestibulum nec diam in pretium.
                     </p>
                   </div>
-                  <Link className="btn btn-explore" href="">
+                  <Link className="btn btn-shine btn-explore" href="">
                     Explore More
                   </Link>
                 </div>
@@ -168,7 +168,7 @@ export default function ContentSlider() {
                       consequat diam. Vestibulum vestibulum nec diam in pretium.
                     </p>
                   </div>
-                  <Link className="btn btn-explore" href="">
+                  <Link className="btn btn-shine btn-explore" href="">
                     Explore More
                   </Link>
                 </div>
@@ -190,7 +190,7 @@ export default function ContentSlider() {
                       consequat diam. Vestibulum vestibulum nec diam in pretium.
                     </p>
                   </div>
-                  <Link className="btn btn-explore" href="">
+                  <Link className="btn btn-shine btn-explore" href="">
                     Explore More
                   </Link>
                 </div>

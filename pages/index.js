@@ -6,6 +6,7 @@ import TopNavbar from "./components/TopNavbar";
 import MainSlider from "./components/sliders/MainSlider";
 import WelcomeSlider from "./components/sliders/WelcomeSlider";
 import ContentSlider from "./components/sliders/ContentSlider";
+import CampusSlider from "./components/sliders/CampusSlider";
 
 import Slider from "react-slick";
 
@@ -76,7 +77,7 @@ export default function Home() {
             <ContentSlider />
           </div>
           <div>
-            <div>444</div>
+            <CampusSlider />
           </div>
           <div>
             <div>555</div>
