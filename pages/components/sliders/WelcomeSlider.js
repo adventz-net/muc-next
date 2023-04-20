@@ -12,6 +12,7 @@ export default function WelcomeSlider() {
     dots: false,
     infinite: true,
     speed: 1000,
+    autoplay: true,
     slidesToShow: 6,
     slidesToScroll: 1,
     responsive: [
@@ -89,7 +90,7 @@ export default function WelcomeSlider() {
           <div className="wel-slider">
             <img src="images/welcome-slider-01.jpg" alt="Image" />
           </div>
-          <div href="" className="down-arrow">
+          <div className="down-arrow">
             <img src="images/arrow-down.png" alt="Down Arrow" />
           </div>
         </div>

@@ -3,8 +3,10 @@ import Link from "next/link";
 import React, { useState, useRef } from "react";
 
 import TopNavbar from "./components/TopNavbar";
-import MainSlider from "./components/mainslider/MainSlider";
-import WelcomeSlider from "./components/mainslider/WelcomeSlider";
+import MainSlider from "./components/sliders/MainSlider";
+import WelcomeSlider from "./components/sliders/WelcomeSlider";
+import ContentSlider from "./components/sliders/ContentSlider";
+
 import Slider from "react-slick";
 
 // slick carousel import css files
@@ -28,7 +30,7 @@ export default function Home() {
     sliderMainRef.current.slickGoTo(newIndex);
   };
 
-  const settings = {
+  const settings01 = {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -36,7 +38,7 @@ export default function Home() {
     beforeChange: handleSliderOneBeforeChange,
   };
 
-  const settings2 = {
+  const settings02 = {
     infinite: true,
     slidesToShow: 5,
     slidesToScroll: 1,
@@ -61,7 +63,7 @@ export default function Home() {
       <div className="slider-cover">
         <Slider
           className="slider slider-main"
-          {...settings}
+          {...settings01}
           ref={sliderMainRef}
         >
           <div>
@@ -71,7 +73,7 @@ export default function Home() {
             <WelcomeSlider />
           </div>
           <div>
-            <div>333</div>
+            <ContentSlider />
           </div>
           <div>
             <div>444</div>
@@ -125,7 +127,11 @@ export default function Home() {
             />
           </svg>
         </button>
-        <Slider className="slider slider-nav" {...settings2} ref={sliderNavRef}>
+        <Slider
+          className="slider slider-nav"
+          {...settings02}
+          ref={sliderNavRef}
+        >
           <div>
             <div className="nav-link">Home</div>
           </div>

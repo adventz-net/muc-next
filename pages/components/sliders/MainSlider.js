@@ -40,18 +40,18 @@ export default function MainSlider() {
             </div>
           </div>
         </Carousel.Item>
-        <div className="slider-caption">
-          <div className="slider-logo">
-            <img src="images/muc-white-logo.png" alt="MUC Logo" />
-          </div>
-          <div className="slider-hd">
-            <h1>
-              Together we <br />
-              transform lives.
-            </h1>
-          </div>
-        </div>
       </Carousel>
+      <div className="slider-caption">
+        <div className="slider-logo">
+          <img src="images/muc-white-logo.png" alt="MUC Logo" />
+        </div>
+        <div className="slider-hd">
+          <h1>
+            Together we <br />
+            transform lives.
+          </h1>
+        </div>
+      </div>
     </div>
   );
 }
