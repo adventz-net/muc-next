@@ -8,6 +8,7 @@ import WelcomeSlider from "./components/sliders/WelcomeSlider";
 import ContentSlider from "./components/sliders/ContentSlider";
 import CampusSlider from "./components/sliders/CampusSlider";
 import ProgrammesSlider from "./components/sliders/ProgrammesSlider";
+import ContactSlider from "./components/sliders/ContactSlider";
 
 import Slider from "react-slick";
 
@@ -84,9 +85,9 @@ export default function Home() {
             <ProgrammesSlider />
           </div>
           <div>
-            <div>666</div>
+            <ContactSlider />
           </div>
-          <div>
+          {/* <div>
             <div>777</div>
           </div>
           <div>
@@ -100,7 +101,7 @@ export default function Home() {
           </div>
           <div>
             <div>111111</div>
-          </div>
+          </div> */}
         </Slider>
       </div>
 
@@ -149,7 +150,7 @@ export default function Home() {
           <div>
             <div className="nav-link">Programmes</div>
           </div>
-          <div>
+          {/* <div>
             <div className="nav-link">Student Support</div>
           </div>
           <div>
@@ -163,7 +164,7 @@ export default function Home() {
           </div>
           <div>
             <div className="nav-link">Apply</div>
-          </div>
+          </div> */}
           <div>
             <div className="nav-link">Contact Us</div>
           </div>
