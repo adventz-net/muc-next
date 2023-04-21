@@ -193,13 +193,13 @@
 
 .cam-sport-sec {
   position: relative;
-  padding: 4rem 4rem;
+  padding: 4rem 4rem 2rem;
   background-color: var(--spe-color-200);
 }
 
 .sport-carousel {
   max-width: 1320px;
-  margin: 0 auto;
+  margin: 0 auto 4rem;
   .slick-slide {
     position: relative;
     + .slick-slide {
@@ -278,5 +278,69 @@
         color: var(--bk-grade-750);
       }
     }
+  }
+}
+
+.sport-majan-txt {
+  max-width: 1320px;
+  margin: 0 auto;
+  p {
+    color: var(--white);
+  }
+}
+
+.cam-sport-info-sec {
+  padding: 2rem 0 4rem;
+  background-color: var(--spe-color-200);
+}
+
+.cam-sport-info {
+  color: var(--white);
+  font-weight: var(--font-weight-medium);
+  padding-left: calc((100vw - 1420px) / 2);
+  margin: 0 0 1.5rem 0;
+  h4 {
+    color: var(--white);
+    font-size: 1.125rem;
+    font-weight: var(--font-weight-normal);
+    margin: 0 0 1.5rem 0;
+  }
+  ul {
+    margin-bottom: 1.5rem;
+    li {
+      position: relative;
+      color: var(--white);
+      padding-left: 1.5rem;
+      margin-bottom: 0.5rem;
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 6px;
+        width: 6px;
+        height: 6px;
+        background-color: var(--white);
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.cam-sport-img {
+  position: relative;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .cam-sport-shape {
+    position: absolute;
+    left: -1px;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background-color: var(--spe-color-200);
+    clip-path: polygon(0 0, 0% 100%, 100% 100%) !important;
+    clip-path: url("#cam-sport-shape");
   }
 }

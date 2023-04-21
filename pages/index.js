@@ -7,6 +7,7 @@ import MainSlider from "./components/sliders/MainSlider";
 import WelcomeSlider from "./components/sliders/WelcomeSlider";
 import ContentSlider from "./components/sliders/ContentSlider";
 import CampusSlider from "./components/sliders/CampusSlider";
+import ProgrammesSlider from "./components/sliders/ProgrammesSlider";
 
 import Slider from "react-slick";
 
@@ -80,7 +81,7 @@ export default function Home() {
             <CampusSlider />
           </div>
           <div>
-            <div>555</div>
+            <ProgrammesSlider />
           </div>
           <div>
             <div>666</div>

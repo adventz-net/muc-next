@@ -127,7 +127,7 @@ export default function CampusSlider() {
               </div>
               <div className="cam-gal-sm-item">
                 <figure>
-                  <img src="images/cam-gallery-thumb-sm-01.jpg" alt="Gallery" />
+                  <img src="images/cam-gallery-thumb-sm-02.jpg" alt="Gallery" />
                 </figure>
               </div>
             </Col>
@@ -354,10 +354,75 @@ export default function CampusSlider() {
             </Col>
           </Row>
           <Row>
-            <Col xs={12}></Col>
+            <Col xs={12}>
+              <div className="sport-majan-txt">
+                <p>
+                  Other activities can be available on request as well as
+                  personal training sessions for students on and off campus.
+                  Please visit the Student Services Centre for more details.
+                  Opportunities to play friendly matches against other colleges
+                  are offered throughout the year as well as the chance to try
+                  out for the college teams and play in the inter college and
+                  universities competitions.
+                </p>
+              </div>
+            </Col>
           </Row>
-          <Row>
-            <Col xs={12}></Col>
+        </Container>
+      </section>
+
+      <section className="cam-sport-info-sec">
+        <Container fluid className="px-0">
+          <Row className="gx-0">
+            <Col className="col-12 col-lg-6">
+              <div className="cam-sport-info">
+                <h4>
+                  Below is a list of students who are currently doing just that:
+                </h4>
+                <ul>
+                  <li>
+                    Sultan AL Raqqadi: Fanjaa Football Club and Football
+                    national team goalkeeper.
+                  </li>
+                  <li>Jaffar Al Balushi: Oman Club football player.</li>
+                  <li>
+                    Ali Aulad Thani and Muhannad Al Shibli: Boshar Football
+                    player and U22 Football National Team,
+                  </li>
+                  <li>Ayman Al Qasmi: Oman Swimming Team,</li>
+                  <li>Aina Hamimi : Oman Female Athletics Team.</li>
+                </ul>
+                <h4>Majan's Team won many competitions such as:</h4>
+                <ul>
+                  <li>
+                    1st place in the 7 on 7 Football competition between Higher
+                    Education Institutions in 2016.
+                  </li>
+                  <li>1st place in the Neymar Jr's Five competition</li>
+                  <li>
+                    Represented Oman in the World Cup in Brazil 2016 and 2017.
+                  </li>
+                  <li>
+                    1st place in the taekwondo competition between Higher
+                    Education Institutions in 2016.
+                  </li>
+                  <li>
+                    1st place in the female athletics competition between Higher
+                    Education Institutions in 2017.
+                  </li>
+                </ul>
+              </div>
+            </Col>
+            <Col className="col-12 col-lg-6">
+              <div className="cam-sport-img">
+                <img src="images/cam-sport-info-img.jpg" alt="Image" />
+                <div className="cam-sport-shape">
+                  <svg height={0} width={0}>
+                    <defs />
+                  </svg>
+                </div>
+              </div>
+            </Col>
           </Row>
         </Container>
       </section>
