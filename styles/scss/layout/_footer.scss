@@ -6,6 +6,7 @@
   height: 100px;
   padding: 0;
   background-color: var(--color-100);
+  box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.25);
   overflow: hidden;
   .logo {
     display: flex;
@@ -43,6 +44,7 @@
     }
   }
   .slider-counter {
+    position: relative;
     display: flex;
     align-items: center;
     color: lighten($color-100, 50%);

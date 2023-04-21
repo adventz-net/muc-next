@@ -1,10 +1,51 @@
 import Link from "next/link";
+import { useState } from "react";
+import { Container, Row, Col, Modal } from "react-bootstrap";
 
-import { Container, Row, Col } from "react-bootstrap";
+import UGModalOne from "./UGModalOne";
 
 export default function ProgrammesSlider() {
+  const [showModal01, setShowModal01] = useState(false);
+  const [showModal02, setShowModal02] = useState(false);
+
+  const handleCloseModal01 = () => setShowModal01(false);
+  const handleShowModal01 = () => setShowModal01(true);
+
+  const handleCloseModal02 = () => setShowModal02(false);
+  const handleShowModal02 = () => setShowModal02(true);
+
   return (
     <section className="programmes-slider-sec">
+      <div>
+        <Modal
+          className="pgm-modal"
+          show={showModal01}
+          onHide={handleCloseModal01}
+        >
+          <Modal.Header>
+            <button className="btn-modal-close" onClick={handleCloseModal01}>
+              <i class="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <UGModalOne />
+          </Modal.Body>
+        </Modal>
+
+        {/* <Modal
+          className="pgm-modal"
+          show={showModal02}
+          onHide={handleCloseModal02}
+        >
+          <Modal.Header>
+            <button className="btn-modal-close" onClick={handleCloseModal02}>
+              <i class="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>22222222222</Modal.Body>
+        </Modal> */}
+      </div>
+
       <div className="pgm-bg-graphics">
         <div className="social-shape"></div>
         <div className="slider-d-shape"></div>
@@ -31,7 +72,11 @@ export default function ProgrammesSlider() {
           </Row>
           <Row className="gx-2 gx-xxl-5">
             <Col xs={12} md={6} lg={4}>
-              <Link href="" className="programme-item">
+              <Link
+                href=""
+                className="programme-item"
+                onClick={handleShowModal01}
+              >
                 <figure>
                   <div className="programme-img">
                     <img src="images/prog-item-thumb-01.jpg" alt="Image" />
@@ -45,7 +90,11 @@ export default function ProgrammesSlider() {
               </Link>
             </Col>
             <Col xs={12} md={6} lg={4}>
-              <Link href="" className="programme-item">
+              <Link
+                href=""
+                className="programme-item"
+                onClick={handleShowModal01}
+              >
                 <figure>
                   <div className="programme-img">
                     <img src="images/prog-item-thumb-02.jpg" alt="Image" />
@@ -59,7 +108,11 @@ export default function ProgrammesSlider() {
               </Link>
             </Col>
             <Col xs={12} md={6} lg={4}>
-              <Link href="" className="programme-item">
+              <Link
+                href=""
+                className="programme-item"
+                onClick={handleShowModal01}
+              >
                 <figure>
                   <div className="programme-img">
                     <img src="images/prog-item-thumb-03.jpg" alt="Image" />
@@ -87,7 +140,11 @@ export default function ProgrammesSlider() {
           </Row>
           <Row className="gx-2 gx-xxl-5">
             <Col xs={12} md={6} lg={4}>
-              <Link href="" className="programme-item">
+              <Link
+                href=""
+                className="programme-item"
+                onClick={handleShowModal01}
+              >
                 <figure>
                   <div className="programme-img">
                     <img src="images/prog-item-thumb-04.jpg" alt="Image" />
@@ -101,7 +158,11 @@ export default function ProgrammesSlider() {
               </Link>
             </Col>
             <Col xs={12} md={6} lg={4}>
-              <Link href="" className="programme-item">
+              <Link
+                href=""
+                className="programme-item"
+                onClick={handleShowModal01}
+              >
                 <figure>
                   <div className="programme-img">
                     <img src="images/prog-item-thumb-05.jpg" alt="Image" />
@@ -115,7 +176,11 @@ export default function ProgrammesSlider() {
               </Link>
             </Col>
             <Col xs={12} md={6} lg={4}>
-              <Link href="" className="programme-item">
+              <Link
+                href=""
+                className="programme-item"
+                onClick={handleShowModal01}
+              >
                 <figure>
                   <div className="programme-img">
                     <img src="images/prog-item-thumb-06.jpg" alt="Image" />
@@ -129,7 +194,11 @@ export default function ProgrammesSlider() {
               </Link>
             </Col>
             <Col xs={12} md={6} lg={4}>
-              <Link href="" className="programme-item">
+              <Link
+                href=""
+                className="programme-item"
+                onClick={handleShowModal01}
+              >
                 <figure>
                   <div className="programme-img">
                     <img src="images/prog-item-thumb-07.jpg" alt="Image" />
@@ -143,7 +212,11 @@ export default function ProgrammesSlider() {
               </Link>
             </Col>
             <Col xs={12} md={6} lg={4}>
-              <Link href="" className="programme-item">
+              <Link
+                href=""
+                className="programme-item"
+                onClick={handleShowModal01}
+              >
                 <figure>
                   <div className="programme-img">
                     <img src="images/prog-item-thumb-08.jpg" alt="Image" />
@@ -171,7 +244,11 @@ export default function ProgrammesSlider() {
           </Row>
           <Row className="gx-2 gx-xxl-5">
             <Col xs={12} md={6} lg={4}>
-              <Link href="" className="programme-item">
+              <Link
+                href=""
+                className="programme-item"
+                onClick={handleShowModal01}
+              >
                 <figure>
                   <div className="programme-img">
                     <img src="images/prog-item-thumb-09.jpg" alt="Image" />
@@ -185,7 +262,11 @@ export default function ProgrammesSlider() {
               </Link>
             </Col>
             <Col xs={12} md={6} lg={4}>
-              <Link href="" className="programme-item">
+              <Link
+                href=""
+                className="programme-item"
+                onClick={handleShowModal01}
+              >
                 <figure>
                   <div className="programme-img">
                     <img src="images/prog-item-thumb-10.jpg" alt="Image" />
@@ -199,7 +280,11 @@ export default function ProgrammesSlider() {
               </Link>
             </Col>
             <Col xs={12} md={6} lg={4}>
-              <Link href="" className="programme-item">
+              <Link
+                href=""
+                className="programme-item"
+                onClick={handleShowModal01}
+              >
                 <figure>
                   <div className="programme-img">
                     <img src="images/prog-item-thumb-11.jpg" alt="Image" />
@@ -233,7 +318,11 @@ export default function ProgrammesSlider() {
           </Row>
           <Row className="gx-2 gx-xxl-5 justify-content-center">
             <Col xs={12} md={6} lg={4}>
-              <Link href="" className="programme-item">
+              <Link
+                href=""
+                className="programme-item"
+                onClick={handleShowModal01}
+              >
                 <figure>
                   <div className="programme-img">
                     <img src="images/prog-item-thumb-12.jpg" alt="Image" />
