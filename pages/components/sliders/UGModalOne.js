@@ -452,12 +452,8 @@ export default function UGModalOne() {
                         <Form.Control type="email" placeholder="Email*" />
                       </FloatingLabel>
                       <div className="form-footer">
-                        <Button className="btn btn-submit" type="submit">
-                          Submit
-                        </Button>
-                        <Button className="btn btn-reset" type="reset">
-                          Reset
-                        </Button>
+                        <Button className="btn btn-submit">Submit</Button>
+                        <Button className="btn btn-reset">Reset</Button>
                       </div>
                     </Form>
                   </div>
