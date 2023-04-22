@@ -3,16 +3,27 @@ import { useState } from "react";
 import { Container, Row, Col, Modal } from "react-bootstrap";
 
 import UGModalOne from "./UGModalOne";
+import UGModalTwo from "./UGModalTwo";
+import UGModalThree from "./UGModalThree";
+import UGModalTwelve from "./UGModalTwelve";
 
 export default function ProgrammesSlider() {
   const [showModal01, setShowModal01] = useState(false);
   const [showModal02, setShowModal02] = useState(false);
+  const [showModal03, setShowModal03] = useState(false);
+  const [showModal12, setShowModal12] = useState(false);
 
   const handleCloseModal01 = () => setShowModal01(false);
   const handleShowModal01 = () => setShowModal01(true);
 
   const handleCloseModal02 = () => setShowModal02(false);
   const handleShowModal02 = () => setShowModal02(true);
+
+  const handleCloseModal03 = () => setShowModal03(false);
+  const handleShowModal03 = () => setShowModal03(true);
+
+  const handleCloseModal12 = () => setShowModal12(false);
+  const handleShowModal12 = () => setShowModal12(true);
 
   return (
     <section className="programmes-slider-sec">
@@ -24,7 +35,7 @@ export default function ProgrammesSlider() {
         >
           <Modal.Header>
             <button className="btn-modal-close" onClick={handleCloseModal01}>
-              <i class="bi bi-x-lg"></i>
+              <i className="bi bi-x-lg"></i>
             </button>
           </Modal.Header>
           <Modal.Body>
@@ -32,18 +43,50 @@ export default function ProgrammesSlider() {
           </Modal.Body>
         </Modal>
 
-        {/* <Modal
+        <Modal
           className="pgm-modal"
           show={showModal02}
           onHide={handleCloseModal02}
         >
           <Modal.Header>
             <button className="btn-modal-close" onClick={handleCloseModal02}>
-              <i class="bi bi-x-lg"></i>
+              <i className="bi bi-x-lg"></i>
             </button>
           </Modal.Header>
-          <Modal.Body>22222222222</Modal.Body>
-        </Modal> */}
+          <Modal.Body>
+            <UGModalTwo />
+          </Modal.Body>
+        </Modal>
+
+        <Modal
+          className="pgm-modal"
+          show={showModal03}
+          onHide={handleCloseModal03}
+        >
+          <Modal.Header>
+            <button className="btn-modal-close" onClick={handleCloseModal03}>
+              <i className="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <UGModalThree />
+          </Modal.Body>
+        </Modal>
+
+        <Modal
+          className="pgm-modal"
+          show={showModal12}
+          onHide={handleCloseModal12}
+        >
+          <Modal.Header>
+            <button className="btn-modal-close" onClick={handleCloseModal12}>
+              <i className="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <UGModalTwelve />
+          </Modal.Body>
+        </Modal>
       </div>
 
       <div className="pgm-bg-graphics">
@@ -58,7 +101,7 @@ export default function ProgrammesSlider() {
               <div className="programmes-search">
                 <input className="form-control" />
                 <button className="btn btn-search">
-                  <i class="bi bi-search"></i>
+                  <i className="bi bi-search"></i>
                 </button>
               </div>
             </Col>
@@ -93,7 +136,7 @@ export default function ProgrammesSlider() {
               <Link
                 href=""
                 className="programme-item"
-                onClick={handleShowModal01}
+                onClick={handleShowModal02}
               >
                 <figure>
                   <div className="programme-img">
@@ -111,7 +154,7 @@ export default function ProgrammesSlider() {
               <Link
                 href=""
                 className="programme-item"
-                onClick={handleShowModal01}
+                onClick={handleShowModal03}
               >
                 <figure>
                   <div className="programme-img">
@@ -321,7 +364,7 @@ export default function ProgrammesSlider() {
               <Link
                 href=""
                 className="programme-item"
-                onClick={handleShowModal01}
+                onClick={handleShowModal12}
               >
                 <figure>
                   <div className="programme-img">

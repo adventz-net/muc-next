@@ -100,11 +100,9 @@ export default function CampusSlider() {
           <div className="ratio ratio-16x9">
             <iframe
               src="https://www.youtube.com/embed/4rWBqkKCBwI"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
+              title="Our International Student Community"
+              allowFullScreen
+            />
           </div>
         </div>
       </section>

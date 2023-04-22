@@ -30,20 +30,20 @@ export default function ContactSlider() {
                   <div className="con-addr-info-body">
                     <ul>
                       <li>
-                        <span class="icon">
-                          <i class="bi bi-telephone-fill"></i>
+                        <span className="icon">
+                          <i className="bi bi-telephone-fill"></i>
                         </span>
                         Tel: +968 2473 0400
                       </li>
                       <li>
-                        <span class="icon">
-                          <i class="bi bi-whatsapp"></i>
+                        <span className="icon">
+                          <i className="bi bi-whatsapp"></i>
                         </span>
                         WhatsApp : +968 7235 5500
                       </li>
                       <li>
-                        <span class="icon">
-                          <i class="bi bi-envelope-fill"></i>
+                        <span className="icon">
+                          <i className="bi bi-envelope-fill"></i>
                         </span>
                         Email: info@majancollege.edu.om
                       </li>
@@ -51,8 +51,8 @@ export default function ContactSlider() {
                         <hr className="addr-hr" />
                       </li>
                       <li>
-                        <span class="icon">
-                          <i class="bi bi-geo-alt-fill"></i>
+                        <span className="icon">
+                          <i className="bi bi-geo-alt-fill"></i>
                         </span>
                         Mutrah | Way No. 2621 | Building No. 1986 P.O Box: 710,
                         P.C: 112 | Ruwi | Sultanate of Oman
@@ -61,8 +61,8 @@ export default function ContactSlider() {
                         <hr className="addr-hr" />
                       </li>
                       <li>
-                        <span class="icon">
-                          <i class="bi bi-phone-vibrate-fill"></i>
+                        <span className="icon">
+                          <i className="bi bi-phone-vibrate-fill"></i>
                         </span>
                         Hotline: +968 8007 1000
                       </li>
@@ -83,7 +83,7 @@ export default function ContactSlider() {
           <div className="map-info-cover">
             <div className="map-info-item">
               <div className="map-info-icon">
-                <i class="bi bi-telephone-fill"></i>
+                <i className="bi bi-telephone-fill"></i>
               </div>
               <div className="map-info-body">
                 <h5>Toll free Numbers</h5>
@@ -92,7 +92,7 @@ export default function ContactSlider() {
             </div>
             <div className="map-info-item">
               <div className="map-info-icon">
-                <i class="bi bi-printer-fill"></i>
+                <i className="bi bi-printer-fill"></i>
               </div>
               <div className="map-info-body">
                 <h5>fax</h5>
@@ -101,7 +101,7 @@ export default function ContactSlider() {
             </div>
             <div className="map-info-item">
               <div className="map-info-icon">
-                <i class="bi bi-envelope-fill"></i>
+                <i className="bi bi-envelope-fill"></i>
               </div>
               <div className="map-info-body">
                 <h5>email</h5>
