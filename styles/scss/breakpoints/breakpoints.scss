@@ -1,0 +1,154 @@
+// min -----------------
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1366px) {
+}
+
+@media (min-width: 1600px) {
+}
+
+@media (min-width: 1920px) {
+}
+
+// max -----------------
+
+@media (max-width: 1920px) {
+}
+
+@media (max-width: 1600px) {
+  .btm-university {
+    flex: 0 0 350px;
+  }
+  .slider-caption .slider-hd h1 {
+    font-size: 8rem;
+  }
+  .student-slider .student-img {
+    width: 525px;
+    height: 625px;
+  }
+  .student-slider .slider-shape.shape-02 {
+    width: 350px;
+    height: 350px;
+  }
+  .student-slider .slider-shape.shape-03 {
+    transform: translate(67%, -47%);
+  }
+  .student-slider .slider-shape.shape-04 {
+    width: 350px;
+    height: 350px;
+  }
+  .shape-slider {
+    width: 525px;
+    height: 625px;
+  }
+  .shape-slider .slider-shape.shape-02 {
+    width: 350px;
+    height: 350px;
+  }
+  .shape-slider .slider-shape.shape-03 {
+    width: 350px;
+    height: 350px;
+  }
+  .shape-slider .slider-shape.shape-04 {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1366px) {
+}
+
+@media (max-width: 1280px) {
+  .slider-nav {
+    height: 75px;
+  }
+  .slider-nav .logo {
+    flex: 0 0 200px;
+    max-width: 260px;
+  }
+  .btm-university {
+    flex: 0 0 350px;
+    padding: 0.5rem 1rem;
+  }
+  .btm-university .uni-item {
+    padding: 0.25rem 0.5rem;
+  }
+  .slider-cover {
+    height: calc(100vh - 75px);
+  }
+  .slider-caption {
+    transform: translate(50px, -50%);
+  }
+}
+
+@media (max-width: 1200px) {
+  .slider-caption .slider-hd h1 {
+    font-size: 6rem;
+  }
+  .student-slider .student-img {
+    width: 525px;
+    height: 625px;
+  }
+  .student-slider .slider-shape.shape-02 {
+    width: 350px;
+    height: 350px;
+  }
+
+  .student-slider .slider-shape.shape-04 {
+    width: 350px;
+    height: 350px;
+  }
+  .shape-slider {
+    width: 525px;
+    height: 625px;
+  }
+  .shape-slider .slider-shape.shape-02 {
+    width: 350px;
+    height: 350px;
+  }
+  .shape-slider .slider-shape.shape-03 {
+    width: 350px;
+    height: 350px;
+  }
+  .shape-slider .slider-shape.shape-04 {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 1023px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 650px) {
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 320px) {
+}

@@ -11,7 +11,12 @@
   .logo {
     display: flex;
     align-items: center;
+    flex: 0 0 260px;
+    max-width: 260px;
     margin: 0 1rem;
+    img {
+      width: 100%;
+    }
   }
   .btn-hamburger {
     height: 100%;
