@@ -14,6 +14,7 @@ export default function UGModalOne() {
     <section className="ug-modal-cover-sec">
       <section className="ug-pgm-slider-sec">
         <div className="sec-bg-graphics">
+          <div className="social-shape"></div>
           <div className="pgm-mod-shape shape-01"></div>
         </div>
         <div className="sec-con-cover h-100">

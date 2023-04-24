@@ -8,6 +8,7 @@ import WelcomeSlider from "./components/sliders/WelcomeSlider";
 import ContentSlider from "./components/sliders/ContentSlider";
 import CampusSlider from "./components/sliders/CampusSlider";
 import ProgrammesSlider from "./components/sliders/ProgrammesSlider";
+import MtiSlider from "./components/sliders/MtiSlider";
 import ContactSlider from "./components/sliders/ContactSlider";
 
 import Slider from "react-slick";
@@ -85,6 +86,9 @@ export default function Home() {
             <ProgrammesSlider />
           </div>
           <div>
+            <MtiSlider />
+          </div>
+          <div>
             <ContactSlider />
           </div>
           {/* <div>
@@ -150,10 +154,10 @@ export default function Home() {
           <div>
             <div className="nav-link">Programmes</div>
           </div>
-          {/* <div>
-            <div className="nav-link">Student Support</div>
-          </div>
           <div>
+            <div className="nav-link">MTI</div>
+          </div>
+          {/*<div>
             <div className="nav-link">Careers & Employability</div>
           </div>
           <div>

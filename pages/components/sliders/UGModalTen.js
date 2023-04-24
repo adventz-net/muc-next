@@ -9,11 +9,12 @@ import {
   Button,
 } from "react-bootstrap";
 
-export default function UGModalTwo() {
+export default function UGModalTen() {
   return (
     <section className="ug-modal-cover-sec">
       <section className="ug-pgm-slider-sec bg-dk-blue">
         <div className="sec-bg-graphics">
+          <div className="social-shape"></div>
           <div className="pgm-mod-shape shape-01"></div>
         </div>
         <div className="sec-con-cover h-100">
@@ -102,7 +103,7 @@ export default function UGModalTwo() {
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="02">
-                    <Accordion.Header>Fees structure</Accordion.Header>
+                    <Accordion.Header>Program details</Accordion.Header>
                     <Accordion.Body>
                       <div className="acc-pgm-dt-cover">
                         <div className="acc-pgm-dt-list">
