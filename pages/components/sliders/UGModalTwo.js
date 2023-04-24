@@ -16,7 +16,7 @@ export default function UGModalTwo() {
         <div className="sec-bg-graphics">
           <div className="pgm-mod-shape shape-01"></div>
         </div>
-        <div className="sec-con-cover">
+        <div className="sec-con-cover h-100">
           <div className="ug-slider-cover">
             <div className="ug-slider-img">
               <img src="images/ug-modal-slider-02.jpg" alt="Image" />
@@ -31,6 +31,9 @@ export default function UGModalTwo() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="down-arrow">
+          <img src="images/arrow-down.png" alt="Down Arrow" />
         </div>
       </section>
 
@@ -139,32 +142,13 @@ export default function UGModalTwo() {
                     <Accordion.Header>Fees structure</Accordion.Header>
                     <Accordion.Body>
                       <p>
-                        The general goals of the BA (Hons) in English Language
-                        have been to produce graduates with excellent
-                        communication skills in English language; and secondly,
-                        to ensure that those graduates are also able to
-                        describe, appreciate and analyze the language in the
-                        great variety of forms in which it occurs - spoken and
-                        written, formal and informal, in different contexts,
-                        genres and by different speakers. The first goal means
-                        improving proficiency to high levels; the second
-                        requires a thorough background in the subfields of
-                        theoretical linguistics.
+                        For the complete details of the fees, please refer to
+                        the &nbsp;
+                        <Link href="">Fees Structure</Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
-              </Col>
-            </Row>
-            <Row>
-              <Col xl={12}>
-                <div className="ug-pgm-fees">
-                  <p>
-                    For the complete details of the fees, please refer to the
-                    &nbsp;
-                    <Link href="">Fees Structure</Link>
-                  </p>
-                </div>
               </Col>
             </Row>
           </Container>

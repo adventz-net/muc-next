@@ -314,7 +314,11 @@
 
 .ug-pgm-slider-sec {
   position: relative;
+  height: 100%;
   background-color: #f1f1f1;
+  &.bg-dk-blue {
+    background-color: var(--spe-color-200);
+  }
 }
 
 .sec-bg-graphics {
@@ -332,14 +336,22 @@
   }
 }
 
+.sec-con-cover {
+  position: relative;
+}
+
 .ug-slider-cover {
+  height: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
 }
 
 .ug-slider-img {
   position: relative;
+  height: 100%;
   img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -510,6 +522,10 @@
       color: var(--white);
       margin: 0 0 1.5rem 0;
     }
+    a {
+      color: var(--white);
+      text-decoration: underline;
+    }
     ul {
       margin-bottom: 1.5rem;
       li {
@@ -649,7 +665,7 @@
     h3 {
       color: var(--bk-grade-950);
       font-size: 1.875rem;
-      font-weight: var(--font-weight-medium);
+      font-weight: var(--font-weight-bold);
       margin: 0;
     }
   }
@@ -659,6 +675,60 @@
     p {
       color: var(--white);
       margin: 0 0 1.5rem 0;
+    }
+    h5 {
+      color: var(--white);
+      font-size: 1;
+      font-weight: var(--font-weight-medium);
+      margin: 0 0 1.5rem 0;
+    }
+  }
+}
+
+.acc-reg-intro {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  p {
+    color: var(--white);
+  }
+}
+
+.acc-reg-list {
+  display: flex;
+  flex-wrap: wrap;
+  .acc-reg-item {
+    flex: 0 1 325px;
+    min-height: 250px;
+    padding: 1.5rem 1.5rem;
+    margin: 0.5rem;
+    background-color: var(--spe-color-100);
+    clip-path: polygon(85% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
+    .count {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--bk-grade-950);
+      width: 48px;
+      height: 48px;
+      margin-bottom: 2rem;
+      background-color: var(--white);
+      border-radius: 50%;
+    }
+  }
+}
+
+.acc-pgm-dt-list {
+  display: flex;
+  flex-wrap: wrap;
+  .acc-pgm-dt-item {
+    flex: 0 1 325px;
+    min-height: 250px;
+    padding: 1.5rem 1.5rem;
+    margin: 0.5rem;
+    background-color: var(--spe-color-100);
+    clip-path: polygon(85% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
+    .icon {
+      margin-bottom: 2rem;
     }
   }
 }

@@ -16,7 +16,7 @@ export default function UGModalOne() {
         <div className="sec-bg-graphics">
           <div className="pgm-mod-shape shape-01"></div>
         </div>
-        <div className="sec-con-cover">
+        <div className="sec-con-cover h-100">
           <div className="ug-slider-cover">
             <div className="ug-slider-img">
               <img src="images/ug-modal-slider-01.jpg" alt="Image" />
@@ -31,6 +31,9 @@ export default function UGModalOne() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="down-arrow">
+          <img src="images/arrow-down.png" alt="Down Arrow" />
         </div>
       </section>
 
@@ -395,29 +398,13 @@ export default function UGModalOne() {
                     <Accordion.Header>Fees structure</Accordion.Header>
                     <Accordion.Body>
                       <p>
-                        This degree programme is designed for students who are
-                        interested in dealing with people because people are in
-                        a constant change of flux in their needs, wants and
-                        desires. This programme will develop an in-depth
-                        understanding of the theoretical base relevant to
-                        consumer behaviour, advertising and promotional
-                        activities, brand management, sales force management,
-                        retail marketing and related marketing decisions.
+                        For the complete details of the fees, please refer to
+                        the &nbsp;
+                        <Link href="">Fees Structure</Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
-              </Col>
-            </Row>
-            <Row>
-              <Col xl={12}>
-                <div className="ug-pgm-fees">
-                  <p>
-                    For the complete details of the fees, please refer to the
-                    &nbsp;
-                    <Link href="">Fees Structure</Link>
-                  </p>
-                </div>
               </Col>
             </Row>
           </Container>

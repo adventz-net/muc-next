@@ -19,14 +19,13 @@ export default function UGModalTwo() {
         <div className="sec-con-cover h-100">
           <div className="ug-slider-cover">
             <div className="ug-slider-img">
-              <img src="images/ug-modal-slider-12.jpg" alt="Image" />
+              <img src="images/ug-modal-slider-11.jpg" alt="Image" />
             </div>
             <div className="ug-slider-body">
               <div className="ug-slider-hd">
                 <h2>
-                  Foundation
-                  <br />
-                  Programme
+                  CERTIFIED ISLAMiC finance <br />
+                  executive ( CIFE™ )
                 </h2>
               </div>
             </div>
@@ -47,56 +46,54 @@ export default function UGModalTwo() {
               <Col xl={12}>
                 <Accordion className="ug-pgm-accordian" defaultActiveKey="01">
                   <Accordion.Item eventKey="01">
-                    <Accordion.Header>
-                      Mission of the Foundation Programme
-                    </Accordion.Header>
+                    <Accordion.Header>How Do I Learn?</Accordion.Header>
                     <Accordion.Body>
-                      <p>
-                        The mission of the Foundation Programme is to contribute
-                        actively to the achievement of the strategic objectives
-                        of the College by providing an educationally dynamic and
-                        supportive environment to enable students to attain the
-                        English language, IT, Maths and study skills required to
-                        successfully engage in undergraduate studies. In
-                        addition, we seek to instill in students a sense of
-                        co-operation, integrity, community responsibility and
-                        commitment to achieving their full potential.
-                      </p>
+                      <div className="acc-pgm-overview">
+                        <figure>
+                          <div className="acc-pgm-img">
+                            <img src="images/acca-intro-img.jpg" alt="Image" />
+                          </div>
+                          <div className="acc-pgm-info">
+                            <p>Understanding</p>
+                            <h3>
+                              Islamic <br />
+                              Finance
+                            </h3>
+                          </div>
+                        </figure>
+                        <div className="acc-pgm-body">
+                          <div className="mb-4">
+                            <img src="images/cife-logo.png" alt="Logo" />
+                          </div>
+                          <p>
+                            Ethica's award-winning CIFE™ is a streamlined
+                            training and certification programme designed to
+                            take complete newcomers to an advanced level of
+                            understanding in Islamic Finance. Once you
+                            understand the 22 core topics offered as part of the
+                            curriculum from Ethica Institute, you will be ready
+                            to take the online CIFE™ examination.
+                          </p>
+                          <p>
+                            In collaboration with Ethica, Majan University
+                            College will provide study materials through face to
+                            face and/online classes, as well as through the
+                            Ethica website. Through your account with Ethica,
+                            you can also supplement your study materials from
+                            Majan with the ones provided by Ethica as videos and
+                            PDF documents.
+                          </p>
+                          <p>
+                            You can take the exam as soon as you are ready. The
+                            recommended study duration is four months (whether
+                            face-to-face or online).
+                          </p>
+                          <h5>Intakes ongoing every Sept., Feb. and June.</h5>
+                        </div>
+                      </div>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="02">
-                    <Accordion.Header>Programme overview</Accordion.Header>
-                    <Accordion.Body>
-                      <p>
-                        The Foundation programme is a two-semester preparatory
-                        programme of one-year duration. Students are required to
-                        pass semester one modules before proceeding onto
-                        semester two.
-                      </p>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey="03">
-                    <Accordion.Header>Programme Objectives</Accordion.Header>
-                    <Accordion.Body>
-                      <p>
-                        The Foundation Programme is a bridging programme for the
-                        students with the General Diploma or equivalent to
-                        proceed to Diploma or Degree level study which is
-                        conducted in English Language. It equips students with
-                        the necessary study and academic skills required at the
-                        undergraduate level.
-                      </p>
-                      <h4>
-                        Awards: (students must register for a particular award
-                        in order to qualify for that award)
-                      </h4>
-                      <ul>
-                        <li>Foundation Certificate</li>
-                        <li>Mode of delivery: Full time and Part time</li>
-                      </ul>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey="04">
                     <Accordion.Header>Fees structure</Accordion.Header>
                     <Accordion.Body>
                       <p>
