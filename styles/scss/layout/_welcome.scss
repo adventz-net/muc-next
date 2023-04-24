@@ -355,27 +355,221 @@
   }
 }
 
+.credo-list {
+  .credo-item {
+    position: relative;
+    display: flex;
+    max-width: 365px;
+    margin-bottom: 0.5rem;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 45px;
+      right: 0;
+      bottom: 5px;
+      height: 5px;
+      background-color: var(--bk-grade-100);
+    }
+    .credo-letter {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 0 0 90px;
+      max-width: 90px;
+      height: 90px;
+      font-size: 3rem;
+      font-weight: var(--font-weight-bold);
+      margin-bottom: 0.5rem;
+      border: 5px solid transparent;
+      border-radius: 50%;
+      z-index: 10;
+    }
+    .credo-body {
+      position: relative;
+      flex: 1 0 0%;
+      max-width: 275px;
+      padding: 0.5rem 2rem 0.5rem 1rem;
+      &::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 5px;
+        height: 100%;
+        background-color: transparent;
+        transform: skewX(16deg);
+      }
+    }
+    &:nth-child(1) {
+      .credo-letter {
+        color: #00635f;
+        border-color: #06abbe;
+      }
+      .credo-body {
+        &::after {
+          background-color: #00635f;
+        }
+      }
+    }
+    &:nth-child(2) {
+      .credo-letter {
+        color: #0b3c76;
+        border-color: #2285fc;
+      }
+      .credo-body {
+        &::after {
+          background-color: #0b3c76;
+        }
+      }
+    }
+    &:nth-child(3) {
+      .credo-letter {
+        color: #633b17;
+        border-color: #ffa23c;
+      }
+      .credo-body {
+        &::after {
+          background-color: #633b17;
+        }
+      }
+    }
+    &:nth-child(4) {
+      .credo-letter {
+        color: #651926;
+        border-color: #f03059;
+      }
+      .credo-body {
+        &::after {
+          background-color: #651926;
+        }
+      }
+    }
+    &:nth-child(5) {
+      .credo-letter {
+        color: #591514;
+        border-color: #bb070a;
+      }
+      .credo-body {
+        &::after {
+          background-color: #591514;
+        }
+      }
+    }
+  }
+}
+
+$letters: 5; //Define number of letters in animation - including spaces
+$spacing: 1.875rem; //Delay between letters
+
+//Sets timing differntly for each letter
+@while $letters > 0 {
+  .credo-list .credo-item:nth-child(#{$letters}) {
+    margin-left: $spacing * $letters;
+  }
+  $letters: $letters - 1;
+}
+
 .attr-cover {
   position: relative;
   height: 100%;
   background-color: var(--spe-color-400);
-  .attr-hd {
+  .graduate-attr-hd {
     margin-bottom: 4rem;
-    h4 {
-      color: var(--white);
-      font-size: 2.25rem;
-      font-weight: var(--font-weight-semibold);
-      margin: 0 0 1.5rem 0;
-      text-transform: uppercase;
-    }
-    p {
-      color: var(--white);
-    }
-  }
-  figure {
-    margin: 0;
     img {
       max-width: 100%;
+    }
+  }
+}
+
+.graduate-graphics {
+  position: relative;
+  max-width: 325px;
+  height: 325px;
+  margin: 125px auto;
+  transform: scale(0.85);
+  .graduate-base {
+    position: relative;
+    z-index: 10;
+    img {
+      width: 100%;
+    }
+  }
+  .graduate-wings {
+    position: absolute;
+    width: 350px;
+    height: 153px;
+    &.wings-01 {
+      right: -243px;
+      top: -100px;
+    }
+    &.wings-02 {
+      right: -315px;
+      top: 72px;
+    }
+    &.wings-03 {
+      right: -243px;
+      bottom: -81px;
+    }
+    &.wings-04 {
+      left: -243px;
+      bottom: -81px;
+    }
+    &.wings-05 {
+      left: -315px;
+      top: 74px;
+    }
+    &.wings-06 {
+      left: -243px;
+      top: -100px;
+    }
+    .wings-base {
+      img {
+        width: 100%;
+      }
+    }
+    .wings-body {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      margin-top: 1.5rem;
+      .wings-icon {
+        flex: 0 0 90px;
+        max-width: 90px;
+        border-radius: 50%;
+        img {
+          width: 100%;
+        }
+      }
+      .wings-txt {
+        p {
+          color: var(--white);
+        }
+      }
+    }
+    &.wings-01,
+    &.wings-02,
+    &.wings-03 {
+      .wings-body {
+        flex-direction: row-reverse;
+        padding: 1rem 2rem 1rem 1rem;
+        .wings-icon {
+          margin-left: 2rem;
+        }
+      }
+    }
+    &.wings-04,
+    &.wings-05,
+    &.wings-06 {
+      .wings-body {
+        padding: 1rem 1rem 1rem 2rem;
+        .wings-icon {
+          margin-right: 2rem;
+        }
+      }
     }
   }
 }

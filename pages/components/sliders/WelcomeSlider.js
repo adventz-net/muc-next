@@ -337,22 +337,165 @@ export default function WelcomeSlider() {
                       and learning
                     </p>
                   </div>
-                  <figure>
-                    <img src="images/credo-img.jpg" alt="Image" />
-                  </figure>
+                  <div className="credo-list">
+                    <div className="credo-item">
+                      <div className="credo-letter">C</div>
+                      <div className="credo-body">
+                        Combining innovative face to face teaching with smart
+                        use of technology
+                      </div>
+                    </div>
+                    <div className="credo-item">
+                      <div className="credo-letter">R</div>
+                      <div className="credo-body">
+                        Reducing the length of periods of lecturing
+                      </div>
+                    </div>
+                    <div className="credo-item">
+                      <div className="credo-letter">E</div>
+                      <div className="credo-body">
+                        Encouraging student participation
+                      </div>
+                    </div>
+                    <div className="credo-item">
+                      <div className="credo-letter">D</div>
+                      <div className="credo-body">
+                        Developing student as independent thinkers and learners
+                      </div>
+                    </div>
+                    <div className="credo-item">
+                      <div className="credo-letter">O</div>
+                      <div className="credo-body">
+                        Offering individual support to students
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="col-12 col-lg-6">
                 <div className="attr-cover px-5 px-xl-6 py-5 py-xl-6">
-                  <div className="attr-hd">
-                    <h4>
-                      Graduate <br />
-                      Attributes
-                    </h4>
+                  <div className="graduate-attr-hd">
+                    <img src="images/graduate-att-hd.png" alt="HD" />
                   </div>
-                  <figure>
-                    <img src="images/graduate-attr-img.png" alt="Image" />
-                  </figure>
+                  <div className="graduate-graphics">
+                    <div className="graduate-base">
+                      <img src="images/graduate-graph-base.png" alt="Image" />
+                    </div>
+                    <div className="graduate-wings wings-01">
+                      <div className="wings-base">
+                        <img
+                          src="images/graduate-graph-wings-01.png"
+                          alt="Image"
+                        />
+                      </div>
+                      <div className="wings-body">
+                        <div className="wings-icon">
+                          <img
+                            src="images/graduate-gra-icon-01.png"
+                            alt="Image"
+                          />
+                        </div>
+                        <div className="wings-txt">
+                          <p>Adaptive</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="graduate-wings wings-02">
+                      <div className="wings-base">
+                        <img
+                          src="images/graduate-graph-wings-02.png"
+                          alt="Image"
+                        />
+                      </div>
+                      <div className="wings-body">
+                        <div className="wings-icon">
+                          <img
+                            src="images/graduate-gra-icon-01.png"
+                            alt="Image"
+                          />
+                        </div>
+                        <div className="wings-txt">
+                          <p>Entrepreneurial</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="graduate-wings wings-03">
+                      <div className="wings-base">
+                        <img
+                          src="images/graduate-graph-wings-03.png"
+                          alt="Image"
+                        />
+                      </div>
+                      <div className="wings-body">
+                        <div className="wings-icon">
+                          <img
+                            src="images/graduate-gra-icon-02.png"
+                            alt="Image"
+                          />
+                        </div>
+                        <div className="wings-txt">
+                          <p>Global Citizen</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="graduate-wings wings-04">
+                      <div className="wings-base">
+                        <img
+                          src="images/graduate-graph-wings-04.png"
+                          alt="Image"
+                        />
+                      </div>
+                      <div className="wings-body">
+                        <div className="wings-icon">
+                          <img
+                            src="images/graduate-gra-icon-02.png"
+                            alt="Image"
+                          />
+                        </div>
+                        <div className="wings-txt">
+                          <p>Employable</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="graduate-wings wings-05">
+                      <div className="wings-base">
+                        <img
+                          src="images/graduate-graph-wings-05.png"
+                          alt="Image"
+                        />
+                      </div>
+                      <div className="wings-body">
+                        <div className="wings-icon">
+                          <img
+                            src="images/graduate-gra-icon-02.png"
+                            alt="Image"
+                          />
+                        </div>
+                        <div className="wings-txt">
+                          <p>Innovative</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="graduate-wings wings-06">
+                      <div className="wings-base">
+                        <img
+                          src="images/graduate-graph-wings-06.png"
+                          alt="Image"
+                        />
+                      </div>
+                      <div className="wings-body">
+                        <div className="wings-icon">
+                          <img
+                            src="images/graduate-gra-icon-02.png"
+                            alt="Image"
+                          />
+                        </div>
+                        <div className="wings-txt">
+                          <p>KNowledgeable</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
