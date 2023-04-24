@@ -5,12 +5,12 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function ContentSlider() {
   return (
     <section className="content-slider-sec">
-      <div className="con-slider-bg-graphics">
+      <div className="sec-bg-graphics">
         <div className="social-shape"></div>
         <div className="slider-d-shape"></div>
       </div>
 
-      <section className="con-slider-sec">
+      <section className="con-slider-sec pt-5 pt-xl-6 px-lg-5 px-xl-6 pb-5 pb-xl-6">
         <Container fluid>
           <Row>
             <Col xs={12}>

@@ -289,7 +289,7 @@
     background-color: var(--spe-color-600);
     border: 0;
     border-radius: 0;
-    z-index: 10;
+    z-index: 30;
     .btn-modal-close {
       width: 32px;
       height: 32px;
@@ -504,6 +504,7 @@
       border: 1px solid rgba($white, 0.5);
       border-radius: 0;
       box-shadow: none;
+      text-transform: uppercase;
       &::after {
         content: "\F282";
         color: var(--white);
@@ -513,7 +514,8 @@
     }
   }
   .accordion-body {
-    h4 {
+    h4,
+    h5 {
       color: var(--white);
       font-size: 1.125rem;
       margin: 0 0 1.5rem 0;
@@ -674,13 +676,38 @@
     padding: 4rem 0 0 6rem;
     p {
       color: var(--white);
+      font-weight: var(--font-weight-normal);
       margin: 0 0 1.5rem 0;
     }
     h5 {
       color: var(--white);
-      font-size: 1;
-      font-weight: var(--font-weight-medium);
+      font-size: 1rem;
+      font-weight: var(--font-weight-semibold);
       margin: 0 0 1.5rem 0;
+    }
+    ul {
+      margin-bottom: 1.5rem;
+      li {
+        position: relative;
+        color: var(--white);
+        padding-left: 2.5rem;
+        margin-bottom: 1rem;
+        &:before {
+          content: "\F138";
+          position: absolute;
+          color: var(--white);
+          font-family: bootstrap-icons;
+          left: 0;
+          top: 0;
+        }
+        h5 {
+          font-weight: var(--font-weight-semibold);
+          margin: 0 0 0.25rem 0;
+        }
+        p {
+          margin: 0 0 0.25rem 0;
+        }
+      }
     }
   }
 }
@@ -729,6 +756,36 @@
     clip-path: polygon(85% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
     .icon {
       margin-bottom: 2rem;
+    }
+  }
+}
+
+.criteria-list {
+  display: flex;
+  .criteria-item {
+    flex: 0 1 auto;
+    max-width: 400px;
+    margin: 0.25rem 0.5rem;
+    h4 {
+      color: var(--white);
+      font-size: 1.5rem;
+      font-weight: var(--font-weight-semibold);
+      margin: 0 0 0.25rem 0;
+    }
+    p {
+      color: var(--white);
+      margin: 0 0 0.25rem 0;
+    }
+    .criteria-or {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--white);
+      width: 48px;
+      height: 48px;
+      margin-bottom: 2rem;
+      background-color: var(--spe-color-100);
+      border-radius: 50%;
     }
   }
 }

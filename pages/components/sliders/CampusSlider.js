@@ -55,30 +55,54 @@ export default function CampusSlider() {
               <div className="campus-intro">
                 <h3>Campus life</h3>
                 <h5>
-                  Majan University provides everything you need for student life
-                  - all on one campus.
+                  <span>Why choose Majan ?</span>
                 </h5>
-                <p>
-                  We've invested millions in our campus and facilities to ensure
-                  our students have access to the equipment and spaces they need
-                  throughout their studies.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                  quis lectus felis. Mauris eu accumsan nisi, aliquam placerat
-                  est. Proin non nunc luctus, varius neque et, bibendum erat.
-                  Sed imperdiet at erat sit amet aliquet. Nullam turpis enim,
-                  placerat eu lorem nec, luctus rhoncus turpis. Suspendisse
-                  potenti. In id enim tellus.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                  quis lectus felis. Mauris eu accumsan nisi, aliquam placerat
-                  est. Proin non nunc luctus, varius neque et, bibendum erat.
-                  Sed imperdiet at erat sit amet aliquet. Nullam turpis enim,
-                  placerat eu lorem nec, luctus rhoncus turpis. Suspendisse
-                  potenti. In id enim tellus.
-                </p>
+                <ul>
+                  <li>
+                    Majan was the first HEI to achieve full institutional
+                    accreditation by the OAAA (2017)
+                  </li>
+                  <li>
+                    Top Brand in Private Higher Education in Oman April 2017
+                    (Oman Observer)
+                  </li>
+                  <li>
+                    Best Performing Company (small caps.) 3 years in a raw Aug
+                    2016 (AIWA Magasine & MSM)
+                  </li>
+                  <li>
+                    Champions of Oman in the International Football Competition
+                    “Neymar Jr' five” and represented Oman in the World Cup in
+                    Brazil Jul 2016
+                  </li>
+                  <li>
+                    Second Most Trusted Brand in Higher Education after SQU at
+                    the level of both Public and private Institutions and the
+                    first Most Trusted brand in Higher Education in private
+                    higher education sector in Sep 2015 Second Best Performing
+                    Company 2014 (MSM & KPMG).
+                  </li>
+                  <li>Champions of GCC Five a side Tournament Feb 2014</li>
+                  <li>
+                    Observer - An overall 19th position among the top 180 brands
+                    across all categories (2011)
+                  </li>
+                  <li>Observer - Best Private College (2011)</li>
+                  <li>
+                    Strong Academic Environment and excellent learning and
+                    teaching experience
+                  </li>
+                  <li>Strong employability of graduates</li>
+                  <li>Students chosen for their skills and dexterity</li>
+                  <li>Students have a voice in the scheme of affairs</li>
+                  <li>
+                    Multicultural members of staff provide a culturally diverse
+                    environment
+                  </li>
+                  <li>
+                    Degrees awarded by internationally recognized universities
+                  </li>
+                </ul>
               </div>
             </Col>
             <Col className="col-12 col-cam-img">
@@ -95,7 +119,7 @@ export default function CampusSlider() {
         </Container>
       </section>
 
-      <section className="cam-video-sec">
+      <section className="cam-video-sec pt-5 pt-xl-6 px-lg-5 px-xl-6 pb-5 pb-xl-6">
         <div className="cam-video-cover">
           <div className="ratio ratio-16x9">
             <iframe
@@ -205,7 +229,7 @@ export default function CampusSlider() {
         </div>
       </section>
 
-      <section className="cam-sport-sec">
+      <section className="cam-sport-sec pt-5 pt-xl-6 px-lg-5 px-xl-6 pb-5 pb-xl-6">
         <Container fluid>
           <Row>
             <Col xs={12}>
@@ -354,10 +378,12 @@ export default function CampusSlider() {
           <Row>
             <Col xs={12}>
               <div className="sport-majan-txt">
-                <p>
+                <h5>
                   Other activities can be available on request as well as
                   personal training sessions for students on and off campus.
                   Please visit the Student Services Centre for more details.
+                </h5>
+                <p>
                   Opportunities to play friendly matches against other colleges
                   are offered throughout the year as well as the chance to try
                   out for the college teams and play in the inter college and
@@ -369,7 +395,7 @@ export default function CampusSlider() {
         </Container>
       </section>
 
-      <section className="cam-sport-info-sec">
+      <section className="cam-sport-info-sec pt-5 ps-lg-5 ps-xl-6 pb-5 pb-xl-6">
         <Container fluid className="px-0">
           <Row className="gx-0">
             <Col className="col-12 col-lg-6">
@@ -379,16 +405,22 @@ export default function CampusSlider() {
                 </h4>
                 <ul>
                   <li>
-                    Sultan AL Raqqadi: Fanjaa Football Club and Football
-                    national team goalkeeper.
+                    <span>Sultan AL Raqqadi:</span> Fanjaa Football Club and
+                    Football national team goalkeeper.
                   </li>
-                  <li>Jaffar Al Balushi: Oman Club football player.</li>
                   <li>
-                    Ali Aulad Thani and Muhannad Al Shibli: Boshar Football
-                    player and U22 Football National Team,
+                    <span>Jaffar Al Balushi:</span> Oman Club football player.
                   </li>
-                  <li>Ayman Al Qasmi: Oman Swimming Team,</li>
-                  <li>Aina Hamimi : Oman Female Athletics Team.</li>
+                  <li>
+                    <span>Ali Aulad Thani and Muhannad Al Shibli:</span> Boshar
+                    Football player and U22 Football National Team,
+                  </li>
+                  <li>
+                    <span>Ayman Al Qasmi:</span> Oman Swimming Team,
+                  </li>
+                  <li>
+                    <span>Aina Hamimi:</span> Oman Female Athletics Team.
+                  </li>
                 </ul>
                 <h4>Majan's Team won many competitions such as:</h4>
                 <ul>
@@ -414,11 +446,6 @@ export default function CampusSlider() {
             <Col className="col-12 col-lg-6">
               <div className="cam-sport-img">
                 <img src="images/cam-sport-info-img.jpg" alt="Image" />
-                <div className="cam-sport-shape">
-                  <svg height={0} width={0}>
-                    <defs />
-                  </svg>
-                </div>
               </div>
             </Col>
           </Row>

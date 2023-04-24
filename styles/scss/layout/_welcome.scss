@@ -5,7 +5,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 2rem;
+  bottom: 4rem;
   width: 68px;
   height: 68px;
   margin: 0 auto;
@@ -24,7 +24,7 @@
   overflow: auto;
 }
 
-.wel-slider-bg-graphics {
+.sec-bg-graphics {
   position: absolute;
   left: 0;
   right: 0;
@@ -53,21 +53,34 @@
   }
 }
 
+.wel-slider-sec {
+  position: relative;
+  height: 100%;
+  background-color: #e5e5e7;
+}
+
 .wel-slider-cover {
   position: relative;
-  background-color: #e5e5e7;
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
   .wel-slider {
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    height: 100%;
     img {
       width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 }
 
+.wel-dean-sec {
+  position: relative;
+  background-color: #e5e5e7;
+}
+
 .wel-dean-cover {
   position: relative;
-  padding: 4rem 4rem 0;
-  background-color: #e5e5e7;
+
   .dean-img {
     max-width: 700px;
     margin-left: auto;
@@ -294,7 +307,7 @@
   background-color: var(--white);
 }
 
-.att-bg-graphics {
+.sec-bg-graphics {
   position: absolute;
   left: 0;
   top: 0;
@@ -318,7 +331,6 @@
 .credo-cover {
   position: relative;
   height: 100%;
-  padding: 4rem 4rem 4rem;
   .credo-hd {
     margin-bottom: 2.5rem;
     h4 {
@@ -346,7 +358,6 @@
 .attr-cover {
   position: relative;
   height: 100%;
-  padding: 4rem 4rem 4rem;
   background-color: var(--spe-color-400);
   .attr-hd {
     margin-bottom: 4rem;
@@ -371,7 +382,6 @@
 
 .partners-sec {
   position: relative;
-  padding: 4rem 4rem 4rem;
   background-color: #f1f1f1;
 }
 
@@ -449,7 +459,6 @@
 
 .achievement-caro-cover {
   position: relative;
-  padding: 4rem 4rem 4rem;
 }
 
 .achievement-hd {
@@ -583,7 +592,6 @@
 
 .wel-video-sec {
   position: relative;
-  padding: 4rem 4rem 4rem;
   background-color: var(--spe-color-200);
 }
 
@@ -642,7 +650,7 @@
   }
 }
 
-.wel-vid-bg-grphics {
+.sec-bg-graphics {
   position: absolute;
   left: 0;
   top: 0;

@@ -77,23 +77,24 @@ export default function WelcomeSlider() {
   };
   return (
     <section className="welcome-slider-sec">
-      <div className="wel-slider-bg-graphics">
-        <div className="social-shape"></div>
-        <div className="slider-d-shape"></div>
-      </div>
-
       <section className="wel-slider-sec">
-        <div className="wel-slider-cover">
-          <div className="wel-slider">
-            <img src="images/welcome-slider-01.jpg" alt="Image" />
-          </div>
-          <div className="down-arrow">
-            <img src="images/arrow-down.png" alt="Down Arrow" />
+        <div className="sec-bg-graphics">
+          <div className="social-shape"></div>
+          <div className="slider-d-shape"></div>
+        </div>
+        <div className="sec-con-cover h-100">
+          <div className="wel-slider-cover">
+            <div className="wel-slider">
+              <img src="images/welcome-slider-01.jpg" alt="Image" />
+            </div>
+            <div className="down-arrow">
+              <img src="images/arrow-down.png" alt="Down Arrow" />
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="wel-dean-sec">
+      <section className="wel-dean-sec  pt-5 pt-xl-6 px-lg-5 px-xl-6">
         <div className="wel-dean-cover">
           <Row className="d-flex align-items-end">
             <Col xs={12} lg={6}>
@@ -223,7 +224,7 @@ export default function WelcomeSlider() {
           <Container fluid className="px-0">
             <Row className="g-0">
               <Col xs={12} lg={6}>
-                <div className="abt-maj-content">
+                <div className="abt-maj-content px-5 px-xl-6 py-5 py-xl-6">
                   <h3>ABOUT MAJAN</h3>
                   <p>
                     Established in 1995 as the first private sector college in
@@ -316,14 +317,14 @@ export default function WelcomeSlider() {
       </section>
 
       <section className="attribute-sec">
-        <div className="att-bg-graphics">
+        <div className="sec-bg-graphics">
           <div className="att-shape"></div>
         </div>
-        <div className="attribute-cover">
+        <div className="sec-con-cover">
           <div className="container-fluid px-0">
             <div className="row g-0">
               <div className="col-12 col-lg-6">
-                <div className="credo-cover">
+                <div className="credo-cover px-5 px-xl-6 py-5 py-xl-6">
                   <div className="credo-hd">
                     <h4>The Majan University College Teaching CREDO</h4>
                     <p>
@@ -342,7 +343,7 @@ export default function WelcomeSlider() {
                 </div>
               </div>
               <div className="col-12 col-lg-6">
-                <div className="attr-cover">
+                <div className="attr-cover px-5 px-xl-6 py-5 py-xl-6">
                   <div className="attr-hd">
                     <h4>
                       Graduate <br />
@@ -359,7 +360,7 @@ export default function WelcomeSlider() {
         </div>
       </section>
 
-      <section className="partners-sec">
+      <section className="partners-sec px-5 px-xl-6 py-5 py-xl-6">
         <div className="container-fluid">
           <div className="row">
             <div className="col-12">
@@ -432,7 +433,7 @@ export default function WelcomeSlider() {
         <div className="achievement-cover">
           <div className="row g-0">
             <div className="col-12 col-ach-caro">
-              <div className="achievement-caro-cover">
+              <div className="achievement-caro-cover px-5 px-xl-6 py-5 py-xl-6">
                 <div className="achievement-hd">
                   <h3>Achievements</h3>
                 </div>
@@ -539,27 +540,29 @@ export default function WelcomeSlider() {
         </div>
       </section>
 
-      <section className="wel-video-sec">
-        <div className="wel-vid-bg-grphics">
+      <section className="wel-video-sec px-5 px-xl-6 py-5 py-xl-6">
+        <div className="sec-bg-graphics">
           <div className="vid-shape shape-01"></div>
           <div className="vid-shape shape-02"></div>
           <div className="vid-shape shape-03"></div>
         </div>
-        <div className="wel-video-cover">
-          <div className="wel-video">
-            <video id="storyVideo" loop poster="images/wel-video-poster.jpg">
-              <source src="videos/story.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <div className="wel-video-body">
-            <div className="wel-vid-play">
-              <div className="buttons">
-                <button className="btn btnPlay">
-                  <img src="images/play-icon.svg" alt="Pause" />
-                </button>
-                <button className="btn btnPause">
-                  <img src="images/pause-icon.svg" alt="Pause" />
-                </button>
+        <div className="sec-con-cover">
+          <div className="wel-video-cover">
+            <div className="wel-video">
+              <video id="storyVideo" loop poster="images/wel-video-poster.jpg">
+                <source src="videos/story.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div className="wel-video-body">
+              <div className="wel-vid-play">
+                <div className="buttons">
+                  <button className="btn btnPlay">
+                    <img src="images/play-icon.svg" alt="Pause" />
+                  </button>
+                  <button className="btn btnPause">
+                    <img src="images/pause-icon.svg" alt="Pause" />
+                  </button>
+                </div>
               </div>
             </div>
           </div>
