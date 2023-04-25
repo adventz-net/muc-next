@@ -4,7 +4,7 @@
   overflow: auto;
 }
 
-.cam-slider-bg-graphics {
+.sec-bg-graphics {
   position: absolute;
   left: 0;
   right: 0;
@@ -171,6 +171,7 @@
   position: relative;
   background-image: url(../../../public/images/cam-fitness-bg.jpg);
   background-size: cover;
+  overflow: hidden;
 }
 
 .cam-fitness-cover {
@@ -197,9 +198,11 @@
       font-size: 1.5rem;
       font-weight: var(--font-weight-medium);
       margin: 0 0 1.5rem 0;
+      text-align: justify;
     }
     p {
       color: var(--bk-grade-750);
+      text-align: justify;
     }
   }
   .cam-d-shape {
@@ -317,6 +320,7 @@
   p {
     color: var(--white);
     margin: 0 0 1rem 0;
+    text-align: justify;
   }
 }
 

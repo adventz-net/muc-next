@@ -389,6 +389,9 @@
     width: 350px;
     height: 350px;
   }
+  .campus-intro {
+    padding: 10rem 2rem 4rem 6rem;
+  }
 }
 
 @media (max-width: 1440px) {
@@ -403,7 +406,7 @@
   }
   .slider-nav .logo {
     flex: 0 0 200px;
-    max-width: 260px;
+    max-width: 200px;
   }
   .btm-university {
     flex: 0 0 350px;
@@ -455,6 +458,135 @@
   .shape-slider .slider-shape.shape-04 {
     width: 350px;
     height: 350px;
+  }
+  .slider-nav .logo {
+    flex: 0 0 125px;
+    max-width: 125px;
+  }
+  .slider-nav .nav-link {
+    padding: 0.25rem 1rem;
+  }
+  .btm-university {
+    flex: 0 0 250px;
+    padding: 0.25rem 0.5rem;
+  }
+  .sec-bg-graphics .social-shape {
+    width: 200px;
+    height: 200px;
+  }
+  .sec-bg-graphics .slider-d-shape {
+    width: 80px;
+    height: 100px;
+  }
+  .wel-dean-cover .dean-img {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .vision-item .vision-it-body {
+    left: 4rem;
+    top: 6rem;
+  }
+  .abt-maj-content h3 {
+    font-size: 2rem;
+  }
+  .sec-bg-graphics .att-shape {
+    width: 60px;
+    height: 100px;
+  }
+  .credo-cover .credo-hd h4 {
+    font-size: 2rem;
+  }
+  .col-ach-caro {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .col-ach-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .col-cam-con {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .col-cam-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .campus-intro {
+    padding: 10rem 2rem 2rem 4rem;
+  }
+  .cam-fitness-cover .cam-fitness-body {
+    padding: 4rem 2rem 4rem;
+  }
+  .cam-fitness-cover .cam-d-shape {
+    width: 60px;
+    height: 100px;
+  }
+  .pgm-slider-hd {
+    margin-bottom: 2rem;
+  }
+  .pgm-slider-hd h2 {
+    font-size: 1.5rem;
+  }
+  .programme-item {
+    max-width: 460px;
+    margin: 0 auto 0.5rem;
+  }
+  .programme-item figure::before,
+  .programme-item figure::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+  }
+  .programme-item .programme-body .overlay h4 {
+    font-size: 1.125rem;
+  }
+  .sec-bg-graphics .pgm-mod-shape {
+    display: none;
+  }
+  .ug-slider-hd h2 {
+    font-size: 2rem;
+    font-weight: var(--font-weight-semibold);
+  }
+  .acc-pgm-overview {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .acc-pgm-overview figure {
+    flex: unset;
+    max-width: unset;
+    margin: 0 0 2rem 0;
+  }
+  .acc-pgm-overview figure .acc-pgm-img {
+    margin-bottom: 1rem;
+  }
+  .acc-pgm-overview .acc-pgm-info {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    padding: 2rem 2rem 2rem 2rem;
+    max-width: unset;
+    background-color: #f9e346;
+    transform: unset;
+  }
+  .acc-pgm-overview .acc-pgm-info h3 {
+    font-size: 1.5rem;
+  }
+  .acc-pgm-overview .acc-pgm-body {
+    flex: unset;
+    padding: 1.5rem 1.5rem;
+  }
+  .con-addr-con {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  .con-addr-con .con-addr-hd h3 {
+    font-size: 2rem;
+  }
+  .con-campus-map-cover .con-campus-map-hd h3 {
+    font-size: 2rem;
+  }
+  .ug-pgm-head-img {
+    max-width: 350px;
   }
 }
 

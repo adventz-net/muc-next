@@ -84,11 +84,13 @@ export default function UGModalTwo() {
         </div>
         <div className="sec-con-cover">
           <Container fluid>
-          <Row>
+            <Row>
               <Col xl={12}>
                 <div className="ug-pgm-admin-hd">
                   <h3>
-                    <span>BSc (Hons) in Computer and Internet Applicationse</span>
+                    <span>
+                      BSc (Hons) in Computer and Internet Applicationse
+                    </span>
                   </h3>
                 </div>
               </Col>
@@ -100,14 +102,23 @@ export default function UGModalTwo() {
                     <Accordion.Header>Programme overview</Accordion.Header>
                     <Accordion.Body>
                       <p>
-                    This programme will equip you with the necessary knowledge and skills for the existing and emerging challenges that a career in computing and internet technology will entail. In addition it prepares graduates to show a high quality of independent thought, flexibility and maturity based on a sound technical knowledge of the field.</p>
+                        This programme will equip you with the necessary
+                        knowledge and skills for the existing and emerging
+                        challenges that a career in computing and internet
+                        technology will entail. In addition it prepares
+                        graduates to show a high quality of independent thought,
+                        flexibility and maturity based on a sound technical
+                        knowledge of the field.
+                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="02c">
                     <Accordion.Header> Programme Structure</Accordion.Header>
                     <Accordion.Body>
                       <p>
-                    Please note that: Programme structures may be subject to change and modules may be offered in any of the semesters in an academic year
+                        Please note that: Programme structures may be subject to
+                        change and modules may be offered in any of the
+                        semesters in an academic year
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -124,7 +135,7 @@ export default function UGModalTwo() {
                 </Accordion>
               </Col>
             </Row>
-            
+
             <Row>
               <Col xl={12}>
                 <div className="ug-pgm-admin-hd">
@@ -141,14 +152,23 @@ export default function UGModalTwo() {
                     <Accordion.Header>Programme overview</Accordion.Header>
                     <Accordion.Body>
                       <p>
-                   This degree programme will equip graduates with the necessary knowledge and technical skills needed to design, create, operate and maintain network infrastructure for modern distributed enterprise computer systems. It will also strengthen their awareness of networking security threats and they will be able to implement networking related configurations.</p>
+                        This degree programme will equip graduates with the
+                        necessary knowledge and technical skills needed to
+                        design, create, operate and maintain network
+                        infrastructure for modern distributed enterprise
+                        computer systems. It will also strengthen their
+                        awareness of networking security threats and they will
+                        be able to implement networking related configurations.
+                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="02c">
                     <Accordion.Header> Programme Structure</Accordion.Header>
                     <Accordion.Body>
                       <p>
-                   Please note that: Programme structures may be subject to change and modules may be offered in any of the semesters in an academic year
+                        Please note that: Programme structures may be subject to
+                        change and modules may be offered in any of the
+                        semesters in an academic year
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -165,7 +185,7 @@ export default function UGModalTwo() {
                 </Accordion>
               </Col>
             </Row>
-            
+
             <Row>
               <Col xl={12}>
                 <div className="ug-pgm-admin-hd">
@@ -182,14 +202,31 @@ export default function UGModalTwo() {
                     <Accordion.Header>Programme overview</Accordion.Header>
                     <Accordion.Body>
                       <p>
-                   The BSc (Computing) programme prepares students to demonstrate in-depth skills and knowledge in relation to IT applications that support business needs.</p>
+                        The BSc (Computing) programme prepares students to
+                        demonstrate in-depth skills and knowledge in relation to
+                        IT applications that support business needs.
+                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="02c">
-                    <Accordion.Header> Salient Features of the Oil & Gas Pathway</Accordion.Header>
+                    <Accordion.Header>
+                      {" "}
+                      Salient Features of the Oil & Gas Pathway
+                    </Accordion.Header>
                     <Accordion.Body>
                       <p>
-                 The programme will equip students for a career in the domain of IT solutions and management in the Oil and Gas Industry. Graduates of the BSc (Hons) Computing (Oil & Gas) programme will be ideally positioned to acquire a job in the oil and gas industry among its IT solution providers. The programme is the first of its kind and is specifically designed for students looking to gain the required competency to help fill a major skills gap within the oil and gas industry. It will provide hands-on experience with technologies like SCADA, Wireless Sensor Network, Industrial Computing, Oil and Gas processes and Industrial Data networks.
+                        The programme will equip students for a career in the
+                        domain of IT solutions and management in the Oil and Gas
+                        Industry. Graduates of the BSc (Hons) Computing (Oil &
+                        Gas) programme will be ideally positioned to acquire a
+                        job in the oil and gas industry among its IT solution
+                        providers. The programme is the first of its kind and is
+                        specifically designed for students looking to gain the
+                        required competency to help fill a major skills gap
+                        within the oil and gas industry. It will provide
+                        hands-on experience with technologies like SCADA,
+                        Wireless Sensor Network, Industrial Computing, Oil and
+                        Gas processes and Industrial Data networks.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -206,7 +243,7 @@ export default function UGModalTwo() {
                 </Accordion>
               </Col>
             </Row>
-            
+
             <Row>
               <Col xl={12}>
                 <div className="ug-pgm-admin-hd">
@@ -223,14 +260,31 @@ export default function UGModalTwo() {
                     <Accordion.Header>Programme overview</Accordion.Header>
                     <Accordion.Body>
                       <p>
-                  The BSc (Computing) programme prepares students to demonstrate in-depth skills and knowledge in relation to IT applications that support business needs.</p>
+                        The BSc (Computing) programme prepares students to
+                        demonstrate in-depth skills and knowledge in relation to
+                        IT applications that support business needs.
+                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="02c">
-                    <Accordion.Header> Salient Features of the Oil & Gas Pathway</Accordion.Header>
+                    <Accordion.Header>
+                      {" "}
+                      Salient Features of the Oil & Gas Pathway
+                    </Accordion.Header>
                     <Accordion.Body>
                       <p>
-                The programme will equip students for a career in the domain of IT solutions and management in the Oil and Gas Industry. Graduates of the BSc (Hons) Computing (Oil & Gas) programme will be ideally positioned to acquire a job in the oil and gas industry among its IT solution providers. The programme is the first of its kind and is specifically designed for students looking to gain the required competency to help fill a major skills gap within the oil and gas industry. It will provide hands-on experience with technologies like SCADA, Wireless Sensor Network, Industrial Computing, Oil and Gas processes and Industrial Data networks.
+                        The programme will equip students for a career in the
+                        domain of IT solutions and management in the Oil and Gas
+                        Industry. Graduates of the BSc (Hons) Computing (Oil &
+                        Gas) programme will be ideally positioned to acquire a
+                        job in the oil and gas industry among its IT solution
+                        providers. The programme is the first of its kind and is
+                        specifically designed for students looking to gain the
+                        required competency to help fill a major skills gap
+                        within the oil and gas industry. It will provide
+                        hands-on experience with technologies like SCADA,
+                        Wireless Sensor Network, Industrial Computing, Oil and
+                        Gas processes and Industrial Data networks.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -251,7 +305,9 @@ export default function UGModalTwo() {
               <Col xl={12}>
                 <div className="ug-pgm-admin-hd">
                   <h3>
-                    <span>BSc (Hons) Computing  Banking Information Systems</span>
+                    <span>
+                      BSc (Hons) Computing Banking Information Systems
+                    </span>
                   </h3>
                 </div>
               </Col>
@@ -263,18 +319,36 @@ export default function UGModalTwo() {
                     <Accordion.Header>Programme overview</Accordion.Header>
                     <Accordion.Body>
                       <p>
-                 The BSc (Computing) programme prepares students to demonstrate in-depth skills and knowledge in relation to applications that support business needs.</p>
+                        The BSc (Computing) programme prepares students to
+                        demonstrate in-depth skills and knowledge in relation to
+                        applications that support business needs.
+                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="02c">
-                    <Accordion.Header> Salient Features of the Banking Information Systems Pathway
-</Accordion.Header>
+                    <Accordion.Header>
+                      {" "}
+                      Salient Features of the Banking Information Systems
+                      Pathway
+                    </Accordion.Header>
                     <Accordion.Body>
                       <p>
-                Technologies like cloud computing, Big Data and the Internet of Things have allowed banks to deliver state of the art customer services to their customers while maintaining the market competitiveness required for winning and retaining business.  This pathway will prepare students for analysing, formulating and implementing the diverse information technology solutions required in the banking sector. It will also provide students with understanding of the various technologies which underpin security measures.
+                        Technologies like cloud computing, Big Data and the
+                        Internet of Things have allowed banks to deliver state
+                        of the art customer services to their customers while
+                        maintaining the market competitiveness required for
+                        winning and retaining business. This pathway will
+                        prepare students for analysing, formulating and
+                        implementing the diverse information technology
+                        solutions required in the banking sector. It will also
+                        provide students with understanding of the various
+                        technologies which underpin security measures.
                       </p>
                       <p>
-                      The programme is the first of its kind in Oman and is specifically for computing graduates looking to gain the required competency to help fill a major skills gap within the Banking Sector.
+                        The programme is the first of its kind in Oman and is
+                        specifically for computing graduates looking to gain the
+                        required competency to help fill a major skills gap
+                        within the Banking Sector.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -295,7 +369,7 @@ export default function UGModalTwo() {
               <Col xl={12}>
                 <div className="ug-pgm-admin-hd">
                   <h3>
-                    <span>BSc(Hons) Computing  Software Engineering</span>
+                    <span>BSc(Hons) Computing Software Engineering</span>
                   </h3>
                 </div>
               </Col>
@@ -307,18 +381,38 @@ export default function UGModalTwo() {
                     <Accordion.Header>Programme overview</Accordion.Header>
                     <Accordion.Body>
                       <p>
-                The BSc (Computing) programme prepares students to demonstrate in-depth skills and knowledge in relation to IT applications that support business needs.</p>
+                        The BSc (Computing) programme prepares students to
+                        demonstrate in-depth skills and knowledge in relation to
+                        IT applications that support business needs.
+                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="02c">
-                    <Accordion.Header> Salient Features of the Banking Information Systems Pathway
-</Accordion.Header>
+                    <Accordion.Header>
+                      {" "}
+                      Salient Features of the Banking Information Systems
+                      Pathway
+                    </Accordion.Header>
                     <Accordion.Body>
                       <p>
-                The BSc (Computing) Software Engineering pathway provides the key technical skills needed to take up jobs in the software engineering domain. The Information Technology industry requires professionals with knowledge and awareness of modern computer techniques and programming skills. The need for high quality, reliable software is becoming increasingly vital as its use continues to grow both generally and in specific environments. 
+                        The BSc (Computing) Software Engineering pathway
+                        provides the key technical skills needed to take up jobs
+                        in the software engineering domain. The Information
+                        Technology industry requires professionals with
+                        knowledge and awareness of modern computer techniques
+                        and programming skills. The need for high quality,
+                        reliable software is becoming increasingly vital as its
+                        use continues to grow both generally and in specific
+                        environments.
                       </p>
                       <p>
-The students will be able to understand and demonstrate the concepts of software quality, the quality models, standards and the methodologies used in software industry. The students will also be able to develop an understanding of the principles, methods, and best practices in software architecture development in Oman in the Information Technology domain.
+                        The students will be able to understand and demonstrate
+                        the concepts of software quality, the quality models,
+                        standards and the methodologies used in software
+                        industry. The students will also be able to develop an
+                        understanding of the principles, methods, and best
+                        practices in software architecture development in Oman
+                        in the Information Technology domain.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

@@ -76,9 +76,9 @@ export default function Home() {
           <div>
             <WelcomeSlider />
           </div>
-          <div>
+          {/* <div>
             <ContentSlider />
-          </div>
+          </div> */}
           <div>
             <CampusSlider />
           </div>
@@ -113,7 +113,7 @@ export default function Home() {
         <Link className="logo" href="/">
           <img src="images/muc-logo.png" alt="MUC Logo" />
         </Link>
-        <button
+        {/* <button
           className="btn-hamburger dropdown-toggle"
           role="button"
           data-bs-toggle="dropdown"
@@ -133,7 +133,7 @@ export default function Home() {
               d="M20 40h60a1 1 0 010 20H20a1 1 0 010-40h30v70"
             />
           </svg>
-        </button>
+        </button> */}
         <Slider
           className="slider slider-nav"
           {...settings02}
@@ -145,9 +145,9 @@ export default function Home() {
           <div>
             <div className="nav-link">Welcome</div>
           </div>
-          <div>
+          {/* <div>
             <div className="nav-link">Contents</div>
-          </div>
+          </div> */}
           <div>
             <div className="nav-link">Campus Life</div>
           </div>

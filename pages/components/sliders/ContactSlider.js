@@ -54,8 +54,8 @@ export default function ContactSlider() {
                           <span className="icon">
                             <i className="bi bi-geo-alt-fill"></i>
                           </span>
-                          Mutrah | Way No. 2621 | Building No. 1986 P.O Box:
-                          710, P.C: 112 | Ruwi | Sultanate of Oman
+                          Mutrah | Way No. 2621 | Building No. 1986 <br /> P.O
+                          Box: 710, P.C: 112 | Ruwi | Sultanate of Oman
                         </li>
                         <li>
                           <hr className="addr-hr" />

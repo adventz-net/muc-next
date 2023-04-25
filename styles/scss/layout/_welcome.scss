@@ -119,9 +119,16 @@
       background-color: var(--white);
       clip-path: polygon(90% 0, 100% 10%, 100% 100%, 0 100%, 0 0);
       h4 {
+        color: var(--bk-grade-950);
         font-size: 1rem;
         font-weight: var(--font-weight-semibold);
         margin: 0 0 1.5rem 0;
+        text-align: justify;
+      }
+      p {
+        color: var(--bk-grade-750);
+        margin: 0 0 1.5rem 0;
+        text-align: justify;
       }
     }
   }
@@ -201,6 +208,7 @@
   }
   p {
     color: var(--white);
+    text-align: justify;
   }
   ul {
     margin-bottom: 1.5rem;
@@ -305,6 +313,7 @@
 .attribute-sec {
   position: relative;
   background-color: var(--white);
+  overflow: hidden;
 }
 
 .sec-bg-graphics {
@@ -342,6 +351,7 @@
     }
     p {
       color: var(--bk-grade-950);
+      text-align: justify;
     }
   }
   figure {
@@ -487,7 +497,7 @@ $spacing: 1.875rem; //Delay between letters
   max-width: 325px;
   height: 325px;
   margin: 125px auto;
-  transform: scale(0.85);
+  transform: scale(0.75);
   .graduate-base {
     position: relative;
     z-index: 10;

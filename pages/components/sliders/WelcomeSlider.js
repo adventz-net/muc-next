@@ -17,6 +17,13 @@ export default function WelcomeSlider() {
     slidesToScroll: 1,
     responsive: [
       {
+        breakpoint: 1080,
+        partnersettings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+        },
+      },
+      {
         breakpoint: 1024,
         partnersettings: {
           slidesToShow: 3,
@@ -168,7 +175,7 @@ export default function WelcomeSlider() {
         <div className="vision-item-cover">
           <Container fluid className="px-0">
             <Row className="g-0">
-              <Col xs={12} md={6} lg={4}>
+              <Col xs={12} lg={4}>
                 <div className="vision-item">
                   <figure>
                     <img src="images/vision-img-01.png" alt="Image" />
@@ -182,7 +189,7 @@ export default function WelcomeSlider() {
                   </div>
                 </div>
               </Col>
-              <Col xs={12} md={6} lg={4}>
+              <Col xs={12} lg={4}>
                 <div className="vision-item bg-mission">
                   <figure>
                     <img src="images/vision-img-02.png" alt="Image" />
@@ -197,7 +204,7 @@ export default function WelcomeSlider() {
                   </div>
                 </div>
               </Col>
-              <Col xs={12} md={6} lg={4}>
+              <Col xs={12} lg={4}>
                 <div className="vision-item bg-values">
                   <figure>
                     <img src="images/vision-img-03.png" alt="Image" />

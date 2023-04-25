@@ -90,7 +90,7 @@ export default function UGModalThree() {
                   <h3>
                     <span>BA (Honours) in English Language</span>
                   </h3>
-                </div> 
+                </div>
               </Col>
             </Row>
             <Row>
