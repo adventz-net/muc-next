@@ -868,3 +868,39 @@
     }
   }
 }
+
+.acc-course-str-cover {
+  position: relative;
+  max-width: 800px;
+  padding: 1.5rem;
+  margin: 0.5rem;
+  background-color: var(--spe-color-100);
+  clip-path: polygon(95% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
+  .icon {
+    margin-bottom: 2rem;
+  }
+}
+
+.course-srt-list {
+  display: flex;
+  flex-wrap: wrap;
+  .course-str-item {
+    flex: 0 1 auto;
+    margin: 0.25rem 0.5rem;
+    h4 {
+      color: var(--white);
+      font-size: 1.5rem;
+      font-weight: var(--font-weight-semibold);
+      margin: 0 0 0.25rem;
+    }
+    p {
+      color: var(--white);
+      margin: 0 0 0.25rem;
+    }
+    .plus {
+      color: var(--white);
+      font-size: 2.5rem;
+      font-weight: var(--font-weight-semibold);
+    }
+  }
+}

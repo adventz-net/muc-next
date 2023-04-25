@@ -6,6 +6,8 @@ import UGModalOne from "./UGModalOne";
 import UGModalTwo from "./UGModalTwo";
 import UGModalThree from "./UGModalThree";
 import UGModalFour from "./UGModalFour";
+import UGModalFive from "./UGModalFive";
+import UGModalSix from "./UGModalSix";
 import UGModalEight from "./UGModalEight";
 import UGModalNine from "./UGModalNine";
 import UGModalTen from "./UGModalTen";
@@ -17,6 +19,8 @@ export default function ProgrammesSlider() {
   const [showModal02, setShowModal02] = useState(false);
   const [showModal03, setShowModal03] = useState(false);
   const [showModal04, setShowModal04] = useState(false);
+  const [showModal05, setShowModal05] = useState(false);
+  const [showModal06, setShowModal06] = useState(false);
   const [showModal08, setShowModal08] = useState(false);
   const [showModal09, setShowModal09] = useState(false);
   const [showModal10, setShowModal10] = useState(false);
@@ -34,6 +38,12 @@ export default function ProgrammesSlider() {
 
   const handleCloseModal04 = () => setShowModal04(false);
   const handleShowModal04 = () => setShowModal04(true);
+
+  const handleCloseModal05 = () => setShowModal05(false);
+  const handleShowModal05 = () => setShowModal05(true);
+
+  const handleCloseModal06 = () => setShowModal06(false);
+  const handleShowModal06 = () => setShowModal06(true);
 
   const handleCloseModal08 = () => setShowModal08(false);
   const handleShowModal08 = () => setShowModal08(true);
@@ -110,6 +120,36 @@ export default function ProgrammesSlider() {
           </Modal.Header>
           <Modal.Body>
             <UGModalFour />
+          </Modal.Body>
+        </Modal>
+
+        <Modal
+          className="pgm-modal"
+          show={showModal05}
+          onHide={handleCloseModal05}
+        >
+          <Modal.Header>
+            <button className="btn-modal-close" onClick={handleCloseModal05}>
+              <i className="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <UGModalFive />
+          </Modal.Body>
+        </Modal>
+
+        <Modal
+          className="pgm-modal"
+          show={showModal06}
+          onHide={handleCloseModal06}
+        >
+          <Modal.Header>
+            <button className="btn-modal-close" onClick={handleCloseModal06}>
+              <i className="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <UGModalSix />
           </Modal.Body>
         </Modal>
 
@@ -304,7 +344,7 @@ export default function ProgrammesSlider() {
               <Link
                 href=""
                 className="programme-item"
-                onClick={handleShowModal01}
+                onClick={handleShowModal05}
               >
                 <figure>
                   <div className="programme-img">
@@ -322,7 +362,7 @@ export default function ProgrammesSlider() {
               <Link
                 href=""
                 className="programme-item"
-                onClick={handleShowModal01}
+                onClick={handleShowModal06}
               >
                 <figure>
                   <div className="programme-img">

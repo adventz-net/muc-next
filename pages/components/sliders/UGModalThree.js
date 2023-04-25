@@ -90,14 +90,7 @@ export default function UGModalThree() {
                   <h3>
                     <span>BA (Honours) in English Language</span>
                   </h3>
-                </div>
-                <div className="text-white">
-                  <p>
-                    The programme offers the following pathways, to provide
-                    sudents with an opportunity to gain indepth knowledge in
-                    their chosen area of specialisation
-                  </p>
-                </div>
+                </div> 
               </Col>
             </Row>
             <Row>

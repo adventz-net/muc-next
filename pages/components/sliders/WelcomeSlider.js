@@ -255,11 +255,14 @@ export default function WelcomeSlider() {
                       </Accordion.Header>
                       <Accordion.Body>
                         <ul>
-                          <li>Excellence</li>
-                          <li>Integrity</li>
-                          <li>Creativity</li>
-                          <li>Teamwork</li>
-                          <li>Inclusivity</li>
+                          <li>General</li>
+                          <li>Human Resource Management</li>
+                          <li>Information Systems</li>
+                          <li>Tourism & Event Management</li>
+                          <li>Transport and Operations Management</li>
+                          <li>Small Business</li>
+                          <li>Marketing</li>
+                          <li>Accounting</li>
                         </ul>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -292,11 +295,9 @@ export default function WelcomeSlider() {
                       </Accordion.Header>
                       <Accordion.Body>
                         <ul>
-                          <li>Excellence</li>
-                          <li>Integrity</li>
-                          <li>Creativity</li>
-                          <li>Teamwork</li>
-                          <li>Inclusivity</li>
+                          <li>Oil & Gas (Regular & On/Off)</li>
+                          <li>Software Engineering</li>
+                          <li>Banking Information Systems</li>
                         </ul>
                       </Accordion.Body>
                     </Accordion.Item>
