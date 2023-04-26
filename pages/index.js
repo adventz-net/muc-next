@@ -173,7 +173,7 @@ export default function Home() {
             <div className="nav-link">Contact Us</div>
           </div>
         </Slider>
-        <div className="slider-counter">1/11</div>
+        {/* <div className="slider-counter">1/11</div> */}
         <div className="btm-university">
           <div className="uni-item">
             <img
