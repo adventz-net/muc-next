@@ -104,12 +104,12 @@ export default function WelcomeSlider() {
       <section className="wel-dean-sec  pt-5 pt-xl-6 px-lg-5 px-xl-6">
         <div className="wel-dean-cover">
           <Row className="d-flex align-items-end">
-            <Col xs={12} lg={6}>
+            <Col xs={12} xl={6}>
               <div className="dean-img">
                 <img src="images/maha-kobeil-img.png" alt="Image" />
               </div>
             </Col>
-            <Col xs={12} lg={6}>
+            <Col xs={12} xl={6}>
               <div className="dean-content">
                 <div className="dean-con-hd">
                   <div className="dean-name">Dr. Maha Kobeil</div>
@@ -175,7 +175,7 @@ export default function WelcomeSlider() {
         <div className="vision-item-cover">
           <Container fluid className="px-0">
             <Row className="g-0">
-              <Col xs={12} lg={4}>
+              <Col xs={12} xl={4}>
                 <div className="vision-item">
                   <figure>
                     <img src="images/vision-img-01.png" alt="Image" />
@@ -189,7 +189,7 @@ export default function WelcomeSlider() {
                   </div>
                 </div>
               </Col>
-              <Col xs={12} lg={4}>
+              <Col xs={12} xl={4}>
                 <div className="vision-item bg-mission">
                   <figure>
                     <img src="images/vision-img-02.png" alt="Image" />
@@ -204,7 +204,7 @@ export default function WelcomeSlider() {
                   </div>
                 </div>
               </Col>
-              <Col xs={12} lg={4}>
+              <Col xs={12} xl={4}>
                 <div className="vision-item bg-values">
                   <figure>
                     <img src="images/vision-img-03.png" alt="Image" />
@@ -230,7 +230,7 @@ export default function WelcomeSlider() {
         <div className="abt-majan-cover">
           <Container fluid className="px-0">
             <Row className="g-0">
-              <Col xs={12} lg={6}>
+              <Col xs={12} xl={6}>
                 <div className="abt-maj-content px-5 px-xl-6 py-5 py-xl-6">
                   <h3>ABOUT MAJAN</h3>
                   <p>
@@ -257,7 +257,7 @@ export default function WelcomeSlider() {
                   <Accordion className="abt-maj-accordion">
                     <Accordion.Item eventKey="0">
                       <Accordion.Header>
-                        Business Administration (with 8 pathways){" "}
+                        Business Administration (with 8 pathways)
                         <span className="icon"></span>
                       </Accordion.Header>
                       <Accordion.Body>
@@ -314,7 +314,7 @@ export default function WelcomeSlider() {
                   </Accordion>
                 </div>
               </Col>
-              <Col xs={12} lg={6}>
+              <Col xs={12} xl={6}>
                 <div className="abt-maj-img">
                   <img src="images/abt-maj-img.jpg" alt="Image" />
                 </div>
@@ -331,7 +331,7 @@ export default function WelcomeSlider() {
         <div className="sec-con-cover">
           <div className="container-fluid px-0">
             <div className="row g-0">
-              <div className="col-12 col-lg-6">
+              <div xs={12} xl={6}>
                 <div className="credo-cover px-5 px-xl-6 py-5 py-xl-6">
                   <div className="credo-hd">
                     <h4>The Majan University College Teaching CREDO</h4>
@@ -380,7 +380,7 @@ export default function WelcomeSlider() {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-lg-6">
+              <div xs={12} xl={6}>
                 <div className="attr-cover px-5 px-xl-6 py-5 py-xl-6">
                   <div className="graduate-attr-hd">
                     <img src="images/graduate-att-hd.png" alt="HD" />
@@ -624,9 +624,7 @@ export default function WelcomeSlider() {
                       </figure>
                       <div className="ach-caro-it-body">
                         <div className="date">2019</div>
-                        <h4>
-                        AIWA Award for Best Performing Company in 2019
-                        </h4>
+                        <h4>AIWA Award for Best Performing Company in 2019</h4>
                       </div>
                     </div>
                   </div>
@@ -638,8 +636,10 @@ export default function WelcomeSlider() {
                       <div className="ach-caro-it-body">
                         <div className="date">2017</div>
                         <h4>
-                        1st higher education institution to achieve full institutional accreditation by the Oman
-Academic Accreditation Authority and Quality Assurance of Education (OAAAQAE), 2017
+                          1st higher education institution to achieve full
+                          institutional accreditation by the Oman Academic
+                          Accreditation Authority and Quality Assurance of
+                          Education (OAAAQAE), 2017
                         </h4>
                       </div>
                     </div>
@@ -652,9 +652,11 @@ Academic Accreditation Authority and Quality Assurance of Education (OAAAQAE), 2
                       <div className="ach-caro-it-body">
                         <div className="date">2016</div>
                         <h4>
-                       - No 1 in AIWA Awards for Best Performing Companies in 2016 <br>
-                       - Partner of the Year Award' by the University of Bedfordshire in their awards ceremony 2016</br>
-                       - Most Trusted Brand Award by OER, 2016
+                          - No 1 in AIWA Awards for Best Performing Companies in
+                          2016 <br />
+                          - Partner of the Year Award' by the University of
+                          Bedfordshire in their awards ceremony 2016 <br />-
+                          Most Trusted Brand Award by OER, 2016
                         </h4>
                       </div>
                     </div>
@@ -667,8 +669,8 @@ Academic Accreditation Authority and Quality Assurance of Education (OAAAQAE), 2
                       <div className="ach-caro-it-body">
                         <div className="date">2015</div>
                         <h4>
-                        - No 1 in AIWA Awards for Best Performing Companies in 2015 <br>
-                        - Most Trusted Brand Award by OER, 2015
+                          - No 1 in AIWA Awards for Best Performing Companies in
+                          2015 <br />- Most Trusted Brand Award by OER, 2015
                         </h4>
                       </div>
                     </div>
@@ -681,7 +683,8 @@ Academic Accreditation Authority and Quality Assurance of Education (OAAAQAE), 2
                       <div className="ach-caro-it-body">
                         <div className="date">2014</div>
                         <h4>
-                       No 1 in AIWA Awards for Best Performing Companies in 2014 
+                          No 1 in AIWA Awards for Best Performing Companies in
+                          2014
                         </h4>
                       </div>
                     </div>
@@ -694,7 +697,8 @@ Academic Accreditation Authority and Quality Assurance of Education (OAAAQAE), 2
                       <div className="ach-caro-it-body">
                         <div className="date">2013</div>
                         <h4>
-                        No 2 in AIWA Awards for Best Performing Companies in 2013
+                          No 2 in AIWA Awards for Best Performing Companies in
+                          2013
                         </h4>
                       </div>
                     </div>
