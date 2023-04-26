@@ -263,61 +263,6 @@ export default function MtiSlider() {
           </Container>
         </div>
       </section>
-
-      <section className="ug-pgm-form-sec pt-5 px-lg-5 px-xl-6 pb-5 pb-xl-6">
-        <Container fluid>
-          <Row>
-            <Col xl={12}>
-              <div className="ug-pgm-form-cover">
-                <div className="ug-pgm-form">
-                  <div className="form-hd">
-                    <h2>Get in touch with us to know more</h2>
-                  </div>
-                  <div className="form-body">
-                    <Form>
-                      <FloatingLabel
-                        controlId="floatingInput"
-                        label="First Name*"
-                        className="mb-3"
-                      >
-                        <Form.Control type="email" placeholder="First Name*	" />
-                      </FloatingLabel>
-                      <FloatingLabel
-                        controlId="floatingInput"
-                        label="Last Name*"
-                        className="mb-3"
-                      >
-                        <Form.Control type="email" placeholder="Last Name*" />
-                      </FloatingLabel>
-                      <FloatingLabel
-                        controlId="floatingInput"
-                        label="Mobile*"
-                        className="mb-3"
-                      >
-                        <Form.Control type="email" placeholder="Mobile*" />
-                      </FloatingLabel>
-                      <FloatingLabel
-                        controlId="floatingInput"
-                        label="Email*"
-                        className="mb-3"
-                      >
-                        <Form.Control type="email" placeholder="Email*" />
-                      </FloatingLabel>
-                      <div className="form-footer">
-                        <Button className="btn btn-submit">Submit</Button>
-                        <Button className="btn btn-reset">Reset</Button>
-                      </div>
-                    </Form>
-                  </div>
-                </div>
-                <div className="ug-pgm-img">
-                  <img src="images/form-img.jpg" />
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
     </section>
   );
 }
