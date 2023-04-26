@@ -89,7 +89,7 @@ export default function UGModalFour() {
               <Col xl={12}>
                 <Accordion className="ug-pgm-accordian" defaultActiveKey="01">
                   <Accordion.Item eventKey="01">
-                    <Accordion.Header>General Information:</Accordion.Header>
+                    <Accordion.Header>General Information</Accordion.Header>
                     <Accordion.Body>
                       <div className="acc-pgm-overview">
                         <figure>
@@ -217,7 +217,7 @@ export default function UGModalFour() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="">Fees Structure</Link>
+                        <Link href="https://majancollege.edu.om/fees" target="_blank">Fees Structure</Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

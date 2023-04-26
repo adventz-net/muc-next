@@ -172,7 +172,7 @@ export default function UGModalThree() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="">Fees Structure</Link>
+                        <Link href="https://majancollege.edu.om/fees#under" target="_blank">Fees Structure</Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

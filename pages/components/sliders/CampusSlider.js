@@ -63,52 +63,24 @@ export default function CampusSlider() {
                 <div className="campus-intro">
                   <h3>Campus life</h3>
                   <h5>
-                    <span>Why choose Majan ?</span>
+                    <span>Why Study at Majan?</span>
                   </h5>
+                  <p>Majan University College is:</p>
                   <ul>
                     <li>
-                      Majan was the first HEI to achieve full institutional
-                      accreditation by the OAAA (2017)
+                    The first private college in Oman and maintains its dynamism by offering high quality education
+comparable to international standards
                     </li>
                     <li>
-                      Top Brand in Private Higher Education in Oman April 2017
-                      (Oman Observer)
+                    A leader in enhancing a student-centered learning approach with a focus on development of
+employability skills
                     </li>
                     <li>
-                      Best Performing Company (small caps.) 3 years in a raw Aug
-                      2016 (AIWA Magasine & MSM)
+                    Provides you with a unique learning environment with both physical and online learning resources at
+your disposal
                     </li>
                     <li>
-                      Champions of Oman in the International Football
-                      Competition “Neymar Jr' five” and represented Oman in the
-                      World Cup in Brazil Jul 2016
-                    </li>
-                    <li>
-                      Second Most Trusted Brand in Higher Education after SQU at
-                      the level of both Public and private Institutions and the
-                      first Most Trusted brand in Higher Education in private
-                      higher education sector in Sep 2015 Second Best Performing
-                      Company 2014 (MSM & KPMG).
-                    </li>
-                    <li>Champions of GCC Five a side Tournament Feb 2014</li>
-                    <li>
-                      Observer - An overall 19th position among the top 180
-                      brands across all categories (2011)
-                    </li>
-                    <li>Observer - Best Private College (2011)</li>
-                    <li>
-                      Strong Academic Environment and excellent learning and
-                      teaching experience
-                    </li>
-                    <li>Strong employability of graduates</li>
-                    <li>Students chosen for their skills and dexterity</li>
-                    <li>Students have a voice in the scheme of affairs</li>
-                    <li>
-                      Multicultural members of staff provide a culturally
-                      diverse environment
-                    </li>
-                    <li>
-                      Degrees awarded by internationally recognized universities
+                    Offers you the expertise of highly qualified academic staff from around the world
                     </li>
                   </ul>
                 </div>

@@ -26,7 +26,7 @@ export default function UGModalFour() {
               <div className="ug-slider-hd">
                 <h2>
                   MASTER OF BUSINESS <br />
-                  ADMINISTRATION ( MBA )
+                  ADMINISTRATION (MBA)
                 </h2>
               </div>
             </div>
@@ -42,7 +42,7 @@ export default function UGModalFour() {
           <div className="pgm-head-shape shape-01"></div>
           <div className="pgm-head-shape shape-02"></div>
         </div>
-        <div className="sec-con-cover">
+        {/* <div className="sec-con-cover">
           <Container fluid>
             <Row>
               <Col xs={12} lg={6}>
@@ -76,7 +76,7 @@ export default function UGModalFour() {
               </Col>
             </Row>
           </Container>
-        </div>
+        </div> */}
       </section>
 
       <section className="ug-pgm-admin-sec pt-5 px-lg-5 px-xl-6 pb-5 pb-md-4">
@@ -89,7 +89,7 @@ export default function UGModalFour() {
               <Col xl={12}>
                 <Accordion className="ug-pgm-accordian" defaultActiveKey="01">
                   <Accordion.Item eventKey="01">
-                    <Accordion.Header>General Information:</Accordion.Header>
+                    <Accordion.Header>General Information</Accordion.Header>
                     <Accordion.Body>
                       <div className="acc-pgm-overview">
                         <figure>
@@ -267,7 +267,7 @@ export default function UGModalFour() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="">Fees Structure</Link>
+                        <Link href="https://majancollege.edu.om/fees" target="_blank">Fees Structure</Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

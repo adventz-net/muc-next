@@ -42,7 +42,7 @@ export default function UGModalEight() {
           <div className="pgm-head-shape shape-01"></div>
           <div className="pgm-head-shape shape-02"></div>
         </div>
-        <div className="sec-con-cover">
+        {/* <div className="sec-con-cover">
           <Container fluid>
             <Row>
               <Col xs={12} lg={6}>
@@ -76,7 +76,7 @@ export default function UGModalEight() {
               </Col>
             </Row>
           </Container>
-        </div>
+        </div> */}
       </section>
 
       <section className="ug-pgm-admin-sec pt-5 px-lg-5 px-xl-6 pb-5 pb-md-4">
