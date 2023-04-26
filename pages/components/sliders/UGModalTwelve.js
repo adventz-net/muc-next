@@ -97,16 +97,6 @@ export default function UGModalTwelve() {
                       </ul>
                     </Accordion.Body>
                   </Accordion.Item>
-                  <Accordion.Item eventKey="04">
-                    <Accordion.Header>Fees structure</Accordion.Header>
-                    <Accordion.Body>
-                      <p>
-                        For the complete details of the fees, please refer to
-                        the &nbsp;
-                        <Link href="">Fees Structure</Link>
-                      </p>
-                    </Accordion.Body>
-                  </Accordion.Item>
                 </Accordion>
               </Col>
             </Row>

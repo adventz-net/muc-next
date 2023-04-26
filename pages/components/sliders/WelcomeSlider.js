@@ -13,7 +13,7 @@ export default function WelcomeSlider() {
     infinite: true,
     speed: 1000,
     autoplay: true,
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 1,
     responsive: [
       {
@@ -65,7 +65,7 @@ export default function WelcomeSlider() {
   };
 
   const settings01 = {
-    infinite: true,
+    infinite: false,
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: false,
@@ -623,7 +623,6 @@ export default function WelcomeSlider() {
                         <img src="images/achievement-img-01.png" alt="Image" />
                       </figure>
                       <div className="ach-caro-it-body">
-                        <div className="date">2019</div>
                         <h4>AIWA Award for Best Performing Company in 2019</h4>
                       </div>
                     </div>
@@ -634,7 +633,6 @@ export default function WelcomeSlider() {
                         <img src="images/achievement-img-01.png" alt="Image" />
                       </figure>
                       <div className="ach-caro-it-body">
-                        <div className="date">2017</div>
                         <h4>
                           1st higher education institution to achieve full
                           institutional accreditation by the Oman Academic
@@ -650,7 +648,6 @@ export default function WelcomeSlider() {
                         <img src="images/achievement-img-01.png" alt="Image" />
                       </figure>
                       <div className="ach-caro-it-body">
-                        <div className="date">2016</div>
                         <h4>
                           - No 1 in AIWA Awards for Best Performing Companies in
                           2016 <br />
@@ -667,7 +664,6 @@ export default function WelcomeSlider() {
                         <img src="images/achievement-img-01.png" alt="Image" />
                       </figure>
                       <div className="ach-caro-it-body">
-                        <div className="date">2015</div>
                         <h4>
                           - No 1 in AIWA Awards for Best Performing Companies in
                           2015 <br />- Most Trusted Brand Award by OER, 2015
@@ -681,7 +677,6 @@ export default function WelcomeSlider() {
                         <img src="images/achievement-img-01.png" alt="Image" />
                       </figure>
                       <div className="ach-caro-it-body">
-                        <div className="date">2014</div>
                         <h4>
                           No 1 in AIWA Awards for Best Performing Companies in
                           2014
@@ -695,7 +690,6 @@ export default function WelcomeSlider() {
                         <img src="images/achievement-img-01.png" alt="Image" />
                       </figure>
                       <div className="ach-caro-it-body">
-                        <div className="date">2013</div>
                         <h4>
                           No 2 in AIWA Awards for Best Performing Companies in
                           2013

@@ -44,7 +44,7 @@ export default function UGModalNine() {
               <Col xl={12}>
                 <Accordion className="ug-pgm-accordian" defaultActiveKey="01">
                   <Accordion.Item eventKey="01">
-                    <Accordion.Header>Intro</Accordion.Header>
+                    <Accordion.Header>Programme Overview</Accordion.Header>
                     <Accordion.Body>
                       <div className="acc-pgm-overview">
                         <figure>
@@ -70,8 +70,8 @@ export default function UGModalNine() {
                             accountancy, finance and management. According to an
                             independent survey conducted among 1,300 employers
                             in 20 countries, ACCA has been rated as the leading
-                            global professional accountancy body in reputation.
-                            ACCA has a global network of 83 offices and centres,
+                            global professional accountancy body in reputation.</p>
+                            <p>ACCA has a global network of 83 offices and centres,
                             147,000 members and 424,000 students around the
                             world. In the Middle East there is a gap in demand
                             and supply of ACCA professionals, making it an ideal
@@ -134,7 +134,7 @@ export default function UGModalNine() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="">Fees Structure</Link>
+                        <Link href="https://majancollege.edu.om/fees" target="_blank">Fees Structure</Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

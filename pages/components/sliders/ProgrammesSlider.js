@@ -377,7 +377,7 @@ export default function ProgrammesSlider() {
                   </div>
                 </Link>
               </Col>
-              <Col xs={12} md={6} lg={4}>
+              {/* <Col xs={12} md={6} lg={4}>
                 <Link
                   href=""
                   className="programme-item"
@@ -394,7 +394,7 @@ export default function ProgrammesSlider() {
                     </div>
                   </div>
                 </Link>
-              </Col>
+              </Col> */}
               <Col xs={12} md={6} lg={4}>
                 <Link
                   href=""

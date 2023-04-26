@@ -52,7 +52,7 @@ export default function UGModalEleven() {
                       <div className="acc-pgm-overview">
                         <figure>
                           <div className="acc-pgm-img">
-                            <img src="images/acca-intro-img.jpg" alt="Image" />
+                            <img src="images/cife-intro-img.jpg" alt="Image" />
                           </div>
                           <div className="acc-pgm-info">
                             <p>Understanding</p>
@@ -92,16 +92,6 @@ export default function UGModalEleven() {
                           <h5>Intakes ongoing every Sept., Feb. and June.</h5>
                         </div>
                       </div>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey="02">
-                    <Accordion.Header>Fees structure</Accordion.Header>
-                    <Accordion.Body>
-                      <p>
-                        For the complete details of the fees, please refer to
-                        the &nbsp;
-                        <Link href="">Fees Structure</Link>
-                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>

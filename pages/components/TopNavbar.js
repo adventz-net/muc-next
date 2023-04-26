@@ -56,11 +56,11 @@ export default function navbarMain() {
         </li>
       </ul> */}
       <ul className="tool-nav">
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link className="nav-link nav-home" href="/">
             <i className="bi bi-house-door-fill"></i>
           </Link>
-        </li>
+        </li> */}
         <li className="nav-item">
           <Link className="nav-link nav-lng" href="">
             AR

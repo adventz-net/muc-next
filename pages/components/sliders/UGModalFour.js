@@ -12,7 +12,7 @@ import {
 export default function UGModalFour() {
   return (
     <section className="ug-modal-cover-sec">
-      <section className="ug-pgm-slider-sec">
+      <section className="ug-pgm-slider-sec bg-dk-blue">
         <div className="sec-bg-graphics">
           <div className="social-shape"></div>
           <div className="pgm-mod-shape shape-01"></div>
@@ -267,7 +267,12 @@ export default function UGModalFour() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="https://majancollege.edu.om/fees" target="_blank">Fees Structure</Link>
+                        <Link
+                          href="https://majancollege.edu.om/fees"
+                          target="_blank"
+                        >
+                          Fees Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
