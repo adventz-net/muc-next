@@ -594,22 +594,7 @@ export default function WelcomeSlider() {
                   ref={achiveSliderNavRef}
                 >
                   <div>
-                    <a className="ach-nav-item">2023</a>
-                  </div>
-                  <div>
-                    <a className="ach-nav-item">2022</a>
-                  </div>
-                  <div>
-                    <a className="ach-nav-item">2021</a>
-                  </div>
-                  <div>
-                    <a className="ach-nav-item">2020</a>
-                  </div>
-                  <div>
                     <a className="ach-nav-item">2019</a>
-                  </div>
-                  <div>
-                    <a className="ach-nav-item">2018</a>
                   </div>
                   <div>
                     <a className="ach-nav-item">2017</a>
@@ -638,10 +623,9 @@ export default function WelcomeSlider() {
                         <img src="images/achievement-img-01.png" alt="Image" />
                       </figure>
                       <div className="ach-caro-it-body">
-                        <div className="date">2023</div>
+                        <div className="date">2019</div>
                         <h4>
-                          Top Omani Brand' in the 'Higher Education' category -
-                          15th of March, 2023
+                        AIWA Award for Best Performing Company in 2019
                         </h4>
                       </div>
                     </div>
@@ -652,10 +636,10 @@ export default function WelcomeSlider() {
                         <img src="images/achievement-img-01.png" alt="Image" />
                       </figure>
                       <div className="ach-caro-it-body">
-                        <div className="date">2023</div>
+                        <div className="date">2017</div>
                         <h4>
-                          Top Omani Brand' in the 'Higher Education' category -
-                          15th of March, 2023
+                        1st higher education institution to achieve full institutional accreditation by the Oman
+Academic Accreditation Authority and Quality Assurance of Education (OAAAQAE), 2017
                         </h4>
                       </div>
                     </div>
@@ -666,10 +650,51 @@ export default function WelcomeSlider() {
                         <img src="images/achievement-img-01.png" alt="Image" />
                       </figure>
                       <div className="ach-caro-it-body">
-                        <div className="date">2023</div>
+                        <div className="date">2016</div>
                         <h4>
-                          Top Omani Brand' in the 'Higher Education' category -
-                          15th of March, 2023
+                       - No 1 in AIWA Awards for Best Performing Companies in 2016 <br>
+                       - Partner of the Year Award' by the University of Bedfordshire in their awards ceremony 2016</br>
+                       - Most Trusted Brand Award by OER, 2016
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="ach-caro-item">
+                      <figure>
+                        <img src="images/achievement-img-01.png" alt="Image" />
+                      </figure>
+                      <div className="ach-caro-it-body">
+                        <div className="date">2015</div>
+                        <h4>
+                        - No 1 in AIWA Awards for Best Performing Companies in 2015 <br>
+                        - Most Trusted Brand Award by OER, 2015
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="ach-caro-item">
+                      <figure>
+                        <img src="images/achievement-img-01.png" alt="Image" />
+                      </figure>
+                      <div className="ach-caro-it-body">
+                        <div className="date">2014</div>
+                        <h4>
+                       No 1 in AIWA Awards for Best Performing Companies in 2014 
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="ach-caro-item">
+                      <figure>
+                        <img src="images/achievement-img-01.png" alt="Image" />
+                      </figure>
+                      <div className="ach-caro-it-body">
+                        <div className="date">2013</div>
+                        <h4>
+                        No 2 in AIWA Awards for Best Performing Companies in 2013
                         </h4>
                       </div>
                     </div>
