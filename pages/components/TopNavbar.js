@@ -9,7 +9,7 @@ export default function navbarMain() {
 
   return (
     <Navbar className="navbar nav-top">
-      <ul className="social-media">
+      {/* <ul className="social-media">
         <li className="sm-item">
           <Link
             type="button"
@@ -54,7 +54,7 @@ export default function navbarMain() {
             <i className="bi bi-linkedin"></i>
           </Link>
         </li>
-      </ul>
+      </ul> */}
       <ul className="tool-nav">
         <li className="nav-item">
           <Link className="nav-link nav-home" href="/">
