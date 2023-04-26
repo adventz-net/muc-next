@@ -68,19 +68,21 @@ export default function CampusSlider() {
                   <p>Majan University College is:</p>
                   <ul>
                     <li>
-                    The first private college in Oman and maintains its dynamism by offering high quality education
-comparable to international standards
+                      The first private college in Oman and maintains its
+                      dynamism by offering high quality education comparable to
+                      international standards
                     </li>
                     <li>
-                    A leader in enhancing a student-centered learning approach with a focus on development of
-employability skills
+                      A leader in enhancing a student-centered learning approach
+                      with a focus on development of employability skills
                     </li>
                     <li>
-                    Provides you with a unique learning environment with both physical and online learning resources at
-your disposal
+                      Provides you with a unique learning environment with both
+                      physical and online learning resources at your disposal
                     </li>
                     <li>
-                    Offers you the expertise of highly qualified academic staff from around the world
+                      Offers you the expertise of highly qualified academic
+                      staff from around the world
                     </li>
                   </ul>
                 </div>
@@ -224,8 +226,8 @@ your disposal
 
         <section className="cam-fitness-sec">
           <div className="cam-fitness-cover">
+            <div className="cam-d-shape"></div>
             <div className="cam-fitness-body">
-              <div className="cam-d-shape"></div>
               <h3>SPORTs AND FITNESS</h3>
               <h5>
                 The Students Services Centre values sport as a positive

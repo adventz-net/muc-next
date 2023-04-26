@@ -207,13 +207,13 @@
   }
   .cam-d-shape {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: -25px;
+    top: 100px;
     width: 125px;
     height: 200px;
     background-color: var(--spe-color-100);
     border-radius: 0% 50% 50% 0% / 0% 50% 50% 0%;
-    transform: translate(-150%, 100px);
+    transform: skew(-15deg);
     z-index: 10;
   }
 }
