@@ -54,7 +54,7 @@ export default function UGModalTwo() {
                       Faculty
                     </div>
                     <div className="ug-pgm-info-name">
-                    Prof. Vijay Nair
+                      Dr. Syed Ziaur Rahman
                     </div>
                   </div>
                   <p>
@@ -128,7 +128,12 @@ export default function UGModalTwo() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="https://majancollege.edu.om/fees#under" target="_blank">Fees Structure</Link>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Fees Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -178,7 +183,12 @@ export default function UGModalTwo() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="https://majancollege.edu.om/fees#under" target="_blank">Fees Structure</Link>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Fees Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -236,7 +246,12 @@ export default function UGModalTwo() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="https://majancollege.edu.om/fees#under" target="_blank">Fees Structure</Link>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Fees Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -248,7 +263,7 @@ export default function UGModalTwo() {
               <Col xl={12}>
                 <div className="ug-pgm-admin-hd">
                   <h3>
-                    <span>BSc (Hons) Computing - Oil & Gas (On / Off)</span>
+                    <span>BSc (Hons) Computing - Oil & Gas (On/Off)</span>
                   </h3>
                 </div>
               </Col>
@@ -294,7 +309,12 @@ export default function UGModalTwo() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="https://majancollege.edu.om/fees#under" target="_blank">Fees Structure</Link>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Fees Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -358,7 +378,12 @@ export default function UGModalTwo() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="https://majancollege.edu.om/fees#under" target="_blank">Fees Structure</Link>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Fees Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -422,7 +447,12 @@ export default function UGModalTwo() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="https://majancollege.edu.om/fees#under" target="_blank">Fees Structure</Link>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Fees Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

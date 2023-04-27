@@ -63,7 +63,7 @@ export default function UGModalOne() {
                   </p>
                   <p>
                     We are increasingly promoting research with impact, studies
-                    that have proven relevance in the omani market.
+                    that have proven relevance in the Omani market.
                   </p>
                 </div>
               </Col>
@@ -114,8 +114,10 @@ export default function UGModalOne() {
                         Accounting, Finance, Information technology, Marketing,
                         Human resource and Strategy. It also enables students to
                         take a broader perspective and ability to interlink
-                        different issues in the process of decision making.</p>
-                        <p>Students of this programme will also learn a broad range
+                        different issues in the process of decision making.
+                      </p>
+                      <p>
+                        Students of this programme will also learn a broad range
                         of managerial capabilities, problem solving and
                         communication skills.
                       </p>
@@ -196,9 +198,11 @@ export default function UGModalOne() {
                         and human aspects and the core concepts underlying the
                         practice of finance and accounting, management
                         principles and the development of successful business
-                        strategies. </p>
-                         <p>It is aimed at developing students' skills
-                        of interpreting and communicating complicated technical
+                        strategies.{" "}
+                      </p>
+                      <p>
+                        It is aimed at developing students' skills of
+                        interpreting and communicating complicated technical
                         ideas to those with less technical knowledge and
                         prepares them for leadership roles in Business and IT
                         management such as IT consultant, management consultant,
@@ -221,30 +225,33 @@ export default function UGModalOne() {
                         entrepreneurship among students in particular and
                         society in general. Entrepreneurs have a set of personal
                         skills, attributes and behaviour that go beyond the
-                        purely commercial. </p>
-                        <p>The BA (Hons) in Business
-                        Administration with Small Business pathway develops the
-                        skills that are necessary to meet the demands for
-                        setting up and managing own businesses. The programme
-                        provides the business management core that includes an
-                        extensive background in the functional areas of
-                        marketing, accounting, and management; an understanding
-                        of the business environment to include the legal,
-                        economic, behavioural and human aspects; technical
-                        skills in information systems, mathematics and
-                        quantitative analysis; and the ability to communicate,
-                        integrate and synthesise. </p> 
-                        <p>As a graduate you will be able
-                        to integrate the theory and practice which will enable
-                        you to communicate effectively, understand the internal
-                        and external environments of business, appreciate the
-                        legal, ethical, strategic and behavioural contexts of
-                        business decisions, and understand the financial and
-                        economic dynamics which constitute the context for
-                        business activity. You will be also equipped with the
-                        skills, knowledge and methods that are needed to launch
-                        a new enterprise, take over an existing business, or be
-                        a dynamic manager who can make a dramatic difference in
+                        purely commercial.{" "}
+                      </p>
+                      <p>
+                        The BA (Hons) in Business Administration with Small
+                        Business pathway develops the skills that are necessary
+                        to meet the demands for setting up and managing own
+                        businesses. The programme provides the business
+                        management core that includes an extensive background in
+                        the functional areas of marketing, accounting, and
+                        management; an understanding of the business environment
+                        to include the legal, economic, behavioural and human
+                        aspects; technical skills in information systems,
+                        mathematics and quantitative analysis; and the ability
+                        to communicate, integrate and synthesise.{" "}
+                      </p>
+                      <p>
+                        As a graduate you will be able to integrate the theory
+                        and practice which will enable you to communicate
+                        effectively, understand the internal and external
+                        environments of business, appreciate the legal, ethical,
+                        strategic and behavioural contexts of business
+                        decisions, and understand the financial and economic
+                        dynamics which constitute the context for business
+                        activity. You will be also equipped with the skills,
+                        knowledge and methods that are needed to launch a new
+                        enterprise, take over an existing business, or be a
+                        dynamic manager who can make a dramatic difference in
                         the future of a small business.
                       </p>
                     </Accordion.Body>
@@ -318,8 +325,9 @@ export default function UGModalOne() {
                         retail marketing and related marketing decisions. It
                         will enhance students' ability to apply the theoretical
                         knowledge to analysis and evaluation of marketing
-                        problems using appropriate market research techniques.</p>
-                        <p>
+                        problems using appropriate market research techniques.
+                      </p>
+                      <p>
                         The subjects covered include marketing strategy and
                         campaign planning, public relations, event management
                         and journalism, working across different media and
@@ -349,17 +357,22 @@ export default function UGModalOne() {
                   <Accordion.Item eventKey="03b">
                     <Accordion.Header>Fees structure</Accordion.Header>
                     <Accordion.Body>
-                    <p>
+                      <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="https://majancollege.edu.om/fees#under" target="_blank">Fees Structure</Link>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Fees Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
               </Col>
             </Row>
-            
+
             <Row>
               <Col xl={12}>
                 <div className="ug-pgm-admin-hd">
@@ -413,10 +426,15 @@ export default function UGModalOne() {
                   <Accordion.Item eventKey="03c">
                     <Accordion.Header>Fees structure</Accordion.Header>
                     <Accordion.Body>
-                    <p>
+                      <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="https://majancollege.edu.om/fees#under" target="_blank">Fees Structure</Link>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Fees Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -486,10 +504,15 @@ export default function UGModalOne() {
                   <Accordion.Item eventKey="03c">
                     <Accordion.Header>Fees structure</Accordion.Header>
                     <Accordion.Body>
-                    <p>
+                      <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="https://majancollege.edu.om/fees#under" target="_blank">Fees Structure</Link>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Fees Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -553,7 +576,12 @@ export default function UGModalOne() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="https://majancollege.edu.om/fees#under" target="_blank">Fees Structure</Link>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Fees Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

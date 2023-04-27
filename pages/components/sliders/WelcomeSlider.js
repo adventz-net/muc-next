@@ -114,7 +114,7 @@ export default function WelcomeSlider() {
                 <div className="dean-con-hd">
                   <div className="dean-name">Dr. Maha Kobeil</div>
                   <div className="dean-desig">
-                    The Dean <br />
+                    Dean & CEO <br />
                     Majan University College
                   </div>
                 </div>
@@ -503,7 +503,7 @@ export default function WelcomeSlider() {
                           />
                         </div>
                         <div className="wings-txt">
-                          <p>KNowledgeable</p>
+                          <p>Knowledgeable</p>
                         </div>
                       </div>
                     </div>
@@ -598,6 +598,15 @@ export default function WelcomeSlider() {
                   ref={achiveSliderNavRef}
                 >
                   <div>
+                    <a className="ach-nav-item">2023</a>
+                  </div>
+                  <div>
+                    <a className="ach-nav-item">2022</a>
+                  </div>
+                  <div>
+                    <a className="ach-nav-item">2021</a>
+                  </div>
+                  <div>
                     <a className="ach-nav-item">2019</a>
                   </div>
                   <div>
@@ -621,6 +630,51 @@ export default function WelcomeSlider() {
                   {...settings02}
                   ref={achiveSliderMainRef}
                 >
+                  <div>
+                    <div className="ach-caro-item">
+                      <figure>
+                        <img src="images/achievement-img-01.png" alt="Image" />
+                      </figure>
+                      <div className="ach-caro-it-body">
+                        <h4>
+                          Top Omani Brand' in the 'Higher Education' category -
+                          15th of March, 2023
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="ach-caro-item">
+                      <figure>
+                        <img src="images/achievement-img-01.png" alt="Image" />
+                      </figure>
+                      <div className="ach-caro-it-body">
+                        <h4>
+                          MUC won 4 awards: Student Support, Advance Tech, Best
+                          Exhibitor and eventually the distinguished "Best of
+                          Best" award at the Excellence in Higher Education
+                          Award Event hosted by the Global Higher Education
+                          Expo, GHEDEX 2022.
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div className="ach-caro-item">
+                      <figure>
+                        <img src="images/achievement-img-01.png" alt="Image" />
+                      </figure>
+                      <div className="ach-caro-it-body">
+                        <h4>
+                          MUC won the Internet of Things (IoT) award at the
+                          Future Skills & HRD Conference by GHEDEX Series 2021
+                          held in December at the Crown Plaza, Qurum.
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+
                   <div>
                     <div className="ach-caro-item">
                       <figure>
