@@ -303,7 +303,7 @@ export default function UGModalOne() {
               <Col xl={12}>
                 <div className="ug-pgm-admin-hd">
                   <h3>
-                    <span>BA (Hons) in Marketing</span>
+                    <span>Dip HE / BA (Hons) in Marketing</span>
                   </h3>
                 </div>
               </Col>
@@ -377,7 +377,7 @@ export default function UGModalOne() {
               <Col xl={12}>
                 <div className="ug-pgm-admin-hd">
                   <h3>
-                    <span>BSc (Hons) in E-Business</span>
+                    <span>Dip HE / BSc (Hons) in E-Business</span>
                   </h3>
                 </div>
               </Col>
@@ -445,7 +445,7 @@ export default function UGModalOne() {
               <Col xl={12}>
                 <div className="ug-pgm-admin-hd">
                   <h3>
-                    <span>BA (Hons) in Finance</span>
+                    <span>Dip HE / BA (Hons) in Finance</span>
                   </h3>
                 </div>
               </Col>
@@ -523,7 +523,9 @@ export default function UGModalOne() {
               <Col xl={12}>
                 <div className="ug-pgm-admin-hd">
                   <h3>
-                    <span>BA (Hons) in Islamic Banking and Finance</span>
+                    <span>
+                      Dip HE / BA (Hons) in Islamic Banking and Finance
+                    </span>
                   </h3>
                 </div>
               </Col>

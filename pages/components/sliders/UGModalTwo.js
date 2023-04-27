@@ -326,7 +326,7 @@ export default function UGModalTwo() {
                 <div className="ug-pgm-admin-hd">
                   <h3>
                     <span>
-                      BSc (Hons) Computing Banking Information Systems
+                      BSc (Hons) Computing - Banking Information Systems
                     </span>
                   </h3>
                 </div>
@@ -394,7 +394,7 @@ export default function UGModalTwo() {
               <Col xl={12}>
                 <div className="ug-pgm-admin-hd">
                   <h3>
-                    <span>BSc(Hons) Computing Software Engineering</span>
+                    <span>BSc(Hons) Computing - Software Engineering</span>
                   </h3>
                 </div>
               </Col>

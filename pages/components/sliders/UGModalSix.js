@@ -56,10 +56,10 @@ export default function UGModalFour() {
                     </div>
                   </div>
                   <p>
-                    We at the Postgraduate Centre (PGC) with over 15 years of
-                    experience have developed a delivery format which draws on
-                    the best of the blended learning experience and
-                    contextualises the student's environment.
+                    We at the Postgraduate Centre (PGC) with years of experience
+                    have developed a delivery format which draws on the best of
+                    the blended learning experience and contextualises the
+                    student's environment.
                   </p>
                   <p>
                     We believe that our students are equipped to bring a
@@ -95,15 +95,6 @@ export default function UGModalFour() {
                         <figure>
                           <div className="acc-pgm-img">
                             <img src="images/ma-intro-img.jpg" alt="Image" />
-                          </div>
-                          <div className="acc-pgm-info">
-                            <h3>
-                              With <br /> Over 150 <br /> students
-                            </h3>
-                            <p>
-                              the PG Centre is among the largest in the
-                              Sultanate
-                            </p>
                           </div>
                         </figure>
                         <div className="acc-pgm-body">
@@ -223,7 +214,7 @@ export default function UGModalFour() {
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="04">
-                    <Accordion.Header>Program details</Accordion.Header>
+                    <Accordion.Header>Programme details</Accordion.Header>
                     <Accordion.Body>
                       <div className="acc-pgm-dt-cover">
                         <div className="acc-pgm-dt-list">
@@ -292,7 +283,12 @@ export default function UGModalFour() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="https://majancollege.edu.om/fees" target="_blank">Fees Structure</Link>
+                        <Link
+                          href="https://majancollege.edu.om/fees"
+                          target="_blank"
+                        >
+                          Fees Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
