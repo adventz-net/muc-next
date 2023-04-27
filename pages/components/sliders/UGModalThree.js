@@ -53,7 +53,7 @@ export default function UGModalThree() {
                       Head of <br />
                       Faculty
                     </div>
-                    <div className="ug-pgm-info-name">Dr Amanda</div>
+                    <div className="ug-pgm-info-name">Dr. Amanda Howard</div>
                   </div>
                   <p>
                     BA (Hons) English programme provides you with an enriching
@@ -106,14 +106,6 @@ export default function UGModalThree() {
                               src="images/pgm-overview-img-01.jpg"
                               alt="Image"
                             />
-                          </div>
-                          <div className="acc-pgm-info">
-                            <p>It has</p>
-                            <h3>2,600 students, </h3>
-                            <p>
-                              delivers eight undergraduate degrees and four
-                              master's degrees.
-                            </p>
                           </div>
                         </figure>
                         <div className="acc-pgm-body">
@@ -172,7 +164,12 @@ export default function UGModalThree() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="https://majancollege.edu.om/fees#under" target="_blank">Fees Structure</Link>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Fees Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

@@ -26,7 +26,7 @@ export default function UGModalFour() {
               <div className="ug-slider-hd">
                 <h2>
                   Msc IN COMPUTER <br />
-                  SCIENE
+                  SCIENCE
                 </h2>
               </div>
             </div>
@@ -217,7 +217,12 @@ export default function UGModalFour() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="https://majancollege.edu.om/fees" target="_blank">Fees Structure</Link>
+                        <Link
+                          href="https://majancollege.edu.om/fees"
+                          target="_blank"
+                        >
+                          Fees Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

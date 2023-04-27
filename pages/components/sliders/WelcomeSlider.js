@@ -691,7 +691,7 @@ export default function WelcomeSlider() {
                   <div>
                     <div className="ach-caro-item">
                       <figure>
-                        <img src="images/achievement-img-01.png" alt="Image" />
+                        <img src="images/achievement-img-02.png" alt="Image" />
                       </figure>
                       <div className="ach-caro-it-body">
                         <h4>
