@@ -57,8 +57,22 @@
 }
 
 .con-addr-img {
+  position: relative;
+  height: 100%;
   img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .achieve-img-shape {
+    position: absolute;
+    right: -1px;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background-color: var(--color-100);
+    clip-path: polygon(100% 0, 65% 100%, 100% 100%) !important;
+    clip-path: url("#con-img-shape");
   }
 }
 
@@ -136,6 +150,7 @@
   .map-info-item {
     flex: 1 1 auto;
     display: flex;
+    padding: 0.25rem;
     margin-bottom: 0.5rem;
     .map-info-icon {
       display: flex;

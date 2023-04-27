@@ -401,6 +401,10 @@
 }
 
 @media (max-width: 1280px) {
+  .tool-nav .nav-item .nav-link {
+    width: 75px;
+    height: 75px;
+  }
   .slider-nav {
     height: 75px;
   }
@@ -417,9 +421,16 @@
   }
   .slider-cover {
     height: calc(100vh - 75px);
+    padding-right: 75px;
+  }
+  .slider-cover::after {
+    width: 75px;
   }
   .slider-caption {
     transform: translate(50px, -50%);
+  }
+  .slider-cover .slick-arrow {
+    right: -4rem;
   }
   .pgm-modal {
     height: calc(100% - 75px);
@@ -436,9 +447,12 @@
     max-width: 50%;
   }
   .campus-intro .cam-intro-scroll {
-    height: 250px;
+    height: 350px;
     padding-right: 1rem;
     overflow: auto;
+    ::-webkit-scrollbar-thumb {
+      background-color: var(--white);
+    }
   }
 }
 

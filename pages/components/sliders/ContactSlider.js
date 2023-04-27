@@ -13,12 +13,17 @@ export default function ContactSlider() {
         <div className="sec-con-cover">
           <Container fluid className="px-0">
             <Row className="gx-0">
-              <Col className="col-12 col-xl-7 px-0">
+              <Col className="col-12 col-md-6 col-xl-7 px-0">
                 <div className="con-addr-img">
                   <img src="images/con-address-img.png" alt="Image" />
+                  <div class="achieve-img-shape">
+                    <svg height="0" width="0">
+                      <defs></defs>
+                    </svg>
+                  </div>
                 </div>
               </Col>
-              <Col className="col-12 col-xl-5 px-0">
+              <Col className="col-12 col-md-6 col-xl-5 px-0">
                 <div className="con-addr-con">
                   <div className="con-addr-hd">
                     <h3>Get In Touch</h3>
