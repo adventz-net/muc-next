@@ -104,12 +104,12 @@ export default function WelcomeSlider() {
       <section className="wel-dean-sec  pt-5 pt-xl-6 px-lg-5 px-xl-6">
         <div className="wel-dean-cover">
           <Row className="d-flex align-items-end">
-            <Col xs={12} xl={6}>
+            <Col xs={12} lg={6}>
               <div className="dean-img">
                 <img src="images/maha-kobeil-img.png" alt="Image" />
               </div>
             </Col>
-            <Col xs={12} xl={6}>
+            <Col xs={12} lg={6}>
               <div className="dean-content">
                 <div className="dean-con-hd">
                   <div className="dean-name">Dr. Maha Kobeil</div>
@@ -119,51 +119,55 @@ export default function WelcomeSlider() {
                   </div>
                 </div>
                 <div className="dean-con-body">
-                  <h4>
-                    It is my pleasure to welcome you to Majan University College
-                    (MUC), the first private higher education institution
-                    established in Oman, and an institution that, over almost
-                    three decades of operation, has gained a well-deserved
-                    reputation for maintaining high academic standards.
-                  </h4>
-                  <p>
-                    At Majan, we aim to produce graduates with the
-                    self-confidence, skills, knowledge and values that will
-                    enable them to pursue their chosen career path with success;
-                    to be active and constructive citizens; and to continue
-                    learning and developing as they grow older.
-                  </p>
-                  <p>
-                    MUC has for many years believed in blended learning, because
-                    when students spend significant amounts of time online,
-                    carrying out tasks or searching for information, they
-                    acquire skills that are greatly appreciated in the job
-                    market.Indeed, the experience of the past two years, during
-                    the Covid pandemic, has shown us still more clearly that a
-                    combination of online study and face to face learning,
-                    facilitated by experienced and empathetic lecturers, is the
-                    ideal way to nurture our students. Through a mix of studying
-                    independently and guided tuition from our staff, Majan's
-                    graduates emerge with strong 21st century skills in such key
-                    areas as information literacy, critical thinking, and
-                    collaborative working.
-                  </p>
-                  <p>
-                    In recent times, the College has invested heavily in
-                    facilities and IT infrastructure,with the most visible
-                    example of this being the six-storey Al Maha Building, with
-                    its impressive auditorium and well-equipped classrooms,
-                    offices, and recreational spaces. Yet, in all honesty, it is
-                    not the buildings and infrastructure that provide the key to
-                    Majan University College's continuing success; rather, it is
-                    the warm relationship between the students and all the
-                    College's staff, whether academic or non-academic.
-                  </p>
-                  <h4>
-                    To all prospective students I say this: choose the Majan
-                    experience and join the Majan family. You will never regret
-                    your decision.
-                  </h4>
+                  <div className="dean-con-scroll">
+                    <h4>
+                      It is my pleasure to welcome you to Majan University
+                      College (MUC), the first private higher education
+                      institution established in Oman, and an institution that,
+                      over almost three decades of operation, has gained a
+                      well-deserved reputation for maintaining high academic
+                      standards.
+                    </h4>
+                    <p>
+                      At Majan, we aim to produce graduates with the
+                      self-confidence, skills, knowledge and values that will
+                      enable them to pursue their chosen career path with
+                      success; to be active and constructive citizens; and to
+                      continue learning and developing as they grow older.
+                    </p>
+                    <p>
+                      MUC has for many years believed in blended learning,
+                      because when students spend significant amounts of time
+                      online, carrying out tasks or searching for information,
+                      they acquire skills that are greatly appreciated in the
+                      job market.Indeed, the experience of the past two years,
+                      during the Covid pandemic, has shown us still more clearly
+                      that a combination of online study and face to face
+                      learning, facilitated by experienced and empathetic
+                      lecturers, is the ideal way to nurture our students.
+                      Through a mix of studying independently and guided tuition
+                      from our staff, Majan's graduates emerge with strong 21st
+                      century skills in such key areas as information literacy,
+                      critical thinking, and collaborative working.
+                    </p>
+                    <p>
+                      In recent times, the College has invested heavily in
+                      facilities and IT infrastructure,with the most visible
+                      example of this being the six-storey Al Maha Building,
+                      with its impressive auditorium and well-equipped
+                      classrooms, offices, and recreational spaces. Yet, in all
+                      honesty, it is not the buildings and infrastructure that
+                      provide the key to Majan University College's continuing
+                      success; rather, it is the warm relationship between the
+                      students and all the College's staff, whether academic or
+                      non-academic.
+                    </p>
+                    <h4>
+                      To all prospective students I say this: choose the Majan
+                      experience and join the Majan family. You will never
+                      regret your decision.
+                    </h4>
+                  </div>
                 </div>
               </div>
             </Col>
