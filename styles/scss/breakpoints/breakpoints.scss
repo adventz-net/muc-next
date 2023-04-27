@@ -615,6 +615,33 @@
   }
 }
 
+@media (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) {
+  .down-arrow {
+    width: 48px;
+    height: 48px;
+  }
+  .wel-dean-cover .dean-img {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .wel-dean-cover .dean-content .dean-con-body {
+    padding: 6rem 2rem 2rem;
+  }
+  .wel-dean-cover .dean-content .dean-con-scroll {
+    height: 350px;
+    padding-right: 1rem;
+    overflow: auto;
+  }
+}
+
+/* Portrait */
+@media (max-device-width: 800px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+@media (max-device-width: 1280px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
 @media (max-width: 1023px) {
 }
 

@@ -25,18 +25,21 @@ export default function MainSlider() {
               <div className="slider-shape shape-03"></div>
               <div className="slider-shape shape-04"></div>
               <div className="student-img">
-                <img src="images/slider-student.png" alt="Image" />
+                <img src="images/slider-student-01.png" alt="Image" />
               </div>
             </div>
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className="first-slider">
-            <div className="shape-slider">
+            <div className="student-slider">
               <div className="slider-shape shape-01"></div>
               <div className="slider-shape shape-02"></div>
               <div className="slider-shape shape-03"></div>
               <div className="slider-shape shape-04"></div>
+              <div className="student-img">
+                <img src="images/slider-student-02.png" alt="Image" />
+              </div>
             </div>
           </div>
         </Carousel.Item>
