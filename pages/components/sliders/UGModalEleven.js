@@ -54,13 +54,7 @@ export default function UGModalEleven() {
                           <div className="acc-pgm-img">
                             <img src="images/cife-intro-img.jpg" alt="Image" />
                           </div>
-                          <div className="acc-pgm-info">
-                            <p>Understanding</p>
-                            <h3>
-                              Islamic <br />
-                              Finance
-                            </h3>
-                          </div>
+                          
                         </figure>
                         <div className="acc-pgm-body">
                           <div className="mb-4">

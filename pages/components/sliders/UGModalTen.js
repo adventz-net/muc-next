@@ -54,13 +54,7 @@ export default function UGModalTen() {
                           <div className="acc-pgm-img">
                             <img src="images/cma-intro-img.jpg" alt="Image" />
                           </div>
-                          <div className="acc-pgm-info">
-                            <p>Members in</p>
-                            <h3>
-                              140 <br />
-                              countries
-                            </h3>
-                          </div>
+                          
                         </figure>
                         <div className="acc-pgm-body">
                           <div className="mb-4">
@@ -103,7 +97,7 @@ export default function UGModalTen() {
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="02">
-                    <Accordion.Header>Program details</Accordion.Header>
+                    <Accordion.Header>Programme details</Accordion.Header>
                     <Accordion.Body>
                       <div className="acc-pgm-dt-cover">
                         <div className="acc-pgm-dt-list">
