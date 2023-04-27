@@ -651,8 +651,8 @@ export default function WelcomeSlider() {
                       <div className="ach-caro-it-body">
                         <h4>
                           MUC won 4 awards: Student Support, Advance Tech, Best
-                          Exhibitor and eventually the distinguished "Best of
-                          Best" award at the Excellence in Higher Education
+                          Exhibitor and eventually the distinguished ‘Best of
+                          Best’ award at the Excellence in Higher Education
                           Award Event hosted by the Global Higher Education
                           Expo, GHEDEX 2022.
                         </h4>
@@ -681,7 +681,10 @@ export default function WelcomeSlider() {
                         <img src="images/achievement-img-01.png" alt="Image" />
                       </figure>
                       <div className="ach-caro-it-body">
-                        <h4>AIWA Award for Best Performing Company in 2019</h4>
+                        <h4>
+                          Most Trusted Private Higher Education brand in Oman by
+                          OER, 2019.
+                        </h4>
                       </div>
                     </div>
                   </div>
@@ -780,22 +783,12 @@ export default function WelcomeSlider() {
         </div>
         <div className="sec-con-cover">
           <div className="wel-video-cover">
-            <div className="wel-video">
-              <video id="storyVideo" loop poster="images/wel-video-poster.jpg">
-                <source src="videos/story.mp4" type="video/mp4" />
-              </video>
-            </div>
-            <div className="wel-video-body">
-              <div className="wel-vid-play">
-                <div className="buttons">
-                  <button className="btn btnPlay">
-                    <img src="images/play-icon.svg" alt="Pause" />
-                  </button>
-                  <button className="btn btnPause">
-                    <img src="images/pause-icon.svg" alt="Pause" />
-                  </button>
-                </div>
-              </div>
+            <div className="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/z6l55yJJRII"
+                title="YouTube video player"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
         </div>

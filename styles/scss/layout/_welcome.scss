@@ -830,55 +830,6 @@
   position: relative;
   max-width: 1120px;
   margin: 0 auto;
-  z-index: 10;
-  .wel-video {
-    video {
-      width: 100%;
-      height: 500px;
-      object-fit: cover;
-    }
-  }
-  .wel-video-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    .wel-vid-play {
-      width: 100px;
-      height: 100px;
-      .btn {
-        width: 100px;
-        height: 100%;
-        color: var(--white);
-        font-size: 2rem;
-        padding: 0;
-        background-color: transparent;
-        border: 0;
-        border-radius: 50%;
-        img {
-          width: 100%;
-        }
-        &.btnPause {
-          display: none;
-          opacity: 0;
-          @include transEase;
-        }
-      }
-    }
-  }
-  &:hover {
-    .wel-video-body {
-      .wel-vid-play {
-        .btnPause {
-          opacity: 1;
-        }
-      }
-    }
-  }
 }
 
 .sec-bg-graphics {

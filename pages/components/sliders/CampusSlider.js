@@ -110,8 +110,8 @@ export default function CampusSlider() {
           <div className="cam-video-cover">
             <div className="ratio ratio-16x9">
               <iframe
-                src="https://www.youtube.com/embed/4rWBqkKCBwI"
-                title="Our International Student Community"
+                src="https://www.youtube.com/watch?v=mxrBhXzEaro&t=2s&ab_channel=MajanUniversityCollege"
+                title="MUC | Meet our Superheroes"
                 allowFullScreen
               />
             </div>
