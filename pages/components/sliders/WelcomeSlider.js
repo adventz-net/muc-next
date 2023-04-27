@@ -104,12 +104,12 @@ export default function WelcomeSlider() {
       <section className="wel-dean-sec  pt-5 pt-xl-6 px-lg-5 px-xl-6">
         <div className="wel-dean-cover">
           <Row className="d-flex align-items-end">
-            <Col xs={12} lg={6}>
+            <Col xs={12} md={6}>
               <div className="dean-img">
                 <img src="images/maha-kobeil-img.png" alt="Image" />
               </div>
             </Col>
-            <Col xs={12} lg={6}>
+            <Col xs={12} md={6}>
               <div className="dean-content">
                 <div className="dean-con-hd">
                   <div className="dean-name">Dr. Maha Kobeil</div>
