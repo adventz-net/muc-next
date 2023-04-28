@@ -21,21 +21,21 @@ export default function WelcomeSlider() {
         breakpoint: 1080,
         partnersettings: {
           slidesToShow: 4,
-          slidesToScroll: 4,
+          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 1024,
         partnersettings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 600,
         partnersettings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
         },
       },
       {

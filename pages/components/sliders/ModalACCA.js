@@ -53,6 +53,9 @@ export default function UGModalNine() {
                           </div>
                         </figure>
                         <div className="acc-pgm-body">
+                          <div className="mb-4">
+                            <img src="images/acca-logo.jpg" alt="Logo" />
+                          </div>
                           <p>
                             ACCA (the Association of Chartered Certified
                             Accountants) is the global body for professional

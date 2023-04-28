@@ -96,15 +96,6 @@ export default function UGModalEight() {
                           <div className="acc-pgm-img">
                             <img src="images/cma-intro-img.jpg" alt="Image" />
                           </div>
-                          <div className="acc-pgm-info">
-                            <h3>
-                              With <br /> Over 150 <br /> students
-                            </h3>
-                            <p>
-                              the PG Centre is among the largest in the
-                              Sultanate
-                            </p>
-                          </div>
                         </figure>
                         <div className="acc-pgm-body">
                           <h5>
