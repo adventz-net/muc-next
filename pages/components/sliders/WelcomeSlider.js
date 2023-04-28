@@ -102,10 +102,10 @@ export default function WelcomeSlider() {
         </div>
       </section>
 
-      <section className="wel-dean-sec  pt-5 pt-xl-6 px-lg-5 px-xl-6">
+      <section className="wel-dean-sec  pt-5 pt-xl-6 px-3 px-lg-5 px-xl-6">
         <div className="wel-dean-cover">
-          <Row className="d-flex align-items-end">
-            <Col xs={12} md={6}>
+          <Row>
+            <Col className="col-xs-12 col-md-6 d-flex justify-content-center align-items-end">
               <div className="dean-img">
                 <img src="images/maha-kobeil-img.png" alt="Image" />
               </div>

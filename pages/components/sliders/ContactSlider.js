@@ -83,9 +83,6 @@ export default function ContactSlider() {
 
       <section className="con-map-sec">
         <div className="con-map-cover">
-          <div className="con-map">
-            <img src="images/location-map-img.jpg" alt="Up" />
-          </div>
           <div className="map-info-cover">
             <div className="map-info-item">
               <div className="map-info-icon">
@@ -114,6 +111,9 @@ export default function ContactSlider() {
                 <h4>studentoutreach@majancollege.edu.om</h4>
               </div>
             </div>
+          </div>
+          <div className="con-map">
+            <img src="images/location-map-img.jpg" alt="Up" />
           </div>
         </div>
       </section>

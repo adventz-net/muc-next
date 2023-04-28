@@ -538,6 +538,16 @@
   .pgm-slider-hd h2 {
     font-size: 1.5rem;
   }
+  .programme-item {
+    max-width: 460px;
+    margin: 0 auto 0.5rem;
+  }
+  .programme-item figure::before,
+  .programme-item figure::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+  }
   .programme-item .programme-body .overlay h4 {
     font-size: 1.25rem;
   }
@@ -659,16 +669,12 @@
     flex: 0 0 250px;
     padding: 0.25rem 0.5rem;
   }
-
   .wel-dean-cover .dean-img {
     max-width: 350px;
     margin: 0 auto;
   }
   .wel-dean-cover .dean-content .dean-con-body {
     padding: 6rem 2rem 2rem;
-  }
-  .credo-cover .credo-hd h4 {
-    font-size: 2rem;
   }
   .col-ach-caro {
     flex: 0 0 100%;
@@ -677,27 +683,6 @@
   .col-ach-img {
     flex: 0 0 100%;
     max-width: 100%;
-  }
-  .campus-intro {
-    padding: 10rem 2rem 2rem 4rem;
-  }
-  .cam-fitness-cover .cam-fitness-body {
-    padding: 4rem 2rem 4rem;
-  }
-
-  .programme-item {
-    max-width: 460px;
-    margin: 0 auto 0.5rem;
-  }
-  .programme-item figure::before,
-  .programme-item figure::after {
-    content: "";
-    width: 100px;
-    height: 100px;
-  }
-  .ug-slider-hd h2 {
-    font-size: 2rem;
-    font-weight: var(--font-weight-semibold);
   }
   .acc-pgm-overview {
     flex-wrap: nowrap;
@@ -725,6 +710,35 @@
     flex: 1 1 0;
     padding: 1.5rem 1.5rem;
   }
+  .mti-intro-cover {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .mti-intro-cover figure {
+    flex: 1 1 0;
+    max-width: unset;
+    margin: 0 0 2rem 0;
+  }
+  .mti-intro-cover figure .mti-int-img {
+    margin-bottom: 1rem;
+  }
+  .mti-intro-cover .mti-int-info {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    padding: 2rem 2rem 2rem 2rem;
+    max-width: unset;
+    background-color: #f9e346;
+    transform: unset;
+  }
+  .mti-intro-cover .mti-int-info h3 {
+    font-size: 1.5rem;
+  }
+  .mti-intro-cover .mti-int-body {
+    flex: 1 1 0;
+    padding: 1.5rem 1.5rem;
+  }
 }
 
 /* Portrait */
@@ -739,6 +753,14 @@
 }
 
 @media (max-width: 991px) {
+  .map-info-cover {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
 }
 
 @media (max-width: 767px) {

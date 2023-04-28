@@ -411,7 +411,7 @@ export default function CampusSlider() {
           </Container>
         </section>
 
-        <section className="cam-sport-info-sec pt-5 ps-lg-5 ps-6 ps-xl-6 pb-5 pb-xl-6">
+        <section className="cam-sport-info-sec pt-5 px-5 ps-lg-5  ps-xl-6 pb-5 pb-xl-6">
           <Container fluid className="px-0">
             <Row className="gx-0">
               <Col className="col-12 col-lg-6">

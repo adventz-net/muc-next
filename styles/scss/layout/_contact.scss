@@ -129,9 +129,13 @@
 .con-map-sec {
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 90%);
-  .con-map-cover {
+}
+
+.con-map-cover {
+  .con-map {
     img {
       width: 100%;
+      min-height: 350px;
     }
   }
 }
@@ -150,6 +154,7 @@
   .map-info-item {
     flex: 1 1 auto;
     display: flex;
+    align-items: flex-start;
     padding: 0.25rem;
     margin-bottom: 0.5rem;
     .map-info-icon {
