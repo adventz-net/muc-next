@@ -54,6 +54,7 @@
     color: var(--white);
     font-size: 1.875rem;
     font-weight: var(--font-weight-medium);
+    margin: 0;
     text-transform: uppercase;
   }
 }
@@ -367,9 +368,9 @@
 
 .ug-slider-body {
   position: absolute;
-  left: 30%;
+  left: 20%;
   top: 75%;
-  transform: translate(-50%, -50%);
+  transform: translateY(-50%);
 }
 
 .ug-slider-hd {
@@ -380,6 +381,7 @@
     color: var(--white);
     font-size: 2.5rem;
     font-weight: var(--font-weight-medium);
+    margin: 0;
     text-transform: uppercase;
   }
 }
@@ -490,6 +492,8 @@
   margin-bottom: 2rem;
   h3 {
     color: var(--white);
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-medium);
     margin: 0;
     span {
       display: inline-block;
@@ -846,6 +850,16 @@
   }
   .testi-name {
     color: var(--white);
+  }
+}
+
+.oru-clients-hd {
+  margin-bottom: 2rem;
+  h4 {
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-semibold);
+    margin: 0;
   }
 }
 

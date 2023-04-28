@@ -423,7 +423,7 @@ export default function WelcomeSlider() {
                       <div className="wings-body">
                         <div className="wings-icon">
                           <img
-                            src="images/graduate-gra-icon-01.png"
+                            src="images/graduate-gra-icon-02.png"
                             alt="Image"
                           />
                         </div>
@@ -442,7 +442,7 @@ export default function WelcomeSlider() {
                       <div className="wings-body">
                         <div className="wings-icon">
                           <img
-                            src="images/graduate-gra-icon-02.png"
+                            src="images/graduate-gra-icon-03.png"
                             alt="Image"
                           />
                         </div>
@@ -461,7 +461,7 @@ export default function WelcomeSlider() {
                       <div className="wings-body">
                         <div className="wings-icon">
                           <img
-                            src="images/graduate-gra-icon-02.png"
+                            src="images/graduate-gra-icon-04.png"
                             alt="Image"
                           />
                         </div>
@@ -480,7 +480,7 @@ export default function WelcomeSlider() {
                       <div className="wings-body">
                         <div className="wings-icon">
                           <img
-                            src="images/graduate-gra-icon-02.png"
+                            src="images/graduate-gra-icon-05.png"
                             alt="Image"
                           />
                         </div>
@@ -499,7 +499,7 @@ export default function WelcomeSlider() {
                       <div className="wings-body">
                         <div className="wings-icon">
                           <img
-                            src="images/graduate-gra-icon-02.png"
+                            src="images/graduate-gra-icon-06.png"
                             alt="Image"
                           />
                         </div>

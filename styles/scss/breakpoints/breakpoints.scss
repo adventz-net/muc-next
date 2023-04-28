@@ -435,8 +435,59 @@
   .pgm-modal {
     height: calc(100% - 75px);
   }
+  .down-arrow {
+    width: 48px;
+    height: 48px;
+  }
+  .wel-dean-cover .dean-content .dean-con-scroll {
+    height: 350px;
+    padding-right: 1rem;
+    overflow: auto;
+  }
   .sec-bg-graphics .att-shape {
     display: none;
+  }
+  .vision-item figure {
+    max-width: 80%;
+  }
+  .vision-item .vision-it-body {
+    left: 2rem;
+    top: 2rem;
+    max-width: 200px;
+  }
+  .abt-maj-content h3 {
+    font-size: 2rem;
+  }
+  .credo-cover .credo-hd h4 {
+    font-size: 2rem;
+  }
+  .sec-bg-graphics .social-shape {
+    width: 150px;
+    height: 150px;
+  }
+  .sec-bg-graphics .slider-d-shape {
+    left: 4%;
+    top: 10%;
+    width: 80px;
+    height: 100px;
+  }
+  .campus-intro {
+    padding: 6rem 2rem 2rem 4rem;
+  }
+  .campus-intro h3 {
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+  }
+  .campus-intro h5 {
+    font-size: 1.25rem;
+    margin: 0 0 1rem 0;
+  }
+  .cam-fitness-cover .cam-d-shape {
+    width: 60px;
+    height: 100px;
+  }
+  .cam-fitness-cover .cam-fitness-body h3 {
+    font-size: 1.5rem;
   }
   .col-cam-con {
     flex: 0 0 50%;
@@ -446,13 +497,86 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
-  .campus-intro .cam-intro-scroll {
-    height: 350px;
-    padding-right: 1rem;
-    overflow: auto;
-    ::-webkit-scrollbar-thumb {
-      background-color: var(--white);
-    }
+  .pgm-slider-hd {
+    margin-bottom: 2rem;
+  }
+  .pgm-slider-hd h2 {
+    font-size: 1.5rem;
+  }
+  .programme-item .programme-body .overlay h4 {
+    font-size: 1.25rem;
+  }
+  .sec-bg-graphics .pgm-mod-shape.shape-01 {
+    left: 4%;
+    top: 10%;
+    width: 80px;
+    height: 100px;
+  }
+  .ug-slider-hd h2 {
+    font-size: 2rem;
+  }
+  .acc-pgm-overview figure {
+    flex: 0 0 500px;
+    max-width: 500px;
+  }
+  .acc-pgm-overview .acc-pgm-info h3 {
+    font-size: 1.5rem;
+  }
+  .oru-clients-cover {
+    padding: 1.5rem 1.5rem;
+  }
+  .con-addr-con {
+    position: relative;
+    padding: 6rem 2rem 2rem 2rem;
+  }
+  .con-addr-info .con-addr-info-img {
+    flex: 0 0 125px;
+    max-width: 125px;
+    margin-right: 1rem;
+  }
+  .con-addr-con .con-addr-hd h3 {
+    font-size: 2rem;
+  }
+  .map-info-cover .map-info-item .map-info-icon {
+    flex: 0 0 48px;
+    max-width: 48px;
+    height: 48px;
+    font-size: 1.125rem;
+    margin-right: 0.5rem;
+  }
+  .map-info-cover .map-info-item .map-info-body h5 {
+    font-size: 0.875rem;
+  }
+  .map-info-cover .map-info-item .map-info-body h4 {
+    font-size: 1.125rem;
+  }
+  .sec-bg-graphics .con-cam-shape.shape-01 {
+    width: 50px;
+    height: 100px;
+  }
+  .con-campus-map-cover .con-campus-map-hd h3 {
+    font-size: 2rem;
+  }
+  .sec-bg-graphics .pgm-head-shape.shape-01 {
+    width: 90px;
+    height: 120px;
+  }
+  .sec-bg-graphics .pgm-head-shape.shape-02 {
+    width: 90px;
+    height: 120px;
+  }
+  .sec-bg-graphics .pgm-admin-shape.shape-01 {
+    width: 67px;
+    height: 100px;
+  }
+  .ug-pgm-form-cover .ug-pgm-form {
+    padding: 2rem 2rem;
+  }
+  .ug-pgm-form-cover .form-hd h2 {
+    font-size: 1.5rem;
+  }
+  .ug-pgm-head-img {
+    max-width: 450px;
   }
 }
 
@@ -500,14 +624,7 @@
     flex: 0 0 250px;
     padding: 0.25rem 0.5rem;
   }
-  .sec-bg-graphics .social-shape {
-    width: 200px;
-    height: 200px;
-  }
-  .sec-bg-graphics .slider-d-shape {
-    width: 80px;
-    height: 100px;
-  }
+
   .wel-dean-cover .dean-img {
     max-width: 350px;
     margin: 0 auto;
@@ -515,17 +632,9 @@
   .wel-dean-cover .dean-content .dean-con-body {
     padding: 6rem 2rem 2rem;
   }
-  .wel-dean-cover .dean-content .dean-con-scroll {
-    height: 350px;
-    padding-right: 1rem;
-    overflow: auto;
-  }
   .vision-item .vision-it-body {
     left: 4rem;
     top: 6rem;
-  }
-  .abt-maj-content h3 {
-    font-size: 2rem;
   }
   .credo-cover .credo-hd h4 {
     font-size: 2rem;
@@ -544,16 +653,7 @@
   .cam-fitness-cover .cam-fitness-body {
     padding: 4rem 2rem 4rem;
   }
-  .cam-fitness-cover .cam-d-shape {
-    width: 60px;
-    height: 100px;
-  }
-  .pgm-slider-hd {
-    margin-bottom: 2rem;
-  }
-  .pgm-slider-hd h2 {
-    font-size: 1.5rem;
-  }
+
   .programme-item {
     max-width: 460px;
     margin: 0 auto 0.5rem;
@@ -563,9 +663,6 @@
     content: "";
     width: 100px;
     height: 100px;
-  }
-  .programme-item .programme-body .overlay h4 {
-    font-size: 1.125rem;
   }
   .sec-bg-graphics .pgm-mod-shape {
     display: none;
@@ -601,38 +698,26 @@
     flex: unset;
     padding: 1.5rem 1.5rem;
   }
-  .con-addr-con {
-    padding: 2rem 2rem 2rem 2rem;
-  }
-  .con-addr-con .con-addr-hd h3 {
-    font-size: 2rem;
-  }
-  .con-campus-map-cover .con-campus-map-hd h3 {
-    font-size: 2rem;
-  }
-  .ug-pgm-head-img {
-    max-width: 350px;
-  }
 }
 
-@media (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) {
-  .down-arrow {
-    width: 48px;
-    height: 48px;
-  }
-  .wel-dean-cover .dean-img {
-    max-width: 350px;
-    margin: 0 auto;
-  }
-  .wel-dean-cover .dean-content .dean-con-body {
-    padding: 6rem 2rem 2rem;
-  }
-  .wel-dean-cover .dean-content .dean-con-scroll {
-    height: 350px;
-    padding-right: 1rem;
-    overflow: auto;
-  }
-}
+// @media (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) {
+//   .down-arrow {
+//     width: 48px;
+//     height: 48px;
+//   }
+//   .wel-dean-cover .dean-img {
+//     max-width: 350px;
+//     margin: 0 auto;
+//   }
+//   .wel-dean-cover .dean-content .dean-con-body {
+//     padding: 6rem 2rem 2rem;
+//   }
+//   .wel-dean-cover .dean-content .dean-con-scroll {
+//     height: 350px;
+//     padding-right: 1rem;
+//     overflow: auto;
+//   }
+// }
 
 /* Portrait */
 @media (max-device-width: 800px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {

@@ -224,7 +224,7 @@ export default function UGModalTen() {
         </div>
       </section>
 
-      <section className="ug-pgm-form-sec pt-5 px-lg-5 px-xl-6 pb-5 pb-xl-6">
+      {/* <section className="ug-pgm-form-sec pt-5 px-lg-5 px-xl-6 pb-5 pb-xl-6">
         <Container fluid>
           <Row>
             <Col xl={12}>
@@ -277,7 +277,7 @@ export default function UGModalTen() {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
     </section>
   );
 }

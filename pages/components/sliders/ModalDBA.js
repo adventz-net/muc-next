@@ -97,7 +97,7 @@ export default function UGModalEight() {
                             <img src="images/cma-intro-img.jpg" alt="Image" />
                           </div>
                         </figure>
-                        <div className="acc-pgm-body">
+                        <div className="acc-pgm-body ps-0">
                           <h5>
                             The University of Bradford Doctor of Business
                             Administration (DBA) is the pinnacle of management
@@ -188,7 +188,7 @@ export default function UGModalEight() {
         </div>
       </section>
 
-      <section className="ug-pgm-form-sec pt-5 px-lg-5 px-xl-6 pb-5 pb-xl-6">
+      {/* <section className="ug-pgm-form-sec pt-5 px-lg-5 px-xl-6 pb-5 pb-xl-6">
         <Container fluid>
           <Row>
             <Col xl={12}>
@@ -241,7 +241,7 @@ export default function UGModalEight() {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
     </section>
   );
 }

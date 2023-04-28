@@ -106,6 +106,9 @@ export default function MtiSlider() {
             </Row>
             <Row>
               <Col xs={12}>
+                <div className="oru-clients-hd">
+                  <h4>Our Partners</h4>
+                </div>
                 <div className="oru-clients-cover">
                   <div className="client-item">
                     <figure>

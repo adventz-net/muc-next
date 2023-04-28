@@ -180,7 +180,7 @@ export default function UGModalThree() {
         </div>
       </section>
 
-      <section className="ug-pgm-form-sec pt-5 px-lg-5 px-xl-6 pb-5 pb-xl-6">
+      {/* <section className="ug-pgm-form-sec pt-5 px-lg-5 px-xl-6 pb-5 pb-xl-6">
         <Container fluid>
           <Row>
             <Col xl={12}>
@@ -233,7 +233,7 @@ export default function UGModalThree() {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
     </section>
   );
 }
