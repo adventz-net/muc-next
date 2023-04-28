@@ -12,7 +12,7 @@ import {
 export default function UGModalFour() {
   return (
     <section className="ug-modal-cover-sec">
-      <section className="ug-pgm-slider-sec">
+      <section className="ug-pgm-slider-sec bg-dk-blue">
         <div className="sec-bg-graphics">
           <div className="social-shape"></div>
           <div className="pgm-mod-shape shape-01"></div>
@@ -20,13 +20,13 @@ export default function UGModalFour() {
         <div className="sec-con-cover h-100">
           <div className="ug-slider-cover">
             <div className="ug-slider-img">
-              <img src="images/ug-modal-slider-06.jpg" alt="Image" />
+              <img src="images/ug-modal-slider-05.jpg" alt="Image" />
             </div>
             <div className="ug-slider-body">
               <div className="ug-slider-hd">
                 <h2>
-                  MA IN applied <br />
-                  LINGUISTICS
+                  Msc IN COMPUTER <br />
+                  SCIENCE
                 </h2>
               </div>
             </div>
@@ -94,7 +94,7 @@ export default function UGModalFour() {
                       <div className="acc-pgm-overview">
                         <figure>
                           <div className="acc-pgm-img">
-                            <img src="images/ma-intro-img.jpg" alt="Image" />
+                            <img src="images/msc-intro-img.jpg" alt="Image" />
                           </div>
                         </figure>
                         <div className="acc-pgm-body">
@@ -103,7 +103,7 @@ export default function UGModalFour() {
                               <ul>
                                 <li>
                                   <h5>Course Title: </h5>
-                                  <p>MA in Applied Linguistics</p>
+                                  <p>MSc Computer Science</p>
                                 </li>
                                 <li>
                                   <h5>Awarded by: </h5>
@@ -116,8 +116,8 @@ export default function UGModalFour() {
                                 <li>
                                   <h5>Mode of Study: </h5>
                                   <p>
-                                    Part-time in a blended learning format (4 or
-                                    5 weekends in a semester)
+                                    Part - Time in a blended learning format (4
+                                    Weekends in a Semester)
                                   </p>
                                 </li>
                                 <li>
@@ -164,22 +164,11 @@ export default function UGModalFour() {
                     <Accordion.Body>
                       <ul>
                         <li>
-                          A good (i.e. 1st or 2nd class or 2.5+ / 4 GPA scale)
-                          honours degree (or equivalent qualification) in an
-                          appropriate subject from a recognised university or HE
-                          institution. We will also consider candidates with
-                          other relevant qualifications or appropriate work
-                          experience.
+                          A good first degree - 2.2 Hons. or equivalent , with a
+                          significant (generally one third or more) element in
+                          Computing.
                         </li>
-                        <li>
-                          Or a 2nd or 3rd class honours degree (or equivalent
-                          qualification) in an appropriate subject from a
-                          recognised university or HE institution and two years'
-                          relevant teaching experience.
-                        </li>
-                        <li>
-                          IELTS 6.0 with no less than 5.5 in each component.
-                        </li>
+                        <li>Applicants must have IELTS 6.0 or equivalent</li>
                       </ul>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -214,70 +203,6 @@ export default function UGModalFour() {
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="04">
-                    <Accordion.Header>Programme details</Accordion.Header>
-                    <Accordion.Body>
-                      <div className="acc-pgm-dt-cover">
-                        <div className="acc-pgm-dt-list">
-                          <div className="acc-pgm-dt-item">
-                            <div className="icon">
-                              <img
-                                src="images/acc-pgm-dt-icon.png"
-                                alt="Logo"
-                              />
-                            </div>
-                            <h4>Semester 1</h4>
-                            <p>
-                              The Language System and Language Teaching (30
-                              credits)
-                            </p>
-                          </div>
-                          <div className="acc-pgm-dt-item">
-                            <div className="icon">
-                              <img
-                                src="images/acc-pgm-dt-icon.png"
-                                alt="Logo"
-                              />
-                            </div>
-                            <h4>Semester 2</h4>
-                            <p>
-                              Materials Development for Language Teaching and
-                              Learning (15 credits), Assessment and
-                              Accreditation (15 credits), Issues in Second
-                              Language Acquisition (15 credits)
-                            </p>
-                          </div>
-                          <div className="acc-pgm-dt-item">
-                            <div className="icon">
-                              <img
-                                src="images/acc-pgm-dt-icon.png"
-                                alt="Logo"
-                              />
-                            </div>
-                            <h4>Semester 3</h4>
-                            <p>
-                              Exploring Research: Concepts and Methods (15
-                              credits), The Methodology of Language Teaching (15
-                              credits), Professional Practices (15 credits)
-                            </p>
-                          </div>
-                          <div className="acc-pgm-dt-item">
-                            <div className="icon">
-                              <img
-                                src="images/acc-pgm-dt-icon.png"
-                                alt="Logo"
-                              />
-                            </div>
-                            <h4>Semester 3</h4>
-                            <p>
-                              Dissertation in Applied Linguistics and ELT (60
-                              credits)
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey="05">
                     <Accordion.Header>Fees structure</Accordion.Header>
                     <Accordion.Body>
                       <p>

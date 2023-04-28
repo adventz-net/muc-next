@@ -2,17 +2,17 @@ import Link from "next/link";
 import { useState } from "react";
 import { Container, Row, Col, Modal } from "react-bootstrap";
 
-import UGModalFBM from "./UGModalFBM";
-import UGModalFIT from "./UGModalFIT";
-import UGModalFELS from "./UGModalFELS";
-import PGModalMBA from "./PGModalMBA";
-import PGModalMSC from "./PGModalMSC";
-import PGModalMA from "./PGModalMA";
-import PGModalDBA from "./PGModalDBA";
-import PROModalACCA from "./PROModalACCA";
-import PROModalCMA from "./PROModalCMA";
-import PROModalACIFE from "./PROModalACIFE";
-import FDModalFound from "./FDModalFound";
+import ModalFBM from "./ModalFBM";
+import ModalFIT from "./ModalFIT";
+import ModalFELS from "./ModalFELS";
+import ModalMBA from "./ModalMBA";
+import ModalMSC from "./ModalMSC";
+import ModalMA from "./ModalMA";
+import ModalDBA from "./ModalDBA";
+import ModalACCA from "./ModalACCA";
+import ModalCMA from "./ModalCMA";
+import ModalCIFE from "./ModalCIFE";
+import ModalFound from "./ModalFound";
 
 export default function ProgrammesSlider() {
   const [showModal01, setShowModal01] = useState(false);
@@ -74,7 +74,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <UGModalFBM />
+            <ModalFBM />
           </Modal.Body>
         </Modal>
 
@@ -89,7 +89,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <UGModalFIT />
+            <ModalFIT />
           </Modal.Body>
         </Modal>
 
@@ -104,7 +104,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <UGModalFELS />
+            <ModalFELS />
           </Modal.Body>
         </Modal>
 
@@ -119,7 +119,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <PGModalMBA />
+            <ModalMBA />
           </Modal.Body>
         </Modal>
 
@@ -134,7 +134,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <PGModalMSC />
+            <ModalMSC />
           </Modal.Body>
         </Modal>
 
@@ -149,7 +149,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <PGModalMA />
+            <ModalMA />
           </Modal.Body>
         </Modal>
 
@@ -164,7 +164,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <PGModalDBA />
+            <ModalDBA />
           </Modal.Body>
         </Modal>
 
@@ -179,7 +179,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <PROModalACCA />
+            <ModalACCA />
           </Modal.Body>
         </Modal>
 
@@ -194,7 +194,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <PROModalCMA />
+            <ModalCMA />
           </Modal.Body>
         </Modal>
 
@@ -209,7 +209,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <PROModalACIFE />
+            <ModalCIFE />
           </Modal.Body>
         </Modal>
 
@@ -224,7 +224,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <FDModalFound />
+            <ModalFound />
           </Modal.Body>
         </Modal>
       </div>

@@ -34,48 +34,6 @@ export default function UGModalNine() {
         </div>
       </section>
 
-      <section className="ug-pgm-head-sec ps-3 px-lg-5 px-xl-6">
-        <div className="sec-bg-graphics">
-          <div className="pgm-head-shape shape-01"></div>
-          <div className="pgm-head-shape shape-02"></div>
-        </div>
-        <div className="sec-con-cover">
-          <Container fluid>
-            <Row>
-              <Col xs={12} lg={6}>
-                <div className="ug-pgm-head-info">
-                  <div className="ug-pgm-info-hd">
-                    <div className="ug-pgm-info-desig">
-                      Head of Postgraduate Centre
-                    </div>
-                    <div className="ug-pgm-info-name">
-                      Mr. Armstrong Jeyakumar
-                    </div>
-                  </div>
-                  <p>
-                    We at the Postgraduate Centre (PGC) with years of experience
-                    have developed a delivery format which draws on the best of
-                    the blended learning experience and contextualises the
-                    student's environment.
-                  </p>
-                  <p>
-                    We believe that our students are equipped to bring a
-                    difference to their workplace and their communities. We see
-                    and hear about them across the length and breadth of the
-                    Sultanate as well as the world.
-                  </p>
-                </div>
-              </Col>
-              <Col className="col-xs-12 col-lg-6 d-flex justify-content-center align-items-end">
-                <div className="ug-pgm-head-img">
-                  <img src="images/armstrong-jeyakumar.png" alt="Image" />
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </section>
-
       <section className="ug-pgm-admin-sec pt-5 px-lg-5 px-xl-6 pb-5 pb-md-4">
         <div className="sec-bg-graphics">
           <div className="pgm-admin-shape shape-01"></div>

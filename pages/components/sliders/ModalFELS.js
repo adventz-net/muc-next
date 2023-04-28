@@ -12,7 +12,7 @@ import {
 export default function UGModalThree() {
   return (
     <section className="ug-modal-cover-sec">
-      <section className="ug-pgm-slider-sec">
+      <section className="ug-pgm-slider-sec bg-dk-blue">
         <div className="sec-bg-graphics">
           <div className="social-shape"></div>
           <div className="pgm-mod-shape shape-01"></div>
