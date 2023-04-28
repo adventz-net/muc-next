@@ -9,10 +9,10 @@ import {
   Button,
 } from "react-bootstrap";
 
-export default function UGModalThree() {
+export default function UGModalTwelve() {
   return (
     <section className="ug-modal-cover-sec">
-      <section className="ug-pgm-slider-sec">
+      <section className="ug-pgm-slider-sec bg-dk-blue">
         <div className="sec-bg-graphics">
           <div className="social-shape"></div>
           <div className="pgm-mod-shape shape-01"></div>
@@ -20,14 +20,14 @@ export default function UGModalThree() {
         <div className="sec-con-cover h-100">
           <div className="ug-slider-cover">
             <div className="ug-slider-img">
-              <img src="images/ug-modal-slider-03.jpg" alt="Image" />
+              <img src="images/ug-modal-slider-12.jpg" alt="Image" />
             </div>
             <div className="ug-slider-body">
               <div className="ug-slider-hd">
                 <h2>
-                  Faculty of English
+                  Foundation
                   <br />
-                  Language Studies
+                  Programme
                 </h2>
               </div>
             </div>
@@ -50,27 +50,29 @@ export default function UGModalThree() {
                 <div className="ug-pgm-head-info">
                   <div className="ug-pgm-info-hd">
                     <div className="ug-pgm-info-desig">
-                      Head of <br />
-                      Faculty
+                      Head of Postgraduate Centre
                     </div>
-                    <div className="ug-pgm-info-name">Dr. Amanda Howard</div>
+                    <div className="ug-pgm-info-name">
+                      Mr. Armstrong Jeyakumar
+                    </div>
                   </div>
                   <p>
-                    BA (Hons) English programme provides you with an enriching
-                    learning experience where you can explore different aspects
-                    of language studies such as Linguistics, Literature,
-                    Translation, Discourse,Pragmatics, and the Media.
+                    We at the Postgraduate Centre (PGC) with years of experience
+                    have developed a delivery format which draws on the best of
+                    the blended learning experience and contextualises the
+                    student's environment.
                   </p>
                   <p>
-                    A programme of this nature will help you unfold your
-                    potential and guarantee your personal, academic as well as
-                    professional development.
+                    We believe that our students are equipped to bring a
+                    difference to their workplace and their communities. We see
+                    and hear about them across the length and breadth of the
+                    Sultanate as well as the world.
                   </p>
                 </div>
               </Col>
-              <Col xs={12} lg={6}>
+              <Col className="col-xs-12 col-lg-6 d-flex justify-content-center align-items-end">
                 <div className="ug-pgm-head-img">
-                  <img src="images/amanda.png" alt="Image" />
+                  <img src="images/armstrong-jeyakumar.png" alt="Image" />
                 </div>
               </Col>
             </Row>
@@ -86,91 +88,55 @@ export default function UGModalThree() {
           <Container fluid>
             <Row>
               <Col xl={12}>
-                <div className="ug-pgm-admin-hd">
-                  <h3>
-                    <span>BA (Honours) in English Language</span>
-                  </h3>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col xl={12}>
                 <Accordion className="ug-pgm-accordian" defaultActiveKey="01">
                   <Accordion.Item eventKey="01">
-                    <Accordion.Header>Programme overview</Accordion.Header>
+                    <Accordion.Header>
+                      Mission of the Foundation Programme
+                    </Accordion.Header>
                     <Accordion.Body>
-                      <div className="acc-pgm-overview">
-                        <figure>
-                          <div className="acc-pgm-img">
-                            <img
-                              src="images/pgm-overview-img-01.jpg"
-                              alt="Image"
-                            />
-                          </div>
-                        </figure>
-                        <div className="acc-pgm-body">
-                          <p>
-                            This degree in English Language focuses on
-                            developing highly employable bi-lingual individuals
-                            with marketable skills for potential employers.
-                          </p>
-                          <p>
-                            Apart from its vocational applications, it provides
-                            candidates with rigorous intellectual education,
-                            valuable in training them to analyze perceptively
-                            and critically, to reason effectively and express
-                            themselves clearly and rationally.
-                          </p>
-                          <p>
-                            Professions that require expertise in English
-                            Language include, but are not restricted to
-                            Translation, Journalism & the Media, Publishing,
-                            Human Resources and Public Relations.
-                          </p>
-                        </div>
-                      </div>
+                      <p>
+                        The mission of the Foundation Programme is to contribute
+                        actively to the achievement of the strategic objectives
+                        of the College by providing an educationally dynamic and
+                        supportive environment to enable students to attain the
+                        English language, IT, Maths and study skills required to
+                        successfully engage in undergraduate studies. In
+                        addition, we seek to instill in students a sense of
+                        co-operation, integrity, community responsibility and
+                        commitment to achieving their full potential.
+                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="02">
+                    <Accordion.Header>Programme overview</Accordion.Header>
+                    <Accordion.Body>
+                      <p>
+                        The Foundation programme is a two-semester preparatory
+                        programme of one-year duration. Students are required to
+                        pass semester one modules before proceeding onto
+                        semester two.
+                      </p>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="03">
                     <Accordion.Header>Programme Objectives</Accordion.Header>
                     <Accordion.Body>
                       <p>
-                        The general goals of the BA (Hons) in English Language
-                        have been to produce graduates with excellent
-                        communication skills in English language; and secondly,
-                        to ensure that those graduates are also able to
-                        describe, appreciate and analyze the language in the
-                        great variety of forms in which it occurs - spoken and
-                        written, formal and informal, in different contexts,
-                        genres and by different speakers. The first goal means
-                        improving proficiency to high levels; the second
-                        requires a thorough background in the subfields of
-                        theoretical linguistics.
+                        The Foundation Programme is a bridging programme for the
+                        students with the General Diploma or equivalent to
+                        proceed to Diploma or Degree level study which is
+                        conducted in English Language. It equips students with
+                        the necessary study and academic skills required at the
+                        undergraduate level.
                       </p>
                       <h4>
                         Awards: (students must register for a particular award
                         in order to qualify for that award)
                       </h4>
                       <ul>
-                        <li>Diploma in Higher Education</li>
-                        <li>BA (Honours)</li>
+                        <li>Foundation Certificate</li>
+                        <li>Mode of delivery: Full time and Part time</li>
                       </ul>
-                      <p>Mode of delivery: Full time</p>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey="03">
-                    <Accordion.Header>Fees structure</Accordion.Header>
-                    <Accordion.Body>
-                      <p>
-                        For the complete details of the fees, please refer to
-                        the &nbsp;
-                        <Link
-                          href="https://majancollege.edu.om/fees#under"
-                          target="_blank"
-                        >
-                          Fees Structure
-                        </Link>
-                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>

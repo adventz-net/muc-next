@@ -68,7 +68,7 @@ export default function UGModalTwo() {
                   </p>
                 </div>
               </Col>
-              <Col xs={12} lg={6}>
+              <Col className="col-xs-12 col-lg-6 d-flex justify-content-center align-items-end">
                 <div className="ug-pgm-head-img">
                   <img src="images/sayed.png" alt="Image" />
                 </div>

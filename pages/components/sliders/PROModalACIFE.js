@@ -9,7 +9,7 @@ import {
   Button,
 } from "react-bootstrap";
 
-export default function UGModalNine() {
+export default function UGModalEleven() {
   return (
     <section className="ug-modal-cover-sec">
       <section className="ug-pgm-slider-sec bg-dk-blue">
@@ -20,17 +20,62 @@ export default function UGModalNine() {
         <div className="sec-con-cover h-100">
           <div className="ug-slider-cover">
             <div className="ug-slider-img">
-              <img src="images/ug-modal-slider-09.jpg" alt="Image" />
+              <img src="images/ug-modal-slider-11.jpg" alt="Image" />
             </div>
             <div className="ug-slider-body">
               <div className="ug-slider-hd">
-                <h2>ACCA</h2>
+                <h2>
+                  CERTIFIED ISLAMiC finance <br />
+                  executive ( CIFE™ )
+                </h2>
               </div>
             </div>
           </div>
         </div>
         <div className="down-arrow">
           <img src="images/arrow-down.png" alt="Down Arrow" />
+        </div>
+      </section>
+
+      <section className="ug-pgm-head-sec ps-3 px-lg-5 px-xl-6">
+        <div className="sec-bg-graphics">
+          <div className="pgm-head-shape shape-01"></div>
+          <div className="pgm-head-shape shape-02"></div>
+        </div>
+        <div className="sec-con-cover">
+          <Container fluid>
+            <Row>
+              <Col xs={12} lg={6}>
+                <div className="ug-pgm-head-info">
+                  <div className="ug-pgm-info-hd">
+                    <div className="ug-pgm-info-desig">
+                      Head of Postgraduate Centre
+                    </div>
+                    <div className="ug-pgm-info-name">
+                      Mr. Armstrong Jeyakumar
+                    </div>
+                  </div>
+                  <p>
+                    We at the Postgraduate Centre (PGC) with years of experience
+                    have developed a delivery format which draws on the best of
+                    the blended learning experience and contextualises the
+                    student's environment.
+                  </p>
+                  <p>
+                    We believe that our students are equipped to bring a
+                    difference to their workplace and their communities. We see
+                    and hear about them across the length and breadth of the
+                    Sultanate as well as the world.
+                  </p>
+                </div>
+              </Col>
+              <Col className="col-xs-12 col-lg-6 d-flex justify-content-center align-items-end">
+                <div className="ug-pgm-head-img">
+                  <img src="images/armstrong-jeyakumar.png" alt="Image" />
+                </div>
+              </Col>
+            </Row>
+          </Container>
         </div>
       </section>
 
@@ -44,82 +89,44 @@ export default function UGModalNine() {
               <Col xl={12}>
                 <Accordion className="ug-pgm-accordian" defaultActiveKey="01">
                   <Accordion.Item eventKey="01">
-                    <Accordion.Header>Programme Overview</Accordion.Header>
+                    <Accordion.Header>How Do I Learn?</Accordion.Header>
                     <Accordion.Body>
                       <div className="acc-pgm-overview">
                         <figure>
                           <div className="acc-pgm-img">
-                            <img src="images/acca-intro-img.jpg" alt="Image" />
+                            <img src="images/cife-intro-img.jpg" alt="Image" />
                           </div>
-                     
                         </figure>
                         <div className="acc-pgm-body">
+                          <div className="mb-4">
+                            <img src="images/cife-logo.png" alt="Logo" />
+                          </div>
                           <p>
-                            ACCA (the Association of Chartered Certified
-                            Accountants) is the global body for professional
-                            accountants. Their aims are to offer
-                            business-relevant, first-choice qualifications to
-                            people of application, ability and ambition from
-                            around the world who seek a rewarding career in
-                            accountancy, finance and management. According to an
-                            independent survey conducted among 1,300 employers
-                            in 20 countries, ACCA has been rated as the leading
-                            global professional accountancy body in reputation.</p>
-                            <p>ACCA has a global network of 83 offices and centres,
-                            147,000 members and 424,000 students around the
-                            world. In the Middle East there is a gap in demand
-                            and supply of ACCA professionals, making it an ideal
-                            choice for the students who wish to make a career in
-                            accountancy in this part of the world.
+                            Ethica's award-winning CIFE™ is a streamlined
+                            training and certification programme designed to
+                            take complete newcomers to an advanced level of
+                            understanding in Islamic Finance. Once you
+                            understand the 22 core topics offered as part of the
+                            curriculum from Ethica Institute, you will be ready
+                            to take the online CIFE™ examination.
                           </p>
-                          <h5>We have ACCA intakes in July and January.</h5>
-                         
+                          <p>
+                            In collaboration with Ethica, Majan University
+                            College will provide study materials through face to
+                            face and/online classes, as well as through the
+                            Ethica website. Through your account with Ethica,
+                            you can also supplement your study materials from
+                            Majan with the ones provided by Ethica as videos and
+                            PDF documents.
+                          </p>
+                          <p>
+                            You can take the exam as soon as you are ready. The
+                            recommended study duration is four months (whether
+                            face-to-face or online).
+                          </p>
+                          <h5>Intakes ongoing every Sept., Feb. and June.</h5>
                         </div>
                       </div>
-                      <div className="acc-reg-cover">
-                        <div className="acc-reg-intro">
-                          <p>
-                            Students awaiting their higher secondary school
-                            results can also register their interest to check
-                            availability of places.
-                          </p>
-                          <p>Documents required for Registration:</p>
-                        </div>
-                        <div className="acc-reg-list">
-                          <div className="acc-reg-item">
-                            <div className="count">1</div>
-                            <p>Passport copy / original</p>
-                          </div>
-                          <div className="acc-reg-item">
-                            <div className="count">2</div>
-                            <p>One passport size photograph</p>
-                          </div>
-                          <div className="acc-reg-item">
-                            <div className="count">3</div>
-                            <p>
-                              Photocopy of all previous degrees / certificates
-                              (no attestation required)
-                            </p>
-                          </div>
-                          <div className="acc-reg-item">
-                            <div className="count">4</div>
-                            <p>
-                              Debit/credit card for payment of the initial
-                              registration fee of GBP 89 to ACCA.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey="02">
-                    <Accordion.Header>Fees structure</Accordion.Header>
-                    <Accordion.Body>
-                      <p>
-                        For the complete details of the fees, please refer to
-                        the &nbsp;
-                        <Link href="https://majancollege.edu.om/fees" target="_blank">Fees Structure</Link>
-                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>

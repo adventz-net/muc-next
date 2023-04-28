@@ -9,10 +9,10 @@ import {
   Button,
 } from "react-bootstrap";
 
-export default function UGModalEight() {
+export default function UGModalThree() {
   return (
     <section className="ug-modal-cover-sec">
-      <section className="ug-pgm-slider-sec bg-dk-blue">
+      <section className="ug-pgm-slider-sec">
         <div className="sec-bg-graphics">
           <div className="social-shape"></div>
           <div className="pgm-mod-shape shape-01"></div>
@@ -20,13 +20,14 @@ export default function UGModalEight() {
         <div className="sec-con-cover h-100">
           <div className="ug-slider-cover">
             <div className="ug-slider-img">
-              <img src="images/ug-modal-slider-08.jpg" alt="Image" />
+              <img src="images/ug-modal-slider-03.jpg" alt="Image" />
             </div>
             <div className="ug-slider-body">
               <div className="ug-slider-hd">
                 <h2>
-                  Doctor of Business <br />
-                  Administration (DBA)
+                  Faculty of English
+                  <br />
+                  Language Studies
                 </h2>
               </div>
             </div>
@@ -42,41 +43,39 @@ export default function UGModalEight() {
           <div className="pgm-head-shape shape-01"></div>
           <div className="pgm-head-shape shape-02"></div>
         </div>
-        {/* <div className="sec-con-cover">
+        <div className="sec-con-cover">
           <Container fluid>
             <Row>
               <Col xs={12} lg={6}>
                 <div className="ug-pgm-head-info">
                   <div className="ug-pgm-info-hd">
                     <div className="ug-pgm-info-desig">
-                      Head of Postgraduate Centre
+                      Head of <br />
+                      Faculty
                     </div>
-                    <div className="ug-pgm-info-name">
-                      Mr. Armstrong Jeyakumar
-                    </div>
+                    <div className="ug-pgm-info-name">Dr. Amanda Howard</div>
                   </div>
                   <p>
-                    We at the Postgraduate Centre (PGC) with over 15 years of
-                    experience have developed a delivery format which draws on
-                    the best of the blended learning experience and
-                    contextualises the student's environment.
+                    BA (Hons) English programme provides you with an enriching
+                    learning experience where you can explore different aspects
+                    of language studies such as Linguistics, Literature,
+                    Translation, Discourse,Pragmatics, and the Media.
                   </p>
                   <p>
-                    We believe that our students are equipped to bring a
-                    difference to their workplace and their communities. We see
-                    and hear about them across the length and breadth of the
-                    Sultanate as well as the world.
+                    A programme of this nature will help you unfold your
+                    potential and guarantee your personal, academic as well as
+                    professional development.
                   </p>
                 </div>
               </Col>
-              <Col xs={12} lg={6}>
+              <Col className="col-xs-12 col-lg-6 d-flex justify-content-center align-items-end">
                 <div className="ug-pgm-head-img">
-                  <img src="images/armstrong-jeyakumar.png" alt="Image" />
+                  <img src="images/amanda.png" alt="Image" />
                 </div>
               </Col>
             </Row>
           </Container>
-        </div> */}
+        </div>
       </section>
 
       <section className="ug-pgm-admin-sec pt-5 px-lg-5 px-xl-6 pb-5 pb-md-4">
@@ -87,92 +86,76 @@ export default function UGModalEight() {
           <Container fluid>
             <Row>
               <Col xl={12}>
+                <div className="ug-pgm-admin-hd">
+                  <h3>
+                    <span>BA (Honours) in English Language</span>
+                  </h3>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col xl={12}>
                 <Accordion className="ug-pgm-accordian" defaultActiveKey="01">
                   <Accordion.Item eventKey="01">
-                    <Accordion.Header>General Information</Accordion.Header>
+                    <Accordion.Header>Programme overview</Accordion.Header>
                     <Accordion.Body>
                       <div className="acc-pgm-overview">
                         <figure>
                           <div className="acc-pgm-img">
-                            <img src="images/cma-intro-img.jpg" alt="Image" />
-                          </div>
-                          <div className="acc-pgm-info">
-                            <h3>
-                              With <br /> Over 150 <br /> students
-                            </h3>
-                            <p>
-                              the PG Centre is among the largest in the
-                              Sultanate
-                            </p>
+                            <img
+                              src="images/pgm-overview-img-01.jpg"
+                              alt="Image"
+                            />
                           </div>
                         </figure>
                         <div className="acc-pgm-body">
-                          <h5>
-                            The University of Bradford Doctor of Business
-                            Administration (DBA) is the pinnacle of management
-                            education.
-                          </h5>
                           <p>
-                            DBA is specifically designed for executives,
-                            professionals and senior managers who seek to
-                            combine the best of academic knowledge with the best
-                            of practitioner knowledge in order to push forward
-                            the boundaries of understanding contemporary and
-                            rapidly transforming business and management
-                            challenges. The DBA award allows the holder to use
-                            the title 'Doctor'.
+                            This degree in English Language focuses on
+                            developing highly employable bi-lingual individuals
+                            with marketable skills for potential employers.
                           </p>
                           <p>
-                            The Bradford DBA provides advanced research methods
-                            training through a suite of four specifically
-                            designed taught modules. The modules are delivered
-                            by leading scholars from the University of Bradford
-                            School of Management, supported by scholars in Majan
-                            University College, and will equip you to undertake
-                            independent empirical research on contemporary
-                            business/management challenges, and to develop new
-                            knowledge and understanding.
+                            Apart from its vocational applications, it provides
+                            candidates with rigorous intellectual education,
+                            valuable in training them to analyze perceptively
+                            and critically, to reason effectively and express
+                            themselves clearly and rationally.
                           </p>
                           <p>
-                            You will be supervised by leading research-active
-                            academics from University of Bradford and Majan
-                            University College, who regularly publish in
-                            international journals and present at prestigious
-                            conferences.
+                            Professions that require expertise in English
+                            Language include, but are not restricted to
+                            Translation, Journalism & the Media, Publishing,
+                            Human Resources and Public Relations.
                           </p>
                         </div>
                       </div>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="02">
-                    <Accordion.Header>Entry Requirements</Accordion.Header>
+                    <Accordion.Header>Programme Objectives</Accordion.Header>
                     <Accordion.Body>
                       <p>
-                        We welcome applications for the DBA - Oman programme,
-                        particularly from applicants whose interests complement
-                        the expertise of the Universities Research Centres
-                        (People, Organisation and Entrepreneurship; Logistics,
-                        Supply Chain and Technology; International Business,
-                        Marketing and Branding).
+                        The general goals of the BA (Hons) in English Language
+                        have been to produce graduates with excellent
+                        communication skills in English language; and secondly,
+                        to ensure that those graduates are also able to
+                        describe, appreciate and analyze the language in the
+                        great variety of forms in which it occurs - spoken and
+                        written, formal and informal, in different contexts,
+                        genres and by different speakers. The first goal means
+                        improving proficiency to high levels; the second
+                        requires a thorough background in the subfields of
+                        theoretical linguistics.
                       </p>
-                      <h5>For the DBA, you should have</h5>
+                      <h4>
+                        Awards: (students must register for a particular award
+                        in order to qualify for that award)
+                      </h4>
                       <ul>
-                        <li>
-                          A Bachelor's degree and a Master's degree from an
-                          accredited institution
-                        </li>
-                        <li>
-                          A minimum of five years' relevant managerial work
-                          experience
-                        </li>
-                        <li>A research proposal</li>
-                        <li>Two references (one academic, if possible)</li>
-                        <li>
-                          A minimum score of at least 6.5 on the IELTS test
-                          (with no sub-test less than 6.0). TOEFL Test result
-                          min 94.
-                        </li>
+                        <li>Diploma in Higher Education</li>
+                        <li>BA (Honours)</li>
                       </ul>
+                      <p>Mode of delivery: Full time</p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="03">
@@ -181,7 +164,12 @@ export default function UGModalEight() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="">Fees Structure</Link>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Fees Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

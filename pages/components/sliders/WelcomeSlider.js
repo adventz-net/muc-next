@@ -15,6 +15,7 @@ export default function WelcomeSlider() {
     autoplay: true,
     slidesToShow: 5,
     slidesToScroll: 1,
+    variableWidth: true,
     responsive: [
       {
         breakpoint: 1080,

@@ -2,17 +2,17 @@ import Link from "next/link";
 import { useState } from "react";
 import { Container, Row, Col, Modal } from "react-bootstrap";
 
-import UGModalOne from "./UGModalOne";
-import UGModalTwo from "./UGModalTwo";
-import UGModalThree from "./UGModalThree";
-import UGModalFour from "./UGModalFour";
-import UGModalFive from "./UGModalFive";
-import UGModalSix from "./UGModalSix";
-import UGModalEight from "./UGModalEight";
-import UGModalNine from "./UGModalNine";
-import UGModalTen from "./UGModalTen";
-import UGModalEleven from "./UGModalEleven";
-import UGModalTwelve from "./UGModalTwelve";
+import UGModalFBM from "./UGModalFBM";
+import UGModalFIT from "./UGModalFIT";
+import UGModalFELS from "./UGModalFELS";
+import PGModalMBA from "./PGModalMBA";
+import PGModalMSC from "./PGModalMSC";
+import PGModalMA from "./PGModalMA";
+import PGModalDBA from "./PGModalDBA";
+import PROModalACCA from "./PROModalACCA";
+import PROModalCMA from "./PROModalCMA";
+import PROModalACIFE from "./PROModalACIFE";
+import FDModalFound from "./FDModalFound";
 
 export default function ProgrammesSlider() {
   const [showModal01, setShowModal01] = useState(false);
@@ -74,7 +74,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <UGModalOne />
+            <UGModalFBM />
           </Modal.Body>
         </Modal>
 
@@ -89,7 +89,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <UGModalTwo />
+            <UGModalFIT />
           </Modal.Body>
         </Modal>
 
@@ -104,7 +104,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <UGModalThree />
+            <UGModalFELS />
           </Modal.Body>
         </Modal>
 
@@ -119,7 +119,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <UGModalFour />
+            <PGModalMBA />
           </Modal.Body>
         </Modal>
 
@@ -134,7 +134,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <UGModalFive />
+            <PGModalMSC />
           </Modal.Body>
         </Modal>
 
@@ -149,7 +149,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <UGModalSix />
+            <PGModalMA />
           </Modal.Body>
         </Modal>
 
@@ -164,7 +164,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <UGModalEight />
+            <PGModalDBA />
           </Modal.Body>
         </Modal>
 
@@ -179,7 +179,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <UGModalNine />
+            <PROModalACCA />
           </Modal.Body>
         </Modal>
 
@@ -194,7 +194,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <UGModalTen />
+            <PROModalCMA />
           </Modal.Body>
         </Modal>
 
@@ -209,7 +209,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <UGModalEleven />
+            <PROModalACIFE />
           </Modal.Body>
         </Modal>
 
@@ -224,7 +224,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <UGModalTwelve />
+            <FDModalFound />
           </Modal.Body>
         </Modal>
       </div>
