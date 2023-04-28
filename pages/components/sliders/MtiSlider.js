@@ -45,12 +45,12 @@ export default function MtiSlider() {
           <Container fluid>
             <Row>
               <Col xs={12}>
-                <div className="acc-pgm-overview mb-5">
+                <div className="mti-intro-cover">
                   <figure>
-                    <div className="acc-pgm-img">
+                    <div className="mti-int-img">
                       <img src="images/mti-intro-img.jpg" alt="Image" />
                     </div>
-                    <div className="acc-pgm-info">
+                    <div className="mti-int-info">
                       <p>MTI</p>
                       <h3>
                         Enhances and <br />
@@ -60,7 +60,7 @@ export default function MtiSlider() {
                       <p>through training workshops and programmes.</p>
                     </div>
                   </figure>
-                  <div className="acc-pgm-body">
+                  <div className="mti-int-body">
                     <p>
                       Majan Training Institute (MTI) provides the diverse
                       community with professional training opportunities to

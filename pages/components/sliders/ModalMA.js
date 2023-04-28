@@ -97,7 +97,7 @@ export default function UGModalFour() {
                             <img src="images/ma-intro-img.jpg" alt="Image" />
                           </div>
                         </figure>
-                        <div className="acc-pgm-body ps-0">
+                        <div className="acc-pgm-body">
                           <Row>
                             <Col xs={12} md={6}>
                               <ul>

@@ -50,7 +50,7 @@ export default function UGModalEleven() {
                     <Accordion.Header>How Do I Learn?</Accordion.Header>
                     <Accordion.Body>
                       <div className="acc-pgm-overview">
-                        <div className="acc-pgm-body ps-0">
+                        <div className="acc-pgm-body">
                           <div className="mb-4">
                             <img src="images/cife-logo.png" alt="Logo" />
                           </div>

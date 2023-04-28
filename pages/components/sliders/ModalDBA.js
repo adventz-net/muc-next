@@ -97,7 +97,7 @@ export default function UGModalEight() {
                             <img src="images/cma-intro-img.jpg" alt="Image" />
                           </div>
                         </figure>
-                        <div className="acc-pgm-body ps-0">
+                        <div className="acc-pgm-body">
                           <h5>
                             The University of Bradford Doctor of Business
                             Administration (DBA) is the pinnacle of management
