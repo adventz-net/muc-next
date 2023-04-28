@@ -574,6 +574,9 @@
     position: relative;
     padding: 6rem 2rem 2rem 2rem;
   }
+  .con-addr-con .con-addr-hd {
+    margin-bottom: 2rem;
+  }
   .con-addr-info .con-addr-info-img {
     flex: 0 0 125px;
     max-width: 125px;
@@ -750,9 +753,24 @@
 }
 
 @media (max-width: 1023px) {
-}
-
-@media (max-width: 991px) {
+  .graduate-graphics {
+    transform: scale(0.7);
+  }
+  .oru-clients-cover .client-item {
+    margin: 0.5rem 0.5rem;
+  }
+  .con-addr-con {
+    padding: 4rem 1rem 1rem 1rem;
+  }
+  .con-addr-info .con-addr-info-img {
+    flex: 0 0 90px;
+    max-width: 90px;
+    margin-right: 1rem;
+  }
+  .con-addr-info .con-addr-info-body ul li {
+    font-size: 0.875rem;
+    padding: 0 0 0 1.5rem;
+  }
   .map-info-cover {
     position: relative;
     left: auto;
@@ -761,6 +779,9 @@
     flex-direction: column;
     flex-wrap: nowrap;
   }
+}
+
+@media (max-width: 991px) {
 }
 
 @media (max-width: 767px) {
