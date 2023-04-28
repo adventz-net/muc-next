@@ -208,7 +208,12 @@ export default function UGModalTen() {
                       <p>
                         For the complete details of the fees, please refer to
                         the &nbsp;
-                        <Link href="">Fees Structure</Link>
+                        <Link
+                          href="https://majancollege.edu.om/fees#cma"
+                          target="_blank"
+                        >
+                          Fees Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

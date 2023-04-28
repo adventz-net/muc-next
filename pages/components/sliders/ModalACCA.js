@@ -122,7 +122,7 @@ export default function UGModalNine() {
                         For the complete details of the fees, please refer to
                         the &nbsp;
                         <Link
-                          href="https://majancollege.edu.om/fees"
+                          href="https://majancollege.edu.om/fees#acca"
                           target="_blank"
                         >
                           Fees Structure

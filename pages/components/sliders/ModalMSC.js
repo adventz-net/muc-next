@@ -209,7 +209,7 @@ export default function UGModalFour() {
                         For the complete details of the fees, please refer to
                         the &nbsp;
                         <Link
-                          href="https://majancollege.edu.om/fees"
+                          href="https://majancollege.edu.om/fees#msc"
                           target="_blank"
                         >
                           Fees Structure
