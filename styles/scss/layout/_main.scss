@@ -369,12 +369,83 @@ input[type="number"]::-webkit-inner-spin-button {
   }
 }
 
-.student-slider {
+.student-slider-01 {
   position: absolute;
   right: 0;
   bottom: 0;
   .slider-shape {
     position: absolute;
+    @include transEase;
+    transition-duration: 500ms;
+    svg {
+      width: 100%;
+    }
+    &.shape-01 {
+      right: 0;
+      bottom: 5%;
+      width: 90%;
+      height: 85%;
+      background-color: #47c1bb;
+
+      animation: studentSliderShape-01 10s infinite forwards;
+      z-index: 10;
+    }
+    &.shape-02 {
+      left: -20%;
+      bottom: 10%;
+      width: 500px;
+      height: 500px;
+      background-color: #f16122;
+      border-radius: 50%;
+      transform: scale(0.5);
+      transition-delay: 100ms;
+      animation: studentSliderShape-02 10s infinite forwards;
+      z-index: 20;
+    }
+    &.shape-03 {
+      right: -35%;
+      top: -30%;
+      width: 300px;
+      height: 300px;
+      background-color: #c1d32f;
+      border-radius: 50%;
+      transform: scale(0.5);
+      transition-delay: 100ms;
+      animation: studentSliderShape-03 10s infinite forwards;
+      z-index: 30;
+    }
+    &.shape-04 {
+      right: 0;
+      bottom: -33%;
+      width: 500px;
+      height: 500px;
+      background-color: #2b338d;
+      border-radius: 50%;
+      transform: scale(0.5);
+      transition-delay: 100ms;
+      animation: studentSliderShape-04 10s 1s infinite forwards;
+      z-index: 40;
+    }
+  }
+  .student-img {
+    position: relative;
+    width: 650px;
+    height: 775px;
+    z-index: 30;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.student-slider-02 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  .slider-shape {
+    position: absolute;
+    @include transEase;
+    transition-duration: 500ms;
     svg {
       width: 100%;
     }
@@ -388,35 +459,38 @@ input[type="number"]::-webkit-inner-spin-button {
       z-index: 10;
     }
     &.shape-02 {
-      left: 0;
+      left: -20%;
       bottom: 10%;
       width: 500px;
       height: 500px;
       background-color: #f16122;
       border-radius: 50%;
-      transform: translate(-50%, 0);
+      transform: scale(0.5);
+      transition-delay: 100ms;
       animation: studentSliderShape-02 10s infinite forwards;
       z-index: 20;
     }
     &.shape-03 {
-      right: 0;
-      top: 0;
+      right: -35%;
+      top: -30%;
       width: 300px;
       height: 300px;
       background-color: #c1d32f;
       border-radius: 50%;
-      transform: translate(67%, -45%);
+      transform: scale(0.5);
+      transition-delay: 100ms;
       animation: studentSliderShape-03 10s infinite forwards;
       z-index: 30;
     }
     &.shape-04 {
-      right: 0;
-      bottom: 0;
+      right: -33%;
+      bottom: -33%;
       width: 500px;
       height: 500px;
       background-color: #2b338d;
       border-radius: 50%;
-      transform: translate(0, 50%);
+      transform: scale(0.5);
+      transition-delay: 100ms;
       animation: studentSliderShape-04 10s 1s infinite forwards;
       z-index: 40;
     }
@@ -490,6 +564,33 @@ input[type="number"]::-webkit-inner-spin-button {
     z-index: 30;
     img {
       width: 100%;
+    }
+  }
+}
+
+.main-slider-item {
+  .carousel {
+    .carousel-item {
+      &.active {
+        .student-slider-01 .slider-shape.shape-02 {
+          transform: scale(1);
+        }
+        .student-slider-01 .slider-shape.shape-03 {
+          transform: scale(1);
+        }
+        .student-slider-01 .slider-shape.shape-04 {
+          transform: scale(1);
+        }
+        .student-slider-02 .slider-shape.shape-02 {
+          transform: scale(1);
+        }
+        .student-slider-02 .slider-shape.shape-03 {
+          transform: scale(1);
+        }
+        .student-slider-02 .slider-shape.shape-04 {
+          transform: scale(1);
+        }
+      }
     }
   }
 }

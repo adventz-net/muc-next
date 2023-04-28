@@ -19,7 +19,7 @@ export default function MainSlider() {
       <Carousel pause={!isHovering} fade controls={false} indicators={false}>
         <Carousel.Item>
           <div className="first-slider">
-            <div className="student-slider">
+            <div className="student-slider-01">
               <div className="slider-shape shape-01"></div>
               <div className="slider-shape shape-02"></div>
               <div className="slider-shape shape-03"></div>
@@ -32,7 +32,7 @@ export default function MainSlider() {
         </Carousel.Item>
         <Carousel.Item>
           <div className="first-slider">
-            <div className="student-slider">
+            <div className="student-slider-02">
               <div className="slider-shape shape-01"></div>
               <div className="slider-shape shape-02"></div>
               <div className="slider-shape shape-03"></div>
