@@ -444,9 +444,6 @@
     padding-right: 1rem;
     overflow: auto;
   }
-  .sec-bg-graphics .att-shape {
-    display: none;
-  }
   .vision-item figure {
     max-width: 80%;
   }
@@ -459,6 +456,12 @@
     font-size: 2rem;
   }
   .credo-cover .credo-hd h4 {
+    font-size: 2rem;
+  }
+  .credo-list .credo-item .credo-letter {
+    flex: 0 0 72px;
+    max-width: 72px;
+    height: 72px;
     font-size: 2rem;
   }
   .sec-bg-graphics .social-shape {
@@ -632,10 +635,6 @@
   .wel-dean-cover .dean-content .dean-con-body {
     padding: 6rem 2rem 2rem;
   }
-  .vision-item .vision-it-body {
-    left: 4rem;
-    top: 6rem;
-  }
   .credo-cover .credo-hd h4 {
     font-size: 2rem;
   }
@@ -664,23 +663,19 @@
     width: 100px;
     height: 100px;
   }
-  .sec-bg-graphics .pgm-mod-shape {
-    display: none;
-  }
   .ug-slider-hd h2 {
     font-size: 2rem;
     font-weight: var(--font-weight-semibold);
   }
   .acc-pgm-overview {
-    display: block;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: stretch;
   }
   .acc-pgm-overview figure {
-    flex: unset;
+    flex: 1 1 0;
     max-width: unset;
     margin: 0 0 2rem 0;
-  }
-  .acc-pgm-overview figure .acc-pgm-img {
-    margin-bottom: 1rem;
   }
   .acc-pgm-overview .acc-pgm-info {
     position: relative;
@@ -695,7 +690,7 @@
     font-size: 1.5rem;
   }
   .acc-pgm-overview .acc-pgm-body {
-    flex: unset;
+    flex: 1 1 0;
     padding: 1.5rem 1.5rem;
   }
 }

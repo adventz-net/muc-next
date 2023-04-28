@@ -180,7 +180,7 @@ export default function WelcomeSlider() {
         <div className="vision-item-cover">
           <Container fluid className="px-0">
             <Row className="g-0">
-              <Col xs={12} xl={4}>
+              <Col xs={12} lg={4}>
                 <div className="vision-item">
                   <figure>
                     <img src="images/vision-img-01.png" alt="Image" />
@@ -194,7 +194,7 @@ export default function WelcomeSlider() {
                   </div>
                 </div>
               </Col>
-              <Col xs={12} xl={4}>
+              <Col xs={12} lg={4}>
                 <div className="vision-item bg-mission">
                   <figure>
                     <img src="images/vision-img-02.png" alt="Image" />
@@ -209,7 +209,7 @@ export default function WelcomeSlider() {
                   </div>
                 </div>
               </Col>
-              <Col xs={12} xl={4}>
+              <Col xs={12} lg={4}>
                 <div className="vision-item bg-values">
                   <figure>
                     <img src="images/vision-img-03.png" alt="Image" />
@@ -409,7 +409,7 @@ export default function WelcomeSlider() {
                           />
                         </div>
                         <div className="wings-txt">
-                          <p>Adaptive</p>
+                          <span>Adaptive</span>
                         </div>
                       </div>
                     </div>
@@ -428,7 +428,7 @@ export default function WelcomeSlider() {
                           />
                         </div>
                         <div className="wings-txt">
-                          <p>Entrepreneurial</p>
+                          <span>Entrepreneurial</span>
                         </div>
                       </div>
                     </div>
@@ -447,7 +447,7 @@ export default function WelcomeSlider() {
                           />
                         </div>
                         <div className="wings-txt">
-                          <p>Global Citizen</p>
+                          <span>Global Citizen</span>
                         </div>
                       </div>
                     </div>
@@ -466,7 +466,7 @@ export default function WelcomeSlider() {
                           />
                         </div>
                         <div className="wings-txt">
-                          <p>Employable</p>
+                          <span>Employable</span>
                         </div>
                       </div>
                     </div>
@@ -485,7 +485,7 @@ export default function WelcomeSlider() {
                           />
                         </div>
                         <div className="wings-txt">
-                          <p>Innovative</p>
+                          <span>Innovative</span>
                         </div>
                       </div>
                     </div>
@@ -504,7 +504,7 @@ export default function WelcomeSlider() {
                           />
                         </div>
                         <div className="wings-txt">
-                          <p>Knowledgeable</p>
+                          <span>Knowledgeable</span>
                         </div>
                       </div>
                     </div>

@@ -92,11 +92,6 @@ export default function UGModalFour() {
                     <Accordion.Header>General Information</Accordion.Header>
                     <Accordion.Body>
                       <div className="acc-pgm-overview">
-                        <figure>
-                          <div className="acc-pgm-img">
-                            <img src="images/ma-intro-img.jpg" alt="Image" />
-                          </div>
-                        </figure>
                         <div className="acc-pgm-body">
                           <Row>
                             <Col xs={12} md={6}>
