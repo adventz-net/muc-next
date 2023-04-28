@@ -147,7 +147,7 @@ export default function UGModalNine() {
                             <div className="count">4</div>
                             <p>
                               Debit/credit card for payment of the initial
-                              registration fee of GBP 89 to ACCA.
+                              registration fee of £ 89 to ACCA.
                             </p>
                           </div>
                         </div>
