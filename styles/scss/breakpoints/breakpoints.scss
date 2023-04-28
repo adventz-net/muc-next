@@ -398,6 +398,38 @@
 }
 
 @media (max-width: 1366px) {
+  .sec-bg-graphics .social-shape {
+    width: 150px;
+    height: 150px;
+  }
+  .sec-bg-graphics .slider-d-shape {
+    left: 4%;
+    top: 10%;
+    width: 80px;
+    height: 100px;
+  }
+  .sec-bg-graphics .pgm-mod-shape.shape-01 {
+    left: 4%;
+    top: 10%;
+    width: 80px;
+    height: 100px;
+  }
+  .sec-bg-graphics .con-cam-shape.shape-01 {
+    width: 50px;
+    height: 100px;
+  }
+  .sec-bg-graphics .pgm-head-shape.shape-01 {
+    width: 90px;
+    height: 120px;
+  }
+  .sec-bg-graphics .pgm-head-shape.shape-02 {
+    width: 90px;
+    height: 120px;
+  }
+  .sec-bg-graphics .pgm-admin-shape.shape-01 {
+    width: 67px;
+    height: 100px;
+  }
 }
 
 @media (max-width: 1280px) {
@@ -694,25 +726,6 @@
     padding: 1.5rem 1.5rem;
   }
 }
-
-// @media (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) {
-//   .down-arrow {
-//     width: 48px;
-//     height: 48px;
-//   }
-//   .wel-dean-cover .dean-img {
-//     max-width: 350px;
-//     margin: 0 auto;
-//   }
-//   .wel-dean-cover .dean-content .dean-con-body {
-//     padding: 6rem 2rem 2rem;
-//   }
-//   .wel-dean-cover .dean-content .dean-con-scroll {
-//     height: 350px;
-//     padding-right: 1rem;
-//     overflow: auto;
-//   }
-// }
 
 /* Portrait */
 @media (max-device-width: 800px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
