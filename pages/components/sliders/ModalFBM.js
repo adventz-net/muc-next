@@ -105,6 +105,7 @@ export default function UGModalOne() {
                   <Accordion.Item eventKey="01a">
                     <Accordion.Header>General Pathway</Accordion.Header>
                     <Accordion.Body>
+                      <h4>Programme overview</h4>
                       <p>
                         This programme aims to develop a student's intellectual
                         ability, executive personality and managerial skills
@@ -121,6 +122,15 @@ export default function UGModalOne() {
                         of managerial capabilities, problem solving and
                         communication skills.
                       </p>
+                      <h5>Fee Structure</h5>
+                      <p>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Click here to view the Fee Structure
+                        </Link>
+                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="02a">
@@ -128,6 +138,7 @@ export default function UGModalOne() {
                       Human Resource Management Pathway
                     </Accordion.Header>
                     <Accordion.Body>
+                      <h4>Programme overview</h4>
                       <p>
                         This programme develops a range of skills and knowledge
                         essential to the effective management of HR functions
@@ -139,11 +150,21 @@ export default function UGModalOne() {
                         statistics, management and marketing, in addition to
                         English Language courses.
                       </p>
+                      <h5>Fee Structure</h5>
+                      <p>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Click here to view the Fee Structure
+                        </Link>
+                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="03a">
                     <Accordion.Header>Marketing Pathway</Accordion.Header>
                     <Accordion.Body>
+                      <h4>Programme overview</h4>
                       <p>
                         Students of this programme learn about the role of
                         markets and marketing in today's society. The programme
@@ -158,11 +179,21 @@ export default function UGModalOne() {
                         principles and the development of successful business
                         strategies.
                       </p>
+                      <h5>Fee Structure</h5>
+                      <p>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Click here to view the Fee Structure
+                        </Link>
+                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="04a">
                     <Accordion.Header>Accounting Pathway</Accordion.Header>
                     <Accordion.Body>
+                      <h4>Programme overview</h4>
                       <p>
                         The programme provides a blend of a conceptual
                         theoretical framework with practical applications and
@@ -177,6 +208,15 @@ export default function UGModalOne() {
                         financial or management accountants, public accountants
                         and managers.
                       </p>
+                      <h5>Fee Structure</h5>
+                      <p>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Click here to view the Fee Structure
+                        </Link>
+                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="05a">
@@ -184,6 +224,7 @@ export default function UGModalOne() {
                       Information Systems Pathway
                     </Accordion.Header>
                     <Accordion.Body>
+                      <h4>Programme overview</h4>
                       <p>
                         The BA (Hons) in Business Administration with
                         Information Systems pathway is designed to meet the
@@ -198,7 +239,7 @@ export default function UGModalOne() {
                         and human aspects and the core concepts underlying the
                         practice of finance and accounting, management
                         principles and the development of successful business
-                        strategies.{" "}
+                        strategies.
                       </p>
                       <p>
                         It is aimed at developing students' skills of
@@ -210,11 +251,21 @@ export default function UGModalOne() {
                         business systems and integration consultant and security
                         and privacy consultant.
                       </p>
+                      <h5>Fee Structure</h5>
+                      <p>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Click here to view the Fee Structure
+                        </Link>
+                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="06a">
                     <Accordion.Header>Small Business Pathway</Accordion.Header>
                     <Accordion.Body>
+                      <h4>Programme overview</h4>
                       <p>
                         The importance of entrepreneurship and Small and Medium
                         Enterprises have been widely accepted as vital for
@@ -225,7 +276,7 @@ export default function UGModalOne() {
                         entrepreneurship among students in particular and
                         society in general. Entrepreneurs have a set of personal
                         skills, attributes and behaviour that go beyond the
-                        purely commercial.{" "}
+                        purely commercial.
                       </p>
                       <p>
                         The BA (Hons) in Business Administration with Small
@@ -238,7 +289,7 @@ export default function UGModalOne() {
                         to include the legal, economic, behavioural and human
                         aspects; technical skills in information systems,
                         mathematics and quantitative analysis; and the ability
-                        to communicate, integrate and synthesise.{" "}
+                        to communicate, integrate and synthesise.
                       </p>
                       <p>
                         As a graduate you will be able to integrate the theory
@@ -254,6 +305,15 @@ export default function UGModalOne() {
                         dynamic manager who can make a dramatic difference in
                         the future of a small business.
                       </p>
+                      <h5>Fee Structure</h5>
+                      <p>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Click here to view the Fee Structure
+                        </Link>
+                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="07a">
@@ -261,6 +321,7 @@ export default function UGModalOne() {
                       Tourism and Event Management Pathway
                     </Accordion.Header>
                     <Accordion.Body>
+                      <h4>Programme overview</h4>
                       <p>
                         The BA (Hons) Business Administration with Tourism
                         include modules aimed at providing students with the
@@ -274,6 +335,15 @@ export default function UGModalOne() {
                         emphasis on the relevant skills and knowledge pertaining
                         to the tourism sector.
                       </p>
+                      <h5>Fee Structure</h5>
+                      <p>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Click here to view the Fee Structure
+                        </Link>
+                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="08a">
@@ -281,6 +351,7 @@ export default function UGModalOne() {
                       Transport Operations Management Pathway
                     </Accordion.Header>
                     <Accordion.Body>
+                      <h4>Programme overview</h4>
                       <p>
                         Transport Operations Management is a new BA Business
                         Administration pathway designed to equip students with
@@ -293,6 +364,15 @@ export default function UGModalOne() {
                         degree programmes covering these areas are unusual in
                         Oman, so students choosing this pathway may well find
                         employment successfully after graduation.
+                      </p>
+                      <h5>Fee Structure</h5>
+                      <p>
+                        <Link
+                          href="https://majancollege.edu.om/fees#under"
+                          target="_blank"
+                        >
+                          Click here to view the Fee Structure
+                        </Link>
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

@@ -77,7 +77,10 @@ export default function UGModalEleven() {
                             recommended study duration is four months (whether
                             face-to-face or online).
                           </p>
-                          <h5>Intakes ongoing every Sept., Feb. and June.</h5>
+                          <h5>
+                            We have 3 intakes for CIFE - September, February and
+                            June.
+                          </h5>
                         </div>
                       </div>
                     </Accordion.Body>
