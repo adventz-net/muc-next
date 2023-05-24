@@ -1,21 +1,22 @@
-import Head from "next/head";
-import Link from "next/link";
-import React, { useState, useRef } from "react";
+import Head from 'next/head';
+import Link from 'next/link';
+import React, { useState, useRef } from 'react';
 
-import TopNavbar from "./components/TopNavbar";
-import MainSlider from "./components/sliders/MainSlider";
-import WelcomeSlider from "./components/sliders/WelcomeSlider";
-import ContentSlider from "./components/sliders/ContentSlider";
-import CampusSlider from "./components/sliders/CampusSlider";
-import ProgrammesSlider from "./components/sliders/ProgrammesSlider";
-import MtiSlider from "./components/sliders/MtiSlider";
-import ContactSlider from "./components/sliders/ContactSlider";
+import TopNavbar from './components/TopNavbar';
+import MainSlider from './components/sliders/MainSlider';
+import WelcomeSlider from './components/sliders/WelcomeSlider';
+import DestinationSlider from './components/sliders/DestinationSlider';
+import CampusSlider from './components/sliders/CampusSlider';
+import StudentSlider from './components/sliders/StudentSlider';
+import ProgrammesSlider from './components/sliders/ProgrammesSlider';
+import MtiSlider from './components/sliders/MtiSlider';
+import ContactSlider from './components/sliders/ContactSlider';
 
-import Slider from "react-slick";
+import Slider from 'react-slick';
 
 // slick carousel import css files
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 export default function Home() {
   const [sliderMain, setsliderMain] = useState(0);
@@ -80,7 +81,13 @@ export default function Home() {
             <ContentSlider />
           </div> */}
           <div>
+            <DestinationSlider />
+          </div>
+          <div>
             <CampusSlider />
+          </div>
+          <div>
+            <StudentSlider />
           </div>
           <div>
             <ProgrammesSlider />
@@ -107,6 +114,52 @@ export default function Home() {
             <div>111111</div>
           </div> */}
         </Slider>
+        <ul className="social-media">
+          <li className="sm-item">
+            <Link
+              type="button"
+              className="sm-link"
+              data-bs-toggle="tooltip"
+              href=""
+              title="Facebook"
+            >
+              <i className="bi bi-facebook"></i>
+            </Link>
+          </li>
+          <li className="sm-item">
+            <Link
+              type="button"
+              className="sm-link"
+              data-bs-toggle="tooltip"
+              href=""
+              title="Instagram"
+            >
+              <i className="bi bi-instagram"></i>
+            </Link>
+          </li>
+          <li className="sm-item">
+            <Link
+              type="button"
+              className="sm-link"
+              data-bs-toggle="tooltip"
+              href=""
+              title="Twitter"
+            >
+              <i className="bi bi-twitter"></i>
+            </Link>
+          </li>
+          <li className="sm-item">
+            <Link
+              type="button"
+              className="sm-link"
+              data-bs-toggle="tooltip"
+              href=""
+              title="LinkedIn"
+            >
+              <i className="bi bi-linkedin"></i>
+            </Link>
+          </li>
+        </ul>
       </div>
 
       <footer className="navbar slider-nav">
@@ -149,7 +202,13 @@ export default function Home() {
             <div className="nav-link">Contents</div>
           </div> */}
           <div>
+            <div className="nav-link">Destination</div>
+          </div>
+          <div>
             <div className="nav-link">Campus Life</div>
+          </div>
+          <div>
+            <div className="nav-link">Studen Support</div>
           </div>
           <div>
             <div className="nav-link">Programmes</div>

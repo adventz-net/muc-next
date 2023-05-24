@@ -1,10 +1,10 @@
-import React, { useEffect, useState, useRef } from "react";
-import { Container, Row, Col, Accordion } from "react-bootstrap";
-import Slider from "react-slick";
+import React, { useEffect, useState, useRef } from 'react';
+import { Container, Row, Col, Accordion, Tab, Nav } from 'react-bootstrap';
+import Slider from 'react-slick';
 
 // slick carousel import css files
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 export default function WelcomeSlider() {
   // Partners slider
@@ -302,7 +302,7 @@ export default function WelcomeSlider() {
                     </Accordion.Item>
                     <Accordion.Item eventKey="8">
                       <Accordion.Header>
-                        Computing (with 3 pathways){" "}
+                        Computing (with 3 pathways){' '}
                         <span className="icon"></span>
                       </Accordion.Header>
                       <Accordion.Body>
@@ -329,190 +329,220 @@ export default function WelcomeSlider() {
         </div>
       </section>
 
-      <section className="attribute-sec">
-        <div className="sec-bg-graphics">
-          <div className="att-shape"></div>
-        </div>
+      <section className="attribute-sec px-5 px-xl-6 py-5 py-xl-7">
         <div className="sec-con-cover">
-          <div className="container-fluid px-0">
-            <div className="row g-0">
-              <div xs={12} xl={6}>
-                <div className="credo-cover px-5 px-xl-6 py-5 py-xl-6">
-                  <div className="credo-hd">
-                    <h4>The Majan University College Teaching CREDO</h4>
-                    <p>
-                      Credo (noun): a statement of the beliefs which guide
-                      someone's actions.From the Latin for "I believe".
-                    </p>
-                    <p>
-                      The MUC teaching credo encapsulates five key ingredients
-                      which we believe to be important in successful teaching
-                      and learning
-                    </p>
-                  </div>
-                  <div className="credo-list">
-                    <div className="credo-item">
-                      <div className="credo-letter">C</div>
-                      <div className="credo-body">
-                        Combining innovative face to face teaching with smart
-                        use of technology
-                      </div>
-                    </div>
-                    <div className="credo-item">
-                      <div className="credo-letter">R</div>
-                      <div className="credo-body">
-                        Reducing the length of periods of lecturing
-                      </div>
-                    </div>
-                    <div className="credo-item">
-                      <div className="credo-letter">E</div>
-                      <div className="credo-body">
-                        Encouraging student participation
-                      </div>
-                    </div>
-                    <div className="credo-item">
-                      <div className="credo-letter">D</div>
-                      <div className="credo-body">
-                        Developing student as independent thinkers and learners
-                      </div>
-                    </div>
-                    <div className="credo-item">
-                      <div className="credo-letter">O</div>
-                      <div className="credo-body">
-                        Offering individual support to students
-                      </div>
-                    </div>
-                  </div>
+          <Container fluid>
+            <Row>
+              <Col xs={12}>
+                <div className="attr-tb-hd">
+                  <h3>Graduate Attributes</h3>
                 </div>
-              </div>
-              <div xs={12} xl={6}>
-                <div className="attr-cover px-5 px-xl-6 py-5 py-xl-6">
-                  <div className="graduate-attr-hd">
-                    <img src="images/graduate-att-hd.png" alt="HD" />
-                  </div>
-                  <div className="graduate-graphics">
-                    <div className="graduate-base">
-                      <img src="images/graduate-graph-base.png" alt="Image" />
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={12}>
+                <div className="attr-tb-cover">
+                  <Tab.Container
+                    id="tab-attribute"
+                    defaultActiveKey="attr-tab-01"
+                  >
+                    <Nav className="attr-tb-nav">
+                      <Nav.Item>
+                        <Nav.Link eventKey="attr-tab-01">
+                          <span className="nav-icon">
+                            <img
+                              src="images/graduate-gra-icon-01.png"
+                              alt="Icon"
+                            />
+                          </span>
+                          <span className="nav-label">Adaptive</span>
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="attr-tab-02">
+                          <span className="nav-icon">
+                            <img
+                              src="images/graduate-gra-icon-02.png"
+                              alt="Icon"
+                            />
+                          </span>
+                          <span className="nav-label">Entrepreneurial</span>
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="attr-tab-03">
+                          <span className="nav-icon">
+                            <img
+                              src="images/graduate-gra-icon-03.png"
+                              alt="Icon"
+                            />
+                          </span>
+                          <span className="nav-label">Global Citizen</span>
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="attr-tab-06">
+                          <span className="nav-icon">
+                            <img
+                              src="images/graduate-gra-icon-06.png"
+                              alt="Icon"
+                            />
+                          </span>
+                          <span className="nav-label">Employable</span>
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="attr-tab-05">
+                          <span className="nav-icon">
+                            <img
+                              src="images/graduate-gra-icon-05.png"
+                              alt="Icon"
+                            />
+                          </span>
+                          <span className="nav-label">Innovative</span>
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="attr-tab-04">
+                          <span className="nav-icon">
+                            <img
+                              src="images/graduate-gra-icon-04.png"
+                              alt="Icon"
+                            />
+                          </span>
+                          <span className="nav-label">KNowledgeable</span>
+                        </Nav.Link>
+                      </Nav.Item>
+                    </Nav>
+                    <div className="attr-tb-body">
+                      <div className="attr-tb-dot dot-01"></div>
+                      <div className="attr-tb-dot dot-02"></div>
+                      <div className="attr-tb-dot dot-03"></div>
+                      <div className="attr-tb-dot dot-04"></div>
+                      <div className="attr-tb-dot dot-05"></div>
+                      <div className="attr-tb-dot dot-06"></div>
+                      <Tab.Content>
+                        <Tab.Pane eventKey="attr-tab-01">
+                          <div className="attr-tb-con">
+                            <h4>Adaptive</h4>
+                            <ul>
+                              <li>
+                                Demonstrates discipline-specific knowledge and
+                                skills;
+                              </li>
+                              <li>
+                                Has the ability to apply current knowledge of
+                                the discipline to professional situations;
+                              </li>
+                              <li>
+                                Analyses and critically evaluates from multiple
+                                perspectives;
+                              </li>
+                            </ul>
+                          </div>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="attr-tab-02">
+                          <div className="attr-tb-con">
+                            <h4>Entrepreneurial</h4>
+                            <ul>
+                              <li>
+                                Demonstrates discipline-specific knowledge and
+                                skills;
+                              </li>
+                              <li>
+                                Has the ability to apply current knowledge of
+                                the discipline to professional situations;
+                              </li>
+                              <li>
+                                Analyses and critically evaluates from multiple
+                                perspectives;
+                              </li>
+                            </ul>
+                          </div>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="attr-tab-03">
+                          <div className="attr-tb-con">
+                            <h4>Global Citizen</h4>
+                            <ul>
+                              <li>
+                                Demonstrates discipline-specific knowledge and
+                                skills;
+                              </li>
+                              <li>
+                                Has the ability to apply current knowledge of
+                                the discipline to professional situations;
+                              </li>
+                              <li>
+                                Analyses and critically evaluates from multiple
+                                perspectives;
+                              </li>
+                            </ul>
+                          </div>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="attr-tab-04">
+                          <div className="attr-tb-con">
+                            <h4>Knowledgeable</h4>
+                            <ul>
+                              <li>
+                                Demonstrates discipline-specific knowledge and
+                                skills;
+                              </li>
+                              <li>
+                                Has the ability to apply current knowledge of
+                                the discipline to professional situations;
+                              </li>
+                              <li>
+                                Analyses and critically evaluates from multiple
+                                perspectives;
+                              </li>
+                            </ul>
+                          </div>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="attr-tab-05">
+                          <div className="attr-tb-con">
+                            <h4>Innovative</h4>
+                            <ul>
+                              <li>
+                                Demonstrates discipline-specific knowledge and
+                                skills;
+                              </li>
+                              <li>
+                                Has the ability to apply current knowledge of
+                                the discipline to professional situations;
+                              </li>
+                              <li>
+                                Analyses and critically evaluates from multiple
+                                perspectives;
+                              </li>
+                            </ul>
+                          </div>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="attr-tab-06">
+                          <div className="attr-tb-con">
+                            <h4>Employable</h4>
+                            <ul>
+                              <li>
+                                Demonstrates discipline-specific knowledge and
+                                skills;
+                              </li>
+                              <li>
+                                Has the ability to apply current knowledge of
+                                the discipline to professional situations;
+                              </li>
+                              <li>
+                                Analyses and critically evaluates from multiple
+                                perspectives;
+                              </li>
+                            </ul>
+                          </div>
+                        </Tab.Pane>
+                      </Tab.Content>
                     </div>
-                    <div className="graduate-wings wings-01">
-                      <div className="wings-base">
-                        <img
-                          src="images/graduate-graph-wings-01.png"
-                          alt="Image"
-                        />
-                      </div>
-                      <div className="wings-body">
-                        <div className="wings-icon">
-                          <img
-                            src="images/graduate-gra-icon-01.png"
-                            alt="Image"
-                          />
-                        </div>
-                        <div className="wings-txt">
-                          <span>Adaptive</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="graduate-wings wings-02">
-                      <div className="wings-base">
-                        <img
-                          src="images/graduate-graph-wings-02.png"
-                          alt="Image"
-                        />
-                      </div>
-                      <div className="wings-body">
-                        <div className="wings-icon">
-                          <img
-                            src="images/graduate-gra-icon-02.png"
-                            alt="Image"
-                          />
-                        </div>
-                        <div className="wings-txt">
-                          <span>Entrepreneurial</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="graduate-wings wings-03">
-                      <div className="wings-base">
-                        <img
-                          src="images/graduate-graph-wings-03.png"
-                          alt="Image"
-                        />
-                      </div>
-                      <div className="wings-body">
-                        <div className="wings-icon">
-                          <img
-                            src="images/graduate-gra-icon-03.png"
-                            alt="Image"
-                          />
-                        </div>
-                        <div className="wings-txt">
-                          <span>Global Citizen</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="graduate-wings wings-04">
-                      <div className="wings-base">
-                        <img
-                          src="images/graduate-graph-wings-04.png"
-                          alt="Image"
-                        />
-                      </div>
-                      <div className="wings-body">
-                        <div className="wings-icon">
-                          <img
-                            src="images/graduate-gra-icon-04.png"
-                            alt="Image"
-                          />
-                        </div>
-                        <div className="wings-txt">
-                          <span>Employable</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="graduate-wings wings-05">
-                      <div className="wings-base">
-                        <img
-                          src="images/graduate-graph-wings-05.png"
-                          alt="Image"
-                        />
-                      </div>
-                      <div className="wings-body">
-                        <div className="wings-icon">
-                          <img
-                            src="images/graduate-gra-icon-05.png"
-                            alt="Image"
-                          />
-                        </div>
-                        <div className="wings-txt">
-                          <span>Innovative</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="graduate-wings wings-06">
-                      <div className="wings-base">
-                        <img
-                          src="images/graduate-graph-wings-06.png"
-                          alt="Image"
-                        />
-                      </div>
-                      <div className="wings-body">
-                        <div className="wings-icon">
-                          <img
-                            src="images/graduate-gra-icon-06.png"
-                            alt="Image"
-                          />
-                        </div>
-                        <div className="wings-txt">
-                          <span>Knowledgeable</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  </Tab.Container>
                 </div>
-              </div>
-            </div>
-          </div>
+              </Col>
+            </Row>
+          </Container>
         </div>
       </section>
 

@@ -1,23 +1,25 @@
-@import "abstracts/functions.scss";
-@import "abstracts/mixins.scss";
-@import "abstracts/variables.scss";
+@import 'abstracts/functions.scss';
+@import 'abstracts/mixins.scss';
+@import 'abstracts/variables.scss';
 
-@import "base/typography.scss";
+@import 'base/typography.scss';
 
-@import "layout/header";
-@import "layout/navigation";
-@import "layout/main";
-@import "layout/footer";
-@import "layout/welcome";
-@import "layout/content";
-@import "layout/campus";
-@import "layout/programmes";
-@import "layout/contact";
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/main';
+@import 'layout/footer';
+@import 'layout/welcome';
+@import 'layout/content';
+@import 'layout/destination';
+@import 'layout/campus';
+@import 'layout/student';
+@import 'layout/programmes';
+@import 'layout/contact';
 
-@import "components/loading";
-@import "components/animations";
-@import "components/buttons";
+@import 'components/loading';
+@import 'components/animations';
+@import 'components/buttons';
 
-@import "pages/home";
+@import 'pages/home';
 
-@import "breakpoints/breakpoints";
+@import 'breakpoints/breakpoints';

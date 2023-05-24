@@ -1,18 +1,18 @@
-import Link from "next/link";
-import { useState } from "react";
-import { Container, Row, Col, Modal } from "react-bootstrap";
+import Link from 'next/link';
+import { useState } from 'react';
+import { Container, Row, Col, Modal } from 'react-bootstrap';
 
-import ModalFBM from "./ModalFBM";
-import ModalFIT from "./ModalFIT";
-import ModalFELS from "./ModalFELS";
-import ModalMBA from "./ModalMBA";
-import ModalMSC from "./ModalMSC";
-import ModalMA from "./ModalMA";
-import ModalDBA from "./ModalDBA";
-import ModalACCA from "./ModalACCA";
-import ModalCMA from "./ModalCMA";
-import ModalCIFE from "./ModalCIFE";
-import ModalFound from "./ModalFound";
+import ModalFBM from './ModalFBM';
+import ModalFIT from './ModalFIT';
+import ModalFELS from './ModalFELS';
+import ModalMBA from './ModalMBA';
+import ModalMSC from './ModalMSC';
+import ModalMA from './ModalMA';
+import ModalDBA from './ModalDBA';
+import ModalACCA from './ModalACCA';
+import ModalCMA from './ModalCMA';
+import ModalCIFE from './ModalCIFE';
+import ModalFound from './ModalFound';
 
 export default function ProgrammesSlider() {
   const [showModal01, setShowModal01] = useState(false);

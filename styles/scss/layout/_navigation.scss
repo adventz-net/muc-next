@@ -8,56 +8,6 @@
   z-index: 1030;
 }
 
-.social-media {
-  display: flex;
-  align-items: center;
-  .sm-item {
-    + .sm-item {
-      margin-left: 0.5rem;
-    }
-    .sm-link {
-      position: relative;
-      display: block;
-      color: var(--white);
-      width: 40px;
-      height: 40px;
-      border: 0;
-      border-radius: 50%;
-      text-align: center;
-      text-decoration: none;
-      &::before {
-        content: "";
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        width: 46px;
-        height: 46px;
-        border: 1px solid var(--white);
-        border-radius: 50%;
-        transform: translate(-50%, -50%) scale(1.5);
-        opacity: 0;
-        @include transEase;
-      }
-      i {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        font-size: 1.25rem;
-        transform: translate(-50%, -50%);
-        z-index: 5;
-      }
-      &:hover {
-        color: var(--color-200);
-        background-color: var(--white);
-        &::before {
-          transform: translate(-50%, -50%) scale(1);
-          opacity: 1;
-        }
-      }
-    }
-  }
-}
-
 .tool-nav {
   display: flex;
   margin-left: auto;

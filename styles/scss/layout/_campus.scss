@@ -33,6 +33,45 @@
   }
 }
 
+.campus-intro-vid-sec {
+  position: relative;
+}
+
+.campus-intro-vid {
+  position: relative;
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .btn-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90px;
+    height: 90px;
+    color: var(--white);
+    font-size: 2.5rem;
+    background-color: transparent;
+    border: 3px solid var(--white);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    &.btn-pause {
+      opacity: 0;
+    }
+  }
+  &:hover {
+    .btn-video {
+      &.btn-pause {
+        opacity: 1;
+      }
+    }
+  }
+}
+
 .campus-into-sec {
   position: relative;
   background-color: var(--spe-color-600);
@@ -83,7 +122,7 @@
       padding-left: 1.5rem;
       margin-bottom: 0.5rem;
       &::before {
-        content: "";
+        content: '';
         position: absolute;
         left: 0;
         top: 8px;
@@ -112,7 +151,7 @@
     height: 100%;
     background-color: var(--spe-color-600);
     clip-path: polygon(0 0, 0% 100%, 100% 100%) !important;
-    clip-path: url("#cam-img-shape");
+    clip-path: url('#cam-img-shape');
   }
 }
 
@@ -231,7 +270,7 @@
     position: relative;
     + .slick-slide {
       &::before {
-        content: "";
+        content: '';
         position: absolute;
         left: 0;
         top: 1rem;
@@ -349,7 +388,7 @@
       padding-left: 1.5rem;
       margin-bottom: 0.5rem;
       &::before {
-        content: "";
+        content: '';
         position: absolute;
         left: 0;
         top: 6px;
@@ -373,5 +412,55 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+}
+
+.des-exp-carousel {
+  position: relative;
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    width: 36px;
+    height: 36px;
+    background-color: var(--color-200);
+    background-size: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    z-index: 10;
+    &::before {
+      display: none;
+    }
+    &.slick-prev {
+      left: -3rem;
+      background-image: url(../../../public/images/arrow-wt-left.png);
+    }
+    &.slick-next {
+      right: -3rem;
+      background-image: url(../../../public/images/arrow-wt-right.png);
+    }
+    &:hover {
+      background-color: var(--color-300);
+      background-size: 16px;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+  .slick-dots {
+    button {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: var(--white);
+      opacity: 0.5;
+      &:before {
+        display: none;
+      }
+    }
+    .slick-active {
+      button {
+        opacity: 1;
+      }
+    }
   }
 }

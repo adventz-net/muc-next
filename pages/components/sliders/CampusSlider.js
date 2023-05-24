@@ -1,53 +1,72 @@
-import Link from "next/link";
-
-import { Container, Row, Col } from "react-bootstrap";
-import Slider from "react-slick";
+import React, { useRef, useState } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import Slider from 'react-slick';
+import { PlayFill, Pause } from 'react-bootstrap-icons';
 
 // slick carousel import css files
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 export default function CampusSlider() {
   // Sports slider
-  const sportsettings = {
+  const settings = {
     arrows: false,
     dots: false,
     infinite: true,
     speed: 1000,
     autoplay: true,
     slidesToShow: 7,
-    slidesToScroll: 1,
+    slidesToScroll: 7,
     responsive: [
       {
         breakpoint: 1080,
-        sportsettings: {
+        settings: {
           slidesToShow: 4,
           slidesToScroll: 4,
         },
       },
       {
         breakpoint: 1024,
-        sportsettings: {
+        settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
         },
       },
       {
         breakpoint: 600,
-        sportsettings: {
+        settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
         },
       },
       {
         breakpoint: 480,
-        sportsettings: {
+        settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
         },
       },
     ],
   };
+
+  // Video
+  const videoRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [buttonClass, setButtonClass] = useState('btn-video');
+
+  const togglePlay = () => {
+    const video = videoRef.current;
+    if (video.paused) {
+      video.play();
+      setIsPlaying(true);
+      setButtonClass('btn-video btn-pause');
+    } else {
+      video.pause();
+      setIsPlaying(false);
+      setButtonClass('btn-video btn-play');
+    }
+  };
+
   return (
     <section className="campus-slider-sec">
       <div className="sec-bg-graphics">
@@ -56,6 +75,19 @@ export default function CampusSlider() {
       </div>
 
       <section className="sec-con-cover">
+        <section className="campus-intro-vid-sec">
+          <div className="campus-intro-vid">
+            <video
+              ref={videoRef}
+              src="videos/story.mp4"
+              poster="images/campus-intro-vid-poster.png"
+            />
+            <button className={buttonClass} onClick={togglePlay}>
+              {isPlaying ? <Pause /> : <PlayFill />}
+            </button>
+          </div>
+        </section>
+
         <section className="campus-into-sec">
           <Container fluid className="px-0">
             <Row className="gx-0">
@@ -249,7 +281,7 @@ export default function CampusSlider() {
           <Container fluid>
             <Row>
               <Col xs={12}>
-                <Slider className="slider sport-carousel" {...sportsettings}>
+                <Slider className="slider sport-carousel" {...settings}>
                   <div>
                     <div className="sport-item">
                       <figure>
@@ -429,7 +461,7 @@ export default function CampusSlider() {
                       <span>Jaffar Al Balushi:</span> Oman Club football player.
                     </li>
                     <li>
-                      <span>Ali Aulad Thani and Muhannad Al Shibli:</span>{" "}
+                      <span>Ali Aulad Thani and Muhannad Al Shibli:</span>{' '}
                       Boshar Football player and U22 Football National Team,
                     </li>
                     <li>
