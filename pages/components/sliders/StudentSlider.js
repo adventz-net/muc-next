@@ -23,20 +23,37 @@ export default function CampusSlider() {
                   <h3>
                     <span>Student Services and Alumni Relations</span>
                   </h3>
+                  <p>
+                  What the center is doing is a true embodiment of the goals of the vision and mission of the college, 
+                  as we seek to help students in having a distinguished learning  experience by providing an appropriate environment 
+                  that includes providing accommodation, transportation, health and psychological care, and helping students in solving 
+                  their problems and difficulties that they face, whether psychological or social and creating the appropriate conditions
+                   to adapt to the college  environment and its requirements. This is in addition to the great role in developing the student’s 
+                   personality and working on refining it by providing a distinguished social environment equipped with the necessary services. 
+                   We also care about preparing students for the future in terms of training and holding workshops to prepare students for the 
+                   labor market according to planned activities and programs. 
+                  </p>
+                  <p>
+                  The center also undertakes, in cooperation with the Student Advisory Council, the management and planning of student activities with the
+                   aim of developing students' talents and abilities, refining their personalities and encouraging them to contribute to decision-making, 
+                   problem-solving and leadership through the formation and management of the Student Council, student groups and clubs, 
+                  as the student learns during this experience teamwork, good citizenship, voluntary work, and respect for the cultures and opinions of others.
+                  </p>
                   <h5>
-                    The Student Services and Alumni Relations provides a variety
-                    of services, namely:
+                  The services provided by the center are as follows:
                   </h5>
 
                   <ul>
                     <li>Student Hostel</li>
                     <li>Clinic and Health Care</li>
-                    <li>Guidance & Counselling</li>
-                    <li>Services to International students</li>
+                    <li>Career & Industry Engagement Office (C&IEO)</li>
+                    <li>Counselling</li>
+                    <li>International students</li>
                     <li>Private transportation</li>
-                    <li>Student activities and student council</li>
+                    <li>Student activities and Student Advisory Council </li>
                     <li>Shopping and leisure trips</li>
-                    <li>Graduation ceremony</li>
+                    <li>Helping low income student </li>
+                    <li>Disciplinary Action</li>
                   </ul>
                 </div>
               </Col>
@@ -63,27 +80,21 @@ export default function CampusSlider() {
               <div className="stud-hos-item">
                 <h3>Student Hostel</h3>
                 <p>
-                  Student Hostels are an important service provided. There are
-                  two hostels, one for females and other for males. Students
-                  registered in the college hostel are expected to follow all
-                  rules and regulations stated in the Hostel Regulations
-                  booklet. Registered students can take advantage of all
-                  services in the hostel, including free transportation (to and
-                  from college), free electricity and water, free cooking gas
-                  and of course free Wi-Fi high-speed internet access.
+                The center provides two residences, one for males and the other for females. Any student registered in the college has the
+                 right to register in the hostels, where a suitable flats system is provided, and each room contains a bed and a wardrobe, 
+                 with a kitchen that contains a cooker, a refrigerator, and free cooking gas. There are other features for residents of the hostels, where water, 
+                electricity and transportation are provided free of charge, and they also get free high-speed Wi-Fi service.
                 </p>
+                <p>The Hostels are managed by wardens who are present 24hours in order for the students to feel comfortable and reassured</p>
               </div>
               <div className="stud-hos-item">
-                <h3>Students' Clinic & Health Care</h3>
+                <h3>Clinic and Health Care</h3>
                 <p>
-                  Students of Majan College receive an initial treatment for
-                  some common ailments in the clinic while critical cases are
-                  referred to the appropriate hospitals. The number of students
-                  that benefit from the services of the clinic has increased
-                  over a period of time. Student Health is taken care of by
-                  sending students to local hospitals from the college or from
-                  the hostel, with transportation provided in emergency cases. A
-                  doctor visits the female hostel twice a month.
+                There is a clinic on the college campus that undertakes the task of taking care of the health of students, where there is a nurse 
+                from 7 am to 7:30 pm who can deal with common diseases, and serious cases can be transferred to local hospitals. 
+                </p>
+                <p>
+                Student Health is taken care of by sending students to local hospitals from the college or from the hostel, with transportation provided in emergency cases.
                 </p>
               </div>
             </div>
@@ -96,22 +107,14 @@ export default function CampusSlider() {
               <img src="images/student-counselling.jpg" alt="Image" />
             </div>
             <div className="stud-coun-body">
-              <h3>Student counselling</h3>
+              <h3>Career & Industry Engagement Office (C&IEO)</h3>
               <p>
-                This involves giving students some tips on their studies and how
-                to relate to lecturers and their colleagues. Students are
-                counselled on the code of conduct, general demeanour and student
-                attendance.
+              The office helps students and graduates to plan their career successfully, seeking to establish a close relationship 
+              with the sectors of work and communicating with the college's graduates on an ongoing basis.
               </p>
-              <h5>Main Objectives:</h5>
-              <ul>
-                <li>Provide advice to students.</li>
-                <li>Provide solutions for various student problems.</li>
-                <li>
-                  Help students to understand and handle individual differences
-                  and fitting in to the college environment.
-                </li>
-              </ul>
+              <p>An integrated plan of courses, workshops and training is made for students, and different  speakers in different
+                  fields of business are invited to train students and graduates.</p>
+            
             </div>
           </div>
         </section>
@@ -125,37 +128,18 @@ export default function CampusSlider() {
               <Row className="gx-0">
                 <Col className="col-12 col-lg-6">
                   <div className="stud-intern-info">
-                    <h4>International Students</h4>
+                    <h4>Counselling</h4>
                     <p>
-                      Pre-arrival information is made available to international
-                      students on some of the practical aspects of living and
-                      studying in Majan University College in addition to
-                      details about the support provided during study periods.
+                    Counseling is an opportunity to talk confidentially with a counselor about personal concerns and to facilitate
+                     personal growth and decision-making, preparing for exams, exam anxiety, and developing various life and social skills. The counselor and 
+                    client work together to define and discuss personal issues and to reach mutually agreed upon goals.. If needed, a referral toother service agencies will be made.
                     </p>
-                    <h5>Process of Enrolment</h5>
+                    <h4>International Students office</h4>
                     <p>
-                      After all required documents are received by Admissions
-                      and initial acceptance given:
+                    International Student Office aims to recruit students from outside the country, According to a specific strategy and marketing plan. 
                     </p>
-                    <ul>
-                      <li>
-                        An acceptance letter for issuance of approval by
-                        Ministry of Higher Education (NOC from giving student
-                        visa).
-                      </li>
-                      <li>
-                        HR Department and Admissions make the necessary
-                        arrangement to get a student visa.
-                      </li>
-                      <li>
-                        International students are required to stay in the
-                        College's hosted where they are made comfortable. They
-                        are taken from the airport and an appropriate place
-                        found for them in the student hostel. A tour is then
-                        arranged for them to get to know their surroundings, and
-                        the city.
-                      </li>
-                    </ul>
+                    <p>The International Student office has implemented a plan and got amazing results. The focus has been on high service, speed of response, 
+                      starting from candidate query till obtaining the student visa, and supporting the current international students.</p>
                   </div>
                 </Col>
                 <Col className="col-12 col-lg-6">
@@ -175,22 +159,17 @@ export default function CampusSlider() {
                 <div className="des-slider-cover">
                   <h4>Private transportation</h4>
                   <p>
-                    Private transportation is arranged for students who live in
-                    Muscat.
+                  Private transportation is arranged for students who live in Muscat.
                   </p>
                   <h4>Student extracurricular activities</h4>
                   <p>
-                    Extra-curricular activities are organised for students
-                    wishing to refine their talents and gain athletic skills and
-                    technical and leadership skills.
+                  The center, in cooperation with the Student Advisory Council, plans extra-curricular student activities by presenting
+                   Calendar at the beginning of each semester. There are various activities such as sports, artistic and cultural activities and competitions. 
+                  There are annual events that most students are keen to participate in, such as the open day and the National Day.
                   </p>
                   <p>
-                    There are sports teams for all games, and any student can
-                    register for any activity in which they wish to participate.
-                    College teams are also involved in most of the games and
-                    local sporting activities, and sometimes international
-                    events. There are religious, national and festive occasions,
-                    observed annually.
+                  The Student Advisory Council is the student organization elected by students to manage student activities,
+                   groups and clubs. Members of the Student Council are elected annually.
                   </p>
                 </div>
               </Col>
@@ -205,21 +184,19 @@ export default function CampusSlider() {
                 <div className="stud-cere-intro">
                   <h3>Shopping and leisure trips</h3>
                   <p>
-                    Female students that reside in the hostel can enjoy the
-                    daily shopping and leisure trips service, accompanied by
-                    wardens to guarantee their safety and comfort.
+                  Female students that reside in the hostel can enjoy shopping and leisure trips accompanied by wardens to guarantee their safety and comfort.
                   </p>
-                  <h3>Graduation Ceremony</h3>
+                  <h3>Helping low income student </h3>
                   <p>
-                    The final stage is no doubt very important! Graduates are
-                    kept informed of the graduation ceremony. They need to
-                    comply with all necessary measures to ensure attendance at
-                    the graduation ceremony.
+                  The center tries to help insolvent and low-income students, where this service can be provided in 
+                  cooperation with some associations and charitable institutions and some donors.
                   </p>
+                  <h3>Disciplinary Action </h3>
                   <p>
-                    The Student Services Centre works closely with the Registry
-                    Department and Postgraduate Centre to make the necessary
-                    arrangements for the graduation ceremony.
+                  The center is responsible for applying disciplinary code of conduct and taking the necessary measures to ensure
+                   a safe environment for all students. Students can file a complaint directly at the center about any matter that bothers them,
+                    and then the appropriate action is taken. The matter may require that the 
+                  complaint or violation be transferred to the Disciplinary Committee, where it can Take stricter measures.
                   </p>
                 </div>
               </Col>
