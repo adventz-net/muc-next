@@ -3,35 +3,45 @@ import { useState } from 'react';
 import { Container, Row, Col, Modal } from 'react-bootstrap';
 
 import UGModalFBM from './UGModalFBM';
+import UGModalFIT from './UGModalFIT';
+import UGModalFELS from './UGModalFELS';
 
-import ModalFBM from './ModalFBM';
-import ModalFIT from './ModalFIT';
-import ModalFELS from './ModalFELS';
-import ModalMBA from './ModalMBA';
-import ModalMSC from './ModalMSC';
-import ModalMA from './ModalMA';
-import ModalDBA from './ModalDBA';
-import ModalACCA from './ModalACCA';
-import ModalCMA from './ModalCMA';
-import ModalCIFE from './ModalCIFE';
-import ModalFound from './ModalFound';
+// import ModalFBM from './ModalFBM';
+// import ModalFIT from './ModalFIT';
+// import ModalFELS from './ModalFELS';
+// import ModalMBA from './ModalMBA';
+// import ModalMSC from './ModalMSC';
+// import ModalMA from './ModalMA';
+// import ModalDBA from './ModalDBA';
+// import ModalACCA from './ModalACCA';
+// import ModalCMA from './ModalCMA';
+// import ModalCIFE from './ModalCIFE';
+// import ModalFound from './ModalFound';
 
 export default function ProgrammesSlider() {
-  const [showModalUG, setShowModalUG] = useState(false);
+  const [showModalFBM, setShowModalFBM] = useState(false);
+  const [showModalFIT, setShowModalFIT] = useState(false);
+  const [showModalFELS, setShowModalFELS] = useState(false);
 
-  const handleCloseModalUG = () => setShowModalUG(false);
-  const handleShowModalUG = () => setShowModalUG(true);
+  const handleCloseModalFBM = () => setShowModalFBM(false);
+  const handleShowModalFBM = () => setShowModalFBM(true);
+
+  const handleCloseModalFIT = () => setShowModalFIT(false);
+  const handleShowModalFIT = () => setShowModalFIT(true);
+
+  const handleCloseModalFELS = () => setShowModalFELS(false);
+  const handleShowModalFELS = () => setShowModalFELS(true);
 
   return (
     <section className="programmes-slider-sec">
-      <div>
+      <>
         <Modal
           className="pgm-modal"
-          show={showModalUG}
-          onHide={handleCloseModalUG}
+          show={showModalFBM}
+          onHide={handleCloseModalFBM}
         >
           <Modal.Header>
-            <button className="btn-modal-close" onClick={handleCloseModalUG}>
+            <button className="btn-modal-close" onClick={handleCloseModalFBM}>
               <i className="bi bi-x-lg"></i>
             </button>
           </Modal.Header>
@@ -39,7 +49,39 @@ export default function ProgrammesSlider() {
             <UGModalFBM />
           </Modal.Body>
         </Modal>
-      </div>
+      </>
+      <>
+        <Modal
+          className="pgm-modal"
+          show={showModalFIT}
+          onHide={handleCloseModalFIT}
+        >
+          <Modal.Header>
+            <button className="btn-modal-close" onClick={handleCloseModalFIT}>
+              <i className="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <UGModalFIT />
+          </Modal.Body>
+        </Modal>
+      </>
+      <>
+        <Modal
+          className="pgm-modal"
+          show={showModalFELS}
+          onHide={handleCloseModalFELS}
+        >
+          <Modal.Header>
+            <button className="btn-modal-close" onClick={handleCloseModalFELS}>
+              <i className="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <UGModalFELS />
+          </Modal.Body>
+        </Modal>
+      </>
 
       <div className="sec-bg-graphics">
         <div className="social-shape"></div>
@@ -71,7 +113,7 @@ export default function ProgrammesSlider() {
                 <Link
                   href=""
                   className="programme-item"
-                  onClick={handleShowModalUG}
+                  onClick={handleShowModalFBM}
                 >
                   <figure>
                     <div className="programme-img">
@@ -86,7 +128,11 @@ export default function ProgrammesSlider() {
                 </Link>
               </Col>
               <Col xs={12} md={6} lg={4}>
-                <Link href="" className="programme-item">
+                <Link
+                  href=""
+                  className="programme-item"
+                  onClick={handleShowModalFIT}
+                >
                   <figure>
                     <div className="programme-img">
                       <img src="images/prog-item-thumb-02.jpg" alt="Image" />
@@ -100,7 +146,11 @@ export default function ProgrammesSlider() {
                 </Link>
               </Col>
               <Col xs={12} md={6} lg={4}>
-                <Link href="" className="programme-item">
+                <Link
+                  href=""
+                  className="programme-item"
+                  onClick={handleShowModalFELS}
+                >
                   <figure>
                     <div className="programme-img">
                       <img src="images/prog-item-thumb-03.jpg" alt="Image" />
