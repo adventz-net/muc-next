@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 import {
   Container,
   Row,
@@ -7,7 +7,7 @@ import {
   Form,
   FloatingLabel,
   Button,
-} from "react-bootstrap";
+} from 'react-bootstrap';
 
 export default function MtiSlider() {
   return (
@@ -37,7 +37,7 @@ export default function MtiSlider() {
         </div>
       </section>
 
-      <section className="ug-pgm-admin-sec pt-5 px-5 px-xl-6 pb-5 pb-md-5">
+      <section className="ug-pgm-admin-sec pt-5 px-4 px-xl-6 pb-5 pb-md-5">
         <div className="sec-bg-graphics">
           <div className="pgm-admin-shape shape-01"></div>
         </div>

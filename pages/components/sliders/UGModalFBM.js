@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { Container, Row, Col, Modal } from 'react-bootstrap';
 import Link from 'next/link';
 
-import ModalMBA from './ModalMBA';
+import ModalBAFinance from './ModalBAFinance';
+import ModalBAIslamic from './ModalBAIslamic';
 
 export default function UGModal() {
   const [showModalFBM, setShowModalFBM] = useState(false);
@@ -18,20 +19,6 @@ export default function UGModal() {
   const handleCloseModalFELS = () => setShowModalFELS(false);
   const handleShowModalFELS = () => setShowModalFELS(true);
 
-  //   const handleCloseModal02 = () => setShowModal02(false);
-  //   const handleShowModal02 = () => setShowModal02(true);
-
-  //   const handleCloseModal03 = () => setShowModal03(false);
-  //   const handleShowModal03 = () => setShowModal03(true);
-
-  //   const handleCloseModal04 = () => setShowModal04(false);
-  //   const handleShowModal04 = () => setShowModal04(true);
-
-  //   const handleCloseModal05 = () => setShowModal05(false);
-  //   const handleShowModal05 = () => setShowModal05(true);
-
-  //   const handleCloseModal06 = () => setShowModal06(false);
-  //   const handleShowModal06 = () => setShowModal06(true);
   return (
     <section className="ug-modal-cover-sec">
       <>
@@ -46,7 +33,7 @@ export default function UGModal() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <ModalMBA />
+            <ModalBAFinance />
           </Modal.Body>
         </Modal>
       </>
@@ -62,26 +49,11 @@ export default function UGModal() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <ModalMBA />
+            <ModalBAIslamic />
           </Modal.Body>
         </Modal>
       </>
-      <>
-        <Modal
-          className="pgm-modal"
-          show={showModalFELS}
-          onHide={handleCloseModalFELS}
-        >
-          <Modal.Header>
-            <button className="btn-modal-close" onClick={handleCloseModalFELS}>
-              <i className="bi bi-x-lg"></i>
-            </button>
-          </Modal.Header>
-          <Modal.Body>
-            <ModalMBA />
-          </Modal.Body>
-        </Modal>
-      </>
+
       <div className="sec-bg-graphics">
         <div className="social-shape"></div>
         <div className="slider-d-shape"></div>
@@ -111,7 +83,7 @@ export default function UGModal() {
                   </figure>
                   <div className="programme-body">
                     <div className="overlay">
-                      <h4>faculty of business management</h4>
+                      <h4>BA (Hons) in Finance</h4>
                     </div>
                   </div>
                 </Link>
@@ -129,25 +101,7 @@ export default function UGModal() {
                   </figure>
                   <div className="programme-body">
                     <div className="overlay">
-                      <h4>faculty of information technology</h4>
-                    </div>
-                  </div>
-                </Link>
-              </Col>
-              <Col xs={12} md={6} lg={4}>
-                <Link
-                  href=""
-                  className="programme-item"
-                  onClick={handleShowModalFELS}
-                >
-                  <figure>
-                    <div className="programme-img">
-                      <img src="images/prog-item-thumb-03.jpg" alt="Image" />
-                    </div>
-                  </figure>
-                  <div className="programme-body">
-                    <div className="overlay">
-                      <h4>faculty of english language studies</h4>
+                      <h4>BA (Hons) in Islamic Banking and Finance </h4>
                     </div>
                   </div>
                 </Link>

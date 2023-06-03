@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Container, Row, Col, Modal } from 'react-bootstrap';
 import Link from 'next/link';
 
-import ModalMBA from './ModalMBA';
+import ModalBSC from './ModalBSC';
 
 export default function UGModal() {
   const [showModalFBM, setShowModalFBM] = useState(false);
@@ -46,7 +46,7 @@ export default function UGModal() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <ModalMBA />
+            <ModalBSC />
           </Modal.Body>
         </Modal>
       </>
@@ -62,7 +62,7 @@ export default function UGModal() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <ModalMBA />
+            <ModalBSC />
           </Modal.Body>
         </Modal>
       </>
@@ -78,7 +78,7 @@ export default function UGModal() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <ModalMBA />
+            <ModalBSC />
           </Modal.Body>
         </Modal>
       </>

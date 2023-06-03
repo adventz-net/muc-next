@@ -22,15 +22,15 @@ export default function DestinationSlider() {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
       {
@@ -68,7 +68,7 @@ export default function DestinationSlider() {
         <div className="slider-d-shape"></div>
       </div>
 
-      <section className="des-intro-sec px-5 px-lg-6 px-xl-6 py-5 py-lg-5 py-xl-6">
+      <section className="des-intro-sec px-4 px-lg-6 px-xl-6 py-5 py-lg-5 py-xl-6">
         <Container fluid>
           <Row>
             <Col xs={12}>
@@ -98,7 +98,7 @@ export default function DestinationSlider() {
         </Container>
       </section>
 
-      <section className="des-exp-sec px-5 px-lg-6 px-xl-6 py-5 py-lg-5 py-xl-7">
+      <section className="des-exp-sec px-4 px-lg-6 px-xl-6 py-5 py-lg-5 py-xl-7">
         <div className="sec-bg-graphics">
           <div className="des-exp-shape-01"></div>
           <div className="des-exp-shape-02"></div>
@@ -140,7 +140,7 @@ export default function DestinationSlider() {
         </Container>
       </section>
 
-      <section className="des-oman-vid-sec px-5 px-lg-6 px-xl-6 py-5 py-lg-5 py-xl-6">
+      <section className="des-oman-vid-sec px-4 px-lg-6 px-xl-6 py-5 py-lg-5 py-xl-6">
         <div className="sec-bg-graphics">
           <div className="des-oman-shape-01"></div>
           <div className="des-oman-shape-02"></div>
@@ -157,7 +157,7 @@ export default function DestinationSlider() {
         </div>
       </section>
 
-      <section className="des-explore-sec px-5 px-lg-6 px-xl-6 py-5 py-lg-5 py-xl-7">
+      <section className="des-explore-sec px-4 px-lg-6 px-xl-6 py-5 py-lg-5 py-xl-7">
         <div className="sec-bg-graphics">
           <div className="des-explore-shape-01"></div>
         </div>

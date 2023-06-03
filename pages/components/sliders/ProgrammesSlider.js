@@ -6,10 +6,11 @@ import UGModalFBM from './UGModalFBM';
 import UGModalFIT from './UGModalFIT';
 import UGModalFELS from './UGModalFELS';
 
-// import ModalFBM from './ModalFBM';
-// import ModalFIT from './ModalFIT';
-// import ModalFELS from './ModalFELS';
-// import ModalMBA from './ModalMBA';
+import ModalMBA from './ModalMBA';
+import ModalMSC from './ModalMSC';
+import ModalMA from './ModalMA';
+import ModalDBA from './ModalDBA';
+
 // import ModalMSC from './ModalMSC';
 // import ModalMA from './ModalMA';
 // import ModalDBA from './ModalDBA';
@@ -31,6 +32,24 @@ export default function ProgrammesSlider() {
 
   const handleCloseModalFELS = () => setShowModalFELS(false);
   const handleShowModalFELS = () => setShowModalFELS(true);
+
+  // Modal PG
+  const [showModalMBA, setShowModalMBA] = useState(false);
+  const [showModalMSC, setShowModalMSC] = useState(false);
+  const [showModalMA, setShowModalMA] = useState(false);
+  const [showModalDBA, setShowModalDBA] = useState(false);
+
+  const handleCloseModalMBA = () => setShowModalMBA(false);
+  const handleShowModalMBA = () => setShowModalMBA(true);
+
+  const handleCloseModalMSC = () => setShowModalMSC(false);
+  const handleShowModalMSC = () => setShowModalMSC(true);
+
+  const handleCloseModalMA = () => setShowModalMA(false);
+  const handleShowModalMA = () => setShowModalMA(true);
+
+  const handleCloseModalDBA = () => setShowModalDBA(false);
+  const handleShowModalDBA = () => setShowModalDBA(true);
 
   return (
     <section className="programmes-slider-sec">
@@ -79,6 +98,71 @@ export default function ProgrammesSlider() {
           </Modal.Header>
           <Modal.Body>
             <UGModalFELS />
+          </Modal.Body>
+        </Modal>
+      </>
+
+      <>
+        <Modal
+          className="pgm-modal"
+          show={showModalMBA}
+          onHide={handleCloseModalMBA}
+        >
+          <Modal.Header>
+            <button className="btn-modal-close" onClick={handleCloseModalMBA}>
+              <i className="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <ModalMBA />
+          </Modal.Body>
+        </Modal>
+      </>
+      <>
+        <Modal
+          className="pgm-modal"
+          show={showModalMSC}
+          onHide={handleCloseModalMSC}
+        >
+          <Modal.Header>
+            <button className="btn-modal-close" onClick={handleCloseModalMSC}>
+              <i className="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <ModalMSC />
+          </Modal.Body>
+        </Modal>
+      </>
+      <>
+        <Modal
+          className="pgm-modal"
+          show={showModalMA}
+          onHide={handleCloseModalMA}
+        >
+          <Modal.Header>
+            <button className="btn-modal-close" onClick={handleCloseModalMA}>
+              <i className="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <ModalMA />
+          </Modal.Body>
+        </Modal>
+      </>
+      <>
+        <Modal
+          className="pgm-modal"
+          show={showModalDBA}
+          onHide={handleCloseModalDBA}
+        >
+          <Modal.Header>
+            <button className="btn-modal-close" onClick={handleCloseModalDBA}>
+              <i className="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <ModalDBA />
           </Modal.Body>
         </Modal>
       </>
@@ -178,7 +262,11 @@ export default function ProgrammesSlider() {
             </Row>
             <Row className="gx-2 gx-xxl-5">
               <Col xs={12} md={6} lg={4}>
-                <Link href="" className="programme-item">
+                <Link
+                  href=""
+                  className="programme-item"
+                  onClick={handleShowModalMBA}
+                >
                   <figure>
                     <div className="programme-img">
                       <img src="images/prog-item-thumb-04.jpg" alt="Image" />
@@ -192,7 +280,11 @@ export default function ProgrammesSlider() {
                 </Link>
               </Col>
               <Col xs={12} md={6} lg={4}>
-                <Link href="" className="programme-item">
+                <Link
+                  href=""
+                  className="programme-item"
+                  onClick={handleShowModalMSC}
+                >
                   <figure>
                     <div className="programme-img">
                       <img src="images/prog-item-thumb-05.jpg" alt="Image" />
@@ -206,7 +298,11 @@ export default function ProgrammesSlider() {
                 </Link>
               </Col>
               <Col xs={12} md={6} lg={4}>
-                <Link href="" className="programme-item">
+                <Link
+                  href=""
+                  className="programme-item"
+                  onClick={handleShowModalMA}
+                >
                   <figure>
                     <div className="programme-img">
                       <img src="images/prog-item-thumb-06.jpg" alt="Image" />
@@ -220,7 +316,11 @@ export default function ProgrammesSlider() {
                 </Link>
               </Col>
               <Col xs={12} md={6} lg={4}>
-                <Link href="" className="programme-item">
+                <Link
+                  href=""
+                  className="programme-item"
+                  onClick={handleShowModalDBA}
+                >
                   <figure>
                     <div className="programme-img">
                       <img src="images/prog-item-thumb-08.jpg" alt="Image" />

@@ -11,7 +11,7 @@ import Link from 'next/link';
 import { PlayFill, Pause } from 'react-bootstrap-icons';
 
 export default function UGModalMBA() {
-  // Sports slider
+  // Program Course Carousel
   const settings = {
     arrows: true,
     dots: false,
@@ -24,22 +24,22 @@ export default function UGModalMBA() {
       {
         breakpoint: 1080,
         settings: {
-          slidesToShow: 4,
-          slidesToScroll: 4,
-        },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 1024,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
       {
@@ -99,7 +99,7 @@ export default function UGModalMBA() {
         </section>
       </section>
 
-      <section className="pgm-co-caro-sec px-5 px-lg-6 py-4 py-lg-5 py-xl-6">
+      <section className="pgm-co-caro-sec px-4 px-lg-6 py-4 py-lg-5 py-xl-6">
         <div className="pgm-co-carousel">
           <Slider className="slider" {...settings}>
             <div>
@@ -142,7 +142,7 @@ export default function UGModalMBA() {
         </div>
       </section>
 
-      <section className="pgm-co-tab-sec px-5 px-lg-6 py-4 py-lg-5 py-xl-6">
+      <section className="pgm-co-tab-sec px-4 px-lg-6 py-4 py-lg-5 py-xl-6">
         <div className="pgm-co-tb-cover">
           <Tab.Container id="tab-course" defaultActiveKey="course-tab-01">
             <Nav className="pgm-co-tb-nav">

@@ -404,6 +404,14 @@
   .campus-intro {
     padding: 10rem 2rem 4rem 6rem;
   }
+  .pgm-co-carousel .pgm-co-caro-item {
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
+  }
+  .pgm-co-carousel {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 }
 
 @media (max-width: 1440px) {
@@ -556,7 +564,7 @@
   }
   .programme-item figure::before,
   .programme-item figure::after {
-    content: "";
+    content: '';
     width: 100px;
     height: 100px;
   }
@@ -637,6 +645,12 @@
   }
   .ug-pgm-head-img {
     max-width: 450px;
+  }
+  .student-intro {
+    padding: 2rem 2rem 2rem 4rem;
+  }
+  .stud-cere-intro {
+    padding: 2rem 2rem 2rem 4rem;
   }
 }
 
@@ -754,6 +768,10 @@
     flex: 1 1 0;
     padding: 1.5rem 1.5rem;
   }
+  .pgm-co-tb-nav .nav-item .nav-link {
+    font-size: 0.875rem;
+    padding: 0.5rem 0.5rem;
+  }
 }
 
 /* Portrait */
@@ -791,6 +809,43 @@
     flex-direction: column;
     flex-wrap: nowrap;
   }
+  .pgm-co-vid-cover .pgm-co-vid-hd h3 {
+    font-size: 1.25rem;
+  }
+  .pgm-co-carousel .slick-slide {
+    border-right: 0 solid rgba(255, 255, 255, 0.15);
+  }
+  .sec-bg-graphics .des-exp-shape-01 {
+    width: 100px;
+    height: 100px;
+  }
+  .des-exp-cover {
+    padding-top: 2rem;
+  }
+  .sec-bg-graphics .des-exp-shape-02 {
+    width: 100px;
+    height: 100px;
+  }
+  .sec-bg-graphics .des-oman-shape-01 {
+    width: 100px;
+    height: 100px;
+  }
+  .sec-bg-graphics .des-oman-shape-02 {
+    width: 100px;
+    height: 100px;
+  }
+  .sec-bg-graphics .des-explore-shape-01 {
+    width: 100px;
+    height: 100px;
+  }
+  .sec-bg-graphics .stud-hos-shape {
+    width: 100px;
+    height: 100px;
+  }
+  .sec-bg-graphics .stud-intern-shape {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -804,6 +859,52 @@
   .col-cam-img {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+  .campus-intro-img .achieve-img-shape {
+    display: none;
+  }
+  .pgm-co-tb-nav .nav-item {
+    flex: 1 1 150px;
+    padding: 0.25rem;
+  }
+  .col-stud-con {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .col-stud-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .student-intro {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  .student-intro-img .student-img-shape {
+    display: none;
+  }
+  .col-cere-con {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .col-cere-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .stud-cere-intro {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  .stud-cere-intro-img .stud-cere-img-shape {
+    display: none;
+  }
+  .mti-intro-cover .mti-int-body {
+    padding: 0.5rem 0.5rem;
+  }
+  .ug-slider-body {
+    top: 50%;
+  }
+  .down-arrow {
+    width: 36px;
+    height: 36px;
+    bottom: 2rem;
   }
 }
 
