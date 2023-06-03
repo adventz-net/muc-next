@@ -1,10 +1,10 @@
+import { useRouter } from 'next/router';
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import 'bootstrap/dist/css/bootstrap.css';
 import '@/styles/scss/style.scss';
 import PreLoader from './components/PreLoader';
 
-import { useRouter } from 'next/router';
 export default function App({ Component, pageProps }) {
   // Preloader
   const router = useRouter();
@@ -23,6 +23,7 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       {isLoading == true ? <PreLoader /> : <Component {...pageProps} />}
     </>
   );
