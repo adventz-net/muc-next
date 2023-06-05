@@ -169,56 +169,16 @@ export default function UGModalMBA() {
                   <div className="co-tab-hd">
                     <h4>Course Overview</h4>
                     <p className="pb-xl-4">
-                    The MSc in Computer Science is designed to provide you with a blend of advanced  theoretical knowledge and practical skills related
-to emerging technologies deployed in industry and research.
+                      The MSc in Computer Science is designed to provide you
+                      with a blend of advanced theoretical knowledge and
+                      practical skills related to emerging technologies deployed
+                      in industry and research.
                     </p>
                     <h4>Course Structure</h4>
                     <p>
                       8 Units of 15 Credits each + 1 Project of 60 Credits =
                       Total 180 Credits
                     </p>
-                  </div>
-                  <div className="co-structure-list">
-                    <div className="co-structure-item">
-                      <div className="icon">
-                        <img src="images/acc-pgm-dt-icon.png" alt="Icon" />
-                      </div>
-                      <h4>Semester 1</h4>
-                      <p>
-                        Accounting for Leaders, Leading and Managing People &
-                        Leadership Project 1
-                      </p>
-                    </div>
-                    <div className="co-structure-item">
-                      <div className="icon">
-                        <img src="images/acc-pgm-dt-icon.png" alt="Icon" />
-                      </div>
-                      <h4>Semester 2</h4>
-                      <p>
-                        Mobilising Creativity and Innovation, Marketing Products
-                        and Services & Leadership Project 2
-                      </p>
-                    </div>
-                    <div className="co-structure-item">
-                      <div className="icon">
-                        <img src="images/acc-pgm-dt-icon.png" alt="Icon" />
-                      </div>
-                      <h4>Semester 3</h4>
-                      <p>
-                        Strategy, Operations and Project Management & Integrated
-                        Management Project 1
-                      </p>
-                    </div>
-                    <div className="co-structure-item">
-                      <div className="icon">
-                        <img src="images/acc-pgm-dt-icon.png" alt="Icon" />
-                      </div>
-                      <p>
-                        Entrepreneurship and Small Business Management, Thriving
-                        in Competitive Global Context & Integrated Management
-                        Project 2
-                      </p>
-                    </div>
                   </div>
                 </div>
               </Tab.Pane>
@@ -228,20 +188,17 @@ to emerging technologies deployed in industry and research.
                 </div>
                 <div className="co-entry-list">
                   <div className="co-entry-item">
-                    <h4>25 years & above </h4>
                     <p>
-                      With Bachelors, and at least, 2 years of work experience
+                      A good first degree - 2.2 Hons. or equivalent , with a
+                      significant (generally one third or more) element in
+                      Computing.
                     </p>
                   </div>
                   <div className="co-entry-item">
-                    <div className="options">Or</div>
+                    <div className="options">&</div>
                   </div>
                   <div className="co-entry-item">
-                    <h4>25 years & above</h4>
-                    <p>
-                      With 2 years Higher National Diploma, any 4 short training
-                      courses and 6 years of work experience.
-                    </p>
+                    <p>Applicants must have IELTS 6.0 or equivalent.</p>
                   </div>
                   <div className="co-entry-item">
                     <p>Applicants must have</p>
@@ -371,10 +328,7 @@ to emerging technologies deployed in industry and research.
                     <img src="images/course-future.jpg" alt="Icon" />
                   </figure>
                   <div className="co-tb-fut-body">
-                    <p>
-                      Coming soon ...
-                    </p>
-                    
+                    <p>Coming soon ...</p>
                   </div>
                 </div>
               </Tab.Pane>

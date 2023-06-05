@@ -168,22 +168,23 @@ export default function UGModalMBA() {
                 <div className="co-tb-overview">
                   <div className="co-tab-hd">
                     <h4>Course Overview</h4>
-                    <p className="pb-xl-4">
-                      The MA in Applied Linguistics (AL) offers an advanced
+                    <p>
+                      The MA in Applied Linguistics ( AL ) offers an advanced
                       level professional qualification for practising and
-                      aspiring teachers of English, but also for second language
-                      (L2) materials developers, assessment and examination/test
-                      paper writers and researchers in applied linguistics.
+                      aspiring teachers of English , but also for second
+                      language ( L2 ) materials developers , assessment and
+                      examination / test paper writers and researchers in
+                      applied linguistics.
                     </p>
 
                     <p>
                       You will focus on areas such as the relationship between
-                      linguistics and second language learning, the methodology
+                      linguistics and second language learning , the methodology
                       and techniques of language teaching and the
                       appropriateness and development of materials for language
                       teaching and learning purposes . You will also examine
-                      various current issues in English Language Teaching (ELT)
-                      and have the opportunity to carry out a major piece of
+                      various current issues in English Language Teaching ( ELT
+                      ) and have the opportunity to carry out a major piece of
                       individual research on a topic of your interest.
                     </p>
                     <h4>Course Structure</h4>

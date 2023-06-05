@@ -4,12 +4,14 @@ import { Container, Row, Col, Modal } from 'react-bootstrap';
 
 import UGModalFBM from './UGModalFBM';
 import UGModalFIT from './UGModalFIT';
-import UGModalFELS from './UGModalFELS';
+import ModalFELS from './ModalFELS';
 
 import ModalMBA from './ModalMBA';
 import ModalMSC from './ModalMSC';
 import ModalMA from './ModalMA';
 import ModalDBA from './ModalDBA';
+
+import ModalACCA from './ModalACCA';
 
 // import ModalMSC from './ModalMSC';
 // import ModalMA from './ModalMA';
@@ -51,6 +53,10 @@ export default function ProgrammesSlider() {
   const handleCloseModalDBA = () => setShowModalDBA(false);
   const handleShowModalDBA = () => setShowModalDBA(true);
 
+  const [showModalACCA, setShowModalACCA] = useState(false);
+
+  const handleCloseModalACCA = () => setShowModalACCA(false);
+  const handleShowModalACCA = () => setShowModalACCA(true);
   return (
     <section className="programmes-slider-sec">
       <>
@@ -97,7 +103,7 @@ export default function ProgrammesSlider() {
             </button>
           </Modal.Header>
           <Modal.Body>
-            <UGModalFELS />
+            <ModalFELS />
           </Modal.Body>
         </Modal>
       </>
@@ -150,6 +156,7 @@ export default function ProgrammesSlider() {
           </Modal.Body>
         </Modal>
       </>
+
       <>
         <Modal
           className="pgm-modal"
@@ -163,6 +170,23 @@ export default function ProgrammesSlider() {
           </Modal.Header>
           <Modal.Body>
             <ModalDBA />
+          </Modal.Body>
+        </Modal>
+      </>
+
+      <>
+        <Modal
+          className="pgm-modal"
+          show={showModalACCA}
+          onHide={handleCloseModalACCA}
+        >
+          <Modal.Header>
+            <button className="btn-modal-close" onClick={handleCloseModalACCA}>
+              <i className="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <ModalACCA />
           </Modal.Body>
         </Modal>
       </>
@@ -319,7 +343,7 @@ export default function ProgrammesSlider() {
                 <Link
                   href=""
                   className="programme-item"
-                  onClick={handleShowModalDBA}
+                  // onClick={handleShowModalDBA}
                 >
                   <figure>
                     <div className="programme-img">
@@ -348,7 +372,11 @@ export default function ProgrammesSlider() {
             </Row>
             <Row className="gx-2 gx-xxl-5">
               <Col xs={12} md={6} lg={4}>
-                <Link href="" className="programme-item">
+                <Link
+                  href=""
+                  className="programme-item"
+                  onClick={handleShowModalACCA}
+                >
                   <figure>
                     <div className="programme-img">
                       <img src="images/prog-item-thumb-09.jpg" alt="Image" />
