@@ -71,7 +71,12 @@ export default function Home() {
           {...settings01}
           ref={sliderMainRef}
         >
-          <div>
+          <div className="position-relative">
+            <div className="slider-logo">
+              <Link href="/">
+                <img src="images/muc-white-logo.png" alt="MUC Logo" />
+              </Link>
+            </div>
             <MainSlider />
           </div>
           <div>
@@ -236,14 +241,14 @@ export default function Home() {
         <div className="btm-university">
           <div className="uni-item">
             <img
-              src="images/university-logo-01.png"
-              alt="University of BRADFORD"
+              src="images/university-logo-02.png"
+              alt="University of Bedfordshire"
             />
           </div>
           <div className="uni-item">
             <img
-              src="images/university-logo-02.png"
-              alt="University of Bedfordshire"
+              src="images/university-logo-01.png"
+              alt="University of BRADFORD"
             />
           </div>
         </div>

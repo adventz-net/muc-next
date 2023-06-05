@@ -169,22 +169,28 @@ export default function UGModalMBA() {
                   <div className="co-tab-hd">
                     <h4>Course Overview</h4>
                     <p className="pb-xl-4">
-                      The Executive MBA offers you an Executive perspective; you
-                      will become knowledgeable about the important concepts of
-                      key business disciplines, integrating this knowledge with
-                      your experience. You will have opportunities to design
-                      projects, manage messy problems and be creative in solving
-                      real problems you face at work, which enriches your
-                      education and has a positive impact on your job
-                      performance. You will develop leadership skills to support
-                      your career growth and gain confidence to prepare you to
-                      take on executive responsibilities. The course also offers
-                      a platform for building your professional networks.
+                      The MA in Applied Linguistics (AL) offers an advanced
+                      level professional qualification for practising and
+                      aspiring teachers of English, but also for second language
+                      (L2) materials developers, assessment and examination/test
+                      paper writers and researchers in applied linguistics.
+                    </p>
+
+                    <p>
+                      You will focus on areas such as the relationship between
+                      linguistics and second language learning, the methodology
+                      and techniques of language teaching and the
+                      appropriateness and development of materials for language
+                      teaching and learning purposes . You will also examine
+                      various current issues in English Language Teaching (ELT)
+                      and have the opportunity to carry out a major piece of
+                      individual research on a topic of your interest.
                     </p>
                     <h4>Course Structure</h4>
                     <p>
-                      8 Units of 15 Credits each + 2 Project of 30 Credits =
-                      Total 180 Credits
+                      The course consists of 7 taught units (6 units of 15
+                      credits each and 1 Unit of 30 credits) and 1 Dissertation
+                      of 60 credits.
                     </p>
                   </div>
                   <div className="co-structure-list">
@@ -194,8 +200,7 @@ export default function UGModalMBA() {
                       </div>
                       <h4>Semester 1</h4>
                       <p>
-                        Accounting for Leaders, Leading and Managing People &
-                        Leadership Project 1
+                        The Language System and Language Teaching (30 credits)
                       </p>
                     </div>
                     <div className="co-structure-item">
@@ -204,8 +209,9 @@ export default function UGModalMBA() {
                       </div>
                       <h4>Semester 2</h4>
                       <p>
-                        Mobilising Creativity and Innovation, Marketing Products
-                        and Services & Leadership Project 2
+                        Materials Development for Language Teaching and Learning
+                        (15 credits), Assessment and Accreditation (15 credits),
+                        Issues in Second Language Acquisition (15 credits)
                       </p>
                     </div>
                     <div className="co-structure-item">
@@ -214,18 +220,18 @@ export default function UGModalMBA() {
                       </div>
                       <h4>Semester 3</h4>
                       <p>
-                        Strategy, Operations and Project Management & Integrated
-                        Management Project 1
+                        Exploring Research: Concepts and Methods (15 credits),
+                        The Method- ology of Language Teaching (15 credits),
+                        Professional Practices (15 credits)
                       </p>
                     </div>
                     <div className="co-structure-item">
                       <div className="icon">
                         <img src="images/acc-pgm-dt-icon.png" alt="Icon" />
                       </div>
+                      <h4>Semester 4</h4>
                       <p>
-                        Entrepreneurship and Small Business Management, Thriving
-                        in Competitive Global Context & Integrated Management
-                        Project 2
+                        Dissertation in Applied Linguistics and ELT (60 credits)
                       </p>
                     </div>
                   </div>
@@ -237,24 +243,32 @@ export default function UGModalMBA() {
                 </div>
                 <div className="co-entry-list">
                   <div className="co-entry-item">
-                    <h4>25 years & above </h4>
                     <p>
-                      With Bachelors, and at least, 2 years of work experience
+                      A good (i.e. 1st or 2nd class or 2.5 + / 4 GPA scale)
+                      honours degree (or equivalent qualification) in an
+                      appropriate subject from a recognised university or a
+                      higher education institution. We will also consider
+                      candidates with other relevant qualifications or
+                      appropriate work experience.
                     </p>
                   </div>
                   <div className="co-entry-item">
                     <div className="options">Or</div>
                   </div>
                   <div className="co-entry-item">
-                    <h4>25 years & above</h4>
                     <p>
-                      With 2 years Higher National Diploma, any 4 short training
-                      courses and 6 years of work experience.
+                      a 2nd or 3rd class honours degree (or equivalent
+                      qualification) in an appropriate subject from a recognised
+                      university or a higher education institution and two years
+                      relevant teaching experience.
                     </p>
                   </div>
                   <div className="co-entry-item">
                     <p>Applicants must have</p>
-                    <h4>IELTS 6.0 or equivalent</h4>
+                    <h4>
+                      IELTS 6.0 as above with no less than 5.5 in each
+                      component.
+                    </h4>
                   </div>
                 </div>
               </Tab.Pane>
@@ -380,10 +394,7 @@ export default function UGModalMBA() {
                     <img src="images/course-future.jpg" alt="Icon" />
                   </figure>
                   <div className="co-tb-fut-body">
-                    <p>
-                     Coming soon ...
-                    </p>
-                    
+                    <p>Coming soon ...</p>
                   </div>
                 </div>
               </Tab.Pane>
