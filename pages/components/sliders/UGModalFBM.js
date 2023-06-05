@@ -2,33 +2,107 @@ import { useState } from 'react';
 import { Container, Row, Col, Modal } from 'react-bootstrap';
 import Link from 'next/link';
 
+import ModalBAMarketing from './ModalBAMarketing';
+import ModalBAAccounts from './ModalBAAccounts';
+import ModalBscEBusiness from './ModalBscEBusiness';
 import ModalBAFinance from './ModalBAFinance';
 import ModalBAIslamic from './ModalBAIslamic';
 
 export default function UGModal() {
-  const [showModalFBM, setShowModalFBM] = useState(false);
-  const [showModalFIT, setShowModalFIT] = useState(false);
-  const [showModalFELS, setShowModalFELS] = useState(false);
+  const [showModalBAMarketing, setShowModalBAMarketing] = useState(false);
+  const [showModalBAAccounts, setShowModalBAAccounts] = useState(false);
+  const [showModalBscEBusiness, setShowModalBscEBusiness] = useState(false);
+  const [showModalBAFinance, setShowModalBAFinance] = useState(false);
+  const [showModalBAIslamic, setShowModalBAIslamic] = useState(false);
 
-  const handleCloseModalFBM = () => setShowModalFBM(false);
-  const handleShowModalFBM = () => setShowModalFBM(true);
+  const handleCloseModalBAMarketing = () => setShowModalBAMarketing(false);
+  const handleShowModalBAMarketing = () => setShowModalBAMarketing(true);
 
-  const handleCloseModalFIT = () => setShowModalFIT(false);
-  const handleShowModalFIT = () => setShowModalFIT(true);
+  const handleCloseModalBAAccounts = () => setShowModalBAAccounts(false);
+  const handleShowModalBAAccounts = () => setShowModalBAAccounts(true);
 
-  const handleCloseModalFELS = () => setShowModalFELS(false);
-  const handleShowModalFELS = () => setShowModalFELS(true);
+  const handleCloseModalBscEBusiness = () => setShowModalBscEBusiness(false);
+  const handleShowModalBscEBusiness = () => setShowModalBscEBusiness(true);
+
+  const handleCloseModalBAFinance = () => setShowModalBAFinance(false);
+  const handleShowModalBAFinance = () => setShowModalBAFinance(true);
+
+  const handleCloseModalBAIslamic = () => setShowModalBAIslamic(false);
+  const handleShowModalBAIslamic = () => setShowModalBAIslamic(true);
 
   return (
     <section className="ug-modal-cover-sec">
       <>
         <Modal
           className="pgm-modal"
-          show={showModalFBM}
-          onHide={handleCloseModalFBM}
+          show={showModalBAMarketing}
+          onHide={handleCloseModalBAMarketing}
         >
           <Modal.Header>
-            <button className="btn-modal-close" onClick={handleCloseModalFBM}>
+            <button
+              className="btn-modal-close"
+              onClick={handleCloseModalBAMarketing}
+            >
+              <i className="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <ModalBAMarketing />
+          </Modal.Body>
+        </Modal>
+      </>
+
+      <>
+        <Modal
+          className="pgm-modal"
+          show={showModalBAAccounts}
+          onHide={handleCloseModalBAAccounts}
+        >
+          <Modal.Header>
+            <button
+              className="btn-modal-close"
+              onClick={handleCloseModalBAAccounts}
+            >
+              <i className="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <ModalBAAccounts />
+          </Modal.Body>
+        </Modal>
+      </>
+
+      <>
+        <Modal
+          className="pgm-modal"
+          show={showModalBscEBusiness}
+          onHide={handleCloseModalBscEBusiness}
+        >
+          <Modal.Header>
+            <button
+              className="btn-modal-close"
+              onClick={handleCloseModalBscEBusiness}
+            >
+              <i className="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <ModalBscEBusiness />
+          </Modal.Body>
+        </Modal>
+      </>
+
+      <>
+        <Modal
+          className="pgm-modal"
+          show={showModalBAFinance}
+          onHide={handleCloseModalBAFinance}
+        >
+          <Modal.Header>
+            <button
+              className="btn-modal-close"
+              onClick={handleCloseModalBAFinance}
+            >
               <i className="bi bi-x-lg"></i>
             </button>
           </Modal.Header>
@@ -37,14 +111,18 @@ export default function UGModal() {
           </Modal.Body>
         </Modal>
       </>
+
       <>
         <Modal
           className="pgm-modal"
-          show={showModalFIT}
-          onHide={handleCloseModalFIT}
+          show={showModalBAIslamic}
+          onHide={handleCloseModalBAIslamic}
         >
           <Modal.Header>
-            <button className="btn-modal-close" onClick={handleCloseModalFIT}>
+            <button
+              className="btn-modal-close"
+              onClick={handleCloseModalBAIslamic}
+            >
               <i className="bi bi-x-lg"></i>
             </button>
           </Modal.Header>
@@ -65,7 +143,7 @@ export default function UGModal() {
             <Row>
               <Col xs={12}>
                 <div className="pgm-slider-hd">
-                  <h2>UG programmes</h2>
+                  <h2>faculty of business management</h2>
                 </div>
               </Col>
             </Row>
@@ -74,7 +152,61 @@ export default function UGModal() {
                 <Link
                   href=""
                   className="programme-item"
-                  onClick={handleShowModalFBM}
+                  onClick={handleShowModalBAMarketing}
+                >
+                  <figure>
+                    <div className="programme-img">
+                      <img src="images/prog-item-thumb-01.jpg" alt="Image" />
+                    </div>
+                  </figure>
+                  <div className="programme-body">
+                    <div className="overlay">
+                      <h4>BA (Hons) in Marketing</h4>
+                    </div>
+                  </div>
+                </Link>
+              </Col>
+              <Col xs={12} md={6} lg={4}>
+                <Link
+                  href=""
+                  className="programme-item"
+                  onClick={handleShowModalBAAccounts}
+                >
+                  <figure>
+                    <div className="programme-img">
+                      <img src="images/prog-item-thumb-01.jpg" alt="Image" />
+                    </div>
+                  </figure>
+                  <div className="programme-body">
+                    <div className="overlay">
+                      <h4>BA (Hons) in Accounting</h4>
+                    </div>
+                  </div>
+                </Link>
+              </Col>
+              <Col xs={12} md={6} lg={4}>
+                <Link
+                  href=""
+                  className="programme-item"
+                  onClick={handleShowModalBscEBusiness}
+                >
+                  <figure>
+                    <div className="programme-img">
+                      <img src="images/prog-item-thumb-01.jpg" alt="Image" />
+                    </div>
+                  </figure>
+                  <div className="programme-body">
+                    <div className="overlay">
+                      <h4>BSc (Hons) in E-Business</h4>
+                    </div>
+                  </div>
+                </Link>
+              </Col>
+              <Col xs={12} md={6} lg={4}>
+                <Link
+                  href=""
+                  className="programme-item"
+                  onClick={handleShowModalBAFinance}
                 >
                   <figure>
                     <div className="programme-img">
@@ -92,7 +224,7 @@ export default function UGModal() {
                 <Link
                   href=""
                   className="programme-item"
-                  onClick={handleShowModalFIT}
+                  onClick={handleShowModalBAIslamic}
                 >
                   <figure>
                     <div className="programme-img">

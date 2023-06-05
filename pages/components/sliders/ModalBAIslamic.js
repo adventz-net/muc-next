@@ -203,16 +203,7 @@ export default function UGModalMBA() {
                 <div className="co-tb-overview">
                   <div className="co-tab-hd">
                     <h4>Entry Requirements</h4>
-                    <p>
-                      The College offers nine undergraduate programmes that are
-                      validated by the University of Bedfordshire (UK) and
-                      approved by the Ministry of Higher Education, Research and
-                      Innovation (MOERI), Oman, in addition to the Foundation
-                      Programme. The University of Bedfordshire recognises the
-                      Majan University College's Foundation Certificate as a
-                      normal entry qualification to the degree and DipHE
-                      programmes offered by the Majan University College.
-                    </p>
+                    <p>Coming soon</p>
                   </div>
                 </div>
               </Tab.Pane>
@@ -235,45 +226,49 @@ export default function UGModalMBA() {
                         <tr>
                           <td>1</td>
                           <td>
-                            Arabic Language and Society (Arabic speakers) /
-                            Omani Culture and Civilization (Non-Arabic Speakers)
+                            Omani Culture & Civilization (Non-Arabic Speakers)
                           </td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>2</td>
-                          <td>English Vocabulary in Use</td>
+                          <td>Arabic Language and Society (Arabic Speakers)</td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>3</td>
-                          <td>Fundamentals of Business Management</td>
+                          <td>English Vocabulary in Use</td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>4</td>
-                          <td>Fundamentals of ICT</td>
+                          <td>Fundamentals of Business Management</td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>5</td>
-                          <td>English for General Reading and Writing</td>
+                          <td>Fundamentals of ICT </td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>6</td>
-                          <td>Professional Communication Skills in English</td>
+                          <td>English for General Reading and Writing</td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>7</td>
-                          <td>Business and Entrepreneurship</td>
+                          <td>Professional Communication Skills in English</td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>8</td>
-                          <td>Logical and Problem Solving Skills </td>
+                          <td>Business & Entrepreneurship </td>
                           <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>9</td>
+                          <td>Logical and Problem Solving Skills </td>
+                          <td> </td>
                         </tr>
                         <tr>
                           <td></td>
@@ -298,42 +293,42 @@ export default function UGModalMBA() {
                       <tbody>
                         <tr>
                           <td>1</td>
-                          <td>Integrated Language Skills</td>
+                          <td>Principles of Management</td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>2</td>
-                          <td>Mathematical and Statistical Skills</td>
+                          <td>Principles of Islamic Economics </td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>3</td>
-                          <td>Computer Systems and Networking</td>
+                          <td>Business Mathematics and Statistics</td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>4</td>
-                          <td>Introduction to Programming</td>
+                          <td>Principles of Islamic Banking</td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>5</td>
-                          <td>Academic Reading and Writing</td>
+                          <td>Introduction to Financial Accounting</td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>6</td>
-                          <td>Digital Logic Design</td>
+                          <td>Integrated Language Skills</td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>7</td>
-                          <td>Systems Analysis and Design</td>
+                          <td>Academic Reading and Writing</td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>8</td>
-                          <td>Data Structures and Algorithms</td>
+                          <td>Shariah Law Fiqh & Usul Al Fiqh</td>
                           <td>15</td>
                         </tr>
                         <tr>
@@ -356,18 +351,17 @@ export default function UGModalMBA() {
                   </figure>
                   <div className="co-tb-oper-body">
                     <p>
-                      The graduates will be equipped with the knowledge and
-                      skills that can help them in getting career opportunities
-                      which include:
+                      Opportunities are vast once you complete your Islamic
+                      Banking and Finance qualification. Most graduates from
+                      Majan University College get employed in Islamic Financial
+                      Institutions such as Shariah or Islamic Banks and Islamic
+                      Insurance Companies offering Takaful. The academic
+                      qualification also opens doors to our graduates working in
+                      Institutions that offer Islamic Investments and Wealth
+                      Management. At times, conventional banks that offer
+                      Islamic Divisions may also be looking for graduates with
+                      specialization in Islamic Banking and Finance.
                     </p>
-                    <ul>
-                      <li>Database Administrator</li>
-                      <li>Software Engineer</li>
-                      <li>Programmer/Analyst</li>
-                      <li>Information Systems Manager</li>
-                      <li>Web Application Developer</li>
-                      <li>Web Application Administrator</li>
-                    </ul>
                   </div>
                 </div>
               </Tab.Pane>
@@ -427,7 +421,7 @@ export default function UGModalMBA() {
               </Tab.Pane>
               <Tab.Pane eventKey="course-tab-06">
                 <div className="co-tab-hd">
-                  <h4>Fees & Scholarships</h4>
+                  <h4>Fee & Scholarships</h4>
                 </div>
                 <div className="co-tb-fees">
                   <figure>
@@ -440,7 +434,7 @@ export default function UGModalMBA() {
                     </div>
                     <p>
                       For the complete details of the fees, please refer to the{' '}
-                      <Link href="#">Fees Structure</Link>
+                      <Link href="#">Fee Structure</Link>
                     </p>
                   </div>
                 </div>

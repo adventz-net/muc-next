@@ -11,7 +11,7 @@ import Link from 'next/link';
 import { PlayFill, Pause } from 'react-bootstrap-icons';
 
 export default function UGModalMBA() {
-  // Program Course Carousel
+  // Sports slider
   const settings = {
     arrows: true,
     dots: false,
@@ -24,22 +24,22 @@ export default function UGModalMBA() {
       {
         breakpoint: 1080,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 4,
+          slidesToScroll: 4,
         },
       },
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToShow: 3,
+          slidesToScroll: 3,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
       {
@@ -80,10 +80,7 @@ export default function UGModalMBA() {
           <div className="pgm-co-vid-cover">
             <div className="pgm-co-vid-hd">
               <h3>
-                <span>
-                  BSc (Hons) <br />
-                  in Networking
-                </span>
+                <span>BA (Hons) in Accounting</span>
               </h3>
             </div>
             <div className="pgm-co-video">
@@ -100,7 +97,7 @@ export default function UGModalMBA() {
         </section>
       </section>
 
-      <section className="pgm-co-caro-sec px-4 px-lg-6 py-4 py-lg-5 py-xl-6">
+      <section className="pgm-co-caro-sec px-5 px-lg-6 py-4 py-lg-5 py-xl-6">
         <div className="pgm-co-carousel">
           <Slider className="slider" {...settings}>
             <div>
@@ -140,7 +137,7 @@ export default function UGModalMBA() {
         </div>
       </section>
 
-      <section className="pgm-co-tab-sec px-4 px-lg-6 py-4 py-lg-5 py-xl-6">
+      <section className="pgm-co-tab-sec px-5 px-lg-6 py-4 py-lg-5 py-xl-6">
         <div className="pgm-co-tb-cover">
           <Tab.Container id="tab-course" defaultActiveKey="course-tab-01">
             <Nav className="pgm-co-tb-nav">
@@ -169,25 +166,48 @@ export default function UGModalMBA() {
                   <div className="co-tab-hd">
                     <h4>Programme overview</h4>
                     <p className="pb-xl-4">
-                    The BSc (Computing) programme prepares students to demonstrate in-depth skills and knowledge in relation 
-                    to applications that support business needs.</p>
-
-<p>Technologies like cloud computing, Big Data and the
-                      Internet of Things have allowed banks to deliver state of
-                      the art customer services to their customers while
-                      maintaining the market competitiveness required for
-                      winning and retaining business. This pathway will prepare
-                      students for analysing, formulating and implementing the
-                      diverse information technology solutions required in the
-                      banking sector. It will also provide students with
-                      understanding of the various technologies which underpin
-                      security measures.
+                      This degree programme is designed for students who are
+                      interested in following a career in accountancy or in
+                      obtaining further professional accounting qualifications.
+                      Students are provided with information on accounting
+                      principles, cost accounting, budget creation and control,
+                      tax accounting, auditing procedures and statement analysis
+                      measurement and disclosure, managerial accounting,
+                      business law, forensic accounting, and corporate finance.
+                      Knowledge of the above will give students the necessary
+                      edge that they need to find work in this highly
+                      competitive, very rewarding field.
                     </p>
                     <p>
-                      The programme is the first of its kind in Oman and is
-                      specifically for computing graduates looking to gain the
-                      required competency to help fill a major skills gap within
-                      the Banking Sector.
+                      This programme aims to develop a wide range of skills
+                      including technical, analytical, problem solving, tax and
+                      accounting research, teamwork, research, organising,
+                      technological, communication and interpersonal skills all
+                      of which are crucial to today's accounting profession. As
+                      a graduate of this programme, you will have career
+                      flexibility as you can work either for the government or
+                      private companies locally or internationally.
+                    </p>
+                    <p>
+                      Exemptions by Professional Bodies: Graduates of the BA
+                      (Hons) in Accounting are allowed exemptions for six papers
+                      by the ACCA
+                    </p>
+
+                    <h4>Programme Structure</h4>
+
+                    <p>
+                      Students are required to pass 8 modules totalling 120
+                      credits in each year (level). In total students must
+                      satisfactorily complete 480 credits (32 modules) with a
+                      combination of core and specialisation modules to be
+                      eligible for the award of the BA (Honours).
+                    </p>
+                    <p>
+                      Please note that:
+                      <br />
+                      Programme structures may be subject to change and modules
+                      may be offered in any of the semesters in an academic year
                     </p>
                   </div>
                 </div>
@@ -196,9 +216,7 @@ export default function UGModalMBA() {
                 <div className="co-tb-overview">
                   <div className="co-tab-hd">
                     <h4>Entry Requirements</h4>
-                    <p>
-                     Coming Soon ...
-                    </p>
+                    <p>Coming Soon</p>
                   </div>
                 </div>
               </Tab.Pane>
@@ -289,37 +307,170 @@ export default function UGModalMBA() {
                         </tr>
                         <tr>
                           <td>2</td>
-                          <td>Mathematical and Statistical Skills</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>Computer Systems and Networking</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>Introduction to Programming</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
                           <td>Academic Reading and Writing</td>
                           <td>15</td>
                         </tr>
                         <tr>
+                          <td>3</td>
+                          <td>Introduction to Financial Accounting</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>Principles of Management</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>Principles of Economics</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
                           <td>6</td>
-                          <td>Fundamentals of Finance	</td>
+                          <td>Cost Accounting</td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>7</td>
-                          <td>Systems Analysis and Design</td>
+                          <td>
+                            Introduction to Accounting Information Systems
+                          </td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>8</td>
-                          <td>Principles of Banking	</td>
+                          <td>Business Mathematics and Statistics</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td className="text-center">Total Credit</td>
+                          <td>120</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div className="co-structure-table">
+                  <div className="table-responsive">
+                    <h4>Modules in Third Year (Level 5)</h4>
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th className="text-center">Module Name</th>
+                          <th>Credits</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>
+                            English for Professional Development and
+                            Communication
+                          </td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Business Law and Taxation</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Research Methods</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>Foundation to Business Strategy</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>
+                            Quantitative Techniques in Accounting and Finance
+                          </td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>6</td>
+                          <td>Management Accounting</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>7</td>
+                          <td>Advanced Accounting</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>8</td>
+                          <td>Financial Reporting</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td className="text-center">Total Credit</td>
+                          <td>120</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div className="co-structure-table">
+                  <div className="table-responsive">
+                    <h4>Modules in Fourth Year (Level 6)</h4>
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th className="text-center">Module Name</th>
+                          <th>Credits</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>
+                            Advances in Accounting and Finance (Dissertation)
+                          </td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Financial Statement Analysis</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Auditing</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>Corporate Finance</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>Advanced Management Accounting</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>6</td>
+                          <td>Strategic Management</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>7</td>
+                          <td>Small Business Finance</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>8</td>
+                          <td>Forensic Accounting</td>
                           <td>15</td>
                         </tr>
                         <tr>
@@ -342,16 +493,20 @@ export default function UGModalMBA() {
                   </figure>
                   <div className="co-tb-oper-body">
                     <p>
-                      The graduates will be equipped with the knowledge and
-                      skills that can help them in getting career opportunities
-                      which include:
+                      Graduates may be employed by trading and mechant banks,
+                      investment firms, consultancies, treasury and risk
+                      management, stock broking, fund and portfolio management,
+                      international trade and dervatives trading, pricing and
+                      stock exchanges.
+                    </p>
+                    <p>
+                      {' '}
+                      Awards: (students must register for a particular award in
+                      order to qualify for that award)
                     </p>
                     <ul>
-                      <li>Executive in Banking Backend Operations</li>
-                      <li>Database Designer and Analyst</li>
-                      <li>Bank Cashier</li>
-                      <li>Office Operation Executive</li>
-                      <li>Computer System Administrator</li>
+                      <li>Diploma in Higher Education</li>
+                      <li>BA (Honours)</li>
                     </ul>
                   </div>
                 </div>
@@ -425,7 +580,7 @@ export default function UGModalMBA() {
                     </div>
                     <p>
                       For the complete details of the fees, please refer to the{' '}
-                      <Link href="#">Fees Structure</Link>
+                      <Link href="#">Fee Structure</Link>
                     </p>
                   </div>
                 </div>

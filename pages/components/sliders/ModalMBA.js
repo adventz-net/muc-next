@@ -171,17 +171,18 @@ export default function UGModalMBA() {
                   <div className="co-tab-hd">
                     <h4>Course Overview</h4>
                     <p className="pb-xl-4">
-                      The Executive MBA offers you an Executive perspective; you
-                      will become knowledgeable about the important concepts of
-                      key business disciplines, integrating this knowledge with
-                      your experience. You will have opportunities to design
-                      projects, manage messy problems and be creative in solving
-                      real problems you face at work, which enriches your
-                      education and has a positive impact on your job
-                      performance. You will develop leadership skills to support
-                      your career growth and gain confidence to prepare you to
-                      take on executive responsibilities. The course also offers
-                      a platform for building your professional networks.
+                    The Executive MBA is our flagship part-time qualification designed for practitioners
+with management experience and with the aspiration to achieve a leadership
+position.
+                    </p>
+                    <p>
+                    The course adopts a practice-led curriculum and aims to develop an advanced
+knowledge of organisations and their effective management in the dynamic
+competitive global context, and the ability to apply this knowledge and
+understanding to complex issues, both systematically and creatively, to improve
+business and management practice. The course is awarded by the University of
+Bedfordshire, U.K. and has been hosted by the Postgraduate Centre, Majan
+University College since 2004.
                     </p>
                     <h4>Course Structure</h4>
                     <p>
@@ -224,6 +225,7 @@ export default function UGModalMBA() {
                       <div className="icon">
                         <img src="images/acc-pgm-dt-icon.png" alt="Icon" />
                       </div>
+                      <h4>Semester 4</h4>
                       <p>
                         Entrepreneurship and Small Business Management, Thriving
                         in Competitive Global Context & Integrated Management
@@ -383,30 +385,9 @@ export default function UGModalMBA() {
                   </figure>
                   <div className="co-tb-fut-body">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Integer euismod pharetra nunc, eget laoreet purus pretium
-                      vel. Nunc massa magna, rhoncus ornare auctor a, iaculis in
-                      sem. Duis fermentum, lectus vel rutrum rhoncus, metus
-                      libero dapibus sapien, sit amet laoreet erat nisl non
-                      ipsum. Nunc rutrum massa et felis commodo consectetur.
-                      Donec ex tortor, vehicula at nisi placerat, cursus
-                      efficitur ligula. In aliquet, dolor vel feugiat feugiat,
-                      orci nunc porttitor tellus, sit amet suscipit nisi orci ut
-                      orci.
+                     Coming Soon ...
                     </p>
-                    <p>
-                      The Executive MBA offers you an Executive perspective; you
-                      will become knowledgeable about the important concepts of
-                      key business disciplines, integrating this knowledge with
-                      your experience. You will have opportunities to design
-                      projects, manage messy problems and be creative in solving
-                      real problems you face at work, which enriches your
-                      education and has a positive impact on your job
-                      performance. You will develop leadership skills to support
-                      your career growth and gain confidence to prepare you to
-                      take on executive responsibilities. The course also offers
-                      a platform for building your professional networks.
-                    </p>
+                   
                   </div>
                 </div>
               </Tab.Pane>
@@ -466,7 +447,7 @@ export default function UGModalMBA() {
               </Tab.Pane>
               <Tab.Pane eventKey="course-tab-06">
                 <div className="co-tab-hd">
-                  <h4>Fees & Scholarships</h4>
+                  <h4>Fee & Scholarships</h4>
                 </div>
                 <div className="co-tb-fees">
                   <figure>
@@ -479,7 +460,7 @@ export default function UGModalMBA() {
                     </div>
                     <p>
                       For the complete details of the fees, please refer to the{' '}
-                      <Link href="#">Fees Structure</Link>
+                      <Link href="#">Fee Structure</Link>
                     </p>
                   </div>
                 </div>

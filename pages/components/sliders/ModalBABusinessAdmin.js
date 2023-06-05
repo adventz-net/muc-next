@@ -11,7 +11,7 @@ import Link from 'next/link';
 import { PlayFill, Pause } from 'react-bootstrap-icons';
 
 export default function UGModalMBA() {
-  // Program Course Carousel
+  // Sports slider
   const settings = {
     arrows: true,
     dots: false,
@@ -24,22 +24,22 @@ export default function UGModalMBA() {
       {
         breakpoint: 1080,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 4,
+          slidesToScroll: 4,
         },
       },
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToShow: 3,
+          slidesToScroll: 3,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
       {
@@ -80,14 +80,14 @@ export default function UGModalMBA() {
           <div className="pgm-co-vid-cover">
             <div className="pgm-co-vid-hd">
               <h3>
-                <span>MSc in Computer Science</span>
+                <span>BA (Hons) in Business Administration</span>
               </h3>
             </div>
             <div className="pgm-co-video">
               <video
                 ref={videoRef}
                 src="videos/story.mp4"
-                poster="images/mba-video-poster.jpg"
+                poster="images/bsc-video-poster.jpg"
               />
               <button className={buttonClass} onClick={togglePlay}>
                 {isPlaying ? <Pause /> : <PlayFill />}
@@ -97,7 +97,7 @@ export default function UGModalMBA() {
         </section>
       </section>
 
-      <section className="pgm-co-caro-sec px-4 px-lg-6 py-4 py-lg-5 py-xl-6">
+      <section className="pgm-co-caro-sec px-5 px-lg-6 py-4 py-lg-5 py-xl-6">
         <div className="pgm-co-carousel">
           <Slider className="slider" {...settings}>
             <div>
@@ -118,10 +118,7 @@ export default function UGModalMBA() {
             <div>
               <div className="pgm-co-caro-item">
                 <h4>Delivery Mode</h4>
-                <p>
-                  Part - Time in a blended learning format (4 Weekends in a
-                  Semester)
-                </p>
+                <p>Full time and Part time</p>
               </div>
             </div>
             <div>
@@ -133,14 +130,14 @@ export default function UGModalMBA() {
             <div>
               <div className="pgm-co-caro-item">
                 <h4>Duration</h4>
-                <p>2 Years / 4 Semesters</p>
+                <p>4 Years / 4 Semesters</p>
               </div>
             </div>
           </Slider>
         </div>
       </section>
 
-      <section className="pgm-co-tab-sec px-4 px-lg-6 py-4 py-lg-5 py-xl-6">
+      <section className="pgm-co-tab-sec px-5 px-lg-6 py-4 py-lg-5 py-xl-6">
         <div className="pgm-co-tb-cover">
           <Tab.Container id="tab-course" defaultActiveKey="course-tab-01">
             <Nav className="pgm-co-tb-nav">
@@ -167,85 +164,59 @@ export default function UGModalMBA() {
               <Tab.Pane eventKey="course-tab-01">
                 <div className="co-tb-overview">
                   <div className="co-tab-hd">
-                    <h4>Course Overview</h4>
+                    <h4>Programme overview</h4>
                     <p className="pb-xl-4">
-                    The MSc in Computer Science is designed to provide you with a blend of advanced  theoretical knowledge and practical skills related
-to emerging technologies deployed in industry and research.
+                      This degree programme is designed for students who are
+                      interested in following a career in accountancy or in
+                      obtaining further professional accounting qualifications.
+                      Students are provided with information on accounting
+                      principles, cost accounting, budget creation and control,
+                      tax accounting, auditing procedures and statement analysis
+                      measurement and disclosure, managerial accounting,
+                      business law, forensic accounting, and corporate finance.
+                      Knowledge of the above will give students the necessary
+                      edge that they need to find work in this highly
+                      competitive, very rewarding field.
                     </p>
-                    <h4>Course Structure</h4>
                     <p>
-                      8 Units of 15 Credits each + 1 Project of 60 Credits =
-                      Total 180 Credits
+                      This programme aims to develop a wide range of skills
+                      including technical, analytical, problem solving, tax and
+                      accounting research, teamwork, research, organising,
+                      technological, communication and interpersonal skills all
+                      of which are crucial to today's accounting profession. As
+                      a graduate of this programme, you will have career
+                      flexibility as you can work either for the government or
+                      private companies locally or internationally.
                     </p>
-                  </div>
-                  <div className="co-structure-list">
-                    <div className="co-structure-item">
-                      <div className="icon">
-                        <img src="images/acc-pgm-dt-icon.png" alt="Icon" />
-                      </div>
-                      <h4>Semester 1</h4>
-                      <p>
-                        Accounting for Leaders, Leading and Managing People &
-                        Leadership Project 1
-                      </p>
-                    </div>
-                    <div className="co-structure-item">
-                      <div className="icon">
-                        <img src="images/acc-pgm-dt-icon.png" alt="Icon" />
-                      </div>
-                      <h4>Semester 2</h4>
-                      <p>
-                        Mobilising Creativity and Innovation, Marketing Products
-                        and Services & Leadership Project 2
-                      </p>
-                    </div>
-                    <div className="co-structure-item">
-                      <div className="icon">
-                        <img src="images/acc-pgm-dt-icon.png" alt="Icon" />
-                      </div>
-                      <h4>Semester 3</h4>
-                      <p>
-                        Strategy, Operations and Project Management & Integrated
-                        Management Project 1
-                      </p>
-                    </div>
-                    <div className="co-structure-item">
-                      <div className="icon">
-                        <img src="images/acc-pgm-dt-icon.png" alt="Icon" />
-                      </div>
-                      <p>
-                        Entrepreneurship and Small Business Management, Thriving
-                        in Competitive Global Context & Integrated Management
-                        Project 2
-                      </p>
-                    </div>
+                    <p>
+                      Exemptions by Professional Bodies: Graduates of the BA
+                      (Hons) in Accounting are allowed exemptions for six papers
+                      by the ACCA
+                    </p>
+
+                    <h4>Programme Structure</h4>
+
+                    <p>
+                      Students are required to pass 8 modules totalling 120
+                      credits in each year (level). In total students must
+                      satisfactorily complete 480 credits (32 modules) with a
+                      combination of core and specialisation modules to be
+                      eligible for the award of the BA (Honours).
+                    </p>
+                    <p>
+                      Please note that:
+                      <br />
+                      Programme structures may be subject to change and modules
+                      may be offered in any of the semesters in an academic year
+                    </p>
                   </div>
                 </div>
               </Tab.Pane>
               <Tab.Pane eventKey="course-tab-02">
-                <div className="co-tab-hd">
-                  <h4>Entry Criteria</h4>
-                </div>
-                <div className="co-entry-list">
-                  <div className="co-entry-item">
-                    <h4>25 years & above </h4>
-                    <p>
-                      With Bachelors, and at least, 2 years of work experience
-                    </p>
-                  </div>
-                  <div className="co-entry-item">
-                    <div className="options">Or</div>
-                  </div>
-                  <div className="co-entry-item">
-                    <h4>25 years & above</h4>
-                    <p>
-                      With 2 years Higher National Diploma, any 4 short training
-                      courses and 6 years of work experience.
-                    </p>
-                  </div>
-                  <div className="co-entry-item">
-                    <p>Applicants must have</p>
-                    <h4>IELTS 6.0 or equivalent</h4>
+                <div className="co-tb-overview">
+                  <div className="co-tab-hd">
+                    <h4>Entry Requirements</h4>
+                    <p>Coming Soon</p>
                   </div>
                 </div>
               </Tab.Pane>
@@ -255,107 +226,124 @@ to emerging technologies deployed in industry and research.
                 </div>
                 <div className="co-structure-table">
                   <div className="table-responsive">
+                    <h4>Modules in First Year (Level 3)</h4>
                     <table class="table">
                       <thead>
                         <tr>
-                          <th colSpan={5}>Course Structure</th>
+                          <th>#</th>
+                          <th className="text-center">Module Name</th>
+                          <th>Credits</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td colSpan={5}>
-                            The Units which make up the course are:
+                          <td>1</td>
+                          <td>
+                            Arabic Language and Society (Arabic speakers) /
+                            Omani Culture and Civilization (Non-Arabic Speakers)
                           </td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>English Vocabulary in Use</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Fundamentals of Business Management</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>Fundamentals of ICT</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>English for General Reading and Writing</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>6</td>
+                          <td>Professional Communication Skills in English</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>7</td>
+                          <td>Business and Entrepreneurship</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>8</td>
+                          <td>Logical and Problem Solving Skills </td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td className="text-center">Total Credit</td>
+                          <td>120</td>
                         </tr>
                       </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div className="co-structure-table">
+                  <div className="table-responsive">
+                    <h4>Modules in Second Year (Level 4)</h4>
+                    <table class="table">
                       <thead>
                         <tr>
-                          <th>Unit Code</th>
-                          <th>Level</th>
+                          <th>#</th>
+                          <th className="text-center">Module Name</th>
                           <th>Credits</th>
-                          <th>Unit Name</th>
-                          <th>Core or Option</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>SHR012-6</td>
-                          <td>7</td>
+                          <td>1</td>
+                          <td>Integrated Language Skills</td>
                           <td>15</td>
-                          <td>Leading and Managing People</td>
-                          <td>Core</td>
                         </tr>
                         <tr>
-                          <td>SHR036-6</td>
-                          <td>7</td>
+                          <td>2</td>
+                          <td>Mathematical and Statistical Skills</td>
                           <td>15</td>
-                          <td>Accounting for Leaders</td>
-                          <td>Core</td>
                         </tr>
                         <tr>
-                          <td>SHR037-6</td>
-                          <td>7</td>
+                          <td>3</td>
+                          <td>Computer Systems and Networking</td>
                           <td>15</td>
-                          <td>Marketing Management</td>
-                          <td>Core</td>
                         </tr>
                         <tr>
-                          <td>SHR044-6</td>
-                          <td>7</td>
+                          <td>4</td>
+                          <td>Introduction to Programming</td>
                           <td>15</td>
-                          <td>Mobilising Creativity and Innovation </td>
-                          <td>Core</td>
                         </tr>
                         <tr>
-                          <td>SHR011-6 </td>
-                          <td>7</td>
-                          <td>30</td>
-                          <td>Leadership Project</td>
-                          <td>Core</td>
-                        </tr>
-                        <tr>
-                          <td>SHR019-6</td>
-                          <td>7</td>
+                          <td>5</td>
+                          <td>Academic Reading and Writing</td>
                           <td>15</td>
-                          <td>Strategy</td>
-                          <td>Core</td>
                         </tr>
                         <tr>
-                          <td>SHR039-6</td>
-                          <td>7</td>
+                          <td>6</td>
+                          <td>Digital Logic Design</td>
                           <td>15</td>
-                          <td>Operations and Project Management</td>
-                          <td>Core</td>
                         </tr>
                         <tr>
-                          <td>MAR015-6</td>
                           <td>7</td>
+                          <td>Systems Analysis and Design</td>
                           <td>15</td>
-                          <td>
-                            Entrepreneurship and Small Business Management
-                          </td>
-                          <td>Core</td>
                         </tr>
                         <tr>
-                          <td>MAR023-6</td>
-                          <td>7</td>
+                          <td>8</td>
+                          <td>Data Structures and Algorithms</td>
                           <td>15</td>
-                          <td>Thriving in Competitive Global Context</td>
-                          <td>Core</td>
                         </tr>
                         <tr>
-                          <td>SHR043-6</td>
-                          <td>7</td>
-                          <td>30</td>
-                          <td>Integrated Management Project</td>
-                          <td>Core</td>
-                        </tr>
-                        <tr>
-                          <td>SHR053-6</td>
-                          <td>7</td>
-                          <td>0</td>
-                          <td>Personal and Professional Development </td>
-                          <td>Core</td>
+                          <td></td>
+                          <td className="text-center">Total Credit</td>
+                          <td>120</td>
                         </tr>
                       </tbody>
                     </table>
@@ -366,15 +354,25 @@ to emerging technologies deployed in industry and research.
                 <div className="co-tab-hd">
                   <h4>Future Careers</h4>
                 </div>
-                <div className="co-tb-future">
+                <div className="co-tb-opertunity">
                   <figure>
-                    <img src="images/course-future.jpg" alt="Icon" />
+                    <img src="images/course-opertunity.jpg" alt="Icon" />
                   </figure>
-                  <div className="co-tb-fut-body">
+                  <div className="co-tb-oper-body">
                     <p>
-                      Coming soon ...
+                      Graduate of e business can work as web-page designers,
+                      systems analysts, technical support, and administrators
+                      for networks and databases.
                     </p>
-                    
+                    <p>
+                      {' '}
+                      Awards: (students must register for a particular award in
+                      order to qualify for that award)
+                    </p>
+                    <ul>
+                      <li>Diploma in Higher Education</li>
+                      <li>BA (Honours)</li>
+                    </ul>
                   </div>
                 </div>
               </Tab.Pane>
@@ -443,7 +441,7 @@ to emerging technologies deployed in industry and research.
                   <div className="co-tb-fees-body">
                     <p>Total tuition fees Per Year</p>
                     <div className="fees-amount">
-                      <span>6,636 OMR</span>
+                      <span>12,346 OMR</span>
                     </div>
                     <p>
                       For the complete details of the fees, please refer to the{' '}

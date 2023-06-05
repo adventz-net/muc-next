@@ -210,16 +210,7 @@ export default function UGModalMBA() {
                 <div className="co-tb-overview">
                   <div className="co-tab-hd">
                     <h4>Entry Requirements</h4>
-                    <p>
-                      The College offers nine undergraduate programmes that are
-                      validated by the University of Bedfordshire (UK) and
-                      approved by the Ministry of Higher Education, Research and
-                      Innovation (MOERI), Oman, in addition to the Foundation
-                      Programme. The University of Bedfordshire recognises the
-                      Majan University College's Foundation Certificate as a
-                      normal entry qualification to the degree and DipHE
-                      programmes offered by the Majan University College.
-                    </p>
+                    <p>Coming soon ...</p>
                   </div>
                 </div>
               </Tab.Pane>
@@ -310,37 +301,39 @@ export default function UGModalMBA() {
                         </tr>
                         <tr>
                           <td>2</td>
-                          <td>Mathematical and Statistical Skills</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>Computer Systems and Networking</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>Introduction to Programming</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
                           <td>Academic Reading and Writing</td>
                           <td>15</td>
                         </tr>
                         <tr>
+                          <td>3</td>
+                          <td>Introduction to Financial Accounting</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>Principles of Management</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>Principles of Economics</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
                           <td>6</td>
-                          <td>Digital Logic Design</td>
+                          <td>
+                            Introduction to Accounting Information Systems
+                          </td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>7</td>
-                          <td>Systems Analysis and Design</td>
+                          <td>Fundamentals of Finance</td>
                           <td>15</td>
                         </tr>
                         <tr>
                           <td>8</td>
-                          <td>Data Structures and Algorithms</td>
+                          <td>Business Mathematics and Statistics</td>
                           <td>15</td>
                         </tr>
                         <tr>
@@ -363,17 +356,20 @@ export default function UGModalMBA() {
                   </figure>
                   <div className="co-tb-oper-body">
                     <p>
-                      The graduates will be equipped with the knowledge and
-                      skills that can help them in getting career opportunities
-                      which include:
+                      Graduates may be employed by trading and merchant banks,
+                      investment firms, consultancies, treasury and risk
+                      management, stock broking, fund and portfolio management,
+                      international trade and derivatives trading and pricing
+                      and Stock exchanges.
+                    </p>
+                    <p>
+                      {' '}
+                      Awards: (students must register for a particular award in
+                      order to qualify for that award)
                     </p>
                     <ul>
-                      <li>Database Administrator</li>
-                      <li>Software Engineer</li>
-                      <li>Programmer/Analyst</li>
-                      <li>Information Systems Manager</li>
-                      <li>Web Application Developer</li>
-                      <li>Web Application Administrator</li>
+                      <li>Diploma in Higher Education</li>
+                      <li>BA (Honours)</li>
                     </ul>
                   </div>
                 </div>
@@ -434,7 +430,7 @@ export default function UGModalMBA() {
               </Tab.Pane>
               <Tab.Pane eventKey="course-tab-06">
                 <div className="co-tab-hd">
-                  <h4>Fees & Scholarships</h4>
+                  <h4>Fee & Scholarships</h4>
                 </div>
                 <div className="co-tb-fees">
                   <figure>
@@ -447,7 +443,7 @@ export default function UGModalMBA() {
                     </div>
                     <p>
                       For the complete details of the fees, please refer to the{' '}
-                      <Link href="#">Fees Structure</Link>
+                      <Link href="#">Fee Structure</Link>
                     </p>
                   </div>
                 </div>

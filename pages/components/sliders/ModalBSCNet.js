@@ -192,14 +192,7 @@ export default function UGModalMBA() {
                   <div className="co-tab-hd">
                     <h4>Entry Requirements</h4>
                     <p>
-                      The College offers nine undergraduate programmes that are
-                      validated by the University of Bedfordshire (UK) and
-                      approved by the Ministry of Higher Education, Research and
-                      Innovation (MOERI), Oman, in addition to the Foundation
-                      Programme. The University of Bedfordshire recognises the
-                      Majan University College's Foundation Certificate as a
-                      normal entry qualification to the degree and DipHE
-                      programmes offered by the Majan University College.
+                     Coming soon ...
                     </p>
                   </div>
                 </div>
@@ -349,12 +342,12 @@ export default function UGModalMBA() {
                       which include:
                     </p>
                     <ul>
-                      <li>Database Administrator</li>
-                      <li>Software Engineer</li>
-                      <li>Programmer/Analyst</li>
-                      <li>Information Systems Manager</li>
-                      <li>Web Application Developer</li>
-                      <li>Web Application Administrator</li>
+                      <li>Network Administrator</li>
+                      <li>Network (Systems) Engineer</li>
+                      <li>Network (Service) Technician</li>
+                      <li>Network Programmer/Analyst</li>
+                      <li>Network/Information Systems Manager</li>
+                      <li>WAN Architect</li>
                     </ul>
                   </div>
                 </div>
@@ -415,7 +408,7 @@ export default function UGModalMBA() {
               </Tab.Pane>
               <Tab.Pane eventKey="course-tab-06">
                 <div className="co-tab-hd">
-                  <h4>Fees & Scholarships</h4>
+                  <h4>Fee & Scholarships</h4>
                 </div>
                 <div className="co-tb-fees">
                   <figure>
@@ -428,7 +421,7 @@ export default function UGModalMBA() {
                     </div>
                     <p>
                       For the complete details of the fees, please refer to the{' '}
-                      <Link href="#">Fees Structure</Link>
+                      <Link href="#">Fee Structure</Link>
                     </p>
                   </div>
                 </div>

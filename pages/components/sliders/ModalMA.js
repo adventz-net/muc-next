@@ -381,30 +381,9 @@ export default function UGModalMBA() {
                   </figure>
                   <div className="co-tb-fut-body">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Integer euismod pharetra nunc, eget laoreet purus pretium
-                      vel. Nunc massa magna, rhoncus ornare auctor a, iaculis in
-                      sem. Duis fermentum, lectus vel rutrum rhoncus, metus
-                      libero dapibus sapien, sit amet laoreet erat nisl non
-                      ipsum. Nunc rutrum massa et felis commodo consectetur.
-                      Donec ex tortor, vehicula at nisi placerat, cursus
-                      efficitur ligula. In aliquet, dolor vel feugiat feugiat,
-                      orci nunc porttitor tellus, sit amet suscipit nisi orci ut
-                      orci.
+                     Coming soon ...
                     </p>
-                    <p>
-                      The Executive MBA offers you an Executive perspective; you
-                      will become knowledgeable about the important concepts of
-                      key business disciplines, integrating this knowledge with
-                      your experience. You will have opportunities to design
-                      projects, manage messy problems and be creative in solving
-                      real problems you face at work, which enriches your
-                      education and has a positive impact on your job
-                      performance. You will develop leadership skills to support
-                      your career growth and gain confidence to prepare you to
-                      take on executive responsibilities. The course also offers
-                      a platform for building your professional networks.
-                    </p>
+                    
                   </div>
                 </div>
               </Tab.Pane>

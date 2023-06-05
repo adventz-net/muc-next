@@ -208,7 +208,7 @@ export default function Home() {
             <div className="nav-link">Campus Life</div>
           </div>
           <div>
-            <div className="nav-link">Studen Support</div>
+            <div className="nav-link">StudenT Support</div>
           </div>
           <div>
             <div className="nav-link">Programmes</div>
