@@ -89,6 +89,10 @@ export default function UGModalMBA() {
                   src="http://smoinoman.com/muc-videos/Dr-Syed-Ziaur.mp4"
                   type="video/mp4"
                 />
+                <source
+                  src="http://smoinoman.com/muc-videos/Dr-Syed-Ziaur.webm"
+                  type="video/mp4"
+                />
                 Your browser does not support the video tag.
               </video>
               {/* <video
