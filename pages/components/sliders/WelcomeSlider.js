@@ -427,16 +427,12 @@ export default function WelcomeSlider() {
                             <h4>Adaptive</h4>
                             <ul>
                               <li>
-                                Demonstrates discipline-specific knowledge and
-                                skills;
+                                Upholds spirit of inquiry and shows openness to
+                                new ideas.
                               </li>
                               <li>
-                                Has the ability to apply current knowledge of
-                                the discipline to professional situations;
-                              </li>
-                              <li>
-                                Analyses and critically evaluates from multiple
-                                perspectives;
+                                Demonstrates capacity for lifelong learning both
+                                Independently and collaboratively
                               </li>
                             </ul>
                           </div>
@@ -446,16 +442,8 @@ export default function WelcomeSlider() {
                             <h4>Entrepreneurial</h4>
                             <ul>
                               <li>
-                                Demonstrates discipline-specific knowledge and
-                                skills;
-                              </li>
-                              <li>
-                                Has the ability to apply current knowledge of
-                                the discipline to professional situations;
-                              </li>
-                              <li>
-                                Analyses and critically evaluates from multiple
-                                perspectives;
+                                Shows awarness of the value of entrepreneurship
+                                and identifies new opportunities
                               </li>
                             </ul>
                           </div>
@@ -464,17 +452,10 @@ export default function WelcomeSlider() {
                           <div className="attr-tb-con">
                             <h4>Global Citizen</h4>
                             <ul>
+                              <li>Upholds ethical and moral values</li>
                               <li>
-                                Demonstrates discipline-specific knowledge and
-                                skills;
-                              </li>
-                              <li>
-                                Has the ability to apply current knowledge of
-                                the discipline to professional situations;
-                              </li>
-                              <li>
-                                Analyses and critically evaluates from multiple
-                                perspectives;
+                                Values diversity and shows sensitivity towards
+                                others in the society
                               </li>
                             </ul>
                           </div>
@@ -485,15 +466,11 @@ export default function WelcomeSlider() {
                             <ul>
                               <li>
                                 Demonstrates discipline-specific knowledge and
-                                skills;
+                                skills
                               </li>
                               <li>
                                 Has the ability to apply current knowledge of
-                                the discipline to professional situations;
-                              </li>
-                              <li>
-                                Analyses and critically evaluates from multiple
-                                perspectives;
+                                the discipline to professional situations.
                               </li>
                             </ul>
                           </div>
@@ -503,17 +480,10 @@ export default function WelcomeSlider() {
                             <h4>Innovative</h4>
                             <ul>
                               <li>
-                                Demonstrates discipline-specific knowledge and
-                                skills;
+                                Adopts a critical approach in personal as well
+                                as professional matters
                               </li>
-                              <li>
-                                Has the ability to apply current knowledge of
-                                the discipline to professional situations;
-                              </li>
-                              <li>
-                                Analyses and critically evaluates from multiple
-                                perspectives;
-                              </li>
+                              <li>Solves problems creatively</li>
                             </ul>
                           </div>
                         </Tab.Pane>
@@ -522,16 +492,8 @@ export default function WelcomeSlider() {
                             <h4>Employable</h4>
                             <ul>
                               <li>
-                                Demonstrates discipline-specific knowledge and
-                                skills;
-                              </li>
-                              <li>
-                                Has the ability to apply current knowledge of
-                                the discipline to professional situations;
-                              </li>
-                              <li>
-                                Analyses and critically evaluates from multiple
-                                perspectives;
+                                Shows expertise in applying filed-specific
+                                practical skills
                               </li>
                             </ul>
                           </div>
