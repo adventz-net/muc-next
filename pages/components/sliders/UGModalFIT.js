@@ -107,7 +107,7 @@ export default function UGModal() {
                 >
                   <figure>
                     <div className="programme-img">
-                      <img src="images/prog-item-thumb-01.jpg" alt="Image" />
+                      <img src="images/fit-item-thumb-01.jpg" alt="Image" />
                     </div>
                   </figure>
                   <div className="programme-body">
@@ -125,7 +125,7 @@ export default function UGModal() {
                 >
                   <figure>
                     <div className="programme-img">
-                      <img src="images/prog-item-thumb-02.jpg" alt="Image" />
+                      <img src="images/fit-item-thumb-02.jpg" alt="Image" />
                     </div>
                   </figure>
                   <div className="programme-body">
@@ -143,7 +143,7 @@ export default function UGModal() {
                 >
                   <figure>
                     <div className="programme-img">
-                      <img src="images/prog-item-thumb-03.jpg" alt="Image" />
+                      <img src="images/fit-item-thumb-03.jpg" alt="Image" />
                     </div>
                   </figure>
                   <div className="programme-body">
@@ -162,7 +162,7 @@ export default function UGModal() {
                 >
                   <figure>
                     <div className="programme-img">
-                      <img src="images/prog-item-thumb-03.jpg" alt="Image" />
+                      <img src="images/fit-item-thumb-04.jpg" alt="Image" />
                     </div>
                   </figure>
                   <div className="programme-body">
@@ -183,7 +183,7 @@ export default function UGModal() {
                 >
                   <figure>
                     <div className="programme-img">
-                      <img src="images/prog-item-thumb-03.jpg" alt="Image" />
+                      <img src="images/fit-item-thumb-05.jpg" alt="Image" />
                     </div>
                   </figure>
                   <div className="programme-body">

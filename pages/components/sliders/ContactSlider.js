@@ -1,10 +1,47 @@
-import Link from "next/link";
-
-import { Container, Row, Col } from "react-bootstrap";
+import { useState } from 'react';
+import { Container, Row, Col, Modal } from 'react-bootstrap';
+import Link from 'next/link';
 
 export default function ContactSlider() {
+  const [showModalMap, setShowModalMap] = useState(false);
+
+  const handleCloseModalMap = () => setShowModalMap(false);
+  const handleShowModalMap = () => setShowModalMap(true);
+
   return (
     <section className="contact-slider-sec">
+      <>
+        <Modal
+          className="modal-map"
+          show={showModalMap}
+          onHide={handleCloseModalMap}
+        >
+          <Modal.Body>
+            <div className="modal-map-content">
+              <button className="btn-modal-close" onClick={handleCloseModalMap}>
+                <i className="bi bi-x-lg"></i>
+              </button>
+              <figure>
+                <img src="images/loc-map-img-01.jpg" alt="Map" />
+              </figure>
+              <div className="modal-map-body">
+                <h3>Al Nahda Block </h3>
+                <ul>
+                  <li>Dean's Office</li>
+                  <li>Registry and Admissions</li>
+                  <li>Marketing Office</li>
+                  <li>Faculty of Information Technology</li>
+                  <li>Faculty of Business Management</li>
+                  <li>Muttrah and Ruwi Lecture Halls</li>
+                  <li>Cafe</li>
+                  <li>Board Room</li>
+                </ul>
+              </div>
+            </div>
+          </Modal.Body>
+        </Modal>
+      </>
+
       <section className="contact-addr-sec">
         <div className="sec-bg-graphics">
           <div className="social-shape"></div>
@@ -128,7 +165,40 @@ export default function ContactSlider() {
               <h3>Campus Map</h3>
             </div>
             <div className="con-campus-map">
-              <img src="images/campus-map-img.jpg" alt="Image" />
+              <img src="images/location-map.jpg" alt="Image" />
+              <div className="map-icon icon-01">
+                <Link
+                  className="map-modal-nav"
+                  href=""
+                  onClick={handleShowModalMap}
+                >
+                  <i class="bi bi-geo-alt-fill"></i>
+                </Link>
+              </div>
+              <div className="map-icon icon-02">
+                <Link
+                  className="map-modal-nav"
+                  href=""
+                  onClick={handleShowModalMap}
+                >
+                  <i class="bi bi-geo-alt-fill"></i>
+                </Link>
+              </div>
+              <div className="map-icon icon-03">
+                <Link
+                  className="map-modal-nav"
+                  href=""
+                  onClick={handleShowModalMap}
+                >
+                  <i class="bi bi-geo-alt-fill"></i>
+                </Link>
+              </div>
+              {/* <div className="map-icon icon-04">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <div className="map-icon icon-05">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div> */}
             </div>
           </div>
         </div>

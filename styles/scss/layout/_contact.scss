@@ -72,7 +72,7 @@
     height: 100%;
     background-color: var(--color-100);
     clip-path: polygon(100% 0, 65% 100%, 100% 100%) !important;
-    clip-path: url("#con-img-shape");
+    clip-path: url('#con-img-shape');
   }
 }
 
@@ -204,10 +204,42 @@
     }
   }
   .con-campus-map {
+    position: relative;
     max-width: 1200px;
     margin: 0 auto;
     img {
       width: 100%;
+    }
+    .map-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      font-size: 1.5rem;
+      color: var(--spe-color-200);
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      animation: iconPulse 1s ease 0s infinite;
+      a {
+        color: var(--spe-color-200);
+        text-decoration: none;
+        &:hover {
+          color: var(--spe-color-100);
+        }
+      }
+      &.icon-01 {
+        left: 33%;
+        top: 21%;
+      }
+      &.icon-02 {
+        right: 27%;
+        top: 25%;
+      }
+      &.icon-03 {
+        right: 10%;
+        top: 31%;
+      }
     }
   }
 }
@@ -229,6 +261,74 @@
       border-radius: 50% 0% 0% 50%/50% 0% 0% 50%;
       transform: translateY(-50%);
       z-index: 10;
+    }
+  }
+}
+
+.modal-map {
+  // background-color: var(--white);
+  .modal-dialog {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .modal-content {
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+  }
+  .modal-body {
+    padding: 0;
+  }
+}
+
+.modal-map-content {
+  position: relative;
+  background-color: var(--white);
+  .btn-modal-close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 32px;
+    height: 32px;
+    color: var(--white);
+    background-color: var(--spe-color-100);
+    border: 0;
+    border-radius: 50%;
+    z-index: 10;
+  }
+  figure {
+    img {
+      width: 100%;
+    }
+  }
+  .modal-map-body {
+    padding: 2rem 2rem;
+    h3 {
+      color: var(--spe-color-200);
+      font-size: 1.875rem;
+      font-weight: var(--font-weight-medium);
+      margin: 0 0 1rem 0;
+      text-transform: uppercase;
+    }
+    ul {
+      margin-bottom: 1.5rem;
+      li {
+        position: relative;
+        color: var(--bk-grade-950);
+        padding-left: 1.5rem;
+        margin-bottom: 0.5rem;
+        &::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 8px;
+          width: 6px;
+          height: 6px;
+          background-color: var(--spe-color-400);
+          border-radius: 50%;
+        }
+      }
     }
   }
 }

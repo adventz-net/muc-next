@@ -10,7 +10,7 @@ export default function UGModalOne() {
       </div>
 
       <section className="sec-con-cover">
-        <section className="programmes-sec  pt-5 pt-xl-6 px-5 px-xl-6 pb-5 pb-xl-6">
+        <section className="programmes-sec pt-5 pt-xl-6 px-5 px-xl-6 pb-5 pb-xl-6">
           <Container fluid>
             <Row>
               <Col xs={12}>

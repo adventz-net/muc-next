@@ -156,7 +156,7 @@ export default function UGModal() {
                 >
                   <figure>
                     <div className="programme-img">
-                      <img src="images/prog-item-thumb-01.jpg" alt="Image" />
+                      <img src="images/fbm-item-thumb-01.jpg" alt="Image" />
                     </div>
                   </figure>
                   <div className="programme-body">
@@ -174,7 +174,7 @@ export default function UGModal() {
                 >
                   <figure>
                     <div className="programme-img">
-                      <img src="images/prog-item-thumb-01.jpg" alt="Image" />
+                      <img src="images/fbm-item-thumb-02.jpg" alt="Image" />
                     </div>
                   </figure>
                   <div className="programme-body">
@@ -192,7 +192,7 @@ export default function UGModal() {
                 >
                   <figure>
                     <div className="programme-img">
-                      <img src="images/prog-item-thumb-01.jpg" alt="Image" />
+                      <img src="images/fbm-item-thumb-03.jpg" alt="Image" />
                     </div>
                   </figure>
                   <div className="programme-body">
@@ -210,7 +210,7 @@ export default function UGModal() {
                 >
                   <figure>
                     <div className="programme-img">
-                      <img src="images/prog-item-thumb-01.jpg" alt="Image" />
+                      <img src="images/fbm-item-thumb-04.jpg" alt="Image" />
                     </div>
                   </figure>
                   <div className="programme-body">
@@ -228,12 +228,12 @@ export default function UGModal() {
                 >
                   <figure>
                     <div className="programme-img">
-                      <img src="images/prog-item-thumb-02.jpg" alt="Image" />
+                      <img src="images/fbm-item-thumb-05.jpg" alt="Image" />
                     </div>
                   </figure>
                   <div className="programme-body">
                     <div className="overlay">
-                      <h4>BA (Hons) in Islamic Banking and Finance </h4>
+                      <h4>BA (Hons) in Islamic Banking and Finance</h4>
                     </div>
                   </div>
                 </Link>
