@@ -108,7 +108,7 @@ export default function UGModalMBA() {
             <div>
               <div className="pgm-co-caro-item">
                 <h4>Classes Commence</h4>
-                <p>September and February</p>
+                <p> </p>
               </div>
             </div>
             <div>

@@ -343,7 +343,7 @@ export default function ProgrammesSlider() {
                 <Link
                   href=""
                   className="programme-item"
-                  // onClick={handleShowModalDBA}
+                  onClick={handleShowModalDBA}
                 >
                   <figure>
                     <div className="programme-img">

@@ -1,4 +1,3 @@
-import React, { useRef, useState } from 'react';
 import { Tab, Nav, Form, FloatingLabel, Button } from 'react-bootstrap';
 import Slider from 'react-slick';
 
@@ -7,8 +6,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import Link from 'next/link';
-
-import { PlayFill, Pause } from 'react-bootstrap-icons';
 
 export default function UGModalMBA() {
   // Program Course Carousel
@@ -52,24 +49,6 @@ export default function UGModalMBA() {
     ],
   };
 
-  // Video
-  const videoRef = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [buttonClass, setButtonClass] = useState('btn-video');
-
-  const togglePlay = () => {
-    const video = videoRef.current;
-    if (video.paused) {
-      video.play();
-      setIsPlaying(true);
-      setButtonClass('btn-video btn-pause');
-    } else {
-      video.pause();
-      setIsPlaying(false);
-      setButtonClass('btn-video btn-play');
-    }
-  };
-
   return (
     <section className="ug-modal-cover-sec">
       <section className="ug-pgm-slider-sec bg-dk-blue">
@@ -87,14 +66,16 @@ export default function UGModalMBA() {
               </h3>
             </div>
             <div className="pgm-co-video">
-              <video
-                ref={videoRef}
-                src="videos/story.mp4"
-                poster="images/mba-video-poster.jpg"
-              />
-              <button className={buttonClass} onClick={togglePlay}>
-                {isPlaying ? <Pause /> : <PlayFill />}
-              </button>
+              <video controls>
+                <source
+                  src="http://smoinoman.com/muc-videos/Mr-Armstronge-Jeyakumar.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="http://smoinoman.com/muc-videos/Mr-Armstronge-Jeyakumar.webm"
+                  type="video/mp4"
+                />
+              </video>
             </div>
           </div>
         </section>
@@ -130,13 +111,13 @@ export default function UGModalMBA() {
             <div>
               <div className="pgm-co-caro-item">
                 <h4>Classes Commence</h4>
-                <p>September and February</p>
+                <p>September</p>
               </div>
             </div>
             <div>
               <div className="pgm-co-caro-item">
                 <h4>Duration</h4>
-                <p>2 Years / 4 Semesters</p>
+                <p>4 Years</p>
               </div>
             </div>
           </Slider>
@@ -172,22 +153,42 @@ export default function UGModalMBA() {
                   <div className="co-tab-hd">
                     <h4>Course Overview</h4>
                     <p className="pb-xl-4">
-                      The Executive MBA offers you an Executive perspective; you
-                      will become knowledgeable about the important concepts of
-                      key business disciplines, integrating this knowledge with
-                      your experience. You will have opportunities to design
-                      projects, manage messy problems and be creative in solving
-                      real problems you face at work, which enriches your
-                      education and has a positive impact on your job
-                      performance. You will develop leadership skills to support
-                      your career growth and gain confidence to prepare you to
-                      take on executive responsibilities. The course also offers
-                      a platform for building your professional networks.
+                      The University of Bradford Doctor of Business
+                      Administration (DBA) is the pinnacle of management
+                      education.
                     </p>
-                    <h4>Course Structure</h4>
                     <p>
-                      8 Units of 15 Credits each + 2 Project of 30 Credits =
-                      Total 180 Credits
+                      DBA is specifically designed for executives, professionals
+                      and senior managers who seek to combine the best of
+                      academic knowledge with the best of practitioner knowledge
+                      in order to push forward the boundaries of understanding
+                      contemporary and rapidly transforming business and
+                      management challenges. The DBA award allows the holder to
+                      use the title 'Doctor'.
+                    </p>
+                    <p>
+                      The Bradford DBA provides advanced research methods
+                      training through a suite of four specifically designed
+                      taught modules. The modules are delivered by leading
+                      scholars from the University of Bradford School of
+                      Management, supported by scholars in Majan University
+                      College, and will equip you to undertake independent
+                      empirical research on contemporary business/management
+                      challenges, and to develop new knowledge and
+                      understanding.
+                    </p>
+                    <p>
+                      You will be supervised by leading research-active
+                      academics from University of Bradford and Majan University
+                      College, who regularly publish in international journals
+                      and present at prestigious conferences.
+                    </p>
+                    <h4>Professional accreditation</h4>
+                    <p>
+                      The School of Management of University of Bradford belongs
+                      to an elite group of business schools to hold the triple
+                      accreditations of Equis, AMBA and AACSB, often referred to
+                      as the "Triple Crown".
                     </p>
                   </div>
                   <div className="co-structure-list">
@@ -384,29 +385,19 @@ export default function UGModalMBA() {
                   </figure>
                   <div className="co-tb-fut-body">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Integer euismod pharetra nunc, eget laoreet purus pretium
-                      vel. Nunc massa magna, rhoncus ornare auctor a, iaculis in
-                      sem. Duis fermentum, lectus vel rutrum rhoncus, metus
-                      libero dapibus sapien, sit amet laoreet erat nisl non
-                      ipsum. Nunc rutrum massa et felis commodo consectetur.
-                      Donec ex tortor, vehicula at nisi placerat, cursus
-                      efficitur ligula. In aliquet, dolor vel feugiat feugiat,
-                      orci nunc porttitor tellus, sit amet suscipit nisi orci ut
-                      orci.
+                      The Doctor of Business Administration is specifically
+                      designed for MBA (or equivalent) graduates who are looking
+                      for the next challenge in their careers.
                     </p>
                     <p>
-                      The Executive MBA offers you an Executive perspective; you
-                      will become knowledgeable about the important concepts of
-                      key business disciplines, integrating this knowledge with
-                      your experience. You will have opportunities to design
-                      projects, manage messy problems and be creative in solving
-                      real problems you face at work, which enriches your
-                      education and has a positive impact on your job
-                      performance. You will develop leadership skills to support
-                      your career growth and gain confidence to prepare you to
-                      take on executive responsibilities. The course also offers
-                      a platform for building your professional networks.
+                      Given that the DBA programme was first launched in 2001 at
+                      the University of Bradford School of Management, students
+                      and graduates of the DBA programme in Oman will be joining
+                      the university's international alumni network of prominent
+                      business executives. Current and recent DBA students work
+                      for leading multinational companies such as Shell
+                      International, Siemens, Coca Cola, Volvo, Bayer, ING Group
+                      and Phillips International.
                     </p>
                   </div>
                 </div>
