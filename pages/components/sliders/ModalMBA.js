@@ -1,4 +1,3 @@
-import React, { useRef, useState } from 'react';
 import { Tab, Nav, Form, FloatingLabel, Button } from 'react-bootstrap';
 import Slider from 'react-slick';
 
@@ -7,8 +6,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import Link from 'next/link';
-
-import { PlayFill, Pause } from 'react-bootstrap-icons';
 
 export default function UGModalMBA() {
   // Program Course Carousel
@@ -52,24 +49,6 @@ export default function UGModalMBA() {
     ],
   };
 
-  // Video
-  const videoRef = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [buttonClass, setButtonClass] = useState('btn-video');
-
-  const togglePlay = () => {
-    const video = videoRef.current;
-    if (video.paused) {
-      video.play();
-      setIsPlaying(true);
-      setButtonClass('btn-video btn-pause');
-    } else {
-      video.pause();
-      setIsPlaying(false);
-      setButtonClass('btn-video btn-play');
-    }
-  };
-
   return (
     <section className="ug-modal-cover-sec">
       <section className="ug-pgm-slider-sec bg-dk-blue">
@@ -86,14 +65,16 @@ export default function UGModalMBA() {
               </h3>
             </div>
             <div className="pgm-co-video">
-              <video
-                ref={videoRef}
-                src="videos/story.mp4"
-                poster="images/mba-video-poster.jpg"
-              />
-              <button className={buttonClass} onClick={togglePlay}>
-                {isPlaying ? <Pause /> : <PlayFill />}
-              </button>
+              <video controls>
+                <source
+                  src="http://smoinoman.com/muc-videos/Mr-Armstronge-Jeyakumar.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="http://smoinoman.com/muc-videos/Mr-Armstronge-Jeyakumar.webm"
+                  type="video/mp4"
+                />
+              </video>
             </div>
           </div>
         </section>
@@ -171,18 +152,20 @@ export default function UGModalMBA() {
                   <div className="co-tab-hd">
                     <h4>Course Overview</h4>
                     <p className="pb-xl-4">
-                    The Executive MBA is our flagship part-time qualification designed for practitioners
-with management experience and with the aspiration to achieve a leadership
-position.
+                      The Executive MBA is our flagship part-time qualification
+                      designed for practitioners with management experience and
+                      with the aspiration to achieve a leadership position.
                     </p>
                     <p>
-                    The course adopts a practice-led curriculum and aims to develop an advanced
-knowledge of organisations and their effective management in the dynamic
-competitive global context, and the ability to apply this knowledge and
-understanding to complex issues, both systematically and creatively, to improve
-business and management practice. The course is awarded by the University of
-Bedfordshire, U.K. and has been hosted by the Postgraduate Centre, Majan
-University College since 2004.
+                      The course adopts a practice-led curriculum and aims to
+                      develop an advanced knowledge of organisations and their
+                      effective management in the dynamic competitive global
+                      context, and the ability to apply this knowledge and
+                      understanding to complex issues, both systematically and
+                      creatively, to improve business and management practice.
+                      The course is awarded by the University of Bedfordshire,
+                      U.K. and has been hosted by the Postgraduate Centre, Majan
+                      University College since 2004.
                     </p>
                     <h4>Course Structure</h4>
                     <p>
@@ -384,10 +367,7 @@ University College since 2004.
                     <img src="images/course-future.jpg" alt="Icon" />
                   </figure>
                   <div className="co-tb-fut-body">
-                    <p>
-                     Coming Soon ...
-                    </p>
-                   
+                    <p>Coming Soon ...</p>
                   </div>
                 </div>
               </Tab.Pane>

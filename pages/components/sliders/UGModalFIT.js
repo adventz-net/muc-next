@@ -5,11 +5,13 @@ import Link from 'next/link';
 import ModalBSCComputerInt from './ModalBSCComputerInt';
 import ModalBSCNet from './ModalBSCNet';
 import ModalBSCBank from './ModalBSCBank';
+import ModalBSCSoftwareEng from './ModalBSCSoftwareEng';
 
 export default function UGModal() {
   const [showModalBSCComputerInt, setShowModalBSCComputerInt] = useState(false);
   const [showModalBSCNet, setShowModalBSCNet] = useState(false);
   const [showModalBSCBank, setShowModalBSCBank] = useState(false);
+  const [showModalBSCSoftwareEng, setShowModalBSCSoftwareEng] = useState(false);
 
   const handleCloseModalBSCComputerInt = () =>
     setShowModalBSCComputerInt(false);
@@ -20,6 +22,10 @@ export default function UGModal() {
 
   const handleCloseModalBSCBank = () => setShowModalBSCBank(false);
   const handleShowModalBSCBank = () => setShowModalBSCBank(true);
+
+  const handleCloseModalBSCSoftwareEng = () =>
+    setShowModalBSCSoftwareEng(false);
+  const handleShowModalBSCSoftwareEng = () => setShowModalBSCSoftwareEng(true);
 
   return (
     <section className="ug-modal-cover-sec">
@@ -79,6 +85,26 @@ export default function UGModal() {
           </Modal.Header>
           <Modal.Body>
             <ModalBSCBank />
+          </Modal.Body>
+        </Modal>
+      </>
+
+      <>
+        <Modal
+          className="pgm-modal"
+          show={showModalBSCSoftwareEng}
+          onHide={handleCloseModalBSCSoftwareEng}
+        >
+          <Modal.Header>
+            <button
+              className="btn-modal-close"
+              onClick={handleCloseModalBSCSoftwareEng}
+            >
+              <i className="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <ModalBSCSoftwareEng />
           </Modal.Body>
         </Modal>
       </>
@@ -179,7 +205,7 @@ export default function UGModal() {
                 <Link
                   href=""
                   className="programme-item"
-                  // onClick={handleShowModalFELS}
+                  onClick={handleShowModalBSCSoftwareEng}
                 >
                   <figure>
                     <div className="programme-img">

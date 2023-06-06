@@ -1,3 +1,4 @@
+import React, { useRef, useState } from 'react';
 import { Tab, Nav, Form, FloatingLabel, Button } from 'react-bootstrap';
 import Slider from 'react-slick';
 
@@ -7,8 +8,10 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import Link from 'next/link';
 
+import { PlayFill, Pause } from 'react-bootstrap-icons';
+
 export default function UGModalMBA() {
-  // Program Course Carousel
+  // Sports slider
   const settings = {
     arrows: true,
     dots: false,
@@ -21,22 +24,22 @@ export default function UGModalMBA() {
       {
         breakpoint: 1080,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 4,
+          slidesToScroll: 4,
         },
       },
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToShow: 3,
+          slidesToScroll: 3,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
       {
@@ -49,6 +52,24 @@ export default function UGModalMBA() {
     ],
   };
 
+  // Video
+  const videoRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [buttonClass, setButtonClass] = useState('btn-video');
+
+  const togglePlay = () => {
+    const video = videoRef.current;
+    if (video.paused) {
+      video.play();
+      setIsPlaying(true);
+      setButtonClass('btn-video btn-pause');
+    } else {
+      video.pause();
+      setIsPlaying(false);
+      setButtonClass('btn-video btn-play');
+    }
+  };
+
   return (
     <section className="ug-modal-cover-sec">
       <section className="ug-pgm-slider-sec bg-dk-blue">
@@ -59,29 +80,24 @@ export default function UGModalMBA() {
           <div className="pgm-co-vid-cover">
             <div className="pgm-co-vid-hd">
               <h3>
-                <span>
-                  BSc (Hons) Computing
-                  <br />- Banking Information Systems
-                </span>
+                <span>Foundation Programme</span>
               </h3>
             </div>
             <div className="pgm-co-video">
-              <video controls>
-                <source
-                  src="http://smoinoman.com/muc-videos/Dr-Syed-Ziaur.mp4"
-                  type="video/mp4"
-                />
-                <source
-                  src="http://smoinoman.com/muc-videos/Dr-Syed-Ziaur.webm"
-                  type="video/mp4"
-                />
-              </video>
+              <video
+                ref={videoRef}
+                src="videos/story.mp4"
+                poster="images/bsc-video-poster.jpg"
+              />
+              <button className={buttonClass} onClick={togglePlay}>
+                {isPlaying ? <Pause /> : <PlayFill />}
+              </button>
             </div>
           </div>
         </section>
       </section>
 
-      <section className="pgm-co-caro-sec px-4 px-lg-6 py-4 py-lg-5 py-xl-6">
+      <section className="pgm-co-caro-sec px-5 px-lg-6 py-4 py-lg-5 py-xl-6">
         <div className="pgm-co-carousel">
           <Slider className="slider" {...settings}>
             <div>
@@ -108,20 +124,20 @@ export default function UGModalMBA() {
             <div>
               <div className="pgm-co-caro-item">
                 <h4>Classes Commence</h4>
-                <p>September and February</p>
+                <p> </p>
               </div>
             </div>
             <div>
               <div className="pgm-co-caro-item">
                 <h4>Duration</h4>
-                <p>4 Years / 4 Semesters</p>
+                <p>6 Months / 2 Semesters</p>
               </div>
             </div>
           </Slider>
         </div>
       </section>
 
-      <section className="pgm-co-tab-sec px-4 px-lg-6 py-4 py-lg-5 py-xl-6">
+      <section className="pgm-co-tab-sec px-5 px-lg-6 py-4 py-lg-5 py-xl-6">
         <div className="pgm-co-tb-cover">
           <Tab.Container id="tab-course" defaultActiveKey="course-tab-01">
             <Nav className="pgm-co-tb-nav">
@@ -150,28 +166,21 @@ export default function UGModalMBA() {
                   <div className="co-tab-hd">
                     <h4>Programme overview</h4>
                     <p className="pb-xl-4">
-                      The BSc (Computing) programme prepares students to
-                      demonstrate in-depth skills and knowledge in relation to
-                      applications that support business needs.
-                    </p>
-
-                    <p>
-                      Technologies like cloud computing, Big Data and the
-                      Internet of Things have allowed banks to deliver state of
-                      the art customer services to their customers while
-                      maintaining the market competitiveness required for
-                      winning and retaining business. This pathway will prepare
-                      students for analysing, formulating and implementing the
-                      diverse information technology solutions required in the
-                      banking sector. It will also provide students with
-                      understanding of the various technologies which underpin
-                      security measures.
+                      The mission of the Foundation Programme is to contribute
+                      actively to the achievement of the strategic objectives of
+                      the College by providing an educationally dynamic and
+                      supportive environment to enable students to attain the
+                      English language, IT, Maths and study skills required to
+                      successfully engage in undergraduate studies. In addition,
+                      we seek to instill in students a sense of co-operation,
+                      integrity, community responsibility and commitment to
+                      achieving their full potential.
                     </p>
                     <p>
-                      The programme is the first of its kind in Oman and is
-                      specifically for computing graduates looking to gain the
-                      required competency to help fill a major skills gap within
-                      the Banking Sector.
+                      The Foundation programme is a two-semester preparatory
+                      programme of one-year duration. Students are required to
+                      pass semester one modules before proceeding onto semester
+                      two.
                     </p>
                   </div>
                 </div>
@@ -180,7 +189,7 @@ export default function UGModalMBA() {
                 <div className="co-tb-overview">
                   <div className="co-tab-hd">
                     <h4>Entry Requirements</h4>
-                    <p>Coming Soon ...</p>
+                    <p>Coming Soon</p>
                   </div>
                 </div>
               </Tab.Pane>
@@ -188,131 +197,7 @@ export default function UGModalMBA() {
                 <div className="co-tab-hd">
                   <h4>What will I study</h4>
                 </div>
-                <div className="co-structure-table">
-                  <div className="table-responsive">
-                    <h4>Modules in First Year (Level 3)</h4>
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th>#</th>
-                          <th className="text-center">Module Name</th>
-                          <th>Credits</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            Arabic Language and Society (Arabic speakers) /
-                            Omani Culture and Civilization (Non-Arabic Speakers)
-                          </td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>English Vocabulary in Use</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>Fundamentals of Business Management</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>Fundamentals of ICT</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>English for General Reading and Writing</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>6</td>
-                          <td>Professional Communication Skills in English</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>7</td>
-                          <td>Business and Entrepreneurship</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>8</td>
-                          <td>Logical and Problem Solving Skills </td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td className="text-center">Total Credit</td>
-                          <td>120</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <div className="co-structure-table">
-                  <div className="table-responsive">
-                    <h4>Modules in Second Year (Level 4)</h4>
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th>#</th>
-                          <th className="text-center">Module Name</th>
-                          <th>Credits</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>Integrated Language Skills</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>Mathematical and Statistical Skills</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>Computer Systems and Networking</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>Introduction to Programming</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>Academic Reading and Writing</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>6</td>
-                          <td>Fundamentals of Finance </td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>7</td>
-                          <td>Systems Analysis and Design</td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td>8</td>
-                          <td>Principles of Banking </td>
-                          <td>15</td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td className="text-center">Total Credit</td>
-                          <td>120</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
+                <p></p>
               </Tab.Pane>
               <Tab.Pane eventKey="course-tab-04">
                 <div className="co-tab-hd">
@@ -323,18 +208,7 @@ export default function UGModalMBA() {
                     <img src="images/course-opertunity.jpg" alt="Icon" />
                   </figure>
                   <div className="co-tb-oper-body">
-                    <p>
-                      The graduates will be equipped with the knowledge and
-                      skills that can help them in getting career opportunities
-                      which include:
-                    </p>
-                    <ul>
-                      <li>Executive in Banking Backend Operations</li>
-                      <li>Database Designer and Analyst</li>
-                      <li>Bank Cashier</li>
-                      <li>Office Operation Executive</li>
-                      <li>Computer System Administrator</li>
-                    </ul>
+                    <p>Coming Soon</p>
                   </div>
                 </div>
               </Tab.Pane>
@@ -407,7 +281,7 @@ export default function UGModalMBA() {
                     </div>
                     <p>
                       For the complete details of the fees, please refer to the{' '}
-                      <Link href="#">Fees Structure</Link>
+                      <Link href="#">Fee Structure</Link>
                     </p>
                   </div>
                 </div>

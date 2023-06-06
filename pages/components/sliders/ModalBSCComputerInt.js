@@ -52,24 +52,6 @@ export default function UGModalMBA() {
     ],
   };
 
-  // Video
-  const videoRef = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [buttonClass, setButtonClass] = useState('btn-video');
-
-  const togglePlay = () => {
-    const video = videoRef.current;
-    if (video.paused) {
-      video.play();
-      setIsPlaying(true);
-      setButtonClass('btn-video btn-pause');
-    } else {
-      video.pause();
-      setIsPlaying(false);
-      setButtonClass('btn-video btn-play');
-    }
-  };
-
   return (
     <section className="ug-modal-cover-sec">
       <section className="ug-pgm-slider-sec bg-dk-blue">
@@ -87,14 +69,16 @@ export default function UGModalMBA() {
               </h3>
             </div>
             <div className="pgm-co-video">
-              <video
-                ref={videoRef}
-                src="videos/story.mp4"
-                poster="images/bsc-video-poster.jpg"
-              />
-              <button className={buttonClass} onClick={togglePlay}>
-                {isPlaying ? <Pause /> : <PlayFill />}
-              </button>
+              <video controls>
+                <source
+                  src="http://smoinoman.com/muc-videos/Dr-Syed-Ziaur.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="http://smoinoman.com/muc-videos/Dr-Syed-Ziaur.webm"
+                  type="video/mp4"
+                />
+              </video>
             </div>
           </div>
         </section>

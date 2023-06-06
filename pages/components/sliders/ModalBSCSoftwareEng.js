@@ -59,17 +59,20 @@ export default function UGModalMBA() {
           <div className="pgm-co-vid-cover">
             <div className="pgm-co-vid-hd">
               <h3>
-                <span>MA in Applied Linguistics</span>
+                <span>
+                  BSc (Hons) Computing
+                  <br />- Software Engineering
+                </span>
               </h3>
             </div>
             <div className="pgm-co-video">
               <video controls>
                 <source
-                  src="http://smoinoman.com/muc-videos/Mr-Armstronge-Jeyakumar.mp4"
+                  src="http://smoinoman.com/muc-videos/Dr-Syed-Ziaur.mp4"
                   type="video/mp4"
                 />
                 <source
-                  src="http://smoinoman.com/muc-videos/Mr-Armstronge-Jeyakumar.webm"
+                  src="http://smoinoman.com/muc-videos/Dr-Syed-Ziaur.webm"
                   type="video/mp4"
                 />
               </video>
@@ -99,10 +102,7 @@ export default function UGModalMBA() {
             <div>
               <div className="pgm-co-caro-item">
                 <h4>Delivery Mode</h4>
-                <p>
-                  Part - Time in a blended learning format (4 Weekends in a
-                  Semester)
-                </p>
+                <p>Full time and Part time</p>
               </div>
             </div>
             <div>
@@ -114,7 +114,7 @@ export default function UGModalMBA() {
             <div>
               <div className="pgm-co-caro-item">
                 <h4>Duration</h4>
-                <p>2 Years / 4 Semesters</p>
+                <p>4 Years / 4 Semesters</p>
               </div>
             </div>
           </Slider>
@@ -148,109 +148,40 @@ export default function UGModalMBA() {
               <Tab.Pane eventKey="course-tab-01">
                 <div className="co-tb-overview">
                   <div className="co-tab-hd">
-                    <h4>Course Overview</h4>
-                    <p>
-                      The MA in Applied Linguistics ( AL ) offers an advanced
-                      level professional qualification for practising and
-                      aspiring teachers of English , but also for second
-                      language ( L2 ) materials developers , assessment and
-                      examination / test paper writers and researchers in
-                      applied linguistics.
+                    <h4>Programme overview</h4>
+                    <p className="pb-xl-4">
+                      The BSc (Computing) programme prepares students to
+                      demonstrate in-depth skills and knowledge in relation to
+                      applications that support business needs.
                     </p>
 
                     <p>
-                      You will focus on areas such as the relationship between
-                      linguistics and second language learning , the methodology
-                      and techniques of language teaching and the
-                      appropriateness and development of materials for language
-                      teaching and learning purposes . You will also examine
-                      various current issues in English Language Teaching ( ELT
-                      ) and have the opportunity to carry out a major piece of
-                      individual research on a topic of your interest.
+                      The BSc (Computing) Software Engineering pathway provides
+                      the key technical skills needed to take up jobs in the
+                      software engineering domain. The Information Technology
+                      industry requires professionals with knowledge and
+                      awareness of modern computer techniques and programming
+                      skills. The need for high quality, reliable software is
+                      becoming increasingly vital as its use continues to grow
+                      both generally and in specific environments.
                     </p>
-                    <h4>Course Structure</h4>
                     <p>
-                      The course consists of 7 taught units (6 units of 15
-                      credits each and 1 Unit of 30 credits) and 1 Dissertation
-                      of 60 credits.
+                      The students will be able to understand and demonstrate
+                      the concepts of software quality, the quality models,
+                      standards and the methodologies used in software industry.
+                      The students will also be able to develop an understanding
+                      of the principles, methods, and best practices in software
+                      architecture development in Oman in the Information
+                      Technology domain.
                     </p>
-                  </div>
-                  <div className="co-structure-list">
-                    <div className="co-structure-item">
-                      <div className="icon">
-                        <img src="images/acc-pgm-dt-icon.png" alt="Icon" />
-                      </div>
-                      <h4>Semester 1</h4>
-                      <p>
-                        The Language System and Language Teaching (30 credits)
-                      </p>
-                    </div>
-                    <div className="co-structure-item">
-                      <div className="icon">
-                        <img src="images/acc-pgm-dt-icon.png" alt="Icon" />
-                      </div>
-                      <h4>Semester 2</h4>
-                      <p>
-                        Materials Development for Language Teaching and Learning
-                        (15 credits), Assessment and Accreditation (15 credits),
-                        Issues in Second Language Acquisition (15 credits)
-                      </p>
-                    </div>
-                    <div className="co-structure-item">
-                      <div className="icon">
-                        <img src="images/acc-pgm-dt-icon.png" alt="Icon" />
-                      </div>
-                      <h4>Semester 3</h4>
-                      <p>
-                        Exploring Research: Concepts and Methods (15 credits),
-                        The Method- ology of Language Teaching (15 credits),
-                        Professional Practices (15 credits)
-                      </p>
-                    </div>
-                    <div className="co-structure-item">
-                      <div className="icon">
-                        <img src="images/acc-pgm-dt-icon.png" alt="Icon" />
-                      </div>
-                      <h4>Semester 4</h4>
-                      <p>
-                        Dissertation in Applied Linguistics and ELT (60 credits)
-                      </p>
-                    </div>
                   </div>
                 </div>
               </Tab.Pane>
               <Tab.Pane eventKey="course-tab-02">
-                <div className="co-tab-hd">
-                  <h4>Entry Criteria</h4>
-                </div>
-                <div className="co-entry-list">
-                  <div className="co-entry-item">
-                    <p>
-                      A good (i.e. 1st or 2nd class or 2.5 + / 4 GPA scale)
-                      honours degree (or equivalent qualification) in an
-                      appropriate subject from a recognised university or a
-                      higher education institution. We will also consider
-                      candidates with other relevant qualifications or
-                      appropriate work experience.
-                    </p>
-                  </div>
-                  <div className="co-entry-item">
-                    <div className="options">Or</div>
-                  </div>
-                  <div className="co-entry-item">
-                    <p>
-                      a 2nd or 3rd class honours degree (or equivalent
-                      qualification) in an appropriate subject from a recognised
-                      university or a higher education institution and two years
-                      relevant teaching experience.
-                    </p>
-                  </div>
-                  <div className="co-entry-item">
-                    <p>Applicants must have</p>
-                    <h4>
-                      IELTS 6.0 as above with no less than 5.5 in each
-                      component.
-                    </h4>
+                <div className="co-tb-overview">
+                  <div className="co-tab-hd">
+                    <h4>Entry Requirements</h4>
+                    <p>Coming Soon ...</p>
                   </div>
                 </div>
               </Tab.Pane>
@@ -260,107 +191,124 @@ export default function UGModalMBA() {
                 </div>
                 <div className="co-structure-table">
                   <div className="table-responsive">
+                    <h4>Modules in First Year (Level 3)</h4>
                     <table class="table">
                       <thead>
                         <tr>
-                          <th colSpan={5}>Course Structure</th>
+                          <th>#</th>
+                          <th className="text-center">Module Name</th>
+                          <th>Credits</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td colSpan={5}>
-                            The Units which make up the course are:
+                          <td>1</td>
+                          <td>
+                            Arabic Language and Society (Arabic speakers) /
+                            Omani Culture and Civilization (Non-Arabic Speakers)
                           </td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>English Vocabulary in Use</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Fundamentals of Business Management</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>Fundamentals of ICT</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>English for General Reading and Writing</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>6</td>
+                          <td>Professional Communication Skills in English</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>7</td>
+                          <td>Business and Entrepreneurship</td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td>8</td>
+                          <td>Logical and Problem Solving Skills </td>
+                          <td>15</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td className="text-center">Total Credit</td>
+                          <td>120</td>
                         </tr>
                       </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div className="co-structure-table">
+                  <div className="table-responsive">
+                    <h4>Modules in Second Year (Level 4)</h4>
+                    <table class="table">
                       <thead>
                         <tr>
-                          <th>Unit Code</th>
-                          <th>Level</th>
+                          <th>#</th>
+                          <th className="text-center">Module Name</th>
                           <th>Credits</th>
-                          <th>Unit Name</th>
-                          <th>Core or Option</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>SHR012-6</td>
-                          <td>7</td>
+                          <td>1</td>
+                          <td>Integrated Language Skills</td>
                           <td>15</td>
-                          <td>Leading and Managing People</td>
-                          <td>Core</td>
                         </tr>
                         <tr>
-                          <td>SHR036-6</td>
-                          <td>7</td>
+                          <td>2</td>
+                          <td>Mathematical and Statistical Skills</td>
                           <td>15</td>
-                          <td>Accounting for Leaders</td>
-                          <td>Core</td>
                         </tr>
                         <tr>
-                          <td>SHR037-6</td>
-                          <td>7</td>
+                          <td>3</td>
+                          <td>Computer Systems and Networking</td>
                           <td>15</td>
-                          <td>Marketing Management</td>
-                          <td>Core</td>
                         </tr>
                         <tr>
-                          <td>SHR044-6</td>
-                          <td>7</td>
+                          <td>4</td>
+                          <td>Introduction to Programming</td>
                           <td>15</td>
-                          <td>Mobilising Creativity and Innovation </td>
-                          <td>Core</td>
                         </tr>
                         <tr>
-                          <td>SHR011-6 </td>
-                          <td>7</td>
-                          <td>30</td>
-                          <td>Leadership Project</td>
-                          <td>Core</td>
-                        </tr>
-                        <tr>
-                          <td>SHR019-6</td>
-                          <td>7</td>
+                          <td>5</td>
+                          <td>Academic Reading and Writing</td>
                           <td>15</td>
-                          <td>Strategy</td>
-                          <td>Core</td>
                         </tr>
                         <tr>
-                          <td>SHR039-6</td>
-                          <td>7</td>
+                          <td>6</td>
+                          <td>Fundamentals of Finance </td>
                           <td>15</td>
-                          <td>Operations and Project Management</td>
-                          <td>Core</td>
                         </tr>
                         <tr>
-                          <td>MAR015-6</td>
                           <td>7</td>
+                          <td>Systems Analysis and Design</td>
                           <td>15</td>
-                          <td>
-                            Entrepreneurship and Small Business Management
-                          </td>
-                          <td>Core</td>
                         </tr>
                         <tr>
-                          <td>MAR023-6</td>
-                          <td>7</td>
+                          <td>8</td>
+                          <td>Principles of Banking </td>
                           <td>15</td>
-                          <td>Thriving in Competitive Global Context</td>
-                          <td>Core</td>
                         </tr>
                         <tr>
-                          <td>SHR043-6</td>
-                          <td>7</td>
-                          <td>30</td>
-                          <td>Integrated Management Project</td>
-                          <td>Core</td>
-                        </tr>
-                        <tr>
-                          <td>SHR053-6</td>
-                          <td>7</td>
-                          <td>0</td>
-                          <td>Personal and Professional Development </td>
-                          <td>Core</td>
+                          <td></td>
+                          <td className="text-center">Total Credit</td>
+                          <td>120</td>
                         </tr>
                       </tbody>
                     </table>
@@ -371,12 +319,23 @@ export default function UGModalMBA() {
                 <div className="co-tab-hd">
                   <h4>Future Careers</h4>
                 </div>
-                <div className="co-tb-future">
+                <div className="co-tb-opertunity">
                   <figure>
-                    <img src="images/course-future.jpg" alt="Icon" />
+                    <img src="images/course-opertunity.jpg" alt="Icon" />
                   </figure>
-                  <div className="co-tb-fut-body">
-                    <p>Coming soon ...</p>
+                  <div className="co-tb-oper-body">
+                    <p>
+                      The graduates will be equipped with the knowledge and
+                      skills that can help them in getting career opportunities
+                      which include:
+                    </p>
+                    <ul>
+                      <li>Executive in Banking Backend Operations</li>
+                      <li>Database Designer and Analyst</li>
+                      <li>Bank Cashier</li>
+                      <li>Office Operation Executive</li>
+                      <li>Computer System Administrator</li>
+                    </ul>
                   </div>
                 </div>
               </Tab.Pane>
@@ -445,7 +404,7 @@ export default function UGModalMBA() {
                   <div className="co-tb-fees-body">
                     <p>Total tuition fees Per Year</p>
                     <div className="fees-amount">
-                      <span>6,636 OMR</span>
+                      <span>12,346 OMR</span>
                     </div>
                     <p>
                       For the complete details of the fees, please refer to the{' '}

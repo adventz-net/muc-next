@@ -1,4 +1,3 @@
-import React, { useRef, useState } from 'react';
 import { Tab, Nav, Form, FloatingLabel, Button } from 'react-bootstrap';
 import Slider from 'react-slick';
 
@@ -7,8 +6,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import Link from 'next/link';
-
-import { PlayFill, Pause } from 'react-bootstrap-icons';
 
 export default function UGModalMBA() {
   // Sports slider
@@ -52,24 +49,6 @@ export default function UGModalMBA() {
     ],
   };
 
-  // Video
-  const videoRef = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [buttonClass, setButtonClass] = useState('btn-video');
-
-  const togglePlay = () => {
-    const video = videoRef.current;
-    if (video.paused) {
-      video.play();
-      setIsPlaying(true);
-      setButtonClass('btn-video btn-pause');
-    } else {
-      video.pause();
-      setIsPlaying(false);
-      setButtonClass('btn-video btn-play');
-    }
-  };
-
   return (
     <section className="ug-modal-cover-sec">
       <section className="ug-pgm-slider-sec bg-dk-blue">
@@ -86,23 +65,14 @@ export default function UGModalMBA() {
             <div className="pgm-co-video">
               <video controls>
                 <source
-                  src="http://smoinoman.com/muc-videos/Dr-Syed-Ziaur.mp4"
+                  src="http://smoinoman.com/muc-videos/Dr-Ammar-Al-Balushi.mp4"
                   type="video/mp4"
                 />
                 <source
-                  src="http://smoinoman.com/muc-videos/Dr-Syed-Ziaur.webm"
+                  src="http://smoinoman.com/muc-videos/Dr-Ammar-Al-Balushi.webm"
                   type="video/mp4"
                 />
-                Your browser does not support the video tag.
               </video>
-              {/* <video
-                ref={videoRef}
-                src="videos/story.mp4"
-                poster="images/bsc-video-poster.jpg"
-              />
-              <button className={buttonClass} onClick={togglePlay}>
-                {isPlaying ? <Pause /> : <PlayFill />}
-              </button> */}
             </div>
           </div>
         </section>
