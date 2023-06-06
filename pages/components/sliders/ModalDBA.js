@@ -68,11 +68,11 @@ export default function UGModalMBA() {
             <div className="pgm-co-video">
               <video controls>
                 <source
-                  src="http://smoinoman.com/muc-videos/Mr-Armstronge-Jeyakumar.mp4"
+                  src="http://smoinoman.com/muc-videos/Dr-Syed-Ziaur.mp4"
                   type="video/mp4"
                 />
                 <source
-                  src="http://smoinoman.com/muc-videos/Mr-Armstronge-Jeyakumar.webm"
+                  src="http://smoinoman.com/muc-videos/Dr-Syed-Ziaur.webm"
                   type="video/mp4"
                 />
               </video>

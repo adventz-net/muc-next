@@ -13,6 +13,8 @@ import ModalDBA from './ModalDBA';
 
 import ModalACCA from './ModalACCA';
 
+import ModalFoundation from './ModalFoundation';
+
 // import ModalMSC from './ModalMSC';
 // import ModalMA from './ModalMA';
 // import ModalDBA from './ModalDBA';
@@ -57,6 +59,12 @@ export default function ProgrammesSlider() {
 
   const handleCloseModalACCA = () => setShowModalACCA(false);
   const handleShowModalACCA = () => setShowModalACCA(true);
+
+  const [showModalFoundation, setShowModalFoundation] = useState(false);
+
+  const handleCloseModalFoundation = () => setShowModalFoundation(false);
+  const handleShowModalFoundation = () => setShowModalFoundation(true);
+
   return (
     <section className="programmes-slider-sec">
       <>
@@ -187,6 +195,26 @@ export default function ProgrammesSlider() {
           </Modal.Header>
           <Modal.Body>
             <ModalACCA />
+          </Modal.Body>
+        </Modal>
+      </>
+
+      <>
+        <Modal
+          className="pgm-modal"
+          show={showModalFoundation}
+          onHide={handleCloseModalFoundation}
+        >
+          <Modal.Header>
+            <button
+              className="btn-modal-close"
+              onClick={handleCloseModalFoundation}
+            >
+              <i className="bi bi-x-lg"></i>
+            </button>
+          </Modal.Header>
+          <Modal.Body>
+            <ModalFoundation />
           </Modal.Body>
         </Modal>
       </>
@@ -438,7 +466,11 @@ export default function ProgrammesSlider() {
             </Row>
             <Row className="gx-2 gx-xxl-5 justify-content-center">
               <Col xs={12} md={6} lg={4}>
-                <Link href="" className="programme-item">
+                <Link
+                  href=""
+                  className="programme-item"
+                  onClick={handleShowModalFoundation}
+                >
                   <figure>
                     <div className="programme-img">
                       <img src="images/prog-item-thumb-12.jpg" alt="Image" />
