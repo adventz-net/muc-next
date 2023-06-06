@@ -3,29 +3,118 @@ import { Container, Row, Col, Modal } from 'react-bootstrap';
 import Link from 'next/link';
 
 export default function ContactSlider() {
-  const [showModalMap, setShowModalMap] = useState(false);
+  const [showModalMapMaha, setShowModalMapMaha] = useState(false);
+  const [showModalMapSahwa, setShowModalMapSahwa] = useState(false);
+  const [showModalMapNahda, setShowModalMapNahda] = useState(false);
+  const [showModalMapBustan, setShowModalMapBustan] = useState(false);
+  const [showModalMapJibreen, setShowModalMapJibreen] = useState(false);
 
-  const handleCloseModalMap = () => setShowModalMap(false);
-  const handleShowModalMap = () => setShowModalMap(true);
+  const handleCloseModalMapMaha = () => setShowModalMapMaha(false);
+  const handleShowModalMapMaha = () => setShowModalMapMaha(true);
+
+  const handleCloseModalMapSahwa = () => setShowModalMapSahwa(false);
+  const handleShowModalMapSahwa = () => setShowModalMapSahwa(true);
+
+  const handleCloseModalMapNahda = () => setShowModalMapNahda(false);
+  const handleShowModalMapNahda = () => setShowModalMapNahda(true);
+
+  const handleCloseModalMapBustan = () => setShowModalMapBustan(false);
+  const handleShowModalMapBustan = () => setShowModalMapBustan(true);
+
+  const handleCloseModalMapJibreen = () => setShowModalMapJibreen(false);
+  const handleShowModalMapJibreen = () => setShowModalMapJibreen(true);
 
   return (
     <section className="contact-slider-sec">
       <>
         <Modal
           className="modal-map"
-          show={showModalMap}
-          onHide={handleCloseModalMap}
+          show={showModalMapMaha}
+          onHide={handleCloseModalMapMaha}
         >
           <Modal.Body>
             <div className="modal-map-content">
-              <button className="btn-modal-close" onClick={handleCloseModalMap}>
+              <button
+                className="btn-modal-close"
+                onClick={handleCloseModalMapMaha}
+              >
                 <i className="bi bi-x-lg"></i>
               </button>
               <figure>
                 <img src="images/loc-map-img-01.jpg" alt="Map" />
               </figure>
               <div className="modal-map-body">
-                <h3>Al Nahda Block </h3>
+                <h3>Al Maha Block</h3>
+                <ul>
+                  <li>Auditorium</li>
+                  <li>Cafetaria</li>
+                  <li>Student Social Area</li>
+                  <li>Postgraduate Centre</li>
+                </ul>
+              </div>
+            </div>
+          </Modal.Body>
+        </Modal>
+      </>
+
+      <>
+        <Modal
+          className="modal-map"
+          show={showModalMapSahwa}
+          onHide={handleCloseModalMapSahwa}
+        >
+          <Modal.Body>
+            <div className="modal-map-content">
+              <button
+                className="btn-modal-close"
+                onClick={handleCloseModalMapSahwa}
+              >
+                <i className="bi bi-x-lg"></i>
+              </button>
+              <figure>
+                <img src="images/loc-map-img-01.jpg" alt="Map" />
+              </figure>
+              <div className="modal-map-body">
+                <h3>Al Sahwa Block</h3>
+                <p>
+                  Rahul: We will be decommissioning this building soon which was
+                  previously the English Language Studies building. The order to
+                  demolish the building will take sometime, maybe a year. So
+                  since the building is there, let's just add the building
+                  picture and the name for now. Later we will edit it or remove
+                  it accordingly.
+                </p>
+                <p>
+                  They will change every semester as the building plans are
+                  going on, please make sure it's properly editable through the
+                  CMS. And ensure it's part of the training for my staff when we
+                  explore the CMS.
+                </p>
+              </div>
+            </div>
+          </Modal.Body>
+        </Modal>
+      </>
+
+      <>
+        <Modal
+          className="modal-map"
+          show={showModalMapNahda}
+          onHide={handleCloseModalMapNahda}
+        >
+          <Modal.Body>
+            <div className="modal-map-content">
+              <button
+                className="btn-modal-close"
+                onClick={handleCloseModalMapNahda}
+              >
+                <i className="bi bi-x-lg"></i>
+              </button>
+              <figure>
+                <img src="images/loc-map-img-01.jpg" alt="Map" />
+              </figure>
+              <div className="modal-map-body">
+                <h3>Al Nahda Block</h3>
                 <ul>
                   <li>Dean's Office</li>
                   <li>Registry and Admissions</li>
@@ -35,6 +124,70 @@ export default function ContactSlider() {
                   <li>Muttrah and Ruwi Lecture Halls</li>
                   <li>Cafe</li>
                   <li>Board Room</li>
+                </ul>
+              </div>
+            </div>
+          </Modal.Body>
+        </Modal>
+      </>
+
+      <>
+        <Modal
+          className="modal-map"
+          show={showModalMapBustan}
+          onHide={handleCloseModalMapBustan}
+        >
+          <Modal.Body>
+            <div className="modal-map-content">
+              <button
+                className="btn-modal-close"
+                onClick={handleCloseModalMapBustan}
+              >
+                <i className="bi bi-x-lg"></i>
+              </button>
+              <figure>
+                <img src="images/loc-map-img-01.jpg" alt="Map" />
+              </figure>
+              <div className="modal-map-body">
+                <h3>Al Bustan Block</h3>
+                <ul>
+                  <li>Library</li>
+                  <li>Learning Resources Centre (LRC)</li>
+                  <li>Al Bustan Hall</li>
+                  <li>Faculty of English Language Studies</li>
+                  <li>eLearning and Innovation Office</li>
+                  <li>Chromelab</li>
+                </ul>
+              </div>
+            </div>
+          </Modal.Body>
+        </Modal>
+      </>
+
+      <>
+        <Modal
+          className="modal-map"
+          show={showModalMapJibreen}
+          onHide={handleCloseModalMapJibreen}
+        >
+          <Modal.Body>
+            <div className="modal-map-content">
+              <button
+                className="btn-modal-close"
+                onClick={handleCloseModalMapJibreen}
+              >
+                <i className="bi bi-x-lg"></i>
+              </button>
+              <figure>
+                <img src="images/loc-map-img-01.jpg" alt="Map" />
+              </figure>
+              <div className="modal-map-body">
+                <h3>Al Jibreen Block</h3>
+                <ul>
+                  <li>Majan Training Institute (MTI)</li>
+                  <li>Student Services and Alumni Relations </li>
+                  <li>Human Resources Office</li>
+                  <li>Facilities and Administration Office</li>
                 </ul>
               </div>
             </div>
@@ -170,7 +323,7 @@ export default function ContactSlider() {
                 <Link
                   className="map-modal-nav"
                   href=""
-                  onClick={handleShowModalMap}
+                  onClick={handleShowModalMapMaha}
                 >
                   <i class="bi bi-geo-alt-fill"></i>
                 </Link>
@@ -179,7 +332,7 @@ export default function ContactSlider() {
                 <Link
                   className="map-modal-nav"
                   href=""
-                  onClick={handleShowModalMap}
+                  onClick={handleShowModalMapSahwa}
                 >
                   <i class="bi bi-geo-alt-fill"></i>
                 </Link>
@@ -188,17 +341,29 @@ export default function ContactSlider() {
                 <Link
                   className="map-modal-nav"
                   href=""
-                  onClick={handleShowModalMap}
+                  onClick={handleShowModalMapNahda}
                 >
                   <i class="bi bi-geo-alt-fill"></i>
                 </Link>
               </div>
-              {/* <div className="map-icon icon-04">
-                <i class="bi bi-geo-alt-fill"></i>
+              <div className="map-icon icon-04">
+                <Link
+                  className="map-modal-nav"
+                  href=""
+                  onClick={handleShowModalMapBustan}
+                >
+                  <i class="bi bi-geo-alt-fill"></i>
+                </Link>
               </div>
               <div className="map-icon icon-05">
-                <i class="bi bi-geo-alt-fill"></i>
-              </div> */}
+                <Link
+                  className="map-modal-nav"
+                  href=""
+                  onClick={handleShowModalMapJibreen}
+                >
+                  <i class="bi bi-geo-alt-fill"></i>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
