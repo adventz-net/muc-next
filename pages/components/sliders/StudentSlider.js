@@ -53,7 +53,7 @@ export default function CampusSlider() {
                     voluntary work, and respect for the cultures and opinions of
                     others.
                   </p>
-                  <h5>The services provided by the center are as follows:</h5>
+                  {/* <h5>The services provided by the center are as follows:</h5>
 
                   <ul>
                     <li>Student Hostel</li>
@@ -66,7 +66,7 @@ export default function CampusSlider() {
                     <li>Shopping and leisure trips</li>
                     <li>Helping low income student </li>
                     <li>Disciplinary Action</li>
-                  </ul>
+                  </ul> */}
                 </div>
               </Col>
               <Col className="col-12 col-stud-img">
